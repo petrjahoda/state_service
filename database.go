@@ -24,6 +24,7 @@ type Workplace struct {
 	Code                  string
 	SectionId             uint
 	ActualStateId         uint
+	ActualStateDateTime   time.Time
 	ActualWorkplaceModeId uint
 	WorkplaceModes        []WorkplaceMode
 	WorkplacePorts        []WorkplacePort
@@ -96,18 +97,18 @@ type Device struct {
 
 type DevicePort struct {
 	gorm.Model
-	Name             string
-	Unit             string
-	PortNumber       int
-	DevicePortTypeId uint
-	DeviceId         uint
-	LastDateTime     time.Time
-	LastData         string
-	PlcDataType      string
-	PlcDataAddress   string
-	Settings         string
-	Virtual          bool
-	Note             string
+	Name               string
+	Unit               string
+	PortNumber         int
+	DevicePortTypeId   uint
+	DeviceId           uint
+	ActualDataDateTime time.Time
+	ActualData         string
+	PlcDataType        string
+	PlcDataAddress     string
+	Settings           string
+	Virtual            bool
+	Note               string
 }
 
 type DeviceAnalogRecord struct {
