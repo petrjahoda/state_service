@@ -2,22 +2,19 @@ package main
 
 import (
 	"github.com/jinzhu/gorm"
-	"os"
-	"path/filepath"
 	"strconv"
-	"strings"
 	"sync"
 	"time"
 )
 
-const version = "2019.4.1.29"
+const version = "2019.4.2.2"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
 var (
-	activeDevices  []Device
-	runningDevices []Device
-	deviceSync     sync.Mutex
+	activeWorkplaces  []Workplace
+	runningWorkplaces []Workplace
+	workplaceSync     sync.Mutex
 )
 
 func main() {
@@ -32,104 +29,27 @@ func main() {
 		LogInfo("MAIN", "Program running")
 		CheckDatabase()
 		CheckTables()
-		UpdateActiveDevices("MAIN")
+		UpdateActiveWorkplaces("MAIN")
 		DeleteOldLogFiles()
-		LogInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
-		for _, activeDevice := range activeDevices {
-			activeDeviceIsRunning := CheckDevice(activeDevice)
-			if !activeDeviceIsRunning {
-				go RunWorkplace(activeDevice)
+		LogInfo("MAIN", "Active workplaces: "+strconv.Itoa(len(activeWorkplaces))+", running workplaces: "+strconv.Itoa(len(runningWorkplaces)))
+		//AddTestWorkplace("MAIN", "CNC1", "192.168.0.1")
+		//AddTestWorkplace("MAIN", "CNC2", "192.168.0.2")
+		//AddTestWorkplace("MAIN", "CNC3", "192.168.0.3")
+		for _, activeWorkplace := range activeWorkplaces {
+			activeWorkplaceIsRunning := CheckWorkplace(activeWorkplace)
+			if !activeWorkplaceIsRunning {
+				go RunWorkplace(activeWorkplace)
 			}
 		}
 		if time.Since(start) < (downloadInSeconds * time.Second) {
-			sleeptime := downloadInSeconds*time.Second - time.Since(start)
-			LogInfo("MAIN", "Sleeping for "+sleeptime.String())
-			time.Sleep(sleeptime)
+			sleepTime := downloadInSeconds*time.Second - time.Since(start)
+			LogInfo("MAIN", "Sleeping for "+sleepTime.String())
+			time.Sleep(sleepTime)
 		}
 	}
 }
 
-func CheckDevice(device Device) bool {
-	for _, runningDevice := range runningDevices {
-		if runningDevice.Name == device.Name {
-			return true
-		}
-	}
-	return false
-}
-
-func RunWorkplace(device Device) {
-	LogInfo(device.Name, "Device started running")
-	deviceSync.Lock()
-	runningDevices = append(runningDevices, device)
-	deviceSync.Unlock()
-	worklaceIsActive := true
-	device.CreateDirectoryIfNotExists()
-	device.SendTime()
-	for worklaceIsActive {
-		start := time.Now()
-
-		LogInfo(device.Name, "Processing takes "+time.Since(start).String())
-		device.Sleep(start)
-		worklaceIsActive = CheckActive(device)
-	}
-	RemoveDeviceFromRunningDevice(device)
-	LogInfo(device.Name, "Device not active, stopped running")
-
-}
-
-func ProcessDownloadedFiles(device Device) {
-	intermediateData := device.PrepareData()
-	if len(intermediateData) > 0 {
-		err := device.ProcessData(intermediateData)
-		if err != nil {
-			LogError(device.Name, "Error processing data: "+err.Error())
-		}
-	}
-	DeleteDownloadedFile("digital.txt", device)
-	DeleteDownloadedFile("analog.txt", device)
-	DeleteDownloadedFile("serial.txt", device)
-	DeleteDownloadedFile("ui_value.txt", device)
-}
-
-func DeleteDownloadedFile(deviceFileName string, device Device) {
-	deviceDirectory := filepath.Join(".", strconv.Itoa(int(device.ID))+"-"+device.Name)
-	deviceFullPath := strings.Join([]string{deviceDirectory, deviceFileName}, "/")
-	info, err := os.Stat(deviceFullPath)
-	if err != nil {
-		LogDebug(device.Name, "File does not exist: "+err.Error())
-		return
-	}
-	if !info.IsDir() {
-		err := os.Remove(deviceFullPath)
-		if err != nil {
-			LogError(device.Name, "Problem deleting file, "+err.Error())
-		}
-	}
-}
-
-func CheckActive(device Device) bool {
-	for _, activeDevice := range activeDevices {
-		if activeDevice.Name == device.Name {
-			LogInfo(device.Name, "Device still active")
-			return true
-		}
-	}
-	LogInfo(device.Name, "Device not active")
-	return false
-}
-
-func RemoveDeviceFromRunningDevice(device Device) {
-	for idx, runningDevice := range runningDevices {
-		if device.Name == runningDevice.Name {
-			deviceSync.Lock()
-			runningDevices = append(runningDevices[0:idx], runningDevices[idx+1:]...)
-			deviceSync.Unlock()
-		}
-	}
-}
-
-func UpdateActiveDevices(reference string) {
+func AddTestWorkplace(reference string, workplaceName string, ipAddress string) {
 	connectionString, dialect := CheckDatabaseType()
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
@@ -139,6 +59,90 @@ func UpdateActiveDevices(reference string) {
 	defer db.Close()
 	var deviceType DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Where("device_type_id=?", deviceType.ID).Where("is_activated = true").Find(&activeDevices)
-	LogDebug("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
+	newDevice := Device{Name: workplaceName, DeviceType: deviceType.ID, IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
+	db.Create(&newDevice)
+	var device Device
+	db.Where("name=?", workplaceName).Find(&device)
+	deviceDigitalPort := DevicePort{Name: "Production", Unit: "ks", PortNumber: 1, DevicePortTypeId: 1, DeviceId: device.ID}
+	deviceAnalogPort := DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeId: 2, DeviceId: device.ID}
+	db.Create(&deviceDigitalPort)
+	db.Create(&deviceAnalogPort)
+	var section Section
+	db.Where("name=?", "Machines").Find(&section)
+	var state State
+	db.Where("name=?", "Offline").Find(&state)
+	var mode WorkplaceMode
+	db.Where("name=?", "Production").Find(&mode)
+	newWorkplace := Workplace{Name: workplaceName, Code: workplaceName, SectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
+	db.Create(&newWorkplace)
+	var workplace Workplace
+	db.Where("name=?", workplaceName).Find(&workplace)
+	var devicePortDigital DevicePort
+	db.Where("name=?", "Production").Where("device_id=?", device.ID).Find(&devicePortDigital)
+	digitalPort := WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, ProductionPort: true}
+	db.Create(&digitalPort)
+	var devicePortAnalog DevicePort
+	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
+	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, OfflinePort: true}
+	db.Create(&analogPort)
+
+}
+
+func CheckWorkplace(workplace Workplace) bool {
+	for _, runningWorkplace := range runningWorkplaces {
+		if runningWorkplace.Name == workplace.Name {
+			return true
+		}
+	}
+	return false
+}
+
+func RunWorkplace(workplace Workplace) {
+	LogInfo(workplace.Name, "Workplace started running")
+	workplaceSync.Lock()
+	runningWorkplaces = append(runningWorkplaces, workplace)
+	workplaceSync.Unlock()
+	workplaceIsActive := true
+	for workplaceIsActive {
+		start := time.Now()
+
+		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
+		workplace.Sleep(start)
+		workplaceIsActive = CheckActive(workplace)
+	}
+	RemoveWorkplaceFromRunningWorkplaces(workplace)
+	LogInfo(workplace.Name, "Workplace not active, stopped running")
+
+}
+
+func CheckActive(workplace Workplace) bool {
+	for _, activeWorkplace := range activeWorkplaces {
+		if activeWorkplace.Name == workplace.Name {
+			LogInfo(workplace.Name, "Workplace still active")
+			return true
+		}
+	}
+	LogInfo(workplace.Name, "Workplace not active")
+	return false
+}
+
+func RemoveWorkplaceFromRunningWorkplaces(workplace Workplace) {
+	for idx, runningWorkplace := range runningWorkplaces {
+		if workplace.Name == runningWorkplace.Name {
+			workplaceSync.Lock()
+			runningWorkplaces = append(runningWorkplaces[0:idx], runningWorkplaces[idx+1:]...)
+			workplaceSync.Unlock()
+		}
+	}
+}
+
+func UpdateActiveWorkplaces(reference string) {
+	connectionString, dialect := CheckDatabaseType()
+	db, err := gorm.Open(dialect, connectionString)
+	if err != nil {
+		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
+		return
+	}
+	defer db.Close()
+	db.Find(&activeWorkplaces)
 }

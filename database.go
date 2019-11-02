@@ -7,14 +7,71 @@ import (
 	"time"
 )
 
+type State struct {
+	gorm.Model
+	Name  string `gorm:"unique"`
+	Color string
+	Note  string
+}
+type Section struct {
+	gorm.Model
+	Name string `gorm:"unique"`
+	Note string
+}
+type Workplace struct {
+	gorm.Model
+	Name                  string `gorm:"unique"`
+	Code                  string
+	SectionId             uint
+	ActualStateId         uint
+	ActualWorkplaceModeId uint
+	WorkplaceModes        []WorkplaceMode
+	WorkplacePorts        []WorkplacePort
+	Devices               []Device
+	Note                  string
+}
+
+type WorkplacePort struct {
+	gorm.Model
+	Name           string
+	DevicePortId   uint
+	WorkplaceId    uint
+	LowValue       float32
+	HighValue      float32
+	Color          string
+	ProductionPort bool
+	CounterPort    bool
+	OfflinePort    bool
+	Note           string
+}
+
+type WorkplaceState struct {
+	Id            uint `gorm:"primary_key"`
+	WorkplaceId   uint `gorm:"unique_index:unique_workplace_state_start;unique_workplace_state_end"`
+	StateId       uint
+	DateTimeStart time.Time `gorm:"unique_index:unique_workplace_state_start"`
+	DateTimeEnd   time.Time `gorm:"unique_index:unique_workplace_state_end"`
+	Interval      float32
+	Note          string
+}
+
+type WorkplaceMode struct {
+	gorm.Model
+	Name             string `gorm:"unique"`
+	DownTimeInterval int
+	Note             string
+}
+
 type DeviceType struct {
 	gorm.Model
 	Name string `gorm:"unique"`
+	Note string
 }
 
 type DevicePortType struct {
 	gorm.Model
 	Name string `gorm:"unique"`
+	Note string
 }
 
 type Setting struct {
@@ -22,18 +79,21 @@ type Setting struct {
 	Key     string `gorm:"unique"`
 	Value   string
 	Enabled bool
+	Note    string
 }
 
 type Device struct {
 	gorm.Model
-	Name         string `gorm:"unique"`
-	DeviceTypeId uint
-	IpAddress    string `gorm:"unique"`
-	MacAddress   string
-	TypeName     string
-	IsActivated  bool
-	Settings     string
-	DevicePorts  []DevicePort
+	Name        string `gorm:"unique"`
+	DeviceType  uint
+	IpAddress   string `gorm:"unique"`
+	MacAddress  string
+	TypeName    string
+	Activated   bool
+	Settings    string
+	Workplace   uint
+	DevicePorts []DevicePort
+	Note        string
 }
 
 type DevicePort struct {
@@ -49,6 +109,7 @@ type DevicePort struct {
 	PlcDataAddress   string
 	Settings         string
 	Virtual          bool
+	Note             string
 }
 
 type DeviceAnalogRecord struct {
@@ -158,7 +219,7 @@ func CheckTables() {
 	if !db.HasTable(&Device{}) {
 		LogInfo("MAIN", "Device table not exists, creating")
 		db.CreateTable(&Device{})
-		db.Model(&Device{}).AddForeignKey("device_type_id", "device_types(id)", "RESTRICT", "RESTRICT")
+		db.Model(&Device{}).AddForeignKey("device_type", "device_types(id)", "RESTRICT", "RESTRICT")
 	} else {
 		db.AutoMigrate(&Device{})
 	}
@@ -229,6 +290,71 @@ func CheckTables() {
 		db.Model(&DeviceSerialRecord{}).AddForeignKey("device_port_id", "device_ports(id)", "RESTRICT", "RESTRICT")
 	} else {
 		db.AutoMigrate(&DeviceSerialRecord{})
+	}
+
+	if !db.HasTable(&State{}) {
+		LogInfo("MAIN", "State table not exists, creating")
+		db.CreateTable(&State{})
+		production := State{Name: "Production", Color: "#89AB0F"}
+		db.NewRecord(production)
+		db.Create(&production)
+		downtime := State{Name: "Downtime", Color: "#E6AD3C"}
+		db.NewRecord(downtime)
+		db.Create(&downtime)
+		offline := State{Name: "Offline", Color: "#DE6B59"}
+		db.NewRecord(offline)
+		db.Create(&offline)
+	} else {
+		db.AutoMigrate(&State{})
+	}
+
+	if !db.HasTable(&Section{}) {
+		LogInfo("MAIN", "Section table not exists, creating")
+		db.CreateTable(&Section{})
+		machines := Section{Name: "Machines"}
+		db.NewRecord(machines)
+		db.Create(&machines)
+	} else {
+		db.AutoMigrate(&Section{})
+	}
+
+	if !db.HasTable(&WorkplaceMode{}) {
+		LogInfo("MAIN", "Workplacemode table not exists, creating")
+		db.CreateTable(&WorkplaceMode{})
+		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300}
+		db.NewRecord(mode)
+		db.Create(&mode)
+	} else {
+		db.AutoMigrate(&WorkplaceMode{})
+	}
+
+	if !db.HasTable(&Workplace{}) {
+		LogInfo("MAIN", "Workplace table not exists, creating")
+		db.CreateTable(&Workplace{})
+		db.Model(&Workplace{}).AddForeignKey("section_id", "sections(id)", "RESTRICT", "RESTRICT")
+		db.Model(&Workplace{}).AddForeignKey("actual_state_id", "states(id)", "RESTRICT", "RESTRICT")
+		db.Model(&Workplace{}).AddForeignKey("actual_workplace_mode_id", "workplace_modes(id)", "RESTRICT", "RESTRICT")
+
+	} else {
+		db.AutoMigrate(&Workplace{})
+	}
+
+	if !db.HasTable(&WorkplacePort{}) {
+		LogInfo("MAIN", "WorkplacePort table not exists, creating")
+		db.CreateTable(&WorkplacePort{})
+		db.Model(&WorkplacePort{}).AddForeignKey("workplace_id", "workplaces(id)", "RESTRICT", "RESTRICT")
+	} else {
+		db.AutoMigrate(&WorkplacePort{})
+	}
+
+	if !db.HasTable(&WorkplaceState{}) {
+		LogInfo("MAIN", "WorkplaceState table not exists, creating")
+		db.CreateTable(&WorkplaceState{})
+		db.Model(&WorkplaceState{}).AddForeignKey("workplace_id", "workplaces(id)", "RESTRICT", "RESTRICT")
+		db.Model(&WorkplaceState{}).AddForeignKey("state_id", "states(id)", "RESTRICT", "RESTRICT")
+
+	} else {
+		db.AutoMigrate(&WorkplaceState{})
 	}
 
 }

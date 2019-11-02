@@ -1,0 +1,36 @@
+2019-11-02 10:54:53.536   MAIN   ERR   Problem opening zapsi4 database: dial tcp: lookup zapsidatabase: no such host
+2019-11-02 10:54:53.537   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 10:54:53.541   MAIN   ERR   Problem opening postgres database: dial tcp: lookup zapsidatabase: no such host
+2019-11-02 10:54:53.543   MAIN   ERR   Problem opening postgres database: dial tcp: lookup zapsidatabase: no such host
+2019-11-02 10:54:53.546   MAIN   ERR   Problem opening zapsi4 database: dial tcp: lookup zapsidatabase: no such host
+2019-11-02 10:55:09.111   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 10:55:09.112   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 10:56:49.418   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 10:56:49.419   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 10:59:17.432   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 10:59:17.432   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:02:30.392   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:02:30.393   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:03:59.168   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:03:59.168   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:05:20.698   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:05:20.698   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:07:33.815   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:07:33.815   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:08:05.921   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:08:05.923   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:08:43.970   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:08:43.970   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:24:16.439   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:30:50.314   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:32:09.265   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:33:03.982   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:43:40.031   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:44:05.406   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:44:05.406   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:44:45.696   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:45:24.777   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 11:45:24.778   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 11:45:33.035   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:47:34.883   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 11:48:24.377   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
