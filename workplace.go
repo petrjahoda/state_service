@@ -11,3 +11,13 @@ func (workplace Workplace) Sleep(start time.Time) {
 		time.Sleep(sleepTime)
 	}
 }
+
+//
+//func (workplace Workplace) AddData() IntermediateData {
+//
+//
+//}
+//
+//func (workplace Workplace) ProcessData(data IntermediateData) {
+//
+//}

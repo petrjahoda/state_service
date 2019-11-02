@@ -341,3 +341,35 @@
 2019-11-02 11:48:24.377   MAIN   INF   Program running
 2019-11-02 11:48:25.071   MAIN   INF   Active workplaces: 3, running workplaces: 0
 2019-11-02 11:48:25.071   MAIN   INF   Sleeping for 9.306092988s
+2019-11-02 12:26:58.161   MAIN   INF   Program version 2019.4.2.2 started
+2019-11-02 12:26:58.167   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-02 12:26:58.167   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-02 12:26:58.167   MAIN   INF   Program running
+2019-11-02 12:26:58.170   MAIN   WRN   Database zapsi4 does not exist
+2019-11-02 12:26:58.253   MAIN   INF   Database zapsi4 created
+2019-11-02 12:26:58.263   MAIN   INF   DeviceType table not exists, creating
+2019-11-02 12:26:58.300   MAIN   INF   Device table not exists, creating
+2019-11-02 12:26:58.319   MAIN   INF   Setting table not exists, creating
+2019-11-02 12:26:58.341   MAIN   INF   DevicePortType table not exists, creating
+2019-11-02 12:26:58.367   MAIN   INF   DevicePort table not exists, creating
+2019-11-02 12:26:58.381   MAIN   INF   DeviceAnalogRecord table not exists, creating
+2019-11-02 12:26:58.398   MAIN   INF   DeviceDigitalRecord table not exists, creating
+2019-11-02 12:26:58.410   MAIN   INF   DeviceSerialRecord table not exists, creating
+2019-11-02 12:26:58.421   MAIN   INF   State table not exists, creating
+2019-11-02 12:26:58.448   MAIN   INF   Section table not exists, creating
+2019-11-02 12:26:58.461   MAIN   INF   Workplacemode table not exists, creating
+2019-11-02 12:26:58.474   MAIN   INF   Workplace table not exists, creating
+2019-11-02 12:26:58.503   MAIN   INF   WorkplacePort table not exists, creating
+2019-11-02 12:26:58.518   MAIN   INF   WorkplaceState table not exists, creating
+2019-11-02 12:26:58.551   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2019-11-02 12:26:58.551   MAIN   INF   Sleeping for 9.616063199s
+2019-11-02 12:27:14.058   MAIN   INF   Program version 2019.4.2.2 started
+2019-11-02 12:27:14.390   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 12:27:14.390   MAIN   INF   Program running
+2019-11-02 12:27:14.853   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2019-11-02 12:27:14.992   MAIN   INF   Sleeping for 9.397628655s
+2019-11-02 12:27:27.669   MAIN   INF   Program version 2019.4.2.2 started
+2019-11-02 12:27:28.008   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 12:27:28.008   MAIN   INF   Program running
+2019-11-02 12:27:28.490   MAIN   INF   Active workplaces: 3, running workplaces: 0
+2019-11-02 12:27:28.490   MAIN   INF   Sleeping for 9.517739182s

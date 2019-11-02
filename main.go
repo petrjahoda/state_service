@@ -79,11 +79,15 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 	db.Where("name=?", workplaceName).Find(&workplace)
 	var devicePortDigital DevicePort
 	db.Where("name=?", "Production").Where("device_id=?", device.ID).Find(&devicePortDigital)
-	digitalPort := WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, ProductionPort: true}
+	var productionState State
+	db.Where("name=?", "Production").Find(&productionState)
+	digitalPort := WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID}
 	db.Create(&digitalPort)
 	var devicePortAnalog DevicePort
 	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
-	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, OfflinePort: true}
+	var offlineState State
+	db.Where("name=?", "Offline").Find(&offlineState)
+	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: offlineState.ID}
 	db.Create(&analogPort)
 
 }
@@ -105,7 +109,10 @@ func RunWorkplace(workplace Workplace) {
 	workplaceIsActive := true
 	for workplaceIsActive {
 		start := time.Now()
-
+		//var data IntermediateData = workplace.AddData()
+		//if len(data)>0 {
+		//	workplace.ProcessData(data)
+		//}
 		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
 		workplace.Sleep(start)
 		workplaceIsActive = CheckActive(workplace)

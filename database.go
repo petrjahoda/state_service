@@ -33,16 +33,14 @@ type Workplace struct {
 
 type WorkplacePort struct {
 	gorm.Model
-	Name           string
-	DevicePortId   uint
-	WorkplaceId    uint
-	LowValue       float32
-	HighValue      float32
-	Color          string
-	ProductionPort bool
-	CounterPort    bool
-	OfflinePort    bool
-	Note           string
+	Name         string
+	DevicePortId uint
+	WorkplaceId  uint
+	LowValue     float32
+	HighValue    float32
+	Color        string
+	StateId      uint
+	Note         string
 }
 
 type WorkplaceState struct {
@@ -343,6 +341,7 @@ func CheckTables() {
 		LogInfo("MAIN", "WorkplacePort table not exists, creating")
 		db.CreateTable(&WorkplacePort{})
 		db.Model(&WorkplacePort{}).AddForeignKey("workplace_id", "workplaces(id)", "RESTRICT", "RESTRICT")
+		db.Model(&WorkplacePort{}).AddForeignKey("state_id", "states(id)", "RESTRICT", "RESTRICT")
 	} else {
 		db.AutoMigrate(&WorkplacePort{})
 	}
