@@ -109,10 +109,9 @@ func RunWorkplace(workplace Workplace) {
 	workplaceIsActive := true
 	for workplaceIsActive {
 		start := time.Now()
-		//var data IntermediateData = workplace.AddData()
-		//if len(data)>0 {
-		//	workplace.ProcessData(data)
-		//}
+		intermediateData := workplace.AddData()
+		LogInfo(workplace.Name, "Download and sort takes: "+time.Since(start).String())
+		ProcessData(&workplace, intermediateData)
 		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
 		workplace.Sleep(start)
 		workplaceIsActive = CheckActive(workplace)

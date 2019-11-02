@@ -13,8 +13,7 @@ type IntermediateData struct {
 type IntermediateDataType int
 
 const (
-	digital IntermediateDataType = iota
-	analog
-	serial
-	energy
+	production IntermediateDataType = iota
+	offline
+	special
 )

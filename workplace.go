@@ -1,6 +1,9 @@
 package main
 
 import (
+	"github.com/jinzhu/gorm"
+	"sort"
+	"strconv"
 	"time"
 )
 
@@ -12,28 +15,207 @@ func (workplace Workplace) Sleep(start time.Time) {
 	}
 }
 
-//
-//func (workplace Workplace) AddData() IntermediateData {
-// download last state datetime
-// download data for offline port
-// download data for production port
-// download data for special port
-// data: datetime, data, stateid
+func (workplace Workplace) AddData() []IntermediateData {
+	connectionString, dialect := CheckDatabaseType()
+	db, err := gorm.Open(dialect, connectionString)
+	if err != nil {
+		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
+		return nil
+	}
+	defer db.Close()
+	var workplaceState WorkplaceState
+	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
+	offlineRecords := workplace.DownloadOfflineRecords(db, workplaceState)
+	productionRecords := workplace.DownloadProductionRecords(db, workplaceState)
+	intermediateData := workplace.CreateIntermediateData(offlineRecords, productionRecords)
+	return intermediateData
+}
 
-//}
+func (workplace Workplace) CreateIntermediateData(offlineRecords []DeviceAnalogRecord, productionRecords []DeviceDigitalRecord) []IntermediateData {
+	var intermediateData []IntermediateData
+	for _, offlineRecord := range offlineRecords {
+		rawData := strconv.FormatFloat(float64(offlineRecord.Data), 'g', 15, 64)
+		data := IntermediateData{DateTime: offlineRecord.DateTime, RawData: rawData, Type: offline}
+		intermediateData = append(intermediateData, data)
+	}
+	for _, productionRecord := range productionRecords {
+		rawData := strconv.FormatFloat(float64(productionRecord.Data), 'g', 15, 64)
+		data := IntermediateData{DateTime: productionRecord.DateTime, RawData: rawData, Type: production}
+		intermediateData = append(intermediateData, data)
+	}
+	sort.Slice(intermediateData, func(i, j int) bool {
+		return intermediateData[i].DateTime.Before(intermediateData[j].DateTime)
+	})
+	return intermediateData
+}
 
-//func (workplace Workplace) ProcessData(data IntermediateData) {
-// get actual offline difference
-// get actual downtime difference
-// for every record in date
-//		get actual state
-//  	case actual state == null -> change to downtime
-//      case actual state == offline && downtime difference> downtime -> change to offline, change to downtime
-//      case actual state == offline && port datatype == offlineport -> change to downtime
-//      case actual state == downtime && port datatype == productionport && data == 1 -> change to production
-//      case actual state == production && downtime difference> downtime -> change to downtime
-//      case actual state != special &&  port datatype == specialport && data == 1 -> change to special
-//      case actual state == special &&  port datatype == specialport && data == 0 -> change to downtime
-// get actual state
-// if actualstate.time minus actual datime > offline difference -> change to offline
-//}
+func (workplace Workplace) DownloadProductionRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceDigitalRecord {
+	var production State
+	db.Where("name=?", "Production").Find(&production)
+	var productionPort WorkplacePort
+	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", production.ID).First(&productionPort)
+	var productionRecords []DeviceDigitalRecord
+	db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
+	return productionRecords
+}
+
+func (workplace Workplace) DownloadOfflineRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceAnalogRecord {
+	var offline State
+	db.Where("name=?", "Offline").Find(&offline)
+	var offlinePort WorkplacePort
+	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", offline.ID).First(&offlinePort)
+	var offlineRecords []DeviceAnalogRecord
+	db.Where("device_port_id=?", offlinePort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&offlineRecords)
+	return offlineRecords
+}
+
+func ProcessData(workplace *Workplace, data []IntermediateData) {
+	connectionString, dialect := CheckDatabaseType()
+	db, err := gorm.Open(dialect, connectionString)
+	if err != nil {
+		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
+		return
+	}
+	defer db.Close()
+	var actualWorkplaceMode WorkplaceMode
+	db.Where("id=?", workplace.ActualWorkplaceModeId).Find(&actualWorkplaceMode)
+	offlineInterval := actualWorkplaceMode.OfflineInterval
+	downtimeInterval := actualWorkplaceMode.DownTimeInterval
+	for _, actualData := range data {
+		LogInfo(workplace.Name, "Data: "+actualData.DateTime.UTC().String())
+		UpdateDataForWorkplace(&workplace, db, actualData)
+		var actualState State
+		db.Where("id=?", workplace.ActualStateId).Find(&actualState)
+		LogInfo(workplace.Name, "Actual workplace state: "+actualState.Name)
+		switch actualState.Name {
+		case "Offline":
+			{
+				if actualData.Type == production && actualData.RawData == "1" {
+					UpdateState(db, &workplace, actualData.DateTime, "Production")
+					break
+				}
+				if actualData.Type == offline {
+					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					break
+				}
+			}
+		case "Production":
+			{
+				workplaceOfflineDifference := int(actualData.DateTime.Sub(workplace.OfflinePortDateTime).Seconds())
+				if workplaceOfflineDifference > offlineInterval {
+					UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+					if actualData.Type == production && actualData.RawData == "1" {
+						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						break
+					}
+					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+				} else {
+					workplaceDowntimeDifference := int(actualData.DateTime.Sub(workplace.ProductionPortDateTime).Seconds())
+					if workplace.ProductionPortValue == 0 && workplaceDowntimeDifference > downtimeInterval {
+						UpdateState(db, &workplace, workplace.ProductionPortDateTime, "Downtime")
+						break
+					}
+				}
+			}
+		case "Downtime":
+			{
+				workplaceOfflineDifference := int(actualData.DateTime.Sub(workplace.OfflinePortDateTime).Seconds())
+				if workplaceOfflineDifference > offlineInterval {
+					UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+					if actualData.Type == production && actualData.RawData == "1" {
+						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						break
+					}
+					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					break
+				} else {
+					if actualData.Type == production && actualData.RawData == "1" {
+						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						break
+					}
+				}
+			}
+		default:
+			{
+				if actualData.Type == production && actualData.RawData == "1" {
+					UpdateState(db, &workplace, actualData.DateTime, "Production")
+					break
+				}
+				if actualData.Type == offline {
+					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					break
+				}
+			}
+		}
+	}
+	workplaceOfflineDifference := int(time.Now().UTC().Sub(workplace.OfflinePortDateTime).Seconds())
+	var actualState State
+	db.Where("id=?", workplace.ActualStateId).Find(&actualState)
+	if workplaceOfflineDifference > offlineInterval && actualState.Name != "Offline" {
+		UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+		workplace.ProductionPortValue = 0
+		db.Save(&workplace)
+	}
+}
+
+func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, stateName string) {
+	LogInfo((*workplace).Name, "Changing state ==> "+stateName+" at "+stateChangeTime.String())
+	var state State
+	db.Where("name=?", stateName).Last(&state)
+	(*workplace).ActualStateDateTime = stateChangeTime
+	(*workplace).ActualStateId = state.ID
+	db.Save(&workplace)
+	var lastWorkplaceState WorkplaceState
+	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
+	if lastWorkplaceState.Id != 0 {
+		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
+		lastWorkplaceState.DateTimeEnd = stateChangeTime
+		lastWorkplaceState.Interval = float32(interval.Seconds())
+		db.Save(&lastWorkplaceState)
+	}
+	newWorkplaceState := WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
+	db.Save(&newWorkplaceState)
+}
+
+func UpdateDataForWorkplace(workplace **Workplace, db *gorm.DB, actualData IntermediateData) {
+	initialRun := false
+	if (*workplace).ActualStateDateTime.IsZero() {
+		(*workplace).ActualStateDateTime = actualData.DateTime
+		initialRun = true
+	}
+	if (*workplace).ProductionPortDateTime.IsZero() {
+		(*workplace).ProductionPortDateTime = actualData.DateTime
+		initialRun = true
+	}
+	if (*workplace).OfflinePortDateTime.IsZero() {
+		(*workplace).OfflinePortDateTime = actualData.DateTime
+		initialRun = true
+	}
+	if (*workplace).ActualStateId == 0 {
+		var offlineState State
+		db.Where("name = ?", "Offline").Find(&offlineState)
+		(*workplace).ActualStateId = offlineState.ID
+		initialRun = true
+	}
+	if initialRun {
+		LogInfo((*workplace).Name, "Workplace initial data bad, updating")
+		db.Save(&workplace)
+	}
+	if actualData.Type == production && actualData.RawData == "1" {
+		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for production port")
+		(*workplace).ProductionPortValue = 1
+		(*workplace).ProductionPortDateTime = actualData.DateTime
+		db.Save(&workplace)
+	}
+	if actualData.Type == production && actualData.RawData == "0" {
+		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for production port")
+		(*workplace).ProductionPortValue = 0
+		(*workplace).ProductionPortDateTime = actualData.DateTime
+		db.Save(&workplace)
+	}
+	if actualData.Type == offline {
+		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for offline port")
+		(*workplace).OfflinePortDateTime = actualData.DateTime
+		db.Save(&workplace)
+	}
+}

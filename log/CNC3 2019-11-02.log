@@ -56,3 +56,6 @@
 2019-11-02 12:27:28.490   CNC3   INF   Workplace started running
 2019-11-02 12:27:28.491   CNC3   INF   Processing takes 79ns
 2019-11-02 12:27:28.491   CNC3   INF   Sleeping for 9.999923774s
+2019-11-02 13:51:42.534   CNC3   INF   Workplace started running
+2019-11-02 13:51:42.548   CNC3   INF   Processing takes 13.175469ms
+2019-11-02 13:51:42.548   CNC3   INF   Sleeping for 9.986574087s

@@ -20,16 +20,19 @@ type Section struct {
 }
 type Workplace struct {
 	gorm.Model
-	Name                  string `gorm:"unique"`
-	Code                  string
-	SectionId             uint
-	ActualStateId         uint
-	ActualStateDateTime   time.Time
-	ActualWorkplaceModeId uint
-	WorkplaceModes        []WorkplaceMode
-	WorkplacePorts        []WorkplacePort
-	Devices               []Device
-	Note                  string
+	Name                   string `gorm:"unique"`
+	Code                   string
+	SectionId              uint
+	ActualStateId          uint
+	ActualStateDateTime    time.Time
+	ActualWorkplaceModeId  uint
+	ProductionPortValue    int
+	ProductionPortDateTime time.Time
+	OfflinePortDateTime    time.Time
+	WorkplaceModes         []WorkplaceMode
+	WorkplacePorts         []WorkplacePort
+	Devices                []Device
+	Note                   string
 }
 
 type WorkplacePort struct {
@@ -58,6 +61,7 @@ type WorkplaceMode struct {
 	gorm.Model
 	Name             string `gorm:"unique"`
 	DownTimeInterval int
+	OfflineInterval  int
 	Note             string
 }
 
@@ -320,7 +324,7 @@ func CheckTables() {
 	if !db.HasTable(&WorkplaceMode{}) {
 		LogInfo("MAIN", "Workplacemode table not exists, creating")
 		db.CreateTable(&WorkplaceMode{})
-		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300}
+		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300, OfflineInterval: 300}
 		db.NewRecord(mode)
 		db.Create(&mode)
 	} else {

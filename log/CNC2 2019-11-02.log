@@ -62,3 +62,6 @@
 2019-11-02 12:27:28.490   CNC2   INF   Workplace started running
 2019-11-02 12:27:28.491   CNC2   INF   Processing takes 93ns
 2019-11-02 12:27:28.491   CNC2   INF   Sleeping for 9.999920704s
+2019-11-02 13:51:42.534   CNC2   INF   Workplace started running
+2019-11-02 13:51:42.546   CNC2   INF   Processing takes 11.232231ms
+2019-11-02 13:51:42.546   CNC2   INF   Sleeping for 9.988512762s
