@@ -13,7 +13,7 @@ type State struct {
 	Color string
 	Note  string
 }
-type Section struct {
+type WorkplaceSection struct {
 	gorm.Model
 	Name string `gorm:"unique"`
 	Note string
@@ -22,7 +22,7 @@ type Workplace struct {
 	gorm.Model
 	Name                   string `gorm:"unique"`
 	Code                   string
-	SectionId              uint
+	WorkplaceSectionId     uint
 	ActualStateId          uint
 	ActualStateDateTime    time.Time
 	ActualWorkplaceModeId  uint
@@ -311,14 +311,14 @@ func CheckTables() {
 		db.AutoMigrate(&State{})
 	}
 
-	if !db.HasTable(&Section{}) {
-		LogInfo("MAIN", "Section table not exists, creating")
-		db.CreateTable(&Section{})
-		machines := Section{Name: "Machines"}
+	if !db.HasTable(&WorkplaceSection{}) {
+		LogInfo("MAIN", "WorkplaceSection table not exists, creating")
+		db.CreateTable(&WorkplaceSection{})
+		machines := WorkplaceSection{Name: "Machines"}
 		db.NewRecord(machines)
 		db.Create(&machines)
 	} else {
-		db.AutoMigrate(&Section{})
+		db.AutoMigrate(&WorkplaceSection{})
 	}
 
 	if !db.HasTable(&WorkplaceMode{}) {
@@ -334,7 +334,7 @@ func CheckTables() {
 	if !db.HasTable(&Workplace{}) {
 		LogInfo("MAIN", "Workplace table not exists, creating")
 		db.CreateTable(&Workplace{})
-		db.Model(&Workplace{}).AddForeignKey("section_id", "sections(id)", "RESTRICT", "RESTRICT")
+		db.Model(&Workplace{}).AddForeignKey("workplace_section_id", "workplace_sections(id)", "RESTRICT", "RESTRICT")
 		db.Model(&Workplace{}).AddForeignKey("actual_state_id", "states(id)", "RESTRICT", "RESTRICT")
 		db.Model(&Workplace{}).AddForeignKey("actual_workplace_mode_id", "workplace_modes(id)", "RESTRICT", "RESTRICT")
 

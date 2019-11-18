@@ -1440,3 +1440,8 @@
 2019-11-02 18:12:38.373   MAIN   INF   Program running
 2019-11-02 18:12:38.905   MAIN   INF   Active workplaces: 1, running workplaces: 1
 2019-11-02 18:12:38.905   MAIN   INF   Sleeping for 9.467499075s
+2019-11-02 18:53:53.464   MAIN   INF   Program version 2019.4.2.2 started
+2019-11-02 18:53:53.859   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-02 18:53:53.860   MAIN   INF   Program running
+2019-11-02 18:53:54.387   MAIN   INF   Active workplaces: 1, running workplaces: 0
+2019-11-02 18:53:54.387   MAIN   INF   Sleeping for 9.473352128s

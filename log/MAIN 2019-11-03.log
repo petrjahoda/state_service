@@ -1,0 +1,28 @@
+2019-11-03 09:41:08.929   MAIN   INF   Program version 2019.4.2.3 started
+2019-11-03 09:41:09.521   MAIN   ERR   Email not sent: 535 5.7.0 ...authentication rejected (Use LOGIN or PLAIN Authentication, please)
+2019-11-03 09:41:09.522   MAIN   INF   Program running
+2019-11-03 09:41:09.814   MAIN   INF   WorkplaceSection table not exists, creating
+2019-11-03 09:41:10.081   MAIN   INF   Active workplaces: 1, running workplaces: 0
+2019-11-03 09:41:10.081   MAIN   INF   Sleeping for 9.440381558s
+2019-11-03 09:41:31.636   MAIN   INF   Program version 2019.4.2.3 started
+2019-11-03 09:41:31.643   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2019-11-03 09:41:31.644   MAIN   ERR   Email not sent: dial tcp :0: connect: can't assign requested address
+2019-11-03 09:41:31.644   MAIN   INF   Program running
+2019-11-03 09:41:31.649   MAIN   WRN   Database zapsi4 does not exist
+2019-11-03 09:41:31.763   MAIN   INF   Database zapsi4 created
+2019-11-03 09:41:31.775   MAIN   INF   DeviceType table not exists, creating
+2019-11-03 09:41:31.833   MAIN   INF   Device table not exists, creating
+2019-11-03 09:41:31.858   MAIN   INF   Setting table not exists, creating
+2019-11-03 09:41:31.887   MAIN   INF   DevicePortType table not exists, creating
+2019-11-03 09:41:31.914   MAIN   INF   DevicePort table not exists, creating
+2019-11-03 09:41:31.936   MAIN   INF   DeviceAnalogRecord table not exists, creating
+2019-11-03 09:41:31.952   MAIN   INF   DeviceDigitalRecord table not exists, creating
+2019-11-03 09:41:31.966   MAIN   INF   DeviceSerialRecord table not exists, creating
+2019-11-03 09:41:31.985   MAIN   INF   State table not exists, creating
+2019-11-03 09:41:32.013   MAIN   INF   WorkplaceSection table not exists, creating
+2019-11-03 09:41:32.030   MAIN   INF   Workplacemode table not exists, creating
+2019-11-03 09:41:32.056   MAIN   INF   Workplace table not exists, creating
+2019-11-03 09:41:32.081   MAIN   INF   WorkplacePort table not exists, creating
+2019-11-03 09:41:32.113   MAIN   INF   WorkplaceState table not exists, creating
+2019-11-03 09:41:32.153   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2019-11-03 09:41:32.153   MAIN   INF   Sleeping for 9.490915403s

@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const version = "2019.4.2.2"
+const version = "2019.4.2.3"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -67,13 +67,13 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 	deviceAnalogPort := DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeId: 2, DeviceId: device.ID}
 	db.Create(&deviceDigitalPort)
 	db.Create(&deviceAnalogPort)
-	var section Section
+	var section WorkplaceSection
 	db.Where("name=?", "Machines").Find(&section)
 	var state State
 	db.Where("name=?", "Offline").Find(&state)
 	var mode WorkplaceMode
 	db.Where("name=?", "Production").Find(&mode)
-	newWorkplace := Workplace{Name: workplaceName, Code: workplaceName, SectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
+	newWorkplace := Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
 	db.Create(&newWorkplace)
 	var workplace Workplace
 	db.Where("name=?", workplaceName).Find(&workplace)
@@ -147,6 +147,7 @@ func UpdateActiveWorkplaces(reference string) {
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
+		activeWorkplaces = nil
 		return
 	}
 	defer db.Close()
