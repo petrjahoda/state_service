@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const version = "2019.4.2.3"
+const version = "2019.4.3.29"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -23,7 +23,6 @@ func main() {
 	CreateConfigIfNotExists()
 	LoadSettingsFromConfigFile()
 	LogDebug("MAIN", "Using ["+DatabaseType+"] on "+DatabaseIpAddress+":"+DatabasePort+" with database "+DatabaseName)
-	SendMail("Program started", "State Service version "+version+" started")
 	for {
 		start := time.Now()
 		LogInfo("MAIN", "Program running")
