@@ -157,8 +157,6 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	db.Where("id=?", workplace.ActualStateId).Find(&actualState)
 	if workplaceOfflineDifference > offlineInterval && actualState.Name != "Offline" {
 		UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
-		workplace.ProductionPortValue = 0
-		db.Save(&workplace)
 	}
 }
 

@@ -12,5 +12,8 @@ Go service that creates state data for workplaces (based on digital and analog r
 * ready to run in docker (linux, mac and windows service also available)
 * using JSON config file for even better configurability
 
+
+## Todo
+- [ ] decrease CPU usage by not calling database when not needed (for example checking for stateID for every records)
     
 www.zapsi.eu © 2020
