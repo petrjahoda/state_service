@@ -6554,3 +6554,839 @@
 2019-12-30 11:15:53.392   CNC 13   INF   Download and sort takes: 96.921258ms
 2019-12-30 11:15:53.423   CNC 13   INF   Processing takes 127.410632ms
 2019-12-30 11:15:53.423   CNC 13   INF   Sleeping for 9.872492833s
+2019-12-30 11:42:58.892   CNC 13   INF   Workplace started running
+2019-12-30 11:42:58.951   CNC 13   INF   Download and sort takes: 58.405713ms
+2019-12-30 11:42:59.062   CNC 13   INF   Data: 2019-12-30 10:38:51.528127 +0000 UTC
+2019-12-30 11:42:59.080   CNC 13   INF   Actual workplace state: 
+2019-12-30 11:42:59.080   CNC 13   INF   Changing state ==> Downtime at 2019-12-30 11:38:51.528127 +0100 CET
+2019-12-30 11:42:59.182   CNC 13   INF   Data: 2019-12-30 10:38:51.528127 +0000 UTC
+2019-12-30 11:42:59.207   CNC 13   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.207   CNC 13   INF   Changing state ==> Production at 2019-12-30 11:38:51.528127 +0100 CET
+2019-12-30 11:42:59.337   CNC 13   INF   Data: 2019-12-30 10:38:52.528127 +0000 UTC
+2019-12-30 11:42:59.342   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.343   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:42:59.346   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.346   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:42:59.359   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.360   CNC 13   INF   Data: 2019-12-30 10:39:02.503154 +0000 UTC
+2019-12-30 11:42:59.380   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.380   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:42:59.393   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.394   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:42:59.422   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.422   CNC 13   INF   Data: 2019-12-30 10:39:12.563137 +0000 UTC
+2019-12-30 11:42:59.440   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.440   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:42:59.447   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.447   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:42:59.449   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.450   CNC 13   INF   Data: 2019-12-30 10:39:22.51437 +0000 UTC
+2019-12-30 11:42:59.453   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.453   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:42:59.468   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.468   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:42:59.481   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.481   CNC 13   INF   Data: 2019-12-30 10:39:32.53311 +0000 UTC
+2019-12-30 11:42:59.532   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.532   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:42:59.573   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.573   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:42:59.609   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.609   CNC 13   INF   Data: 2019-12-30 10:39:42.528794 +0000 UTC
+2019-12-30 11:42:59.620   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.621   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:42:59.641   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.641   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:42:59.665   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.666   CNC 13   INF   Data: 2019-12-30 10:39:52.462651 +0000 UTC
+2019-12-30 11:42:59.693   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.694   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:42:59.698   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.698   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:42:59.736   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.736   CNC 13   INF   Data: 2019-12-30 10:40:02.531464 +0000 UTC
+2019-12-30 11:42:59.784   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.784   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:42:59.799   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.799   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:42:59.813   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.813   CNC 13   INF   Data: 2019-12-30 10:40:12.472165 +0000 UTC
+2019-12-30 11:42:59.825   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.826   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:42:59.838   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.838   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:42:59.854   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.854   CNC 13   INF   Data: 2019-12-30 10:40:22.474572 +0000 UTC
+2019-12-30 11:42:59.869   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.869   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:42:59.881   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.881   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:42:59.888   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.888   CNC 13   INF   Data: 2019-12-30 10:40:32.426418 +0000 UTC
+2019-12-30 11:42:59.899   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.899   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:42:59.905   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.905   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:42:59.910   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.912   CNC 13   INF   Data: 2019-12-30 10:40:42.411011 +0000 UTC
+2019-12-30 11:42:59.959   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:42:59.959   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:00.002   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.002   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:00.027   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.027   CNC 13   INF   Data: 2019-12-30 10:40:52.384381 +0000 UTC
+2019-12-30 11:43:00.033   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.033   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:00.057   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.058   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:00.065   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.065   CNC 13   INF   Data: 2019-12-30 10:41:02.396587 +0000 UTC
+2019-12-30 11:43:00.069   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.069   CNC 13   INF   Data: 2019-12-30 10:41:04.045039 +0000 UTC
+2019-12-30 11:43:00.078   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.078   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:00.083   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.083   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:00.087   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.087   CNC 13   INF   Data: 2019-12-30 10:41:12.373015 +0000 UTC
+2019-12-30 11:43:00.096   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.096   CNC 13   INF   Data: 2019-12-30 10:41:14.033211 +0000 UTC
+2019-12-30 11:43:00.112   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.112   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:00.125   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.126   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:00.137   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.137   CNC 13   INF   Data: 2019-12-30 10:41:22.362604 +0000 UTC
+2019-12-30 11:43:00.141   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.141   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:00.149   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.150   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:00.157   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.157   CNC 13   INF   Data: 2019-12-30 10:41:32.372347 +0000 UTC
+2019-12-30 11:43:00.168   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.169   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:00.184   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.184   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:00.187   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.187   CNC 13   INF   Data: 2019-12-30 10:41:42.342704 +0000 UTC
+2019-12-30 11:43:00.192   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.192   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:00.199   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.199   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:00.203   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.203   CNC 13   INF   Data: 2019-12-30 10:41:52.349136 +0000 UTC
+2019-12-30 11:43:00.217   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.218   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:00.229   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.229   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:00.233   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.234   CNC 13   INF   Data: 2019-12-30 10:42:02.434323 +0000 UTC
+2019-12-30 11:43:00.237   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.237   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:00.245   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.246   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:00.253   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.254   CNC 13   INF   Data: 2019-12-30 10:42:12.346684 +0000 UTC
+2019-12-30 11:43:00.273   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.273   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:00.289   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.290   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:00.302   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.302   CNC 13   INF   Data: 2019-12-30 10:42:22.312992 +0000 UTC
+2019-12-30 11:43:00.309   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.309   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:00.313   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.313   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:00.320   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.320   CNC 13   INF   Data: 2019-12-30 10:42:32.32333 +0000 UTC
+2019-12-30 11:43:00.328   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.328   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:00.343   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.344   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:00.351   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.352   CNC 13   INF   Data: 2019-12-30 10:42:42.31184 +0000 UTC
+2019-12-30 11:43:00.356   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.356   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:00.363   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.363   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:00.367   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.367   CNC 13   INF   Data: 2019-12-30 10:42:52.269524 +0000 UTC
+2019-12-30 11:43:00.378   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:00.383   CNC 13   INF   Processing takes 1.49135972s
+2019-12-30 11:43:00.383   CNC 13   INF   Sleeping for 8.508504149s
+2019-12-30 11:43:08.892   CNC 13   INF   Workplace still active
+2019-12-30 11:43:08.984   CNC 13   INF   Download and sort takes: 91.464144ms
+2019-12-30 11:43:09.019   CNC 13   INF   Data: 2019-12-30 10:38:52.528127 +0000 UTC
+2019-12-30 11:43:09.094   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.095   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:09.116   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.117   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:09.123   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.123   CNC 13   INF   Data: 2019-12-30 10:39:02.503154 +0000 UTC
+2019-12-30 11:43:09.126   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.127   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:09.136   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.137   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:09.149   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.149   CNC 13   INF   Data: 2019-12-30 10:39:12.563137 +0000 UTC
+2019-12-30 11:43:09.155   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.155   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:09.164   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.164   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:09.179   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.179   CNC 13   INF   Data: 2019-12-30 10:39:22.51437 +0000 UTC
+2019-12-30 11:43:09.188   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.189   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:09.198   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.199   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:09.210   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.210   CNC 13   INF   Data: 2019-12-30 10:39:32.53311 +0000 UTC
+2019-12-30 11:43:09.229   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.229   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:09.237   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.238   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:09.253   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.253   CNC 13   INF   Data: 2019-12-30 10:39:42.528794 +0000 UTC
+2019-12-30 11:43:09.259   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.259   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:09.269   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.269   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:09.289   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.289   CNC 13   INF   Data: 2019-12-30 10:39:52.462651 +0000 UTC
+2019-12-30 11:43:09.298   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.298   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:09.310   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.310   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:09.319   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.319   CNC 13   INF   Data: 2019-12-30 10:40:02.531464 +0000 UTC
+2019-12-30 11:43:09.329   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.329   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:09.345   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.345   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:09.355   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.356   CNC 13   INF   Data: 2019-12-30 10:40:12.472165 +0000 UTC
+2019-12-30 11:43:09.386   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.386   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:09.395   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.395   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:09.408   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.408   CNC 13   INF   Data: 2019-12-30 10:40:22.474572 +0000 UTC
+2019-12-30 11:43:09.415   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.415   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:09.443   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.443   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:09.458   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.458   CNC 13   INF   Data: 2019-12-30 10:40:32.426418 +0000 UTC
+2019-12-30 11:43:09.470   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.471   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:09.487   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.488   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:09.519   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.520   CNC 13   INF   Data: 2019-12-30 10:40:42.411011 +0000 UTC
+2019-12-30 11:43:09.526   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.526   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:09.535   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.535   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:09.548   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.550   CNC 13   INF   Data: 2019-12-30 10:40:52.384381 +0000 UTC
+2019-12-30 11:43:09.564   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.564   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:09.577   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.578   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:09.589   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.589   CNC 13   INF   Data: 2019-12-30 10:41:02.396587 +0000 UTC
+2019-12-30 11:43:09.599   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.600   CNC 13   INF   Data: 2019-12-30 10:41:04.045039 +0000 UTC
+2019-12-30 11:43:09.614   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.614   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:09.620   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.621   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:09.632   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.633   CNC 13   INF   Data: 2019-12-30 10:41:12.373015 +0000 UTC
+2019-12-30 11:43:09.641   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.641   CNC 13   INF   Data: 2019-12-30 10:41:14.033211 +0000 UTC
+2019-12-30 11:43:09.654   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.654   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:09.661   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.662   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:09.674   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.675   CNC 13   INF   Data: 2019-12-30 10:41:22.362604 +0000 UTC
+2019-12-30 11:43:09.688   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.688   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:09.701   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.701   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:09.718   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.718   CNC 13   INF   Data: 2019-12-30 10:41:32.372347 +0000 UTC
+2019-12-30 11:43:09.734   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.734   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:09.747   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.747   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:09.769   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.770   CNC 13   INF   Data: 2019-12-30 10:41:42.342704 +0000 UTC
+2019-12-30 11:43:09.780   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.780   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:09.785   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.785   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:09.790   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.791   CNC 13   INF   Data: 2019-12-30 10:41:52.349136 +0000 UTC
+2019-12-30 11:43:09.805   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.805   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:09.821   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.821   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:09.840   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.840   CNC 13   INF   Data: 2019-12-30 10:42:02.434323 +0000 UTC
+2019-12-30 11:43:09.849   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.849   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:09.853   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.854   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:09.863   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.863   CNC 13   INF   Data: 2019-12-30 10:42:12.346684 +0000 UTC
+2019-12-30 11:43:09.873   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.873   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:09.893   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.894   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:09.905   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.905   CNC 13   INF   Data: 2019-12-30 10:42:22.312992 +0000 UTC
+2019-12-30 11:43:09.915   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.915   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:09.931   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.932   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:09.943   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.943   CNC 13   INF   Data: 2019-12-30 10:42:32.32333 +0000 UTC
+2019-12-30 11:43:09.947   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.948   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:09.957   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.958   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:09.962   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.963   CNC 13   INF   Data: 2019-12-30 10:42:42.31184 +0000 UTC
+2019-12-30 11:43:09.965   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.966   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:09.974   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.975   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:09.986   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.987   CNC 13   INF   Data: 2019-12-30 10:42:52.269524 +0000 UTC
+2019-12-30 11:43:09.991   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.991   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:09.995   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:09.995   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:10.003   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:10.003   CNC 13   INF   Data: 2019-12-30 10:43:02.340105 +0000 UTC
+2019-12-30 11:43:10.008   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:10.011   CNC 13   INF   Processing takes 1.118987972s
+2019-12-30 11:43:10.011   CNC 13   INF   Sleeping for 8.880885154s
+2019-12-30 11:43:18.895   CNC 13   INF   Workplace still active
+2019-12-30 11:43:18.982   CNC 13   INF   Download and sort takes: 86.429481ms
+2019-12-30 11:43:19.025   CNC 13   INF   Data: 2019-12-30 10:38:52.528127 +0000 UTC
+2019-12-30 11:43:19.035   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.036   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:19.040   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.040   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:19.045   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.045   CNC 13   INF   Data: 2019-12-30 10:39:02.503154 +0000 UTC
+2019-12-30 11:43:19.052   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.052   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:19.071   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.071   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:19.086   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.087   CNC 13   INF   Data: 2019-12-30 10:39:12.563137 +0000 UTC
+2019-12-30 11:43:19.110   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.110   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:19.115   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.115   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:19.127   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.127   CNC 13   INF   Data: 2019-12-30 10:39:22.51437 +0000 UTC
+2019-12-30 11:43:19.131   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.131   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:19.134   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.134   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:19.136   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.137   CNC 13   INF   Data: 2019-12-30 10:39:32.53311 +0000 UTC
+2019-12-30 11:43:19.139   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.139   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:19.143   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.143   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:19.156   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.156   CNC 13   INF   Data: 2019-12-30 10:39:42.528794 +0000 UTC
+2019-12-30 11:43:19.162   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.162   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:19.166   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.167   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:19.176   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.176   CNC 13   INF   Data: 2019-12-30 10:39:52.462651 +0000 UTC
+2019-12-30 11:43:19.181   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.181   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:19.186   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.186   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:19.190   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.194   CNC 13   INF   Data: 2019-12-30 10:40:02.531464 +0000 UTC
+2019-12-30 11:43:19.201   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.201   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:19.205   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.205   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:19.210   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.210   CNC 13   INF   Data: 2019-12-30 10:40:12.472165 +0000 UTC
+2019-12-30 11:43:19.218   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.218   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:19.222   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.222   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:19.225   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.225   CNC 13   INF   Data: 2019-12-30 10:40:22.474572 +0000 UTC
+2019-12-30 11:43:19.229   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.229   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:19.232   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.232   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:19.241   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.241   CNC 13   INF   Data: 2019-12-30 10:40:32.426418 +0000 UTC
+2019-12-30 11:43:19.249   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.249   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:19.256   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.256   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:19.258   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.259   CNC 13   INF   Data: 2019-12-30 10:40:42.411011 +0000 UTC
+2019-12-30 11:43:19.261   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.261   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:19.264   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.264   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:19.277   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.277   CNC 13   INF   Data: 2019-12-30 10:40:52.384381 +0000 UTC
+2019-12-30 11:43:19.284   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.284   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:19.290   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.290   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:19.301   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.301   CNC 13   INF   Data: 2019-12-30 10:41:02.396587 +0000 UTC
+2019-12-30 11:43:19.304   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.304   CNC 13   INF   Data: 2019-12-30 10:41:04.045039 +0000 UTC
+2019-12-30 11:43:19.310   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.310   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:19.320   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.320   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:19.325   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.325   CNC 13   INF   Data: 2019-12-30 10:41:12.373015 +0000 UTC
+2019-12-30 11:43:19.330   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.330   CNC 13   INF   Data: 2019-12-30 10:41:14.033211 +0000 UTC
+2019-12-30 11:43:19.331   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.331   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:19.338   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.339   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:19.343   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.343   CNC 13   INF   Data: 2019-12-30 10:41:22.362604 +0000 UTC
+2019-12-30 11:43:19.348   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.348   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:19.352   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.352   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:19.360   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.360   CNC 13   INF   Data: 2019-12-30 10:41:32.372347 +0000 UTC
+2019-12-30 11:43:19.363   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.364   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:19.367   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.367   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:19.370   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.370   CNC 13   INF   Data: 2019-12-30 10:41:42.342704 +0000 UTC
+2019-12-30 11:43:19.375   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.376   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:19.381   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.381   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:19.384   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.384   CNC 13   INF   Data: 2019-12-30 10:41:52.349136 +0000 UTC
+2019-12-30 11:43:19.388   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.388   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:19.390   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.391   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:19.397   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.397   CNC 13   INF   Data: 2019-12-30 10:42:02.434323 +0000 UTC
+2019-12-30 11:43:19.401   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.401   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:19.404   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.404   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:19.407   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.407   CNC 13   INF   Data: 2019-12-30 10:42:12.346684 +0000 UTC
+2019-12-30 11:43:19.411   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.411   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:19.416   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.416   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:19.420   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.420   CNC 13   INF   Data: 2019-12-30 10:42:22.312992 +0000 UTC
+2019-12-30 11:43:19.422   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.423   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:19.426   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.426   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:19.428   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.428   CNC 13   INF   Data: 2019-12-30 10:42:32.32333 +0000 UTC
+2019-12-30 11:43:19.435   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.436   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:19.439   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.439   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:19.441   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.441   CNC 13   INF   Data: 2019-12-30 10:42:42.31184 +0000 UTC
+2019-12-30 11:43:19.443   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.444   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:19.447   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.448   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:19.455   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.455   CNC 13   INF   Data: 2019-12-30 10:42:52.269524 +0000 UTC
+2019-12-30 11:43:19.457   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.458   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:19.461   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.461   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:19.463   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.464   CNC 13   INF   Data: 2019-12-30 10:43:02.340105 +0000 UTC
+2019-12-30 11:43:19.470   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.470   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:19.477   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.477   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:19.479   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.479   CNC 13   INF   Data: 2019-12-30 10:43:12.255438 +0000 UTC
+2019-12-30 11:43:19.482   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:19.490   CNC 13   INF   Processing takes 594.499064ms
+2019-12-30 11:43:19.491   CNC 13   INF   Sleeping for 9.404956395s
+2019-12-30 11:43:28.898   CNC 13   INF   Workplace still active
+2019-12-30 11:43:29.031   CNC 13   INF   Download and sort takes: 132.497159ms
+2019-12-30 11:43:29.079   CNC 13   INF   Data: 2019-12-30 10:38:52.528127 +0000 UTC
+2019-12-30 11:43:29.085   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.085   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:29.089   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.089   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:29.092   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.092   CNC 13   INF   Data: 2019-12-30 10:39:02.503154 +0000 UTC
+2019-12-30 11:43:29.098   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.099   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:29.101   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.101   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:29.106   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.106   CNC 13   INF   Data: 2019-12-30 10:39:12.563137 +0000 UTC
+2019-12-30 11:43:29.112   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.112   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:29.117   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.117   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:29.122   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.122   CNC 13   INF   Data: 2019-12-30 10:39:22.51437 +0000 UTC
+2019-12-30 11:43:29.124   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.125   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:29.132   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.133   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:29.137   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.137   CNC 13   INF   Data: 2019-12-30 10:39:32.53311 +0000 UTC
+2019-12-30 11:43:29.141   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.141   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:29.149   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.149   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:29.156   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.158   CNC 13   INF   Data: 2019-12-30 10:39:42.528794 +0000 UTC
+2019-12-30 11:43:29.167   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.167   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:29.170   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.170   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:29.177   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.177   CNC 13   INF   Data: 2019-12-30 10:39:52.462651 +0000 UTC
+2019-12-30 11:43:29.184   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.185   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:29.194   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.194   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:29.204   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.204   CNC 13   INF   Data: 2019-12-30 10:40:02.531464 +0000 UTC
+2019-12-30 11:43:29.214   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.214   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:29.223   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.223   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:29.232   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.232   CNC 13   INF   Data: 2019-12-30 10:40:12.472165 +0000 UTC
+2019-12-30 11:43:29.244   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.244   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:29.247   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.247   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:29.250   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.250   CNC 13   INF   Data: 2019-12-30 10:40:22.474572 +0000 UTC
+2019-12-30 11:43:29.256   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.257   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:29.262   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.262   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:29.266   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.266   CNC 13   INF   Data: 2019-12-30 10:40:32.426418 +0000 UTC
+2019-12-30 11:43:29.269   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.269   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:29.273   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.274   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:29.279   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.279   CNC 13   INF   Data: 2019-12-30 10:40:42.411011 +0000 UTC
+2019-12-30 11:43:29.282   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.282   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:29.288   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.288   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:29.292   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.292   CNC 13   INF   Data: 2019-12-30 10:40:52.384381 +0000 UTC
+2019-12-30 11:43:29.294   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.294   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:29.296   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.296   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:29.301   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.301   CNC 13   INF   Data: 2019-12-30 10:41:02.396587 +0000 UTC
+2019-12-30 11:43:29.307   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.308   CNC 13   INF   Data: 2019-12-30 10:41:04.045039 +0000 UTC
+2019-12-30 11:43:29.310   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.310   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:29.313   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.313   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:29.317   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.317   CNC 13   INF   Data: 2019-12-30 10:41:12.373015 +0000 UTC
+2019-12-30 11:43:29.320   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.320   CNC 13   INF   Data: 2019-12-30 10:41:14.033211 +0000 UTC
+2019-12-30 11:43:29.331   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.331   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:29.336   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.337   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:29.345   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.346   CNC 13   INF   Data: 2019-12-30 10:41:22.362604 +0000 UTC
+2019-12-30 11:43:29.354   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.354   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:29.367   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.367   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:29.375   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.375   CNC 13   INF   Data: 2019-12-30 10:41:32.372347 +0000 UTC
+2019-12-30 11:43:29.381   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.382   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:29.393   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.393   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:29.399   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.399   CNC 13   INF   Data: 2019-12-30 10:41:42.342704 +0000 UTC
+2019-12-30 11:43:29.407   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.408   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:29.414   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.414   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:29.427   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.428   CNC 13   INF   Data: 2019-12-30 10:41:52.349136 +0000 UTC
+2019-12-30 11:43:29.432   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.432   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:29.437   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.437   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:29.449   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.449   CNC 13   INF   Data: 2019-12-30 10:42:02.434323 +0000 UTC
+2019-12-30 11:43:29.453   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.453   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:29.456   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.456   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:29.462   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.462   CNC 13   INF   Data: 2019-12-30 10:42:12.346684 +0000 UTC
+2019-12-30 11:43:29.468   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.468   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:29.471   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.471   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:29.474   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.475   CNC 13   INF   Data: 2019-12-30 10:42:22.312992 +0000 UTC
+2019-12-30 11:43:29.478   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.479   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:29.481   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.481   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:29.484   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.484   CNC 13   INF   Data: 2019-12-30 10:42:32.32333 +0000 UTC
+2019-12-30 11:43:29.486   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.486   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:29.495   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.496   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:29.503   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.503   CNC 13   INF   Data: 2019-12-30 10:42:42.31184 +0000 UTC
+2019-12-30 11:43:29.506   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.506   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:29.512   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.512   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:29.517   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.517   CNC 13   INF   Data: 2019-12-30 10:42:52.269524 +0000 UTC
+2019-12-30 11:43:29.519   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.519   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:29.522   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.522   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:29.525   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.526   CNC 13   INF   Data: 2019-12-30 10:43:02.340105 +0000 UTC
+2019-12-30 11:43:29.534   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.535   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:29.540   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.540   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:29.544   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.544   CNC 13   INF   Data: 2019-12-30 10:43:12.255438 +0000 UTC
+2019-12-30 11:43:29.549   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.550   CNC 13   INF   Data: 2019-12-30 10:43:21.252001 +0000 UTC
+2019-12-30 11:43:29.557   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.557   CNC 13   INF   Data: 2019-12-30 10:43:21.252001 +0000 UTC
+2019-12-30 11:43:29.565   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.565   CNC 13   INF   Data: 2019-12-30 10:43:22.252001 +0000 UTC
+2019-12-30 11:43:29.570   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:29.574   CNC 13   INF   Processing takes 675.696676ms
+2019-12-30 11:43:29.574   CNC 13   INF   Sleeping for 9.324045238s
+2019-12-30 11:43:38.903   CNC 13   INF   Workplace still active
+2019-12-30 11:43:38.966   CNC 13   INF   Download and sort takes: 63.083197ms
+2019-12-30 11:43:38.976   CNC 13   INF   Data: 2019-12-30 10:38:52.528127 +0000 UTC
+2019-12-30 11:43:38.980   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.980   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:38.982   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.982   CNC 13   INF   Data: 2019-12-30 10:39:01.503154 +0000 UTC
+2019-12-30 11:43:38.984   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.984   CNC 13   INF   Data: 2019-12-30 10:39:02.503154 +0000 UTC
+2019-12-30 11:43:38.985   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.985   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:38.987   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.987   CNC 13   INF   Data: 2019-12-30 10:39:11.563137 +0000 UTC
+2019-12-30 11:43:38.989   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.989   CNC 13   INF   Data: 2019-12-30 10:39:12.563137 +0000 UTC
+2019-12-30 11:43:38.992   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.992   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:38.995   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.996   CNC 13   INF   Data: 2019-12-30 10:39:21.51437 +0000 UTC
+2019-12-30 11:43:38.998   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:38.998   CNC 13   INF   Data: 2019-12-30 10:39:22.51437 +0000 UTC
+2019-12-30 11:43:39.000   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.000   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:39.002   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.002   CNC 13   INF   Data: 2019-12-30 10:39:31.53311 +0000 UTC
+2019-12-30 11:43:39.004   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.004   CNC 13   INF   Data: 2019-12-30 10:39:32.53311 +0000 UTC
+2019-12-30 11:43:39.007   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.008   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:39.010   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.010   CNC 13   INF   Data: 2019-12-30 10:39:41.528794 +0000 UTC
+2019-12-30 11:43:39.016   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.016   CNC 13   INF   Data: 2019-12-30 10:39:42.528794 +0000 UTC
+2019-12-30 11:43:39.019   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.020   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:39.025   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.025   CNC 13   INF   Data: 2019-12-30 10:39:51.462651 +0000 UTC
+2019-12-30 11:43:39.030   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.030   CNC 13   INF   Data: 2019-12-30 10:39:52.462651 +0000 UTC
+2019-12-30 11:43:39.032   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.032   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:39.035   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.035   CNC 13   INF   Data: 2019-12-30 10:40:01.531464 +0000 UTC
+2019-12-30 11:43:39.038   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.038   CNC 13   INF   Data: 2019-12-30 10:40:02.531464 +0000 UTC
+2019-12-30 11:43:39.040   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.040   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:39.043   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.043   CNC 13   INF   Data: 2019-12-30 10:40:11.472165 +0000 UTC
+2019-12-30 11:43:39.046   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.047   CNC 13   INF   Data: 2019-12-30 10:40:12.472165 +0000 UTC
+2019-12-30 11:43:39.054   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.055   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:39.057   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.057   CNC 13   INF   Data: 2019-12-30 10:40:21.474572 +0000 UTC
+2019-12-30 11:43:39.059   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.059   CNC 13   INF   Data: 2019-12-30 10:40:22.474572 +0000 UTC
+2019-12-30 11:43:39.061   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.062   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:39.064   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.064   CNC 13   INF   Data: 2019-12-30 10:40:31.426418 +0000 UTC
+2019-12-30 11:43:39.081   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.081   CNC 13   INF   Data: 2019-12-30 10:40:32.426418 +0000 UTC
+2019-12-30 11:43:39.087   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.087   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:39.090   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.090   CNC 13   INF   Data: 2019-12-30 10:40:41.411011 +0000 UTC
+2019-12-30 11:43:39.093   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.093   CNC 13   INF   Data: 2019-12-30 10:40:42.411011 +0000 UTC
+2019-12-30 11:43:39.095   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.095   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:39.097   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.097   CNC 13   INF   Data: 2019-12-30 10:40:51.384381 +0000 UTC
+2019-12-30 11:43:39.100   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.100   CNC 13   INF   Data: 2019-12-30 10:40:52.384381 +0000 UTC
+2019-12-30 11:43:39.106   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.106   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:39.108   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.108   CNC 13   INF   Data: 2019-12-30 10:41:01.396587 +0000 UTC
+2019-12-30 11:43:39.111   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.111   CNC 13   INF   Data: 2019-12-30 10:41:02.396587 +0000 UTC
+2019-12-30 11:43:39.114   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.114   CNC 13   INF   Data: 2019-12-30 10:41:04.045039 +0000 UTC
+2019-12-30 11:43:39.117   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.117   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:39.120   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.120   CNC 13   INF   Data: 2019-12-30 10:41:11.373015 +0000 UTC
+2019-12-30 11:43:39.123   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.123   CNC 13   INF   Data: 2019-12-30 10:41:12.373015 +0000 UTC
+2019-12-30 11:43:39.130   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.130   CNC 13   INF   Data: 2019-12-30 10:41:14.033211 +0000 UTC
+2019-12-30 11:43:39.133   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.133   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:39.139   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.139   CNC 13   INF   Data: 2019-12-30 10:41:21.362604 +0000 UTC
+2019-12-30 11:43:39.143   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.143   CNC 13   INF   Data: 2019-12-30 10:41:22.362604 +0000 UTC
+2019-12-30 11:43:39.152   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.152   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:39.156   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.156   CNC 13   INF   Data: 2019-12-30 10:41:31.372347 +0000 UTC
+2019-12-30 11:43:39.162   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.163   CNC 13   INF   Data: 2019-12-30 10:41:32.372347 +0000 UTC
+2019-12-30 11:43:39.165   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.165   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:39.171   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.172   CNC 13   INF   Data: 2019-12-30 10:41:41.342704 +0000 UTC
+2019-12-30 11:43:39.181   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.181   CNC 13   INF   Data: 2019-12-30 10:41:42.342704 +0000 UTC
+2019-12-30 11:43:39.187   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.188   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:39.190   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.190   CNC 13   INF   Data: 2019-12-30 10:41:51.349136 +0000 UTC
+2019-12-30 11:43:39.194   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.194   CNC 13   INF   Data: 2019-12-30 10:41:52.349136 +0000 UTC
+2019-12-30 11:43:39.206   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.206   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:39.210   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.210   CNC 13   INF   Data: 2019-12-30 10:42:01.434323 +0000 UTC
+2019-12-30 11:43:39.219   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.219   CNC 13   INF   Data: 2019-12-30 10:42:02.434323 +0000 UTC
+2019-12-30 11:43:39.223   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.224   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:39.228   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.228   CNC 13   INF   Data: 2019-12-30 10:42:11.346684 +0000 UTC
+2019-12-30 11:43:39.233   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.233   CNC 13   INF   Data: 2019-12-30 10:42:12.346684 +0000 UTC
+2019-12-30 11:43:39.235   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.236   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:39.240   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.241   CNC 13   INF   Data: 2019-12-30 10:42:21.312992 +0000 UTC
+2019-12-30 11:43:39.251   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.251   CNC 13   INF   Data: 2019-12-30 10:42:22.312992 +0000 UTC
+2019-12-30 11:43:39.255   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.255   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:39.268   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.269   CNC 13   INF   Data: 2019-12-30 10:42:31.32333 +0000 UTC
+2019-12-30 11:43:39.277   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.277   CNC 13   INF   Data: 2019-12-30 10:42:32.32333 +0000 UTC
+2019-12-30 11:43:39.279   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.280   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:39.282   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.282   CNC 13   INF   Data: 2019-12-30 10:42:41.31184 +0000 UTC
+2019-12-30 11:43:39.292   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.292   CNC 13   INF   Data: 2019-12-30 10:42:42.31184 +0000 UTC
+2019-12-30 11:43:39.300   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.300   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:39.304   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.304   CNC 13   INF   Data: 2019-12-30 10:42:51.269524 +0000 UTC
+2019-12-30 11:43:39.315   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.315   CNC 13   INF   Data: 2019-12-30 10:42:52.269524 +0000 UTC
+2019-12-30 11:43:39.319   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.320   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:39.322   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.322   CNC 13   INF   Data: 2019-12-30 10:43:01.340105 +0000 UTC
+2019-12-30 11:43:39.326   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.326   CNC 13   INF   Data: 2019-12-30 10:43:02.340105 +0000 UTC
+2019-12-30 11:43:39.332   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.332   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:39.337   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.337   CNC 13   INF   Data: 2019-12-30 10:43:11.255438 +0000 UTC
+2019-12-30 11:43:39.341   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.341   CNC 13   INF   Data: 2019-12-30 10:43:12.255438 +0000 UTC
+2019-12-30 11:43:39.344   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.345   CNC 13   INF   Data: 2019-12-30 10:43:21.252001 +0000 UTC
+2019-12-30 11:43:39.354   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.354   CNC 13   INF   Data: 2019-12-30 10:43:21.252001 +0000 UTC
+2019-12-30 11:43:39.361   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.362   CNC 13   INF   Data: 2019-12-30 10:43:22.252001 +0000 UTC
+2019-12-30 11:43:39.367   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.367   CNC 13   INF   Data: 2019-12-30 10:43:31.276405 +0000 UTC
+2019-12-30 11:43:39.369   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.369   CNC 13   INF   Data: 2019-12-30 10:43:31.276405 +0000 UTC
+2019-12-30 11:43:39.372   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.373   CNC 13   INF   Data: 2019-12-30 10:43:32.276405 +0000 UTC
+2019-12-30 11:43:39.378   CNC 13   INF   Actual workplace state: Production
+2019-12-30 11:43:39.382   CNC 13   INF   Processing takes 479.084928ms
+2019-12-30 11:43:39.383   CNC 13   INF   Sleeping for 9.520504142s

@@ -4353,3 +4353,416 @@
 2019-12-30 11:15:53.336   CNC 15   INF   Download and sort takes: 40.058089ms
 2019-12-30 11:15:53.409   CNC 15   INF   Processing takes 113.46644ms
 2019-12-30 11:15:53.409   CNC 15   INF   Sleeping for 9.886414509s
+2019-12-30 11:42:58.891   CNC 15   INF   Workplace started running
+2019-12-30 11:42:58.945   CNC 15   INF   Download and sort takes: 52.528323ms
+2019-12-30 11:42:58.985   CNC 15   INF   Data: 2019-12-30 10:38:51.511193 +0000 UTC
+2019-12-30 11:42:58.992   CNC 15   INF   Actual workplace state: 
+2019-12-30 11:42:58.992   CNC 15   INF   Changing state ==> Downtime at 2019-12-30 11:38:51.511193 +0100 CET
+2019-12-30 11:42:59.104   CNC 15   INF   Data: 2019-12-30 10:39:01.515399 +0000 UTC
+2019-12-30 11:42:59.124   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.124   CNC 15   INF   Data: 2019-12-30 10:39:11.536446 +0000 UTC
+2019-12-30 11:42:59.128   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.128   CNC 15   INF   Data: 2019-12-30 10:39:21.497933 +0000 UTC
+2019-12-30 11:42:59.139   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.139   CNC 15   INF   Data: 2019-12-30 10:39:31.474771 +0000 UTC
+2019-12-30 11:42:59.147   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.147   CNC 15   INF   Data: 2019-12-30 10:39:41.509928 +0000 UTC
+2019-12-30 11:42:59.171   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.171   CNC 15   INF   Data: 2019-12-30 10:39:51.438354 +0000 UTC
+2019-12-30 11:42:59.182   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.182   CNC 15   INF   Data: 2019-12-30 10:40:01.519113 +0000 UTC
+2019-12-30 11:42:59.188   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.188   CNC 15   INF   Data: 2019-12-30 10:40:11.4378 +0000 UTC
+2019-12-30 11:42:59.199   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.220   CNC 15   INF   Data: 2019-12-30 10:40:21.472673 +0000 UTC
+2019-12-30 11:42:59.226   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.226   CNC 15   INF   Data: 2019-12-30 10:40:31.425942 +0000 UTC
+2019-12-30 11:42:59.234   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.234   CNC 15   INF   Data: 2019-12-30 10:40:41.447127 +0000 UTC
+2019-12-30 11:42:59.239   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.239   CNC 15   INF   Data: 2019-12-30 10:40:51.407702 +0000 UTC
+2019-12-30 11:42:59.242   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.243   CNC 15   INF   Data: 2019-12-30 10:41:01.402649 +0000 UTC
+2019-12-30 11:42:59.245   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.245   CNC 15   INF   Data: 2019-12-30 10:41:04.041588 +0000 UTC
+2019-12-30 11:42:59.251   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.252   CNC 15   INF   Data: 2019-12-30 10:41:11.405549 +0000 UTC
+2019-12-30 11:42:59.259   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.259   CNC 15   INF   Data: 2019-12-30 10:41:14.072392 +0000 UTC
+2019-12-30 11:42:59.271   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.271   CNC 15   INF   Data: 2019-12-30 10:41:21.360618 +0000 UTC
+2019-12-30 11:42:59.290   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.291   CNC 15   INF   Data: 2019-12-30 10:41:29.489086 +0000 UTC
+2019-12-30 11:42:59.310   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.310   CNC 15   INF   Data: 2019-12-30 10:41:31.352764 +0000 UTC
+2019-12-30 11:42:59.314   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.314   CNC 15   INF   Data: 2019-12-30 10:41:39.526272 +0000 UTC
+2019-12-30 11:42:59.318   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.318   CNC 15   INF   Data: 2019-12-30 10:41:41.358196 +0000 UTC
+2019-12-30 11:42:59.323   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.323   CNC 15   INF   Data: 2019-12-30 10:41:49.493675 +0000 UTC
+2019-12-30 11:42:59.340   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.341   CNC 15   INF   Data: 2019-12-30 10:41:51.350107 +0000 UTC
+2019-12-30 11:42:59.359   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.360   CNC 15   INF   Data: 2019-12-30 10:41:59.567904 +0000 UTC
+2019-12-30 11:42:59.366   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.367   CNC 15   INF   Data: 2019-12-30 10:42:01.40053 +0000 UTC
+2019-12-30 11:42:59.373   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.373   CNC 15   INF   Data: 2019-12-30 10:42:09.485964 +0000 UTC
+2019-12-30 11:42:59.385   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.385   CNC 15   INF   Data: 2019-12-30 10:42:11.325038 +0000 UTC
+2019-12-30 11:42:59.410   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.410   CNC 15   INF   Data: 2019-12-30 10:42:19.487574 +0000 UTC
+2019-12-30 11:42:59.453   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.453   CNC 15   INF   Data: 2019-12-30 10:42:21.317085 +0000 UTC
+2019-12-30 11:42:59.487   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.487   CNC 15   INF   Data: 2019-12-30 10:42:29.495281 +0000 UTC
+2019-12-30 11:42:59.495   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.495   CNC 15   INF   Data: 2019-12-30 10:42:31.317124 +0000 UTC
+2019-12-30 11:42:59.523   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.524   CNC 15   INF   Data: 2019-12-30 10:42:39.532483 +0000 UTC
+2019-12-30 11:42:59.555   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.555   CNC 15   INF   Data: 2019-12-30 10:42:41.31008 +0000 UTC
+2019-12-30 11:42:59.588   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.589   CNC 15   INF   Data: 2019-12-30 10:42:49.499396 +0000 UTC
+2019-12-30 11:42:59.628   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.629   CNC 15   INF   Data: 2019-12-30 10:42:51.291384 +0000 UTC
+2019-12-30 11:42:59.645   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:42:59.673   CNC 15   INF   Processing takes 781.411284ms
+2019-12-30 11:42:59.674   CNC 15   INF   Sleeping for 9.218460615s
+2019-12-30 11:43:08.892   CNC 15   INF   Workplace still active
+2019-12-30 11:43:08.956   CNC 15   INF   Download and sort takes: 63.230603ms
+2019-12-30 11:43:09.008   CNC 15   INF   Data: 2019-12-30 10:39:01.515399 +0000 UTC
+2019-12-30 11:43:09.014   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.062   CNC 15   INF   Data: 2019-12-30 10:39:11.536446 +0000 UTC
+2019-12-30 11:43:09.072   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.072   CNC 15   INF   Data: 2019-12-30 10:39:21.497933 +0000 UTC
+2019-12-30 11:43:09.076   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.076   CNC 15   INF   Data: 2019-12-30 10:39:31.474771 +0000 UTC
+2019-12-30 11:43:09.079   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.079   CNC 15   INF   Data: 2019-12-30 10:39:41.509928 +0000 UTC
+2019-12-30 11:43:09.084   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.085   CNC 15   INF   Data: 2019-12-30 10:39:51.438354 +0000 UTC
+2019-12-30 11:43:09.091   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.091   CNC 15   INF   Data: 2019-12-30 10:40:01.519113 +0000 UTC
+2019-12-30 11:43:09.097   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.097   CNC 15   INF   Data: 2019-12-30 10:40:11.4378 +0000 UTC
+2019-12-30 11:43:09.109   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.109   CNC 15   INF   Data: 2019-12-30 10:40:21.472673 +0000 UTC
+2019-12-30 11:43:09.120   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.121   CNC 15   INF   Data: 2019-12-30 10:40:31.425942 +0000 UTC
+2019-12-30 11:43:09.125   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.125   CNC 15   INF   Data: 2019-12-30 10:40:41.447127 +0000 UTC
+2019-12-30 11:43:09.134   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.135   CNC 15   INF   Data: 2019-12-30 10:40:51.407702 +0000 UTC
+2019-12-30 11:43:09.161   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.161   CNC 15   INF   Data: 2019-12-30 10:41:01.402649 +0000 UTC
+2019-12-30 11:43:09.166   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.166   CNC 15   INF   Data: 2019-12-30 10:41:04.041588 +0000 UTC
+2019-12-30 11:43:09.173   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.173   CNC 15   INF   Data: 2019-12-30 10:41:11.405549 +0000 UTC
+2019-12-30 11:43:09.183   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.183   CNC 15   INF   Data: 2019-12-30 10:41:14.072392 +0000 UTC
+2019-12-30 11:43:09.194   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.194   CNC 15   INF   Data: 2019-12-30 10:41:21.360618 +0000 UTC
+2019-12-30 11:43:09.216   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.216   CNC 15   INF   Data: 2019-12-30 10:41:29.489086 +0000 UTC
+2019-12-30 11:43:09.219   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.219   CNC 15   INF   Data: 2019-12-30 10:41:31.352764 +0000 UTC
+2019-12-30 11:43:09.232   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.232   CNC 15   INF   Data: 2019-12-30 10:41:39.526272 +0000 UTC
+2019-12-30 11:43:09.247   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.247   CNC 15   INF   Data: 2019-12-30 10:41:41.358196 +0000 UTC
+2019-12-30 11:43:09.259   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.259   CNC 15   INF   Data: 2019-12-30 10:41:49.493675 +0000 UTC
+2019-12-30 11:43:09.268   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.269   CNC 15   INF   Data: 2019-12-30 10:41:51.350107 +0000 UTC
+2019-12-30 11:43:09.284   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.284   CNC 15   INF   Data: 2019-12-30 10:41:59.567904 +0000 UTC
+2019-12-30 11:43:09.294   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.296   CNC 15   INF   Data: 2019-12-30 10:42:01.40053 +0000 UTC
+2019-12-30 11:43:09.315   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.315   CNC 15   INF   Data: 2019-12-30 10:42:09.485964 +0000 UTC
+2019-12-30 11:43:09.324   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.324   CNC 15   INF   Data: 2019-12-30 10:42:11.325038 +0000 UTC
+2019-12-30 11:43:09.327   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.328   CNC 15   INF   Data: 2019-12-30 10:42:19.487574 +0000 UTC
+2019-12-30 11:43:09.341   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.341   CNC 15   INF   Data: 2019-12-30 10:42:21.317085 +0000 UTC
+2019-12-30 11:43:09.348   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.348   CNC 15   INF   Data: 2019-12-30 10:42:29.495281 +0000 UTC
+2019-12-30 11:43:09.367   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.367   CNC 15   INF   Data: 2019-12-30 10:42:31.317124 +0000 UTC
+2019-12-30 11:43:09.377   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.377   CNC 15   INF   Data: 2019-12-30 10:42:39.532483 +0000 UTC
+2019-12-30 11:43:09.387   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.387   CNC 15   INF   Data: 2019-12-30 10:42:41.31008 +0000 UTC
+2019-12-30 11:43:09.402   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.402   CNC 15   INF   Data: 2019-12-30 10:42:49.499396 +0000 UTC
+2019-12-30 11:43:09.422   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.422   CNC 15   INF   Data: 2019-12-30 10:42:51.291384 +0000 UTC
+2019-12-30 11:43:09.432   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.432   CNC 15   INF   Data: 2019-12-30 10:42:59.872674 +0000 UTC
+2019-12-30 11:43:09.443   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.443   CNC 15   INF   Data: 2019-12-30 10:43:01.338053 +0000 UTC
+2019-12-30 11:43:09.458   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:09.462   CNC 15   INF   Processing takes 569.701763ms
+2019-12-30 11:43:09.462   CNC 15   INF   Sleeping for 9.430138803s
+2019-12-30 11:43:18.895   CNC 15   INF   Workplace still active
+2019-12-30 11:43:19.020   CNC 15   INF   Download and sort takes: 125.099511ms
+2019-12-30 11:43:19.032   CNC 15   INF   Data: 2019-12-30 10:39:01.515399 +0000 UTC
+2019-12-30 11:43:19.034   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.034   CNC 15   INF   Data: 2019-12-30 10:39:11.536446 +0000 UTC
+2019-12-30 11:43:19.039   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.039   CNC 15   INF   Data: 2019-12-30 10:39:21.497933 +0000 UTC
+2019-12-30 11:43:19.041   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.041   CNC 15   INF   Data: 2019-12-30 10:39:31.474771 +0000 UTC
+2019-12-30 11:43:19.043   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.043   CNC 15   INF   Data: 2019-12-30 10:39:41.509928 +0000 UTC
+2019-12-30 11:43:19.045   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.045   CNC 15   INF   Data: 2019-12-30 10:39:51.438354 +0000 UTC
+2019-12-30 11:43:19.047   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.047   CNC 15   INF   Data: 2019-12-30 10:40:01.519113 +0000 UTC
+2019-12-30 11:43:19.050   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.050   CNC 15   INF   Data: 2019-12-30 10:40:11.4378 +0000 UTC
+2019-12-30 11:43:19.053   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.053   CNC 15   INF   Data: 2019-12-30 10:40:21.472673 +0000 UTC
+2019-12-30 11:43:19.055   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.055   CNC 15   INF   Data: 2019-12-30 10:40:31.425942 +0000 UTC
+2019-12-30 11:43:19.057   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.057   CNC 15   INF   Data: 2019-12-30 10:40:41.447127 +0000 UTC
+2019-12-30 11:43:19.060   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.060   CNC 15   INF   Data: 2019-12-30 10:40:51.407702 +0000 UTC
+2019-12-30 11:43:19.063   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.063   CNC 15   INF   Data: 2019-12-30 10:41:01.402649 +0000 UTC
+2019-12-30 11:43:19.065   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.065   CNC 15   INF   Data: 2019-12-30 10:41:04.041588 +0000 UTC
+2019-12-30 11:43:19.069   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.069   CNC 15   INF   Data: 2019-12-30 10:41:11.405549 +0000 UTC
+2019-12-30 11:43:19.071   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.071   CNC 15   INF   Data: 2019-12-30 10:41:14.072392 +0000 UTC
+2019-12-30 11:43:19.074   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.074   CNC 15   INF   Data: 2019-12-30 10:41:21.360618 +0000 UTC
+2019-12-30 11:43:19.076   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.076   CNC 15   INF   Data: 2019-12-30 10:41:29.489086 +0000 UTC
+2019-12-30 11:43:19.081   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.081   CNC 15   INF   Data: 2019-12-30 10:41:31.352764 +0000 UTC
+2019-12-30 11:43:19.083   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.083   CNC 15   INF   Data: 2019-12-30 10:41:39.526272 +0000 UTC
+2019-12-30 11:43:19.086   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.086   CNC 15   INF   Data: 2019-12-30 10:41:41.358196 +0000 UTC
+2019-12-30 11:43:19.090   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.091   CNC 15   INF   Data: 2019-12-30 10:41:49.493675 +0000 UTC
+2019-12-30 11:43:19.094   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.094   CNC 15   INF   Data: 2019-12-30 10:41:51.350107 +0000 UTC
+2019-12-30 11:43:19.099   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.100   CNC 15   INF   Data: 2019-12-30 10:41:59.567904 +0000 UTC
+2019-12-30 11:43:19.102   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.103   CNC 15   INF   Data: 2019-12-30 10:42:01.40053 +0000 UTC
+2019-12-30 11:43:19.111   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.111   CNC 15   INF   Data: 2019-12-30 10:42:09.485964 +0000 UTC
+2019-12-30 11:43:19.114   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.114   CNC 15   INF   Data: 2019-12-30 10:42:11.325038 +0000 UTC
+2019-12-30 11:43:19.117   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.118   CNC 15   INF   Data: 2019-12-30 10:42:19.487574 +0000 UTC
+2019-12-30 11:43:19.129   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.129   CNC 15   INF   Data: 2019-12-30 10:42:21.317085 +0000 UTC
+2019-12-30 11:43:19.134   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.134   CNC 15   INF   Data: 2019-12-30 10:42:29.495281 +0000 UTC
+2019-12-30 11:43:19.137   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.137   CNC 15   INF   Data: 2019-12-30 10:42:31.317124 +0000 UTC
+2019-12-30 11:43:19.141   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.141   CNC 15   INF   Data: 2019-12-30 10:42:39.532483 +0000 UTC
+2019-12-30 11:43:19.145   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.146   CNC 15   INF   Data: 2019-12-30 10:42:41.31008 +0000 UTC
+2019-12-30 11:43:19.152   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.152   CNC 15   INF   Data: 2019-12-30 10:42:49.499396 +0000 UTC
+2019-12-30 11:43:19.159   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.159   CNC 15   INF   Data: 2019-12-30 10:42:51.291384 +0000 UTC
+2019-12-30 11:43:19.162   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.162   CNC 15   INF   Data: 2019-12-30 10:42:59.872674 +0000 UTC
+2019-12-30 11:43:19.165   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.165   CNC 15   INF   Data: 2019-12-30 10:43:01.338053 +0000 UTC
+2019-12-30 11:43:19.174   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.174   CNC 15   INF   Data: 2019-12-30 10:43:09.676708 +0000 UTC
+2019-12-30 11:43:19.178   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.178   CNC 15   INF   Data: 2019-12-30 10:43:11.300448 +0000 UTC
+2019-12-30 11:43:19.182   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:19.185   CNC 15   INF   Processing takes 290.417132ms
+2019-12-30 11:43:19.186   CNC 15   INF   Sleeping for 9.70945068s
+2019-12-30 11:43:28.898   CNC 15   INF   Workplace still active
+2019-12-30 11:43:28.960   CNC 15   INF   Download and sort takes: 61.478266ms
+2019-12-30 11:43:28.985   CNC 15   INF   Data: 2019-12-30 10:39:01.515399 +0000 UTC
+2019-12-30 11:43:28.991   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:28.991   CNC 15   INF   Data: 2019-12-30 10:39:11.536446 +0000 UTC
+2019-12-30 11:43:28.995   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:28.995   CNC 15   INF   Data: 2019-12-30 10:39:21.497933 +0000 UTC
+2019-12-30 11:43:28.997   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:28.997   CNC 15   INF   Data: 2019-12-30 10:39:31.474771 +0000 UTC
+2019-12-30 11:43:29.003   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.003   CNC 15   INF   Data: 2019-12-30 10:39:41.509928 +0000 UTC
+2019-12-30 11:43:29.006   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.007   CNC 15   INF   Data: 2019-12-30 10:39:51.438354 +0000 UTC
+2019-12-30 11:43:29.012   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.013   CNC 15   INF   Data: 2019-12-30 10:40:01.519113 +0000 UTC
+2019-12-30 11:43:29.019   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.019   CNC 15   INF   Data: 2019-12-30 10:40:11.4378 +0000 UTC
+2019-12-30 11:43:29.024   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.024   CNC 15   INF   Data: 2019-12-30 10:40:21.472673 +0000 UTC
+2019-12-30 11:43:29.030   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.030   CNC 15   INF   Data: 2019-12-30 10:40:31.425942 +0000 UTC
+2019-12-30 11:43:29.036   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.036   CNC 15   INF   Data: 2019-12-30 10:40:41.447127 +0000 UTC
+2019-12-30 11:43:29.040   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.040   CNC 15   INF   Data: 2019-12-30 10:40:51.407702 +0000 UTC
+2019-12-30 11:43:29.047   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.047   CNC 15   INF   Data: 2019-12-30 10:41:01.402649 +0000 UTC
+2019-12-30 11:43:29.064   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.064   CNC 15   INF   Data: 2019-12-30 10:41:04.041588 +0000 UTC
+2019-12-30 11:43:29.089   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.090   CNC 15   INF   Data: 2019-12-30 10:41:11.405549 +0000 UTC
+2019-12-30 11:43:29.093   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.093   CNC 15   INF   Data: 2019-12-30 10:41:14.072392 +0000 UTC
+2019-12-30 11:43:29.104   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.105   CNC 15   INF   Data: 2019-12-30 10:41:21.360618 +0000 UTC
+2019-12-30 11:43:29.122   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.122   CNC 15   INF   Data: 2019-12-30 10:41:29.489086 +0000 UTC
+2019-12-30 11:43:29.138   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.138   CNC 15   INF   Data: 2019-12-30 10:41:31.352764 +0000 UTC
+2019-12-30 11:43:29.147   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.147   CNC 15   INF   Data: 2019-12-30 10:41:39.526272 +0000 UTC
+2019-12-30 11:43:29.155   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.158   CNC 15   INF   Data: 2019-12-30 10:41:41.358196 +0000 UTC
+2019-12-30 11:43:29.166   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.166   CNC 15   INF   Data: 2019-12-30 10:41:49.493675 +0000 UTC
+2019-12-30 11:43:29.170   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.170   CNC 15   INF   Data: 2019-12-30 10:41:51.350107 +0000 UTC
+2019-12-30 11:43:29.174   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.175   CNC 15   INF   Data: 2019-12-30 10:41:59.567904 +0000 UTC
+2019-12-30 11:43:29.179   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.179   CNC 15   INF   Data: 2019-12-30 10:42:01.40053 +0000 UTC
+2019-12-30 11:43:29.185   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.185   CNC 15   INF   Data: 2019-12-30 10:42:09.485964 +0000 UTC
+2019-12-30 11:43:29.190   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.190   CNC 15   INF   Data: 2019-12-30 10:42:11.325038 +0000 UTC
+2019-12-30 11:43:29.194   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.194   CNC 15   INF   Data: 2019-12-30 10:42:19.487574 +0000 UTC
+2019-12-30 11:43:29.197   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.197   CNC 15   INF   Data: 2019-12-30 10:42:21.317085 +0000 UTC
+2019-12-30 11:43:29.200   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.201   CNC 15   INF   Data: 2019-12-30 10:42:29.495281 +0000 UTC
+2019-12-30 11:43:29.208   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.209   CNC 15   INF   Data: 2019-12-30 10:42:31.317124 +0000 UTC
+2019-12-30 11:43:29.216   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.216   CNC 15   INF   Data: 2019-12-30 10:42:39.532483 +0000 UTC
+2019-12-30 11:43:29.228   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.228   CNC 15   INF   Data: 2019-12-30 10:42:41.31008 +0000 UTC
+2019-12-30 11:43:29.232   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.233   CNC 15   INF   Data: 2019-12-30 10:42:49.499396 +0000 UTC
+2019-12-30 11:43:29.239   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.240   CNC 15   INF   Data: 2019-12-30 10:42:51.291384 +0000 UTC
+2019-12-30 11:43:29.244   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.244   CNC 15   INF   Data: 2019-12-30 10:42:59.872674 +0000 UTC
+2019-12-30 11:43:29.248   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.248   CNC 15   INF   Data: 2019-12-30 10:43:01.338053 +0000 UTC
+2019-12-30 11:43:29.252   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.253   CNC 15   INF   Data: 2019-12-30 10:43:09.676708 +0000 UTC
+2019-12-30 11:43:29.258   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.258   CNC 15   INF   Data: 2019-12-30 10:43:11.300448 +0000 UTC
+2019-12-30 11:43:29.262   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.263   CNC 15   INF   Data: 2019-12-30 10:43:19.528717 +0000 UTC
+2019-12-30 11:43:29.268   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.268   CNC 15   INF   Data: 2019-12-30 10:43:21.284731 +0000 UTC
+2019-12-30 11:43:29.273   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:29.279   CNC 15   INF   Processing takes 380.530641ms
+2019-12-30 11:43:29.279   CNC 15   INF   Sleeping for 9.619345583s
+2019-12-30 11:43:38.902   CNC 15   INF   Workplace still active
+2019-12-30 11:43:38.965   CNC 15   INF   Download and sort takes: 62.881169ms
+2019-12-30 11:43:38.987   CNC 15   INF   Data: 2019-12-30 10:39:01.515399 +0000 UTC
+2019-12-30 11:43:38.989   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:38.989   CNC 15   INF   Data: 2019-12-30 10:39:11.536446 +0000 UTC
+2019-12-30 11:43:38.995   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:38.995   CNC 15   INF   Data: 2019-12-30 10:39:21.497933 +0000 UTC
+2019-12-30 11:43:38.998   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:38.998   CNC 15   INF   Data: 2019-12-30 10:39:31.474771 +0000 UTC
+2019-12-30 11:43:39.001   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.001   CNC 15   INF   Data: 2019-12-30 10:39:41.509928 +0000 UTC
+2019-12-30 11:43:39.003   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.004   CNC 15   INF   Data: 2019-12-30 10:39:51.438354 +0000 UTC
+2019-12-30 11:43:39.006   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.006   CNC 15   INF   Data: 2019-12-30 10:40:01.519113 +0000 UTC
+2019-12-30 11:43:39.009   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.009   CNC 15   INF   Data: 2019-12-30 10:40:11.4378 +0000 UTC
+2019-12-30 11:43:39.013   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.013   CNC 15   INF   Data: 2019-12-30 10:40:21.472673 +0000 UTC
+2019-12-30 11:43:39.015   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.015   CNC 15   INF   Data: 2019-12-30 10:40:31.425942 +0000 UTC
+2019-12-30 11:43:39.017   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.017   CNC 15   INF   Data: 2019-12-30 10:40:41.447127 +0000 UTC
+2019-12-30 11:43:39.024   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.024   CNC 15   INF   Data: 2019-12-30 10:40:51.407702 +0000 UTC
+2019-12-30 11:43:39.027   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.027   CNC 15   INF   Data: 2019-12-30 10:41:01.402649 +0000 UTC
+2019-12-30 11:43:39.032   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.032   CNC 15   INF   Data: 2019-12-30 10:41:04.041588 +0000 UTC
+2019-12-30 11:43:39.034   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.034   CNC 15   INF   Data: 2019-12-30 10:41:11.405549 +0000 UTC
+2019-12-30 11:43:39.037   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.037   CNC 15   INF   Data: 2019-12-30 10:41:14.072392 +0000 UTC
+2019-12-30 11:43:39.039   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.039   CNC 15   INF   Data: 2019-12-30 10:41:21.360618 +0000 UTC
+2019-12-30 11:43:39.042   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.042   CNC 15   INF   Data: 2019-12-30 10:41:29.489086 +0000 UTC
+2019-12-30 11:43:39.046   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.046   CNC 15   INF   Data: 2019-12-30 10:41:31.352764 +0000 UTC
+2019-12-30 11:43:39.052   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.052   CNC 15   INF   Data: 2019-12-30 10:41:39.526272 +0000 UTC
+2019-12-30 11:43:39.057   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.057   CNC 15   INF   Data: 2019-12-30 10:41:41.358196 +0000 UTC
+2019-12-30 11:43:39.060   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.060   CNC 15   INF   Data: 2019-12-30 10:41:49.493675 +0000 UTC
+2019-12-30 11:43:39.063   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.063   CNC 15   INF   Data: 2019-12-30 10:41:51.350107 +0000 UTC
+2019-12-30 11:43:39.067   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.067   CNC 15   INF   Data: 2019-12-30 10:41:59.567904 +0000 UTC
+2019-12-30 11:43:39.070   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.070   CNC 15   INF   Data: 2019-12-30 10:42:01.40053 +0000 UTC
+2019-12-30 11:43:39.083   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.083   CNC 15   INF   Data: 2019-12-30 10:42:09.485964 +0000 UTC
+2019-12-30 11:43:39.089   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.089   CNC 15   INF   Data: 2019-12-30 10:42:11.325038 +0000 UTC
+2019-12-30 11:43:39.096   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.096   CNC 15   INF   Data: 2019-12-30 10:42:19.487574 +0000 UTC
+2019-12-30 11:43:39.101   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.101   CNC 15   INF   Data: 2019-12-30 10:42:21.317085 +0000 UTC
+2019-12-30 11:43:39.108   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.108   CNC 15   INF   Data: 2019-12-30 10:42:29.495281 +0000 UTC
+2019-12-30 11:43:39.115   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.115   CNC 15   INF   Data: 2019-12-30 10:42:31.317124 +0000 UTC
+2019-12-30 11:43:39.118   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.118   CNC 15   INF   Data: 2019-12-30 10:42:39.532483 +0000 UTC
+2019-12-30 11:43:39.123   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.123   CNC 15   INF   Data: 2019-12-30 10:42:41.31008 +0000 UTC
+2019-12-30 11:43:39.139   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.139   CNC 15   INF   Data: 2019-12-30 10:42:49.499396 +0000 UTC
+2019-12-30 11:43:39.142   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.142   CNC 15   INF   Data: 2019-12-30 10:42:51.291384 +0000 UTC
+2019-12-30 11:43:39.145   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.145   CNC 15   INF   Data: 2019-12-30 10:42:59.872674 +0000 UTC
+2019-12-30 11:43:39.155   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.155   CNC 15   INF   Data: 2019-12-30 10:43:01.338053 +0000 UTC
+2019-12-30 11:43:39.159   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.160   CNC 15   INF   Data: 2019-12-30 10:43:09.676708 +0000 UTC
+2019-12-30 11:43:39.165   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.165   CNC 15   INF   Data: 2019-12-30 10:43:11.300448 +0000 UTC
+2019-12-30 11:43:39.168   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.168   CNC 15   INF   Data: 2019-12-30 10:43:19.528717 +0000 UTC
+2019-12-30 11:43:39.180   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.180   CNC 15   INF   Data: 2019-12-30 10:43:21.284731 +0000 UTC
+2019-12-30 11:43:39.183   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.183   CNC 15   INF   Data: 2019-12-30 10:43:29.574696 +0000 UTC
+2019-12-30 11:43:39.186   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.186   CNC 15   INF   Data: 2019-12-30 10:43:31.245904 +0000 UTC
+2019-12-30 11:43:39.189   CNC 15   INF   Actual workplace state: Downtime
+2019-12-30 11:43:39.192   CNC 15   INF   Processing takes 289.787531ms
+2019-12-30 11:43:39.192   CNC 15   INF   Sleeping for 9.71010167s
