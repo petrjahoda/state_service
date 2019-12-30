@@ -82,8 +82,12 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	offlineInterval := actualWorkplaceMode.OfflineInterval
 	downtimeInterval := actualWorkplaceMode.DownTimeInterval
 	for _, actualData := range data {
+		if actualData.Type == offline {
+			workplace.OfflinePortDateTime = actualData.DateTime
+		} else if actualData.Type == production {
+			workplace.ProductionPortDateTime = actualData.DateTime
+		}
 		LogInfo(workplace.Name, "Data: "+actualData.DateTime.UTC().String())
-		UpdateDataForWorkplace(&workplace, db, actualData)
 		var actualState State
 		db.Where("id=?", workplace.ActualStateId).Find(&actualState)
 		LogInfo(workplace.Name, "Actual workplace state: "+actualState.Name)
@@ -167,6 +171,7 @@ func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, 
 	db.Save(&workplace)
 	var lastWorkplaceState WorkplaceState
 	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
+	LogDebug((*workplace).Name, "Last workplace state ID: "+strconv.Itoa(int(lastWorkplaceState.Id)))
 	if lastWorkplaceState.Id != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
 		lastWorkplaceState.DateTimeEnd = stateChangeTime
@@ -175,47 +180,4 @@ func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, 
 	}
 	newWorkplaceState := WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
-}
-
-func UpdateDataForWorkplace(workplace **Workplace, db *gorm.DB, actualData IntermediateData) {
-	initialRun := false
-	if (*workplace).ActualStateDateTime.IsZero() {
-		(*workplace).ActualStateDateTime = actualData.DateTime
-		initialRun = true
-	}
-	if (*workplace).ProductionPortDateTime.IsZero() {
-		(*workplace).ProductionPortDateTime = actualData.DateTime
-		initialRun = true
-	}
-	if (*workplace).OfflinePortDateTime.IsZero() {
-		(*workplace).OfflinePortDateTime = actualData.DateTime
-		initialRun = true
-	}
-	if (*workplace).ActualStateId == 0 {
-		var offlineState State
-		db.Where("name = ?", "Offline").Find(&offlineState)
-		(*workplace).ActualStateId = offlineState.ID
-		initialRun = true
-	}
-	if initialRun {
-		LogInfo((*workplace).Name, "Workplace initial data bad, updating")
-		db.Save(&workplace)
-	}
-	if actualData.Type == production && actualData.RawData == "1" {
-		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for production port")
-		(*workplace).ProductionPortValue = 1
-		(*workplace).ProductionPortDateTime = actualData.DateTime
-		db.Save(&workplace)
-	}
-	if actualData.Type == production && actualData.RawData == "0" {
-		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for production port")
-		(*workplace).ProductionPortValue = 0
-		(*workplace).ProductionPortDateTime = actualData.DateTime
-		db.Save(&workplace)
-	}
-	if actualData.Type == offline {
-		LogInfo((*workplace).Name, "Processing: "+actualData.DateTime.String()+" for offline port")
-		(*workplace).OfflinePortDateTime = actualData.DateTime
-		db.Save(&workplace)
-	}
 }

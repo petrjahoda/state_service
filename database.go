@@ -49,10 +49,10 @@ type WorkplacePort struct {
 
 type WorkplaceState struct {
 	Id            uint `gorm:"primary_key"`
-	WorkplaceId   uint `gorm:"unique_index:unique_workplace_state_start;unique_workplace_state_end"`
+	WorkplaceId   uint
 	StateId       uint
-	DateTimeStart time.Time `gorm:"unique_index:unique_workplace_state_start"`
-	DateTimeEnd   time.Time `gorm:"unique_index:unique_workplace_state_end"`
+	DateTimeStart time.Time
+	DateTimeEnd   time.Time
 	Interval      float32
 	Note          string
 }

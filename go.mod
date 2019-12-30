@@ -3,6 +3,7 @@ module state_service
 go 1.13
 
 require (
+	cloud.google.com/go v0.37.4
 	github.com/PaesslerAG/gval v1.0.1
 	github.com/dustin/go-humanize v1.0.0
 	github.com/fatih/color v1.7.0

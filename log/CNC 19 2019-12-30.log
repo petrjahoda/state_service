@@ -1,0 +1,1276 @@
+2019-12-30 09:27:06.921   CNC 19   INF   Workplace started running
+2019-12-30 09:27:07.006   CNC 19   INF   Download and sort takes: 85.002254ms
+2019-12-30 09:27:07.050   CNC 19   INF   Processing takes 128.752371ms
+2019-12-30 09:27:07.050   CNC 19   INF   Sleeping for 9.871034881s
+2019-12-30 09:27:16.921   CNC 19   INF   Workplace still active
+2019-12-30 09:27:17.045   CNC 19   INF   Download and sort takes: 123.482723ms
+2019-12-30 09:27:17.133   CNC 19   INF   Processing takes 212.024836ms
+2019-12-30 09:27:17.133   CNC 19   INF   Sleeping for 9.787812652s
+2019-12-30 09:27:26.926   CNC 19   INF   Workplace still active
+2019-12-30 09:27:27.011   CNC 19   INF   Download and sort takes: 84.910871ms
+2019-12-30 09:27:27.054   CNC 19   INF   Processing takes 127.268089ms
+2019-12-30 09:27:27.054   CNC 19   INF   Sleeping for 9.872621398s
+2019-12-30 09:27:36.928   CNC 19   INF   Workplace still active
+2019-12-30 09:27:37.065   CNC 19   INF   Download and sort takes: 136.502597ms
+2019-12-30 09:27:37.154   CNC 19   INF   Processing takes 225.334088ms
+2019-12-30 09:27:37.154   CNC 19   INF   Sleeping for 9.774505305s
+2019-12-30 09:27:46.930   CNC 19   INF   Workplace still active
+2019-12-30 09:27:47.008   CNC 19   INF   Download and sort takes: 77.483852ms
+2019-12-30 09:27:47.129   CNC 19   INF   Processing takes 198.738769ms
+2019-12-30 09:27:47.129   CNC 19   INF   Sleeping for 9.801054936s
+2019-12-30 09:27:56.934   CNC 19   INF   Workplace still active
+2019-12-30 09:27:57.045   CNC 19   INF   Download and sort takes: 109.859564ms
+2019-12-30 09:27:57.120   CNC 19   INF   Processing takes 184.973549ms
+2019-12-30 09:27:57.120   CNC 19   INF   Sleeping for 9.814775454s
+2019-12-30 09:28:04.013   CNC 19   INF   Workplace started running
+2019-12-30 09:28:04.070   CNC 19   INF   Download and sort takes: 55.999703ms
+2019-12-30 09:28:04.137   CNC 19   INF   Processing takes 123.677357ms
+2019-12-30 09:28:04.137   CNC 19   INF   Sleeping for 9.876168831s
+2019-12-30 09:28:14.017   CNC 19   INF   Workplace still active
+2019-12-30 09:28:14.062   CNC 19   INF   Download and sort takes: 44.854593ms
+2019-12-30 09:28:14.121   CNC 19   INF   Processing takes 104.395511ms
+2019-12-30 09:28:14.121   CNC 19   INF   Sleeping for 9.895376263s
+2019-12-30 09:28:24.017   CNC 19   INF   Workplace still active
+2019-12-30 09:28:24.123   CNC 19   INF   Download and sort takes: 105.257125ms
+2019-12-30 09:28:24.180   CNC 19   INF   Processing takes 162.25404ms
+2019-12-30 09:28:24.180   CNC 19   INF   Sleeping for 9.837609288s
+2019-12-30 09:28:34.019   CNC 19   INF   Workplace still active
+2019-12-30 09:28:34.174   CNC 19   INF   Download and sort takes: 154.623879ms
+2019-12-30 09:28:34.336   CNC 19   INF   Processing takes 316.454788ms
+2019-12-30 09:28:34.336   CNC 19   INF   Sleeping for 9.683225525s
+2019-12-30 09:28:44.022   CNC 19   INF   Workplace still active
+2019-12-30 09:28:44.217   CNC 19   INF   Download and sort takes: 195.120542ms
+2019-12-30 09:28:44.274   CNC 19   INF   Processing takes 251.590486ms
+2019-12-30 09:28:44.274   CNC 19   INF   Sleeping for 9.748271566s
+2019-12-30 09:28:54.024   CNC 19   INF   Workplace still active
+2019-12-30 09:28:54.098   CNC 19   INF   Download and sort takes: 73.793553ms
+2019-12-30 09:28:54.140   CNC 19   INF   Processing takes 116.055984ms
+2019-12-30 09:28:54.140   CNC 19   INF   Sleeping for 9.883760923s
+2019-12-30 09:29:04.024   CNC 19   INF   Workplace still active
+2019-12-30 09:29:04.094   CNC 19   INF   Download and sort takes: 68.989605ms
+2019-12-30 09:29:04.173   CNC 19   INF   Processing takes 148.744469ms
+2019-12-30 09:29:04.173   CNC 19   INF   Sleeping for 9.851130383s
+2019-12-30 09:29:14.028   CNC 19   INF   Workplace still active
+2019-12-30 09:29:14.202   CNC 19   INF   Download and sort takes: 173.978839ms
+2019-12-30 09:29:14.245   CNC 19   INF   Processing takes 217.682447ms
+2019-12-30 09:29:14.245   CNC 19   INF   Sleeping for 9.782206097s
+2019-12-30 09:29:24.029   CNC 19   INF   Workplace still active
+2019-12-30 09:29:24.147   CNC 19   INF   Download and sort takes: 117.94428ms
+2019-12-30 09:29:24.187   CNC 19   INF   Processing takes 157.646088ms
+2019-12-30 09:29:24.187   CNC 19   INF   Sleeping for 9.842225615s
+2019-12-30 09:29:34.031   CNC 19   INF   Workplace still active
+2019-12-30 09:29:34.211   CNC 19   INF   Download and sort takes: 179.417061ms
+2019-12-30 09:29:34.322   CNC 19   INF   Processing takes 290.58542ms
+2019-12-30 09:29:34.322   CNC 19   INF   Sleeping for 9.709278964s
+2019-12-30 09:29:44.034   CNC 19   INF   Workplace still active
+2019-12-30 09:29:44.230   CNC 19   INF   Download and sort takes: 196.318989ms
+2019-12-30 09:29:44.390   CNC 19   INF   Processing takes 356.322686ms
+2019-12-30 09:29:44.391   CNC 19   INF   Sleeping for 9.643441216s
+2019-12-30 09:29:54.038   CNC 19   INF   Workplace still active
+2019-12-30 09:29:54.406   CNC 19   INF   Download and sort takes: 368.042822ms
+2019-12-30 09:29:54.540   CNC 19   INF   Processing takes 501.024807ms
+2019-12-30 09:29:54.540   CNC 19   INF   Sleeping for 9.498376574s
+2019-12-30 09:30:04.040   CNC 19   INF   Workplace still active
+2019-12-30 09:30:04.206   CNC 19   INF   Download and sort takes: 165.850223ms
+2019-12-30 09:30:04.298   CNC 19   INF   Processing takes 258.382917ms
+2019-12-30 09:30:04.299   CNC 19   INF   Sleeping for 9.741421507s
+2019-12-30 09:30:14.041   CNC 19   INF   Workplace still active
+2019-12-30 09:30:14.109   CNC 19   INF   Download and sort takes: 67.756293ms
+2019-12-30 09:30:14.174   CNC 19   INF   Processing takes 132.711376ms
+2019-12-30 09:30:14.174   CNC 19   INF   Sleeping for 9.867178382s
+2019-12-30 09:30:24.043   CNC 19   INF   Workplace still active
+2019-12-30 09:30:24.074   CNC 19   INF   Download and sort takes: 31.327047ms
+2019-12-30 09:30:24.108   CNC 19   INF   Processing takes 64.578568ms
+2019-12-30 09:30:24.108   CNC 19   INF   Sleeping for 9.935295149s
+2019-12-30 09:30:58.556   CNC 19   INF   Workplace started running
+2019-12-30 09:30:58.656   CNC 19   INF   Download and sort takes: 100.474943ms
+2019-12-30 09:30:58.717   CNC 19   INF   Changing state ==> Offline at 0001-01-01 00:57:44 +0057 LMT
+2019-12-30 09:30:58.798   CNC 19   INF   Processing takes 241.985326ms
+2019-12-30 09:30:58.798   CNC 19   INF   Sleeping for 9.757888469s
+2019-12-30 09:31:08.559   CNC 19   INF   Workplace still active
+2019-12-30 09:31:08.645   CNC 19   INF   Download and sort takes: 85.638356ms
+2019-12-30 09:31:08.697   CNC 19   INF   Processing takes 137.079477ms
+2019-12-30 09:31:08.697   CNC 19   INF   Sleeping for 9.862747467s
+2019-12-30 09:31:18.562   CNC 19   INF   Workplace still active
+2019-12-30 09:31:18.616   CNC 19   INF   Download and sort takes: 54.544481ms
+2019-12-30 09:31:18.706   CNC 19   INF   Processing takes 144.73281ms
+2019-12-30 09:31:18.707   CNC 19   INF   Sleeping for 9.855118474s
+2019-12-30 09:31:28.563   CNC 19   INF   Workplace still active
+2019-12-30 09:31:28.604   CNC 19   INF   Download and sort takes: 40.756291ms
+2019-12-30 09:31:28.679   CNC 19   INF   Processing takes 115.347194ms
+2019-12-30 09:31:28.679   CNC 19   INF   Sleeping for 9.884557627s
+2019-12-30 09:31:38.563   CNC 19   INF   Workplace still active
+2019-12-30 09:31:38.603   CNC 19   INF   Download and sort takes: 39.799268ms
+2019-12-30 09:31:38.631   CNC 19   INF   Processing takes 67.027384ms
+2019-12-30 09:31:38.631   CNC 19   INF   Sleeping for 9.932878958s
+2019-12-30 09:31:48.566   CNC 19   INF   Workplace still active
+2019-12-30 09:31:48.622   CNC 19   INF   Download and sort takes: 56.394863ms
+2019-12-30 09:31:48.699   CNC 19   INF   Processing takes 132.830761ms
+2019-12-30 09:31:48.699   CNC 19   INF   Sleeping for 9.866997959s
+2019-12-30 09:31:58.571   CNC 19   INF   Workplace still active
+2019-12-30 09:31:58.655   CNC 19   INF   Download and sort takes: 83.755554ms
+2019-12-30 09:31:58.682   CNC 19   INF   Processing takes 111.087687ms
+2019-12-30 09:31:58.682   CNC 19   INF   Sleeping for 9.888817597s
+2019-12-30 09:32:08.574   CNC 19   INF   Workplace still active
+2019-12-30 09:32:08.661   CNC 19   INF   Download and sort takes: 87.137152ms
+2019-12-30 09:32:08.777   CNC 19   INF   Processing takes 203.081438ms
+2019-12-30 09:32:08.777   CNC 19   INF   Sleeping for 9.796797651s
+2019-12-30 09:32:18.578   CNC 19   INF   Workplace still active
+2019-12-30 09:32:18.654   CNC 19   INF   Download and sort takes: 76.377158ms
+2019-12-30 09:32:18.708   CNC 19   INF   Processing takes 129.547773ms
+2019-12-30 09:32:18.708   CNC 19   INF   Sleeping for 9.870355033s
+2019-12-30 09:32:28.582   CNC 19   INF   Workplace still active
+2019-12-30 09:32:28.666   CNC 19   INF   Download and sort takes: 83.630023ms
+2019-12-30 09:32:28.740   CNC 19   INF   Processing takes 157.387387ms
+2019-12-30 09:32:28.740   CNC 19   INF   Sleeping for 9.842513482s
+2019-12-30 09:32:38.589   CNC 19   INF   Workplace still active
+2019-12-30 09:32:38.649   CNC 19   INF   Download and sort takes: 60.00938ms
+2019-12-30 09:32:38.730   CNC 19   INF   Processing takes 140.970711ms
+2019-12-30 09:32:38.730   CNC 19   INF   Sleeping for 9.858928575s
+2019-12-30 09:33:54.713   CNC 19   INF   Workplace started running
+2019-12-30 09:33:54.820   CNC 19   INF   Download and sort takes: 106.980746ms
+2019-12-30 09:33:54.871   CNC 19   INF   Changing state ==> Offline at 0001-01-01 00:57:44 +0057 LMT
+2019-12-30 09:33:54.941   CNC 19   INF   Processing takes 227.904512ms
+2019-12-30 09:33:54.941   CNC 19   INF   Sleeping for 9.771946282s
+2019-12-30 09:35:55.981   CNC 19   INF   Workplace started running
+2019-12-30 09:35:56.059   CNC 19   INF   Download and sort takes: 78.15377ms
+2019-12-30 09:35:56.138   CNC 19   INF   Changing state ==> Offline at 0001-01-01 00:57:44 +0057 LMT
+2019-12-30 09:35:56.201   CNC 19   INF   Processing takes 220.061367ms
+2019-12-30 09:35:56.201   CNC 19   INF   Sleeping for 9.779606173s
+2019-12-30 09:39:04.876   CNC 19   INF   Workplace started running
+2019-12-30 09:39:04.936   CNC 19   INF   Download and sort takes: 60.01378ms
+2019-12-30 09:39:04.983   CNC 19   INF   Data: 2019-12-30 08:38:59.970853 +0000 UTC
+2019-12-30 09:39:04.983   CNC 19   INF   Workplace initial data bad, updating
+2019-12-30 09:39:04.990   CNC 19   INF   Processing: 2019-12-30 09:38:59.970853 +0100 CET for offline port
+2019-12-30 09:39:05.003   CNC 19   INF   Actual workplace state: Offline
+2019-12-30 09:39:05.004   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 09:38:59.970853 +0100 CET
+2019-12-30 09:39:05.038   CNC 19   INF   Processing takes 161.988941ms
+2019-12-30 09:39:05.039   CNC 19   INF   Sleeping for 9.837715156s
+2019-12-30 09:40:30.585   CNC 19   INF   Workplace started running
+2019-12-30 09:40:30.695   CNC 19   INF   Download and sort takes: 109.184852ms
+2019-12-30 09:40:30.811   CNC 19   INF   Data: 2019-12-30 08:38:59.970853 +0000 UTC
+2019-12-30 09:40:30.811   CNC 19   INF   Processing: 2019-12-30 09:38:59.970853 +0100 CET for offline port
+2019-12-30 09:40:30.838   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.839   CNC 19   INF   Data: 2019-12-30 08:39:09.987554 +0000 UTC
+2019-12-30 09:40:30.839   CNC 19   INF   Processing: 2019-12-30 09:39:09.987554 +0100 CET for offline port
+2019-12-30 09:40:30.865   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.866   CNC 19   INF   Data: 2019-12-30 08:39:19.975069 +0000 UTC
+2019-12-30 09:40:30.866   CNC 19   INF   Processing: 2019-12-30 09:39:19.975069 +0100 CET for offline port
+2019-12-30 09:40:30.880   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.881   CNC 19   INF   Data: 2019-12-30 08:39:30.001104 +0000 UTC
+2019-12-30 09:40:30.881   CNC 19   INF   Processing: 2019-12-30 09:39:30.001104 +0100 CET for offline port
+2019-12-30 09:40:30.898   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.898   CNC 19   INF   Data: 2019-12-30 08:39:40.002124 +0000 UTC
+2019-12-30 09:40:30.898   CNC 19   INF   Processing: 2019-12-30 09:39:40.002124 +0100 CET for offline port
+2019-12-30 09:40:30.906   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.906   CNC 19   INF   Data: 2019-12-30 08:39:50.015261 +0000 UTC
+2019-12-30 09:40:30.906   CNC 19   INF   Processing: 2019-12-30 09:39:50.015261 +0100 CET for offline port
+2019-12-30 09:40:30.922   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.923   CNC 19   INF   Data: 2019-12-30 08:39:59.994142 +0000 UTC
+2019-12-30 09:40:30.923   CNC 19   INF   Processing: 2019-12-30 09:39:59.994142 +0100 CET for offline port
+2019-12-30 09:40:30.930   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.930   CNC 19   INF   Data: 2019-12-30 08:40:10.008755 +0000 UTC
+2019-12-30 09:40:30.930   CNC 19   INF   Processing: 2019-12-30 09:40:10.008755 +0100 CET for offline port
+2019-12-30 09:40:30.945   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.945   CNC 19   INF   Data: 2019-12-30 08:40:19.992784 +0000 UTC
+2019-12-30 09:40:30.945   CNC 19   INF   Processing: 2019-12-30 09:40:19.992784 +0100 CET for offline port
+2019-12-30 09:40:30.959   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.959   CNC 19   INF   Data: 2019-12-30 08:40:29.995987 +0000 UTC
+2019-12-30 09:40:30.959   CNC 19   INF   Processing: 2019-12-30 09:40:29.995987 +0100 CET for offline port
+2019-12-30 09:40:30.971   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:30.976   CNC 19   INF   Processing takes 390.832785ms
+2019-12-30 09:40:30.976   CNC 19   INF   Sleeping for 9.609009735s
+2019-12-30 09:40:49.369   CNC 19   INF   Workplace started running
+2019-12-30 09:40:49.417   CNC 19   INF   Download and sort takes: 47.730876ms
+2019-12-30 09:40:49.491   CNC 19   INF   Data: 2019-12-30 08:38:59.970853 +0000 UTC
+2019-12-30 09:40:49.502   CNC 19   INF   Workplace initial data bad, updating
+2019-12-30 09:40:49.519   CNC 19   INF   Processing: 2019-12-30 09:38:59.970853 +0100 CET for offline port
+2019-12-30 09:40:49.528   CNC 19   INF   Actual workplace state: Offline
+2019-12-30 09:40:49.528   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 09:38:59.970853 +0100 CET
+2019-12-30 09:40:49.573   CNC 19   INF   Data: 2019-12-30 08:39:09.987554 +0000 UTC
+2019-12-30 09:40:49.573   CNC 19   INF   Processing: 2019-12-30 09:39:09.987554 +0100 CET for offline port
+2019-12-30 09:40:49.595   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.595   CNC 19   INF   Data: 2019-12-30 08:39:19.975069 +0000 UTC
+2019-12-30 09:40:49.595   CNC 19   INF   Processing: 2019-12-30 09:39:19.975069 +0100 CET for offline port
+2019-12-30 09:40:49.611   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.611   CNC 19   INF   Data: 2019-12-30 08:39:30.001104 +0000 UTC
+2019-12-30 09:40:49.612   CNC 19   INF   Processing: 2019-12-30 09:39:30.001104 +0100 CET for offline port
+2019-12-30 09:40:49.631   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.631   CNC 19   INF   Data: 2019-12-30 08:39:40.002124 +0000 UTC
+2019-12-30 09:40:49.631   CNC 19   INF   Processing: 2019-12-30 09:39:40.002124 +0100 CET for offline port
+2019-12-30 09:40:49.642   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.642   CNC 19   INF   Data: 2019-12-30 08:39:50.015261 +0000 UTC
+2019-12-30 09:40:49.642   CNC 19   INF   Processing: 2019-12-30 09:39:50.015261 +0100 CET for offline port
+2019-12-30 09:40:49.652   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.652   CNC 19   INF   Data: 2019-12-30 08:39:59.994142 +0000 UTC
+2019-12-30 09:40:49.652   CNC 19   INF   Processing: 2019-12-30 09:39:59.994142 +0100 CET for offline port
+2019-12-30 09:40:49.668   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.668   CNC 19   INF   Data: 2019-12-30 08:40:10.008755 +0000 UTC
+2019-12-30 09:40:49.668   CNC 19   INF   Processing: 2019-12-30 09:40:10.008755 +0100 CET for offline port
+2019-12-30 09:40:49.675   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.676   CNC 19   INF   Data: 2019-12-30 08:40:19.992784 +0000 UTC
+2019-12-30 09:40:49.676   CNC 19   INF   Processing: 2019-12-30 09:40:19.992784 +0100 CET for offline port
+2019-12-30 09:40:49.688   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.689   CNC 19   INF   Data: 2019-12-30 08:40:29.995987 +0000 UTC
+2019-12-30 09:40:49.689   CNC 19   INF   Processing: 2019-12-30 09:40:29.995987 +0100 CET for offline port
+2019-12-30 09:40:49.700   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.700   CNC 19   INF   Data: 2019-12-30 08:40:39.994615 +0000 UTC
+2019-12-30 09:40:49.700   CNC 19   INF   Processing: 2019-12-30 09:40:39.994615 +0100 CET for offline port
+2019-12-30 09:40:49.708   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:40:49.711   CNC 19   INF   Processing takes 341.344997ms
+2019-12-30 09:40:49.711   CNC 19   INF   Sleeping for 9.658128754s
+2019-12-30 09:43:58.563   CNC 19   INF   Workplace started running
+2019-12-30 09:43:58.698   CNC 19   INF   Download and sort takes: 134.318574ms
+2019-12-30 09:43:58.752   CNC 19   INF   Data: 2019-12-30 08:38:59.970853 +0000 UTC
+2019-12-30 09:43:58.760   CNC 19   INF   Workplace initial data bad, updating
+2019-12-30 09:43:58.775   CNC 19   INF   Processing: 2019-12-30 09:38:59.970853 +0100 CET for offline port
+2019-12-30 09:43:58.795   CNC 19   INF   Actual workplace state: Offline
+2019-12-30 09:43:58.796   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 09:38:59.970853 +0100 CET
+2019-12-30 09:43:58.867   CNC 19   INF   Data: 2019-12-30 08:39:09.987554 +0000 UTC
+2019-12-30 09:43:58.867   CNC 19   INF   Processing: 2019-12-30 09:39:09.987554 +0100 CET for offline port
+2019-12-30 09:43:58.906   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.907   CNC 19   INF   Data: 2019-12-30 08:39:19.975069 +0000 UTC
+2019-12-30 09:43:58.907   CNC 19   INF   Processing: 2019-12-30 09:39:19.975069 +0100 CET for offline port
+2019-12-30 09:43:58.924   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.924   CNC 19   INF   Data: 2019-12-30 08:39:30.001104 +0000 UTC
+2019-12-30 09:43:58.924   CNC 19   INF   Processing: 2019-12-30 09:39:30.001104 +0100 CET for offline port
+2019-12-30 09:43:58.945   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.945   CNC 19   INF   Data: 2019-12-30 08:39:40.002124 +0000 UTC
+2019-12-30 09:43:58.946   CNC 19   INF   Processing: 2019-12-30 09:39:40.002124 +0100 CET for offline port
+2019-12-30 09:43:58.955   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.955   CNC 19   INF   Data: 2019-12-30 08:39:50.015261 +0000 UTC
+2019-12-30 09:43:58.955   CNC 19   INF   Processing: 2019-12-30 09:39:50.015261 +0100 CET for offline port
+2019-12-30 09:43:58.972   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.972   CNC 19   INF   Data: 2019-12-30 08:39:59.994142 +0000 UTC
+2019-12-30 09:43:58.972   CNC 19   INF   Processing: 2019-12-30 09:39:59.994142 +0100 CET for offline port
+2019-12-30 09:43:58.982   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:58.982   CNC 19   INF   Data: 2019-12-30 08:40:10.008755 +0000 UTC
+2019-12-30 09:43:58.982   CNC 19   INF   Processing: 2019-12-30 09:40:10.008755 +0100 CET for offline port
+2019-12-30 09:43:59.002   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.002   CNC 19   INF   Data: 2019-12-30 08:40:19.992784 +0000 UTC
+2019-12-30 09:43:59.002   CNC 19   INF   Processing: 2019-12-30 09:40:19.992784 +0100 CET for offline port
+2019-12-30 09:43:59.030   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.031   CNC 19   INF   Data: 2019-12-30 08:40:29.995987 +0000 UTC
+2019-12-30 09:43:59.031   CNC 19   INF   Processing: 2019-12-30 09:40:29.995987 +0100 CET for offline port
+2019-12-30 09:43:59.060   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.060   CNC 19   INF   Data: 2019-12-30 08:40:39.994615 +0000 UTC
+2019-12-30 09:43:59.060   CNC 19   INF   Processing: 2019-12-30 09:40:39.994615 +0100 CET for offline port
+2019-12-30 09:43:59.088   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.088   CNC 19   INF   Data: 2019-12-30 08:40:50.097735 +0000 UTC
+2019-12-30 09:43:59.089   CNC 19   INF   Processing: 2019-12-30 09:40:50.097735 +0100 CET for offline port
+2019-12-30 09:43:59.118   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.118   CNC 19   INF   Data: 2019-12-30 08:41:00.001705 +0000 UTC
+2019-12-30 09:43:59.118   CNC 19   INF   Processing: 2019-12-30 09:41:00.001705 +0100 CET for offline port
+2019-12-30 09:43:59.147   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.147   CNC 19   INF   Data: 2019-12-30 08:41:10.015646 +0000 UTC
+2019-12-30 09:43:59.147   CNC 19   INF   Processing: 2019-12-30 09:41:10.015646 +0100 CET for offline port
+2019-12-30 09:43:59.166   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.166   CNC 19   INF   Data: 2019-12-30 08:41:20.021937 +0000 UTC
+2019-12-30 09:43:59.166   CNC 19   INF   Processing: 2019-12-30 09:41:20.021937 +0100 CET for offline port
+2019-12-30 09:43:59.192   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.192   CNC 19   INF   Data: 2019-12-30 08:41:30.007593 +0000 UTC
+2019-12-30 09:43:59.192   CNC 19   INF   Processing: 2019-12-30 09:41:30.007593 +0100 CET for offline port
+2019-12-30 09:43:59.208   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.208   CNC 19   INF   Data: 2019-12-30 08:41:40.009717 +0000 UTC
+2019-12-30 09:43:59.208   CNC 19   INF   Processing: 2019-12-30 09:41:40.009717 +0100 CET for offline port
+2019-12-30 09:43:59.223   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.223   CNC 19   INF   Data: 2019-12-30 08:41:50.004203 +0000 UTC
+2019-12-30 09:43:59.223   CNC 19   INF   Processing: 2019-12-30 09:41:50.004203 +0100 CET for offline port
+2019-12-30 09:43:59.244   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.244   CNC 19   INF   Data: 2019-12-30 08:42:00.009282 +0000 UTC
+2019-12-30 09:43:59.244   CNC 19   INF   Processing: 2019-12-30 09:42:00.009282 +0100 CET for offline port
+2019-12-30 09:43:59.260   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.261   CNC 19   INF   Data: 2019-12-30 08:42:10.012991 +0000 UTC
+2019-12-30 09:43:59.261   CNC 19   INF   Processing: 2019-12-30 09:42:10.012991 +0100 CET for offline port
+2019-12-30 09:43:59.288   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.289   CNC 19   INF   Data: 2019-12-30 08:42:20.020166 +0000 UTC
+2019-12-30 09:43:59.289   CNC 19   INF   Processing: 2019-12-30 09:42:20.020166 +0100 CET for offline port
+2019-12-30 09:43:59.305   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.305   CNC 19   INF   Data: 2019-12-30 08:42:30.020943 +0000 UTC
+2019-12-30 09:43:59.305   CNC 19   INF   Processing: 2019-12-30 09:42:30.020943 +0100 CET for offline port
+2019-12-30 09:43:59.336   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.336   CNC 19   INF   Data: 2019-12-30 08:42:40.04096 +0000 UTC
+2019-12-30 09:43:59.336   CNC 19   INF   Processing: 2019-12-30 09:42:40.04096 +0100 CET for offline port
+2019-12-30 09:43:59.359   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.359   CNC 19   INF   Data: 2019-12-30 08:42:50.07678 +0000 UTC
+2019-12-30 09:43:59.359   CNC 19   INF   Processing: 2019-12-30 09:42:50.07678 +0100 CET for offline port
+2019-12-30 09:43:59.378   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.378   CNC 19   INF   Data: 2019-12-30 08:43:00.03966 +0000 UTC
+2019-12-30 09:43:59.378   CNC 19   INF   Processing: 2019-12-30 09:43:00.03966 +0100 CET for offline port
+2019-12-30 09:43:59.393   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.394   CNC 19   INF   Data: 2019-12-30 08:43:10.080716 +0000 UTC
+2019-12-30 09:43:59.394   CNC 19   INF   Processing: 2019-12-30 09:43:10.080716 +0100 CET for offline port
+2019-12-30 09:43:59.451   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.451   CNC 19   INF   Data: 2019-12-30 08:43:20.067258 +0000 UTC
+2019-12-30 09:43:59.451   CNC 19   INF   Processing: 2019-12-30 09:43:20.067258 +0100 CET for offline port
+2019-12-30 09:43:59.485   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.485   CNC 19   INF   Data: 2019-12-30 08:43:30.049829 +0000 UTC
+2019-12-30 09:43:59.485   CNC 19   INF   Processing: 2019-12-30 09:43:30.049829 +0100 CET for offline port
+2019-12-30 09:43:59.508   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.508   CNC 19   INF   Data: 2019-12-30 08:43:40.075356 +0000 UTC
+2019-12-30 09:43:59.508   CNC 19   INF   Processing: 2019-12-30 09:43:40.075356 +0100 CET for offline port
+2019-12-30 09:43:59.518   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.518   CNC 19   INF   Data: 2019-12-30 08:43:50.069674 +0000 UTC
+2019-12-30 09:43:59.518   CNC 19   INF   Processing: 2019-12-30 09:43:50.069674 +0100 CET for offline port
+2019-12-30 09:43:59.535   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 09:43:59.538   CNC 19   INF   Processing takes 974.725326ms
+2019-12-30 09:43:59.538   CNC 19   INF   Sleeping for 9.025152251s
+2019-12-30 10:31:30.307   CNC 19   INF   Workplace started running
+2019-12-30 10:31:30.409   CNC 19   INF   Download and sort takes: 101.484317ms
+2019-12-30 10:31:30.499   CNC 19   INF   Data: 2019-12-30 09:31:19.350623 +0000 UTC
+2019-12-30 10:31:30.499   CNC 19   INF   Workplace initial data bad, updating
+2019-12-30 10:31:30.515   CNC 19   INF   Processing: 2019-12-30 10:31:19.350623 +0100 CET for offline port
+2019-12-30 10:31:30.549   CNC 19   INF   Actual workplace state: Offline
+2019-12-30 10:31:30.549   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 10:31:19.350623 +0100 CET
+2019-12-30 10:31:30.587   CNC 19   INF   Data: 2019-12-30 09:31:19.350623 +0000 UTC
+2019-12-30 10:31:30.587   CNC 19   INF   Processing: 2019-12-30 10:31:19.350623 +0100 CET for production port
+2019-12-30 10:31:30.600   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 10:31:30.601   CNC 19   INF   Changing state ==> Production at 2019-12-30 10:31:19.350623 +0100 CET
+2019-12-30 10:31:30.627   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:31:30.627   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:31:30.634   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:30.634   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:30.634   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:31:30.656   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:30.656   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:30.656   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:31:30.663   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:30.663   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:31:30.664   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:31:30.672   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:30.676   CNC 19   INF   Processing takes 369.050188ms
+2019-12-30 10:31:30.677   CNC 19   INF   Sleeping for 9.63055477s
+2019-12-30 10:31:40.308   CNC 19   INF   Workplace still active
+2019-12-30 10:31:40.457   CNC 19   INF   Download and sort takes: 148.458696ms
+2019-12-30 10:31:40.489   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:31:40.489   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:31:40.508   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:40.508   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:40.508   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:31:40.527   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:40.527   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:40.527   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:31:40.533   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:40.533   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:31:40.533   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:31:40.539   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:40.540   CNC 19   INF   Processing takes 231.548364ms
+2019-12-30 10:31:40.540   CNC 19   INF   Sleeping for 9.768358982s
+2019-12-30 10:31:50.311   CNC 19   INF   Workplace still active
+2019-12-30 10:31:50.345   CNC 19   INF   Download and sort takes: 33.866286ms
+2019-12-30 10:31:50.357   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:31:50.358   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:31:50.364   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:50.364   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:50.364   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:31:50.372   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:50.372   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:31:50.373   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:31:50.380   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:50.380   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:31:50.380   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:31:50.388   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:31:50.393   CNC 19   INF   Processing takes 81.929285ms
+2019-12-30 10:31:50.393   CNC 19   INF   Sleeping for 9.917900806s
+2019-12-30 10:32:00.312   CNC 19   INF   Workplace still active
+2019-12-30 10:32:00.420   CNC 19   INF   Download and sort takes: 108.434582ms
+2019-12-30 10:32:00.490   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:00.490   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:00.499   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:00.499   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:00.499   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:00.511   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:00.511   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:00.511   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:00.524   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:00.524   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:00.524   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:00.529   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:00.531   CNC 19   INF   Processing takes 219.140737ms
+2019-12-30 10:32:00.531   CNC 19   INF   Sleeping for 9.780753187s
+2019-12-30 10:32:10.312   CNC 19   INF   Workplace still active
+2019-12-30 10:32:10.392   CNC 19   INF   Download and sort takes: 79.336274ms
+2019-12-30 10:32:10.443   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:10.443   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:10.459   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:10.459   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:10.459   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:10.471   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:10.471   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:10.471   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:10.491   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:10.491   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:10.492   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:10.501   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:10.504   CNC 19   INF   Processing takes 191.404175ms
+2019-12-30 10:32:10.504   CNC 19   INF   Sleeping for 9.808484233s
+2019-12-30 10:32:20.313   CNC 19   INF   Workplace still active
+2019-12-30 10:32:20.410   CNC 19   INF   Download and sort takes: 96.620857ms
+2019-12-30 10:32:20.433   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:20.433   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:20.461   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:20.462   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:20.463   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:20.481   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:20.481   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:20.482   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:20.500   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:20.500   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:20.500   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:20.518   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:20.522   CNC 19   INF   Processing takes 208.758262ms
+2019-12-30 10:32:20.522   CNC 19   INF   Sleeping for 9.791152593s
+2019-12-30 10:32:30.313   CNC 19   INF   Workplace still active
+2019-12-30 10:32:30.370   CNC 19   INF   Download and sort takes: 56.508281ms
+2019-12-30 10:32:30.431   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:30.431   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:30.451   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:30.451   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:30.451   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:30.466   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:30.466   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:30.466   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:30.475   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:30.475   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:30.475   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:30.483   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:30.485   CNC 19   INF   Processing takes 171.528033ms
+2019-12-30 10:32:30.485   CNC 19   INF   Sleeping for 9.828278319s
+2019-12-30 10:32:40.314   CNC 19   INF   Workplace still active
+2019-12-30 10:32:40.359   CNC 19   INF   Download and sort takes: 44.319445ms
+2019-12-30 10:32:40.398   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:40.399   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:40.420   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:40.420   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:40.420   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:40.436   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:40.436   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:40.436   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:40.451   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:40.451   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:40.451   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:40.478   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:40.481   CNC 19   INF   Processing takes 166.661098ms
+2019-12-30 10:32:40.481   CNC 19   INF   Sleeping for 9.833239049s
+2019-12-30 10:32:50.317   CNC 19   INF   Workplace still active
+2019-12-30 10:32:50.372   CNC 19   INF   Download and sort takes: 53.835396ms
+2019-12-30 10:32:50.422   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:32:50.423   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:32:50.445   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:50.445   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:50.445   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:32:50.465   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:50.465   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:32:50.466   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:32:50.478   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:50.478   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:32:50.479   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:32:50.503   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:32:50.506   CNC 19   INF   Processing takes 188.334172ms
+2019-12-30 10:32:50.506   CNC 19   INF   Sleeping for 9.811502431s
+2019-12-30 10:33:00.320   CNC 19   INF   Workplace still active
+2019-12-30 10:33:00.386   CNC 19   INF   Download and sort takes: 66.303711ms
+2019-12-30 10:33:00.438   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:33:00.438   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:33:00.457   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:00.457   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:00.457   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:33:00.465   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:00.465   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:00.465   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:33:00.477   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:00.477   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:33:00.477   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:33:00.487   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:00.491   CNC 19   INF   Processing takes 171.061523ms
+2019-12-30 10:33:00.491   CNC 19   INF   Sleeping for 9.828564005s
+2019-12-30 10:33:10.320   CNC 19   INF   Workplace still active
+2019-12-30 10:33:10.440   CNC 19   INF   Download and sort takes: 119.688926ms
+2019-12-30 10:33:10.496   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:33:10.496   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:33:10.521   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:10.522   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:10.522   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:33:10.545   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:10.545   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:10.545   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:33:10.554   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:10.555   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:33:10.555   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:33:10.562   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:10.564   CNC 19   INF   Processing takes 243.54595ms
+2019-12-30 10:33:10.564   CNC 19   INF   Sleeping for 9.756335153s
+2019-12-30 10:33:20.321   CNC 19   INF   Workplace still active
+2019-12-30 10:33:20.376   CNC 19   INF   Download and sort takes: 55.12558ms
+2019-12-30 10:33:20.446   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:33:20.446   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:33:20.482   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:20.482   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:20.482   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:33:20.505   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:20.506   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:20.506   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:33:20.524   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:20.524   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:33:20.524   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:33:20.531   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:20.540   CNC 19   INF   Processing takes 219.036272ms
+2019-12-30 10:33:20.541   CNC 19   INF   Sleeping for 9.78032033s
+2019-12-30 10:33:30.321   CNC 19   INF   Workplace still active
+2019-12-30 10:33:30.384   CNC 19   INF   Download and sort takes: 62.207363ms
+2019-12-30 10:33:30.421   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:33:30.421   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:33:30.433   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:30.434   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:30.434   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:33:30.447   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:30.447   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:30.447   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:33:30.456   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:30.456   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:33:30.456   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:33:30.466   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:30.470   CNC 19   INF   Processing takes 148.269936ms
+2019-12-30 10:33:30.470   CNC 19   INF   Sleeping for 9.851412445s
+2019-12-30 10:33:40.322   CNC 19   INF   Workplace still active
+2019-12-30 10:33:40.396   CNC 19   INF   Download and sort takes: 73.905254ms
+2019-12-30 10:33:40.464   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:33:40.464   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:33:40.485   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:40.486   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:40.486   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:33:40.497   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:40.497   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:33:40.497   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:33:40.509   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:40.509   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:33:40.509   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:33:40.517   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:33:40.519   CNC 19   INF   Processing takes 196.82064ms
+2019-12-30 10:33:40.519   CNC 19   INF   Sleeping for 9.803067818s
+2019-12-30 10:34:36.652   CNC 19   INF   Workplace started running
+2019-12-30 10:34:36.732   CNC 19   INF   Download and sort takes: 79.679718ms
+2019-12-30 10:34:36.755   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:34:36.755   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:34:36.769   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:36.769   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:36.769   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:34:36.777   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:36.777   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:36.777   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:34:36.788   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:36.788   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:34:36.789   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:34:36.803   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:36.810   CNC 19   INF   Processing takes 157.527858ms
+2019-12-30 10:34:36.810   CNC 19   INF   Sleeping for 9.842289187s
+2019-12-30 10:34:46.653   CNC 19   INF   Workplace still active
+2019-12-30 10:34:46.728   CNC 19   INF   Download and sort takes: 74.489549ms
+2019-12-30 10:34:46.774   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:34:46.774   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:34:46.796   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:46.797   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:46.797   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:34:46.808   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:46.809   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:46.809   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:34:46.816   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:46.816   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:34:46.816   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:34:46.821   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:46.824   CNC 19   INF   Processing takes 170.568102ms
+2019-12-30 10:34:46.824   CNC 19   INF   Sleeping for 9.829173024s
+2019-12-30 10:34:56.655   CNC 19   INF   Workplace still active
+2019-12-30 10:34:56.793   CNC 19   INF   Download and sort takes: 137.982763ms
+2019-12-30 10:34:56.831   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:34:56.831   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:34:56.848   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:56.848   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:56.848   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:34:56.877   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:56.877   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:34:56.877   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:34:56.888   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:56.888   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:34:56.888   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:34:56.899   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:34:56.902   CNC 19   INF   Processing takes 246.35835ms
+2019-12-30 10:34:56.902   CNC 19   INF   Sleeping for 9.753445697s
+2019-12-30 10:35:06.657   CNC 19   INF   Workplace still active
+2019-12-30 10:35:06.766   CNC 19   INF   Download and sort takes: 108.260227ms
+2019-12-30 10:35:06.837   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:06.838   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:06.859   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:06.860   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:06.861   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:06.877   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:06.877   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:06.877   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:06.890   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:06.890   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:06.890   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:06.906   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:06.909   CNC 19   INF   Processing takes 251.511163ms
+2019-12-30 10:35:06.909   CNC 19   INF   Sleeping for 9.748268151s
+2019-12-30 10:35:16.659   CNC 19   INF   Workplace still active
+2019-12-30 10:35:16.699   CNC 19   INF   Download and sort takes: 40.264441ms
+2019-12-30 10:35:16.779   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:16.780   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:16.792   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:16.792   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:16.792   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:16.799   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:16.799   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:16.799   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:16.808   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:16.809   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:16.809   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:16.820   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:16.822   CNC 19   INF   Processing takes 162.778277ms
+2019-12-30 10:35:16.822   CNC 19   INF   Sleeping for 9.837098516s
+2019-12-30 10:35:26.662   CNC 19   INF   Workplace still active
+2019-12-30 10:35:26.738   CNC 19   INF   Download and sort takes: 76.328516ms
+2019-12-30 10:35:26.785   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:26.785   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:26.804   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:26.804   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:26.804   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:26.827   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:26.828   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:26.828   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:26.841   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:26.841   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:26.841   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:26.857   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:26.860   CNC 19   INF   Processing takes 198.067099ms
+2019-12-30 10:35:26.860   CNC 19   INF   Sleeping for 9.801806161s
+2019-12-30 10:35:36.662   CNC 19   INF   Workplace still active
+2019-12-30 10:35:36.737   CNC 19   INF   Download and sort takes: 74.939029ms
+2019-12-30 10:35:36.807   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:36.807   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:36.826   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:36.826   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:36.826   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:36.844   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:36.844   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:36.844   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:36.851   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:36.851   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:36.851   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:36.857   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:36.863   CNC 19   INF   Processing takes 200.637614ms
+2019-12-30 10:35:36.863   CNC 19   INF   Sleeping for 9.799173932s
+2019-12-30 10:35:46.667   CNC 19   INF   Workplace still active
+2019-12-30 10:35:46.716   CNC 19   INF   Download and sort takes: 49.163ms
+2019-12-30 10:35:46.760   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:46.760   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:46.767   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:46.768   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:46.768   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:46.789   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:46.789   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:46.789   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:46.800   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:46.800   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:46.800   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:46.807   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:46.808   CNC 19   INF   Processing takes 141.275875ms
+2019-12-30 10:35:46.809   CNC 19   INF   Sleeping for 9.858633709s
+2019-12-30 10:35:56.671   CNC 19   INF   Workplace still active
+2019-12-30 10:35:56.771   CNC 19   INF   Download and sort takes: 99.791447ms
+2019-12-30 10:35:56.844   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:35:56.844   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:35:56.868   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:56.869   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:56.869   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:35:56.890   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:56.891   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:35:56.891   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:35:56.903   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:56.903   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:35:56.903   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:35:56.919   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:35:56.923   CNC 19   INF   Processing takes 252.070078ms
+2019-12-30 10:35:56.924   CNC 19   INF   Sleeping for 9.747789484s
+2019-12-30 10:36:06.673   CNC 19   INF   Workplace still active
+2019-12-30 10:36:06.838   CNC 19   INF   Download and sort takes: 164.80194ms
+2019-12-30 10:36:06.899   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:36:06.899   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:36:06.934   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:06.934   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:06.934   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:36:06.962   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:06.962   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:06.962   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:36:06.976   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:06.977   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:36:06.977   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:36:06.988   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:06.990   CNC 19   INF   Processing takes 316.747083ms
+2019-12-30 10:36:06.990   CNC 19   INF   Sleeping for 9.683104482s
+2019-12-30 10:36:16.677   CNC 19   INF   Workplace still active
+2019-12-30 10:36:16.751   CNC 19   INF   Download and sort takes: 73.879049ms
+2019-12-30 10:36:16.862   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:36:16.862   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:36:16.902   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:16.902   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:16.902   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:36:16.933   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:16.933   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:16.933   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:36:16.949   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:16.949   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:36:16.949   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:36:16.965   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:16.972   CNC 19   INF   Processing takes 295.603405ms
+2019-12-30 10:36:16.973   CNC 19   INF   Sleeping for 9.704041493s
+2019-12-30 10:36:26.677   CNC 19   INF   Workplace still active
+2019-12-30 10:36:26.783   CNC 19   INF   Download and sort takes: 105.801582ms
+2019-12-30 10:36:26.849   CNC 19   INF   Data: 2019-12-30 09:31:20.350623 +0000 UTC
+2019-12-30 10:36:26.850   CNC 19   INF   Processing: 2019-12-30 10:31:20.350623 +0100 CET for production port
+2019-12-30 10:36:26.860   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:26.861   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:26.861   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for offline port
+2019-12-30 10:36:26.866   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:26.867   CNC 19   INF   Data: 2019-12-30 09:31:29.36967 +0000 UTC
+2019-12-30 10:36:26.867   CNC 19   INF   Processing: 2019-12-30 10:31:29.36967 +0100 CET for production port
+2019-12-30 10:36:26.872   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:26.872   CNC 19   INF   Data: 2019-12-30 09:31:30.36967 +0000 UTC
+2019-12-30 10:36:26.873   CNC 19   INF   Processing: 2019-12-30 10:31:30.36967 +0100 CET for production port
+2019-12-30 10:36:26.882   CNC 19   INF   Actual workplace state: Production
+2019-12-30 10:36:26.884   CNC 19   INF   Processing takes 206.875513ms
+2019-12-30 10:36:26.885   CNC 19   INF   Sleeping for 9.792686277s
+2019-12-30 10:50:45.650   CNC 19   INF   Workplace started running
+2019-12-30 10:50:45.789   CNC 19   INF   Download and sort takes: 138.870392ms
+2019-12-30 10:50:45.910   CNC 19   INF   Processing takes 259.504379ms
+2019-12-30 10:50:45.910   CNC 19   INF   Sleeping for 9.740216559s
+2019-12-30 10:50:55.653   CNC 19   INF   Workplace still active
+2019-12-30 10:50:55.710   CNC 19   INF   Download and sort takes: 57.27485ms
+2019-12-30 10:50:55.815   CNC 19   INF   Processing takes 162.367163ms
+2019-12-30 10:50:55.815   CNC 19   INF   Sleeping for 9.837399707s
+2019-12-30 10:51:05.653   CNC 19   INF   Workplace still active
+2019-12-30 10:51:05.695   CNC 19   INF   Download and sort takes: 41.628757ms
+2019-12-30 10:51:05.839   CNC 19   INF   Processing takes 185.287078ms
+2019-12-30 10:51:05.839   CNC 19   INF   Sleeping for 9.814185648s
+2019-12-30 10:51:15.654   CNC 19   INF   Workplace still active
+2019-12-30 10:51:15.798   CNC 19   INF   Download and sort takes: 143.442704ms
+2019-12-30 10:51:15.864   CNC 19   INF   Processing takes 209.260919ms
+2019-12-30 10:51:15.864   CNC 19   INF   Sleeping for 9.79055131s
+2019-12-30 10:51:25.659   CNC 19   INF   Workplace still active
+2019-12-30 10:51:25.710   CNC 19   INF   Download and sort takes: 50.534875ms
+2019-12-30 10:51:25.787   CNC 19   INF   Processing takes 128.208011ms
+2019-12-30 10:51:25.787   CNC 19   INF   Sleeping for 9.871680544s
+2019-12-30 10:51:35.662   CNC 19   INF   Workplace still active
+2019-12-30 10:51:35.803   CNC 19   INF   Download and sort takes: 141.164908ms
+2019-12-30 10:51:35.885   CNC 19   INF   Processing takes 222.811984ms
+2019-12-30 10:51:35.885   CNC 19   INF   Sleeping for 9.776784553s
+2019-12-30 10:51:45.662   CNC 19   INF   Workplace still active
+2019-12-30 10:51:45.761   CNC 19   INF   Download and sort takes: 98.043433ms
+2019-12-30 10:51:45.829   CNC 19   INF   Processing takes 165.997774ms
+2019-12-30 10:51:45.829   CNC 19   INF   Sleeping for 9.833781464s
+2019-12-30 10:51:55.663   CNC 19   INF   Workplace still active
+2019-12-30 10:51:55.737   CNC 19   INF   Download and sort takes: 73.584196ms
+2019-12-30 10:51:55.759   CNC 19   INF   Processing takes 95.620046ms
+2019-12-30 10:51:55.759   CNC 19   INF   Sleeping for 9.904094511s
+2019-12-30 10:52:12.826   CNC 19   INF   Workplace started running
+2019-12-30 10:52:12.922   CNC 19   INF   Download and sort takes: 95.684597ms
+2019-12-30 10:52:12.966   CNC 19   INF   Processing takes 139.833986ms
+2019-12-30 10:52:12.966   CNC 19   INF   Sleeping for 9.85990315s
+2019-12-30 10:52:22.831   CNC 19   INF   Workplace still active
+2019-12-30 10:52:22.993   CNC 19   INF   Download and sort takes: 161.982586ms
+2019-12-30 10:52:23.067   CNC 19   INF   Processing takes 235.920168ms
+2019-12-30 10:52:23.067   CNC 19   INF   Sleeping for 9.763954426s
+2019-12-30 10:54:51.228   CNC 19   INF   Workplace started running
+2019-12-30 10:54:51.364   CNC 19   INF   Download and sort takes: 134.825619ms
+2019-12-30 10:54:51.453   CNC 19   INF   Changing state ==> Offline at 0001-01-01 00:57:44 +0057 LMT
+2019-12-30 10:54:51.570   CNC 19   INF   Processing takes 341.388324ms
+2019-12-30 10:54:51.570   CNC 19   INF   Sleeping for 9.658430848s
+2019-12-30 10:55:01.229   CNC 19   INF   Workplace still active
+2019-12-30 10:55:01.281   CNC 19   INF   Download and sort takes: 51.485147ms
+2019-12-30 10:55:01.322   CNC 19   INF   Processing takes 92.888516ms
+2019-12-30 10:55:01.322   CNC 19   INF   Sleeping for 9.906890899s
+2019-12-30 10:55:11.230   CNC 19   INF   Workplace still active
+2019-12-30 10:55:11.331   CNC 19   INF   Download and sort takes: 100.855752ms
+2019-12-30 10:55:11.432   CNC 19   INF   Processing takes 201.669534ms
+2019-12-30 10:55:11.432   CNC 19   INF   Sleeping for 9.797998523s
+2019-12-30 10:55:21.236   CNC 19   INF   Workplace still active
+2019-12-30 10:55:21.360   CNC 19   INF   Download and sort takes: 124.297933ms
+2019-12-30 10:55:21.437   CNC 19   INF   Processing takes 200.743112ms
+2019-12-30 10:55:21.437   CNC 19   INF   Sleeping for 9.798985921s
+2019-12-30 10:55:31.237   CNC 19   INF   Workplace still active
+2019-12-30 10:55:31.307   CNC 19   INF   Download and sort takes: 70.325261ms
+2019-12-30 10:55:31.359   CNC 19   INF   Processing takes 122.014397ms
+2019-12-30 10:55:31.359   CNC 19   INF   Sleeping for 9.877746838s
+2019-12-30 10:55:41.239   CNC 19   INF   Workplace still active
+2019-12-30 10:55:41.275   CNC 19   INF   Download and sort takes: 35.879339ms
+2019-12-30 10:55:41.316   CNC 19   INF   Processing takes 76.543676ms
+2019-12-30 10:55:41.316   CNC 19   INF   Sleeping for 9.923345207s
+2019-12-30 10:55:51.240   CNC 19   INF   Workplace still active
+2019-12-30 10:55:51.343   CNC 19   INF   Download and sort takes: 103.174247ms
+2019-12-30 10:55:51.442   CNC 19   INF   Processing takes 202.350146ms
+2019-12-30 10:55:51.443   CNC 19   INF   Sleeping for 9.797526209s
+2019-12-30 10:56:01.241   CNC 19   INF   Workplace still active
+2019-12-30 10:56:01.313   CNC 19   INF   Download and sort takes: 71.532106ms
+2019-12-30 10:56:01.411   CNC 19   INF   Processing takes 170.078297ms
+2019-12-30 10:56:01.411   CNC 19   INF   Sleeping for 9.829825839s
+2019-12-30 10:56:11.242   CNC 19   INF   Workplace still active
+2019-12-30 10:56:11.288   CNC 19   INF   Download and sort takes: 46.225052ms
+2019-12-30 10:56:11.354   CNC 19   INF   Processing takes 112.313914ms
+2019-12-30 10:56:11.354   CNC 19   INF   Sleeping for 9.887549999s
+2019-12-30 10:56:21.242   CNC 19   INF   Workplace still active
+2019-12-30 10:56:21.309   CNC 19   INF   Download and sort takes: 66.992189ms
+2019-12-30 10:56:21.339   CNC 19   INF   Processing takes 97.031585ms
+2019-12-30 10:56:21.339   CNC 19   INF   Sleeping for 9.902798149s
+2019-12-30 11:09:02.720   CNC 19   INF   Workplace started running
+2019-12-30 11:09:02.762   CNC 19   INF   Download and sort takes: 42.077583ms
+2019-12-30 11:09:02.805   CNC 19   INF   Processing takes 84.435907ms
+2019-12-30 11:09:02.805   CNC 19   INF   Sleeping for 9.915142419s
+2019-12-30 11:09:12.720   CNC 19   INF   Workplace still active
+2019-12-30 11:09:12.814   CNC 19   INF   Download and sort takes: 92.874125ms
+2019-12-30 11:09:12.884   CNC 19   INF   Data: 2019-12-30 10:09:08.195677 +0000 UTC
+2019-12-30 11:09:12.909   CNC 19   INF   Actual workplace state: Offline
+2019-12-30 11:09:12.909   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 11:09:08.195677 +0100 CET
+2019-12-30 11:09:12.949   CNC 19   INF   Processing takes 227.916875ms
+2019-12-30 11:09:12.949   CNC 19   INF   Sleeping for 9.771743283s
+2019-12-30 11:09:22.725   CNC 19   INF   Workplace still active
+2019-12-30 11:09:22.814   CNC 19   INF   Download and sort takes: 89.527448ms
+2019-12-30 11:09:22.853   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:09:22.862   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:22.865   CNC 19   INF   Processing takes 139.80368ms
+2019-12-30 11:09:22.865   CNC 19   INF   Sleeping for 9.860052464s
+2019-12-30 11:09:32.726   CNC 19   INF   Workplace still active
+2019-12-30 11:09:32.820   CNC 19   INF   Download and sort takes: 93.413261ms
+2019-12-30 11:09:32.847   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:09:32.850   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:32.851   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:09:32.853   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:32.856   CNC 19   INF   Processing takes 129.523855ms
+2019-12-30 11:09:32.856   CNC 19   INF   Sleeping for 9.870358739s
+2019-12-30 11:09:42.728   CNC 19   INF   Workplace still active
+2019-12-30 11:09:42.753   CNC 19   INF   Download and sort takes: 25.332312ms
+2019-12-30 11:09:42.783   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:09:42.786   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:42.786   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:09:42.791   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:42.791   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:09:42.795   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:42.798   CNC 19   INF   Processing takes 70.126449ms
+2019-12-30 11:09:42.798   CNC 19   INF   Sleeping for 9.929780377s
+2019-12-30 11:09:52.728   CNC 19   INF   Workplace still active
+2019-12-30 11:09:52.864   CNC 19   INF   Download and sort takes: 135.22327ms
+2019-12-30 11:09:52.912   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:09:52.915   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:52.915   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:09:52.920   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:52.921   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:09:52.923   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:52.923   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:09:52.925   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:09:52.927   CNC 19   INF   Processing takes 198.432722ms
+2019-12-30 11:09:52.927   CNC 19   INF   Sleeping for 9.801442246s
+2019-12-30 11:10:02.729   CNC 19   INF   Workplace still active
+2019-12-30 11:10:02.831   CNC 19   INF   Download and sort takes: 102.05906ms
+2019-12-30 11:10:02.946   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:10:02.954   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:02.954   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:10:02.957   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:02.957   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:10:02.960   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:02.960   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:10:02.984   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:02.985   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:10:02.991   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:02.995   CNC 19   INF   Processing takes 265.860097ms
+2019-12-30 11:10:02.995   CNC 19   INF   Sleeping for 9.733757742s
+2019-12-30 11:10:12.730   CNC 19   INF   Workplace still active
+2019-12-30 11:10:12.785   CNC 19   INF   Download and sort takes: 54.937904ms
+2019-12-30 11:10:12.811   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:10:12.813   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.813   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:10:12.815   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.816   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:10:12.826   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.827   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:10:12.831   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.832   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:10:12.836   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.836   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:10:12.838   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:12.841   CNC 19   INF   Processing takes 110.98471ms
+2019-12-30 11:10:12.841   CNC 19   INF   Sleeping for 9.888855357s
+2019-12-30 11:10:22.731   CNC 19   INF   Workplace still active
+2019-12-30 11:10:22.798   CNC 19   INF   Download and sort takes: 66.547263ms
+2019-12-30 11:10:22.886   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:10:22.892   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.892   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:10:22.895   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.896   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:10:22.898   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.898   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:10:22.905   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.905   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:10:22.908   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.908   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:10:22.911   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.911   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:10:22.915   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:22.920   CNC 19   INF   Processing takes 188.73209ms
+2019-12-30 11:10:22.921   CNC 19   INF   Sleeping for 9.810862924s
+2019-12-30 11:10:33.124   CNC 19   INF   Workplace started running
+2019-12-30 11:10:33.191   CNC 19   INF   Download and sort takes: 67.012991ms
+2019-12-30 11:10:33.251   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:10:33.256   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.256   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:10:33.258   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.259   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:10:33.262   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.262   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:10:33.265   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.265   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:10:33.268   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.268   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:10:33.273   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.274   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:10:33.278   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.279   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:10:33.284   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:10:33.287   CNC 19   INF   Processing takes 163.515303ms
+2019-12-30 11:10:33.287   CNC 19   INF   Sleeping for 9.836319694s
+2019-12-30 11:11:24.729   CNC 19   INF   Workplace started running
+2019-12-30 11:11:24.817   CNC 19   INF   Download and sort takes: 87.15491ms
+2019-12-30 11:11:24.846   CNC 19   INF   Data: 2019-12-30 10:09:08.195677 +0000 UTC
+2019-12-30 11:11:24.856   CNC 19   INF   Actual workplace state: 
+2019-12-30 11:11:24.856   CNC 19   INF   Changing state ==> Downtime at 2019-12-30 11:09:08.195677 +0100 CET
+2019-12-30 11:11:24.927   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:11:24.943   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.943   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:11:24.948   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.948   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:11:24.958   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.958   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:11:24.967   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.967   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:11:24.972   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.972   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:11:24.985   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.986   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:11:24.992   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.992   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:11:24.997   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.997   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:11:24.999   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:24.999   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:11:25.002   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:25.003   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:11:25.010   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:25.010   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:11:25.016   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:25.016   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:11:25.023   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:25.028   CNC 19   INF   Processing takes 298.74994ms
+2019-12-30 11:11:25.028   CNC 19   INF   Sleeping for 9.701128049s
+2019-12-30 11:11:49.447   CNC 19   INF   Workplace started running
+2019-12-30 11:11:49.533   CNC 19   INF   Download and sort takes: 85.675898ms
+2019-12-30 11:11:49.694   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:11:49.704   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.704   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:11:49.714   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.715   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:11:49.724   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.724   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:11:49.731   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.731   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:11:49.734   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.734   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:11:49.742   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.742   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:11:49.751   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.751   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:11:49.754   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.755   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:11:49.758   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.758   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:11:49.760   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.760   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:11:49.764   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.764   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:11:49.771   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.772   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:11:49.779   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.780   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:11:49.786   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.786   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:11:49.792   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.793   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:11:49.802   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:49.809   CNC 19   INF   Processing takes 361.765501ms
+2019-12-30 11:11:49.809   CNC 19   INF   Sleeping for 9.637997265s
+2019-12-30 11:11:53.212   CNC 19   INF   Workplace started running
+2019-12-30 11:11:53.325   CNC 19   INF   Download and sort takes: 112.283749ms
+2019-12-30 11:11:53.365   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:11:53.372   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.372   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:11:53.380   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.380   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:11:53.383   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.384   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:11:53.390   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.390   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:11:53.394   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.394   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:11:53.398   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.398   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:11:53.402   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.403   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:11:53.406   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.406   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:11:53.411   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.411   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:11:53.423   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.424   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:11:53.428   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.429   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:11:53.433   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.434   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:11:53.452   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.453   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:11:53.467   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.467   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:11:53.475   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.475   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:11:53.479   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:11:53.488   CNC 19   INF   Processing takes 274.770755ms
+2019-12-30 11:11:53.488   CNC 19   INF   Sleeping for 9.724892901s
+2019-12-30 11:12:03.214   CNC 19   INF   Workplace still active
+2019-12-30 11:12:03.301   CNC 19   INF   Download and sort takes: 86.220176ms
+2019-12-30 11:12:03.376   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:12:03.385   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.385   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:12:03.393   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.393   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:12:03.403   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.403   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:12:03.408   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.409   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:12:03.416   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.416   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:12:03.421   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.421   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:12:03.423   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.423   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:12:03.427   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.427   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:12:03.437   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.438   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:12:03.450   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.450   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:12:03.460   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.460   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:12:03.465   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.465   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:12:03.470   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.470   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:12:03.483   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.483   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:12:03.489   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.489   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:12:03.492   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.492   CNC 19   INF   Data: 2019-12-30 10:11:58.245137 +0000 UTC
+2019-12-30 11:12:03.496   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:03.503   CNC 19   INF   Processing takes 288.288602ms
+2019-12-30 11:12:03.503   CNC 19   INF   Sleeping for 9.711588522s
+2019-12-30 11:12:13.215   CNC 19   INF   Workplace still active
+2019-12-30 11:12:13.297   CNC 19   INF   Download and sort takes: 81.940421ms
+2019-12-30 11:12:13.358   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:12:13.365   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.366   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:12:13.370   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.370   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:12:13.374   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.374   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:12:13.377   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.377   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:12:13.380   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.380   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:12:13.386   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.386   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:12:13.391   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.391   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:12:13.395   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.395   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:12:13.398   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.398   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:12:13.403   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.403   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:12:13.406   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.406   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:12:13.409   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.409   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:12:13.411   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.411   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:12:13.418   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.418   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:12:13.421   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.421   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:12:13.425   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.426   CNC 19   INF   Data: 2019-12-30 10:11:58.245137 +0000 UTC
+2019-12-30 11:12:13.429   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:13.432   CNC 19   INF   Processing takes 216.77806ms
+2019-12-30 11:12:13.432   CNC 19   INF   Sleeping for 9.783067642s
+2019-12-30 11:12:23.217   CNC 19   INF   Workplace still active
+2019-12-30 11:12:23.313   CNC 19   INF   Download and sort takes: 95.671016ms
+2019-12-30 11:12:23.371   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:12:23.375   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.375   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:12:23.377   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.377   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:12:23.382   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.382   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:12:23.386   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.386   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:12:23.392   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.392   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:12:23.399   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.399   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:12:23.403   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.403   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:12:23.406   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.406   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:12:23.410   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.410   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:12:23.412   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.412   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:12:23.415   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.415   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:12:23.419   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.420   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:12:23.427   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.428   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:12:23.433   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.434   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:12:23.439   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.439   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:12:23.442   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.442   CNC 19   INF   Data: 2019-12-30 10:11:58.245137 +0000 UTC
+2019-12-30 11:12:23.445   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:23.447   CNC 19   INF   Processing takes 229.99847ms
+2019-12-30 11:12:23.447   CNC 19   INF   Sleeping for 9.769872146s
+2019-12-30 11:12:33.222   CNC 19   INF   Workplace still active
+2019-12-30 11:12:33.255   CNC 19   INF   Download and sort takes: 32.804282ms
+2019-12-30 11:12:33.301   CNC 19   INF   Data: 2019-12-30 10:09:18.221457 +0000 UTC
+2019-12-30 11:12:33.319   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.319   CNC 19   INF   Data: 2019-12-30 10:09:28.252736 +0000 UTC
+2019-12-30 11:12:33.322   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.322   CNC 19   INF   Data: 2019-12-30 10:09:38.228454 +0000 UTC
+2019-12-30 11:12:33.328   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.329   CNC 19   INF   Data: 2019-12-30 10:09:48.221287 +0000 UTC
+2019-12-30 11:12:33.336   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.336   CNC 19   INF   Data: 2019-12-30 10:09:58.244018 +0000 UTC
+2019-12-30 11:12:33.339   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.339   CNC 19   INF   Data: 2019-12-30 10:10:08.249551 +0000 UTC
+2019-12-30 11:12:33.344   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.344   CNC 19   INF   Data: 2019-12-30 10:10:18.253834 +0000 UTC
+2019-12-30 11:12:33.347   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.348   CNC 19   INF   Data: 2019-12-30 10:10:28.279077 +0000 UTC
+2019-12-30 11:12:33.360   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.360   CNC 19   INF   Data: 2019-12-30 10:10:38.26226 +0000 UTC
+2019-12-30 11:12:33.368   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.368   CNC 19   INF   Data: 2019-12-30 10:10:48.234842 +0000 UTC
+2019-12-30 11:12:33.373   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.373   CNC 19   INF   Data: 2019-12-30 10:10:58.264777 +0000 UTC
+2019-12-30 11:12:33.378   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.378   CNC 19   INF   Data: 2019-12-30 10:11:08.239208 +0000 UTC
+2019-12-30 11:12:33.383   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.383   CNC 19   INF   Data: 2019-12-30 10:11:18.242273 +0000 UTC
+2019-12-30 11:12:33.390   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.390   CNC 19   INF   Data: 2019-12-30 10:11:28.278568 +0000 UTC
+2019-12-30 11:12:33.398   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.398   CNC 19   INF   Data: 2019-12-30 10:11:38.251317 +0000 UTC
+2019-12-30 11:12:33.410   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.411   CNC 19   INF   Data: 2019-12-30 10:11:48.254921 +0000 UTC
+2019-12-30 11:12:33.414   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.414   CNC 19   INF   Data: 2019-12-30 10:11:58.245137 +0000 UTC
+2019-12-30 11:12:33.418   CNC 19   INF   Actual workplace state: Downtime
+2019-12-30 11:12:33.427   CNC 19   INF   Changing state ==> Offline at 2019-12-30 11:11:58.245137 +0100 CET
+2019-12-30 11:12:33.533   CNC 19   INF   Processing takes 311.283684ms
+2019-12-30 11:12:33.533   CNC 19   INF   Sleeping for 9.688458454s
+2019-12-30 11:12:43.223   CNC 19   INF   Workplace still active
+2019-12-30 11:12:43.305   CNC 19   INF   Download and sort takes: 82.053124ms
+2019-12-30 11:12:43.329   CNC 19   INF   Processing takes 105.540422ms
+2019-12-30 11:12:43.329   CNC 19   INF   Sleeping for 9.89427216s
+2019-12-30 11:12:53.225   CNC 19   INF   Workplace still active
+2019-12-30 11:12:53.283   CNC 19   INF   Download and sort takes: 57.527411ms
+2019-12-30 11:12:53.312   CNC 19   INF   Processing takes 87.09738ms
+2019-12-30 11:12:53.313   CNC 19   INF   Sleeping for 9.912785316s
+2019-12-30 11:13:03.229   CNC 19   INF   Workplace still active
+2019-12-30 11:13:03.328   CNC 19   INF   Download and sort takes: 98.771819ms
+2019-12-30 11:13:03.429   CNC 19   INF   Processing takes 199.488633ms
+2019-12-30 11:13:03.429   CNC 19   INF   Sleeping for 9.800248629s
+2019-12-30 11:13:13.234   CNC 19   INF   Workplace still active
+2019-12-30 11:13:13.339   CNC 19   INF   Download and sort takes: 105.137522ms
+2019-12-30 11:13:13.370   CNC 19   INF   Processing takes 136.438576ms
+2019-12-30 11:13:13.370   CNC 19   INF   Sleeping for 9.863405304s
+2019-12-30 11:13:23.239   CNC 19   INF   Workplace still active
+2019-12-30 11:13:23.312   CNC 19   INF   Download and sort takes: 72.085946ms
+2019-12-30 11:13:23.355   CNC 19   INF   Processing takes 115.261396ms
+2019-12-30 11:13:23.355   CNC 19   INF   Sleeping for 9.884647222s
+2019-12-30 11:13:33.241   CNC 19   INF   Workplace still active
+2019-12-30 11:13:33.313   CNC 19   INF   Download and sort takes: 72.302571ms
+2019-12-30 11:13:33.356   CNC 19   INF   Processing takes 114.976765ms
+2019-12-30 11:13:33.356   CNC 19   INF   Sleeping for 9.884923914s
+2019-12-30 11:13:43.246   CNC 19   INF   Workplace still active
+2019-12-30 11:13:43.345   CNC 19   INF   Download and sort takes: 99.177146ms
+2019-12-30 11:13:43.398   CNC 19   INF   Processing takes 151.37009ms
+2019-12-30 11:13:43.398   CNC 19   INF   Sleeping for 9.84848813s
+2019-12-30 11:13:53.248   CNC 19   INF   Workplace still active
+2019-12-30 11:13:53.292   CNC 19   INF   Download and sort takes: 42.813382ms
+2019-12-30 11:13:53.385   CNC 19   INF   Processing takes 136.261766ms
+2019-12-30 11:13:53.385   CNC 19   INF   Sleeping for 9.863643875s
+2019-12-30 11:14:03.251   CNC 19   INF   Workplace still active
+2019-12-30 11:14:03.331   CNC 19   INF   Download and sort takes: 79.480103ms
+2019-12-30 11:14:03.399   CNC 19   INF   Processing takes 147.168282ms
+2019-12-30 11:14:03.399   CNC 19   INF   Sleeping for 9.852734135s
+2019-12-30 11:14:13.253   CNC 19   INF   Workplace still active
+2019-12-30 11:14:13.336   CNC 19   INF   Download and sort takes: 82.965579ms
+2019-12-30 11:14:13.396   CNC 19   INF   Processing takes 143.113061ms
+2019-12-30 11:14:13.396   CNC 19   INF   Sleeping for 9.856708398s
+2019-12-30 11:14:23.255   CNC 19   INF   Workplace still active
+2019-12-30 11:14:23.338   CNC 19   INF   Download and sort takes: 82.839919ms
+2019-12-30 11:14:23.396   CNC 19   INF   Processing takes 141.198415ms
+2019-12-30 11:14:23.396   CNC 19   INF   Sleeping for 9.858707286s
+2019-12-30 11:14:33.260   CNC 19   INF   Workplace still active
+2019-12-30 11:14:33.357   CNC 19   INF   Download and sort takes: 95.94606ms
+2019-12-30 11:14:33.446   CNC 19   INF   Processing takes 185.629426ms
+2019-12-30 11:14:33.446   CNC 19   INF   Sleeping for 9.814242126s
+2019-12-30 11:14:43.267   CNC 19   INF   Workplace still active
+2019-12-30 11:14:43.349   CNC 19   INF   Download and sort takes: 81.491395ms
+2019-12-30 11:14:43.420   CNC 19   INF   Processing takes 152.106423ms
+2019-12-30 11:14:43.420   CNC 19   INF   Sleeping for 9.847672762s
+2019-12-30 11:14:53.272   CNC 19   INF   Workplace still active
+2019-12-30 11:14:53.379   CNC 19   INF   Download and sort takes: 106.750996ms
+2019-12-30 11:14:53.426   CNC 19   INF   Processing takes 153.677756ms
+2019-12-30 11:14:53.426   CNC 19   INF   Sleeping for 9.846130719s
+2019-12-30 11:15:03.275   CNC 19   INF   Workplace still active
+2019-12-30 11:15:03.372   CNC 19   INF   Download and sort takes: 95.800258ms
+2019-12-30 11:15:03.438   CNC 19   INF   Processing takes 162.035991ms
+2019-12-30 11:15:03.438   CNC 19   INF   Sleeping for 9.837874178s
+2019-12-30 11:15:13.280   CNC 19   INF   Workplace still active
+2019-12-30 11:15:13.308   CNC 19   INF   Download and sort takes: 27.925376ms
+2019-12-30 11:15:13.334   CNC 19   INF   Processing takes 53.792896ms
+2019-12-30 11:15:13.334   CNC 19   INF   Sleeping for 9.946084837s
+2019-12-30 11:15:23.283   CNC 19   INF   Workplace still active
+2019-12-30 11:15:23.314   CNC 19   INF   Download and sort takes: 30.518277ms
+2019-12-30 11:15:23.366   CNC 19   INF   Processing takes 81.982397ms
+2019-12-30 11:15:23.366   CNC 19   INF   Sleeping for 9.917799381s
+2019-12-30 11:15:33.289   CNC 19   INF   Workplace still active
+2019-12-30 11:15:33.379   CNC 19   INF   Download and sort takes: 89.280756ms
+2019-12-30 11:15:33.409   CNC 19   INF   Processing takes 119.444436ms
+2019-12-30 11:15:33.409   CNC 19   INF   Sleeping for 9.880455602s
+2019-12-30 11:15:43.291   CNC 19   INF   Workplace still active
+2019-12-30 11:15:43.326   CNC 19   INF   Download and sort takes: 34.343317ms
+2019-12-30 11:15:43.388   CNC 19   INF   Processing takes 96.240146ms
+2019-12-30 11:15:43.388   CNC 19   INF   Sleeping for 9.903627433s
+2019-12-30 11:15:53.296   CNC 19   INF   Workplace still active
+2019-12-30 11:15:53.363   CNC 19   INF   Download and sort takes: 67.243003ms
+2019-12-30 11:15:53.408   CNC 19   INF   Processing takes 112.346743ms
+2019-12-30 11:15:53.408   CNC 19   INF   Sleeping for 9.887421751s
