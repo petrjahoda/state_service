@@ -60,8 +60,8 @@ type WorkplaceState struct {
 type WorkplaceMode struct {
 	gorm.Model
 	Name             string `gorm:"unique"`
-	DownTimeInterval int
-	PowerOffInterval int
+	DowntimeInterval int
+	PoweroffInterval int
 	Note             string
 }
 
@@ -324,7 +324,7 @@ func CheckTables() {
 	if !db.HasTable(&WorkplaceMode{}) {
 		LogInfo("MAIN", "Workplacemode table not exists, creating")
 		db.CreateTable(&WorkplaceMode{})
-		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300, PowerOffInterval: 300}
+		mode := WorkplaceMode{Name: "Production", DowntimeInterval: 300, PoweroffInterval: 300}
 		db.NewRecord(mode)
 		db.Create(&mode)
 	} else {

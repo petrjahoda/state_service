@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const version = "2019.4.3.30"
+const version = "2019.4.3.31"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -63,7 +63,7 @@ func RunWorkplace(workplace Workplace) {
 	for workplaceIsActive {
 		start := time.Now()
 		intermediateData := workplace.AddData()
-		LogInfo(workplace.Name, "Download and sort takes: "+time.Since(start).String())
+		LogInfo(workplace.Name, "Download and sort of length "+strconv.Itoa(len(intermediateData))+" takes: "+time.Since(start).String())
 		ProcessData(&workplace, intermediateData)
 		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
 		workplace.Sleep(start)

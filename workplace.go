@@ -69,6 +69,18 @@ func (workplace Workplace) DownloadPoweroffRecords(db *gorm.DB, workplaceState W
 	return poweroffRecords
 }
 
+func (workplace Workplace) GetLatestWorkplaceStateId(db *gorm.DB) int {
+	var workplaceState WorkplaceState
+	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
+	return int(workplaceState.StateId)
+}
+
+func (workplace Workplace) GetActualState(latestworkplaceStateId int, db *gorm.DB) State {
+	var actualState State
+	db.Where("id=?", latestworkplaceStateId).Find(&actualState)
+	return actualState
+}
+
 func ProcessData(workplace *Workplace, data []IntermediateData) {
 	connectionString, dialect := CheckDatabaseType()
 	db, err := gorm.Open(dialect, connectionString)
@@ -79,27 +91,30 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	defer db.Close()
 	var actualWorkplaceMode WorkplaceMode
 	db.Where("id=?", workplace.ActualWorkplaceModeId).Find(&actualWorkplaceMode)
-	poweroffInterval := actualWorkplaceMode.PowerOffInterval
-	downtimeInterval := actualWorkplaceMode.DownTimeInterval
+	poweroffInterval := actualWorkplaceMode.PoweroffInterval
+	downtimeInterval := actualWorkplaceMode.DowntimeInterval
 	var actualState State
-	db.Where("id=?", workplace.ActualStateId).Find(&actualState)
+	latestworkplaceStateId := workplace.GetLatestWorkplaceStateId(db)
+	actualState = workplace.GetActualState(latestworkplaceStateId, db)
 	for _, actualData := range data {
 		if actualData.Type == poweroff {
 			workplace.PoweroffPortDateTime = actualData.DateTime
 		} else if actualData.Type == production {
+			workplace.PoweroffPortDateTime = actualData.DateTime
 			workplace.ProductionPortDateTime = actualData.DateTime
 		}
-		LogInfo(workplace.Name, "Data: "+actualData.DateTime.UTC().String())
-		LogInfo(workplace.Name, "Actual workplace state: "+actualState.Name)
 		switch actualState.Name {
 		case "Poweroff":
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
+					actualState.Name = "Production"
 					break
 				}
 				if actualData.Type == poweroff {
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					actualState.Name = "Downtime"
+
 					break
 				}
 			}
@@ -108,15 +123,23 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
+					actualState.Name = "Poweroff"
+
 					if actualData.Type == production && actualData.RawData == "1" {
 						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						actualState.Name = "Production"
+
 						break
 					}
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					actualState.Name = "Downtime"
+
 				} else {
 					workplaceDowntimeDifference := int(actualData.DateTime.Sub(workplace.ProductionPortDateTime).Seconds())
 					if workplace.ProductionPortValue == 0 && workplaceDowntimeDifference > downtimeInterval {
 						UpdateState(db, &workplace, workplace.ProductionPortDateTime, "Downtime")
+						actualState.Name = "Downtime"
+
 						break
 					}
 				}
@@ -126,15 +149,23 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
+					actualState.Name = "Poweroff"
+
 					if actualData.Type == production && actualData.RawData == "1" {
 						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						actualState.Name = "Production"
+
 						break
 					}
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					actualState.Name = "Downtime"
+
 					break
 				} else {
 					if actualData.Type == production && actualData.RawData == "1" {
 						UpdateState(db, &workplace, actualData.DateTime, "Production")
+						actualState.Name = "Production"
+
 						break
 					}
 				}
@@ -143,10 +174,14 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
+					actualState.Name = "Production"
+
 					break
 				}
 				if actualData.Type == poweroff {
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
+					actualState.Name = "Downtime"
+
 					break
 				}
 			}
@@ -155,6 +190,8 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	workplacePoweroffDifference := int(time.Now().UTC().Sub(workplace.PoweroffPortDateTime).Seconds())
 	if workplacePoweroffDifference > poweroffInterval && actualState.Name != "Poweroff" {
 		UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
+		actualState.Name = "Poweroff"
+
 	}
 }
 
@@ -167,7 +204,6 @@ func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, 
 	db.Save(&workplace)
 	var lastWorkplaceState WorkplaceState
 	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
-	LogDebug((*workplace).Name, "Last workplace state ID: "+strconv.Itoa(int(lastWorkplaceState.Id)))
 	if lastWorkplaceState.Id != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
 		lastWorkplaceState.DateTimeEnd = stateChangeTime
