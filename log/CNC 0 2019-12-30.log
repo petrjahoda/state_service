@@ -31961,3 +31961,317 @@
 2019-12-30 14:10:58.089   CNC 0   INF   Actual workplace state: Downtime
 2019-12-30 14:10:58.090   CNC 0   INF   Processing takes 100.730303ms
 2019-12-30 14:10:58.090   CNC 0   INF   Sleeping for 9.899157136s
+2019-12-30 15:46:14.581   CNC 0   INF   Workplace started running
+2019-12-30 15:46:14.758   CNC 0   INF   Download and sort takes: 177.36139ms
+2019-12-30 15:46:14.810   CNC 0   INF   Processing takes 228.899014ms
+2019-12-30 15:46:14.810   CNC 0   INF   Sleeping for 9.770696067s
+2019-12-30 15:46:24.585   CNC 0   INF   Workplace still active
+2019-12-30 15:46:24.715   CNC 0   INF   Download and sort takes: 129.71559ms
+2019-12-30 15:46:24.790   CNC 0   INF   Processing takes 204.261385ms
+2019-12-30 15:46:24.790   CNC 0   INF   Sleeping for 9.795095093s
+2019-12-30 15:46:34.589   CNC 0   INF   Workplace still active
+2019-12-30 15:46:34.861   CNC 0   INF   Download and sort takes: 271.456389ms
+2019-12-30 15:46:34.944   CNC 0   INF   Processing takes 353.836734ms
+2019-12-30 15:46:34.944   CNC 0   INF   Sleeping for 9.645521864s
+2019-12-30 15:46:44.592   CNC 0   INF   Workplace still active
+2019-12-30 15:46:44.811   CNC 0   INF   Download and sort takes: 218.299383ms
+2019-12-30 15:46:44.888   CNC 0   INF   Processing takes 295.953073ms
+2019-12-30 15:46:44.889   CNC 0   INF   Sleeping for 9.703634078s
+2019-12-30 15:46:54.593   CNC 0   INF   Workplace still active
+2019-12-30 15:46:54.715   CNC 0   INF   Download and sort takes: 121.953282ms
+2019-12-30 15:46:54.775   CNC 0   INF   Processing takes 181.703532ms
+2019-12-30 15:46:54.776   CNC 0   INF   Sleeping for 9.816576711s
+2019-12-30 15:47:04.594   CNC 0   INF   Workplace still active
+2019-12-30 15:47:04.775   CNC 0   INF   Download and sort takes: 180.508036ms
+2019-12-30 15:47:04.802   CNC 0   INF   Processing takes 207.72928ms
+2019-12-30 15:47:04.802   CNC 0   INF   Sleeping for 9.791834916s
+2019-12-30 15:47:14.597   CNC 0   INF   Workplace still active
+2019-12-30 15:47:14.738   CNC 0   INF   Download and sort takes: 140.771836ms
+2019-12-30 15:47:14.802   CNC 0   INF   Processing takes 204.424184ms
+2019-12-30 15:47:14.802   CNC 0   INF   Sleeping for 9.795457501s
+2019-12-30 15:47:24.598   CNC 0   INF   Workplace still active
+2019-12-30 15:47:24.749   CNC 0   INF   Download and sort takes: 151.388791ms
+2019-12-30 15:47:24.776   CNC 0   INF   Processing takes 178.529174ms
+2019-12-30 15:47:24.777   CNC 0   INF   Sleeping for 9.821374513s
+2019-12-30 15:47:34.599   CNC 0   INF   Workplace still active
+2019-12-30 15:47:34.708   CNC 0   INF   Download and sort takes: 108.705073ms
+2019-12-30 15:47:34.768   CNC 0   INF   Processing takes 168.477648ms
+2019-12-30 15:47:34.768   CNC 0   INF   Sleeping for 9.831204523s
+2019-12-30 15:47:44.604   CNC 0   INF   Workplace still active
+2019-12-30 15:47:44.722   CNC 0   INF   Download and sort takes: 118.269956ms
+2019-12-30 15:47:44.777   CNC 0   INF   Processing takes 172.984206ms
+2019-12-30 15:47:44.777   CNC 0   INF   Sleeping for 9.826766116s
+2019-12-30 15:47:54.604   CNC 0   INF   Workplace still active
+2019-12-30 15:47:54.654   CNC 0   INF   Download and sort takes: 49.480605ms
+2019-12-30 15:47:54.746   CNC 0   INF   Processing takes 141.797834ms
+2019-12-30 15:47:54.746   CNC 0   INF   Sleeping for 9.858076951s
+2019-12-30 15:48:04.605   CNC 0   INF   Workplace still active
+2019-12-30 15:48:04.757   CNC 0   INF   Download and sort takes: 151.932363ms
+2019-12-30 15:48:04.807   CNC 0   INF   Processing takes 202.143865ms
+2019-12-30 15:48:04.808   CNC 0   INF   Sleeping for 9.797704366s
+2019-12-30 15:48:14.606   CNC 0   INF   Workplace still active
+2019-12-30 15:48:14.650   CNC 0   INF   Download and sort takes: 43.700244ms
+2019-12-30 15:48:14.672   CNC 0   INF   Processing takes 65.730514ms
+2019-12-30 15:48:14.672   CNC 0   INF   Sleeping for 9.934040218s
+2019-12-30 15:48:24.607   CNC 0   INF   Workplace still active
+2019-12-30 15:48:24.666   CNC 0   INF   Download and sort takes: 58.469688ms
+2019-12-30 15:48:24.737   CNC 0   INF   Processing takes 130.286669ms
+2019-12-30 15:48:24.738   CNC 0   INF   Sleeping for 9.869558134s
+2019-12-30 15:48:34.608   CNC 0   INF   Workplace still active
+2019-12-30 15:48:34.697   CNC 0   INF   Download and sort takes: 88.992866ms
+2019-12-30 15:48:34.742   CNC 0   INF   Processing takes 134.390195ms
+2019-12-30 15:48:34.742   CNC 0   INF   Sleeping for 9.865511611s
+2019-12-30 15:48:44.609   CNC 0   INF   Workplace still active
+2019-12-30 15:48:44.717   CNC 0   INF   Download and sort takes: 107.836247ms
+2019-12-30 15:48:44.777   CNC 0   INF   Processing takes 168.4925ms
+2019-12-30 15:48:44.778   CNC 0   INF   Sleeping for 9.831245512s
+2019-12-30 15:48:54.613   CNC 0   INF   Workplace still active
+2019-12-30 15:48:54.668   CNC 0   INF   Download and sort takes: 54.824826ms
+2019-12-30 15:48:54.718   CNC 0   INF   Processing takes 104.451224ms
+2019-12-30 15:48:54.718   CNC 0   INF   Sleeping for 9.895329644s
+2019-12-30 15:49:04.617   CNC 0   INF   Workplace still active
+2019-12-30 15:49:04.766   CNC 0   INF   Download and sort takes: 149.039383ms
+2019-12-30 15:49:04.803   CNC 0   INF   Processing takes 185.343308ms
+2019-12-30 15:49:04.803   CNC 0   INF   Sleeping for 9.814521528s
+2019-12-30 15:49:14.618   CNC 0   INF   Workplace still active
+2019-12-30 15:49:14.676   CNC 0   INF   Download and sort takes: 57.888623ms
+2019-12-30 15:49:14.735   CNC 0   INF   Processing takes 116.896923ms
+2019-12-30 15:49:14.735   CNC 0   INF   Sleeping for 9.882948528s
+2019-12-30 15:49:24.622   CNC 0   INF   Workplace still active
+2019-12-30 15:49:24.680   CNC 0   INF   Download and sort takes: 58.210094ms
+2019-12-30 15:49:24.733   CNC 0   INF   Processing takes 110.951366ms
+2019-12-30 15:49:24.733   CNC 0   INF   Sleeping for 9.888870177s
+2019-12-30 15:49:34.626   CNC 0   INF   Workplace still active
+2019-12-30 15:49:34.713   CNC 0   INF   Download and sort takes: 86.584088ms
+2019-12-30 15:49:34.762   CNC 0   INF   Processing takes 135.496228ms
+2019-12-30 15:49:34.762   CNC 0   INF   Sleeping for 9.86424077s
+2019-12-30 15:49:44.629   CNC 0   INF   Workplace still active
+2019-12-30 15:49:44.661   CNC 0   INF   Download and sort takes: 32.409837ms
+2019-12-30 15:49:44.734   CNC 0   INF   Processing takes 105.299349ms
+2019-12-30 15:49:44.734   CNC 0   INF   Sleeping for 9.894554104s
+2019-12-30 15:49:54.630   CNC 0   INF   Workplace still active
+2019-12-30 15:49:54.771   CNC 0   INF   Download and sort takes: 140.601541ms
+2019-12-30 15:49:54.790   CNC 0   INF   Processing takes 160.032677ms
+2019-12-30 15:49:54.790   CNC 0   INF   Sleeping for 9.83981782s
+2019-12-30 15:50:04.631   CNC 0   INF   Workplace still active
+2019-12-30 15:50:04.663   CNC 0   INF   Download and sort takes: 32.076429ms
+2019-12-30 15:50:04.690   CNC 0   INF   Processing takes 58.832651ms
+2019-12-30 15:50:04.690   CNC 0   INF   Sleeping for 9.941005268s
+2019-12-30 15:50:14.632   CNC 0   INF   Workplace still active
+2019-12-30 15:50:14.671   CNC 0   INF   Download and sort takes: 38.287008ms
+2019-12-30 15:50:14.712   CNC 0   INF   Processing takes 79.279881ms
+2019-12-30 15:50:14.712   CNC 0   INF   Sleeping for 9.920607448s
+2019-12-30 15:50:24.634   CNC 0   INF   Workplace still active
+2019-12-30 15:50:24.730   CNC 0   INF   Download and sort takes: 96.390079ms
+2019-12-30 15:50:24.753   CNC 0   INF   Processing takes 119.281558ms
+2019-12-30 15:50:24.753   CNC 0   INF   Sleeping for 9.880453838s
+2019-12-30 15:50:34.636   CNC 0   INF   Workplace still active
+2019-12-30 15:50:34.681   CNC 0   INF   Download and sort takes: 43.624494ms
+2019-12-30 15:50:34.770   CNC 0   INF   Processing takes 133.668879ms
+2019-12-30 15:50:34.771   CNC 0   INF   Sleeping for 9.866180649s
+2019-12-30 15:50:44.642   CNC 0   INF   Workplace still active
+2019-12-30 15:50:44.692   CNC 0   INF   Download and sort takes: 50.522122ms
+2019-12-30 15:50:44.766   CNC 0   INF   Processing takes 124.718273ms
+2019-12-30 15:50:44.767   CNC 0   INF   Sleeping for 9.875152125s
+2019-12-30 15:50:54.643   CNC 0   INF   Workplace still active
+2019-12-30 15:50:54.726   CNC 0   INF   Download and sort takes: 83.200178ms
+2019-12-30 15:50:54.775   CNC 0   INF   Processing takes 132.608361ms
+2019-12-30 15:50:54.776   CNC 0   INF   Sleeping for 9.867255344s
+2019-12-30 15:51:04.647   CNC 0   INF   Workplace still active
+2019-12-30 15:51:04.698   CNC 0   INF   Download and sort takes: 50.437436ms
+2019-12-30 15:51:04.747   CNC 0   INF   Processing takes 99.865006ms
+2019-12-30 15:51:04.747   CNC 0   INF   Sleeping for 9.900017713s
+2019-12-30 15:51:14.648   CNC 0   INF   Workplace still active
+2019-12-30 15:51:14.713   CNC 0   INF   Download and sort takes: 65.341593ms
+2019-12-30 15:51:14.773   CNC 0   INF   Processing takes 124.596537ms
+2019-12-30 15:51:14.773   CNC 0   INF   Sleeping for 9.875230785s
+2019-12-30 15:51:24.655   CNC 0   INF   Workplace still active
+2019-12-30 15:51:24.784   CNC 0   INF   Download and sort takes: 129.279581ms
+2019-12-30 15:51:24.806   CNC 0   INF   Processing takes 151.071529ms
+2019-12-30 15:51:24.806   CNC 0   INF   Sleeping for 9.848716933s
+2019-12-30 15:51:34.658   CNC 0   INF   Workplace still active
+2019-12-30 15:51:34.749   CNC 0   INF   Download and sort takes: 91.080869ms
+2019-12-30 15:51:34.792   CNC 0   INF   Processing takes 133.796838ms
+2019-12-30 15:51:34.792   CNC 0   INF   Sleeping for 9.866046368s
+2019-12-30 15:51:44.659   CNC 0   INF   Workplace still active
+2019-12-30 15:51:44.686   CNC 0   INF   Download and sort takes: 26.529109ms
+2019-12-30 15:51:44.765   CNC 0   INF   Processing takes 105.355413ms
+2019-12-30 15:51:44.765   CNC 0   INF   Sleeping for 9.89453047s
+2019-12-30 15:51:54.661   CNC 0   INF   Workplace still active
+2019-12-30 15:51:54.727   CNC 0   INF   Download and sort takes: 65.214275ms
+2019-12-30 15:51:54.774   CNC 0   INF   Processing takes 112.746855ms
+2019-12-30 15:51:54.775   CNC 0   INF   Sleeping for 9.887125665s
+2019-12-30 15:52:04.666   CNC 0   INF   Workplace still active
+2019-12-30 15:52:04.784   CNC 0   INF   Download and sort takes: 117.184856ms
+2019-12-30 15:52:04.825   CNC 0   INF   Processing takes 158.254838ms
+2019-12-30 15:52:04.825   CNC 0   INF   Sleeping for 9.841585161s
+2019-12-30 15:52:14.669   CNC 0   INF   Workplace still active
+2019-12-30 15:52:14.709   CNC 0   INF   Download and sort takes: 40.312739ms
+2019-12-30 15:52:14.745   CNC 0   INF   Processing takes 76.155498ms
+2019-12-30 15:52:14.745   CNC 0   INF   Sleeping for 9.923714894s
+2019-12-30 15:52:24.673   CNC 0   INF   Workplace still active
+2019-12-30 15:52:24.752   CNC 0   INF   Download and sort takes: 79.576693ms
+2019-12-30 15:52:24.812   CNC 0   INF   Processing takes 139.422531ms
+2019-12-30 15:52:24.812   CNC 0   INF   Sleeping for 9.860420471s
+2019-12-30 15:52:34.674   CNC 0   INF   Workplace still active
+2019-12-30 15:52:34.787   CNC 0   INF   Download and sort takes: 112.870221ms
+2019-12-30 15:52:34.814   CNC 0   INF   Processing takes 139.381733ms
+2019-12-30 15:52:34.814   CNC 0   INF   Sleeping for 9.860490259s
+2019-12-30 15:52:44.679   CNC 0   INF   Workplace still active
+2019-12-30 15:52:44.791   CNC 0   INF   Download and sort takes: 112.069941ms
+2019-12-30 15:52:44.823   CNC 0   INF   Processing takes 144.015304ms
+2019-12-30 15:52:44.824   CNC 0   INF   Sleeping for 9.855856665s
+2019-12-30 15:52:54.680   CNC 0   INF   Workplace still active
+2019-12-30 15:52:54.730   CNC 0   INF   Download and sort takes: 49.462635ms
+2019-12-30 15:52:54.777   CNC 0   INF   Processing takes 97.066376ms
+2019-12-30 15:52:54.778   CNC 0   INF   Sleeping for 9.902773663s
+2019-12-30 15:53:04.681   CNC 0   INF   Workplace still active
+2019-12-30 15:53:04.745   CNC 0   INF   Download and sort takes: 64.252249ms
+2019-12-30 15:53:04.804   CNC 0   INF   Processing takes 122.968532ms
+2019-12-30 15:53:04.804   CNC 0   INF   Sleeping for 9.876684391s
+2019-12-30 15:53:14.682   CNC 0   INF   Workplace still active
+2019-12-30 15:53:14.773   CNC 0   INF   Download and sort takes: 90.862252ms
+2019-12-30 15:53:14.809   CNC 0   INF   Processing takes 126.219361ms
+2019-12-30 15:53:14.809   CNC 0   INF   Sleeping for 9.873636149s
+2019-12-30 15:53:24.683   CNC 0   INF   Workplace still active
+2019-12-30 15:53:24.730   CNC 0   INF   Download and sort takes: 46.292333ms
+2019-12-30 15:53:24.745   CNC 0   INF   Processing takes 61.37389ms
+2019-12-30 15:53:24.745   CNC 0   INF   Sleeping for 9.938431495s
+2019-12-30 15:53:34.689   CNC 0   INF   Workplace still active
+2019-12-30 15:53:34.773   CNC 0   INF   Download and sort takes: 82.81043ms
+2019-12-30 15:53:34.812   CNC 0   INF   Processing takes 122.773784ms
+2019-12-30 15:53:34.813   CNC 0   INF   Sleeping for 9.877062012s
+2019-12-30 15:53:44.694   CNC 0   INF   Workplace still active
+2019-12-30 15:53:44.738   CNC 0   INF   Download and sort takes: 44.059107ms
+2019-12-30 15:53:44.760   CNC 0   INF   Processing takes 65.586244ms
+2019-12-30 15:53:44.760   CNC 0   INF   Sleeping for 9.934195389s
+2019-12-30 15:53:54.695   CNC 0   INF   Workplace still active
+2019-12-30 15:53:54.807   CNC 0   INF   Download and sort takes: 111.762424ms
+2019-12-30 15:53:54.831   CNC 0   INF   Processing takes 136.256357ms
+2019-12-30 15:53:54.831   CNC 0   INF   Sleeping for 9.863555016s
+2019-12-30 15:54:04.700   CNC 0   INF   Workplace still active
+2019-12-30 15:54:04.778   CNC 0   INF   Download and sort takes: 78.232724ms
+2019-12-30 15:54:04.831   CNC 0   INF   Processing takes 128.987831ms
+2019-12-30 15:54:04.832   CNC 0   INF   Sleeping for 9.868341403s
+2019-12-30 15:54:14.704   CNC 0   INF   Workplace still active
+2019-12-30 15:54:14.773   CNC 0   INF   Download and sort takes: 68.938535ms
+2019-12-30 15:54:14.811   CNC 0   INF   Processing takes 106.558115ms
+2019-12-30 15:54:14.811   CNC 0   INF   Sleeping for 9.893296359s
+2019-12-30 15:54:24.708   CNC 0   INF   Workplace still active
+2019-12-30 15:54:24.775   CNC 0   INF   Download and sort takes: 66.646884ms
+2019-12-30 15:54:24.836   CNC 0   INF   Processing takes 127.644344ms
+2019-12-30 15:54:24.836   CNC 0   INF   Sleeping for 9.872204429s
+2019-12-30 15:54:34.710   CNC 0   INF   Workplace still active
+2019-12-30 15:54:34.787   CNC 0   INF   Download and sort takes: 76.594739ms
+2019-12-30 15:54:34.837   CNC 0   INF   Processing takes 127.169895ms
+2019-12-30 15:54:34.838   CNC 0   INF   Sleeping for 9.872702803s
+2019-12-30 15:54:44.719   CNC 0   INF   Workplace still active
+2019-12-30 15:54:44.785   CNC 0   INF   Download and sort takes: 65.3338ms
+2019-12-30 15:54:44.851   CNC 0   INF   Processing takes 130.941343ms
+2019-12-30 15:54:44.851   CNC 0   INF   Sleeping for 9.86891121s
+2019-12-30 15:54:54.720   CNC 0   INF   Workplace not active
+2019-12-30 15:54:54.720   CNC 0   INF   Workplace not active, stopped running
+2019-12-30 15:54:54.722   CNC 0   INF   Workplace started running
+2019-12-30 15:54:54.782   CNC 0   INF   Download and sort takes: 59.81784ms
+2019-12-30 15:54:54.847   CNC 0   INF   Processing takes 124.131294ms
+2019-12-30 15:54:54.847   CNC 0   INF   Sleeping for 9.87567526s
+2019-12-30 15:55:04.723   CNC 0   INF   Workplace still active
+2019-12-30 15:55:04.761   CNC 0   INF   Download and sort takes: 38.040087ms
+2019-12-30 15:55:04.846   CNC 0   INF   Processing takes 122.867522ms
+2019-12-30 15:55:04.846   CNC 0   INF   Sleeping for 9.876946082s
+2019-12-30 15:55:14.723   CNC 0   INF   Workplace still active
+2019-12-30 15:55:14.760   CNC 0   INF   Download and sort takes: 35.888488ms
+2019-12-30 15:55:14.796   CNC 0   INF   Processing takes 71.782953ms
+2019-12-30 15:55:14.796   CNC 0   INF   Sleeping for 9.928090527s
+2019-12-30 15:55:24.728   CNC 0   INF   Workplace still active
+2019-12-30 15:55:24.848   CNC 0   INF   Download and sort takes: 116.457089ms
+2019-12-30 15:55:24.870   CNC 0   INF   Processing takes 141.490285ms
+2019-12-30 15:55:24.870   CNC 0   INF   Sleeping for 9.85837986s
+2019-12-30 15:55:34.733   CNC 0   INF   Workplace still active
+2019-12-30 15:55:34.795   CNC 0   INF   Download and sort takes: 62.390925ms
+2019-12-30 15:55:34.866   CNC 0   INF   Processing takes 132.696123ms
+2019-12-30 15:55:34.866   CNC 0   INF   Sleeping for 9.867153197s
+2019-12-30 15:55:44.735   CNC 0   INF   Workplace still active
+2019-12-30 15:55:44.795   CNC 0   INF   Download and sort takes: 59.115701ms
+2019-12-30 15:55:44.857   CNC 0   INF   Processing takes 120.482443ms
+2019-12-30 15:55:44.857   CNC 0   INF   Sleeping for 9.879154858s
+2019-12-30 15:55:54.737   CNC 0   INF   Workplace still active
+2019-12-30 15:55:54.818   CNC 0   INF   Download and sort takes: 80.321978ms
+2019-12-30 15:55:54.855   CNC 0   INF   Processing takes 117.31392ms
+2019-12-30 15:55:54.855   CNC 0   INF   Sleeping for 9.882556036s
+2019-12-30 15:56:04.741   CNC 0   INF   Workplace still active
+2019-12-30 15:56:04.829   CNC 0   INF   Download and sort takes: 87.421435ms
+2019-12-30 15:56:04.869   CNC 0   INF   Processing takes 127.517122ms
+2019-12-30 15:56:04.869   CNC 0   INF   Sleeping for 9.872113299s
+2019-12-30 15:56:14.745   CNC 0   INF   Workplace still active
+2019-12-30 15:56:14.776   CNC 0   INF   Download and sort takes: 30.758493ms
+2019-12-30 15:56:14.887   CNC 0   INF   Processing takes 141.757558ms
+2019-12-30 15:56:14.887   CNC 0   INF   Sleeping for 9.858125687s
+2019-12-30 15:56:24.748   CNC 0   INF   Workplace still active
+2019-12-30 15:56:24.814   CNC 0   INF   Download and sort takes: 65.378193ms
+2019-12-30 15:56:24.847   CNC 0   INF   Processing takes 98.615222ms
+2019-12-30 15:56:24.847   CNC 0   INF   Sleeping for 9.901262583s
+2019-12-30 15:56:34.749   CNC 0   INF   Workplace still active
+2019-12-30 15:56:34.883   CNC 0   INF   Download and sort takes: 133.728768ms
+2019-12-30 15:56:34.916   CNC 0   INF   Processing takes 166.478565ms
+2019-12-30 15:56:34.916   CNC 0   INF   Sleeping for 9.833381056s
+2019-12-30 15:56:44.750   CNC 0   INF   Workplace still active
+2019-12-30 15:56:44.782   CNC 0   INF   Download and sort takes: 31.306191ms
+2019-12-30 15:56:44.861   CNC 0   INF   Processing takes 111.03817ms
+2019-12-30 15:56:44.862   CNC 0   INF   Sleeping for 9.888802483s
+2019-12-30 15:56:54.755   CNC 0   INF   Workplace still active
+2019-12-30 15:56:54.785   CNC 0   INF   Download and sort takes: 29.404404ms
+2019-12-30 15:56:54.845   CNC 0   INF   Processing takes 89.746703ms
+2019-12-30 15:56:54.846   CNC 0   INF   Sleeping for 9.9101224s
+2019-12-30 15:57:04.759   CNC 0   INF   Workplace still active
+2019-12-30 15:57:04.806   CNC 0   INF   Download and sort takes: 46.56606ms
+2019-12-30 15:57:04.861   CNC 0   INF   Processing takes 101.611616ms
+2019-12-30 15:57:04.861   CNC 0   INF   Sleeping for 9.898131663s
+2019-12-30 15:57:14.760   CNC 0   INF   Workplace still active
+2019-12-30 15:57:14.830   CNC 0   INF   Download and sort takes: 69.477365ms
+2019-12-30 15:57:14.885   CNC 0   INF   Processing takes 123.312702ms
+2019-12-30 15:57:14.885   CNC 0   INF   Sleeping for 9.875663719s
+2019-12-30 15:57:24.761   CNC 0   INF   Workplace still active
+2019-12-30 15:57:24.844   CNC 0   INF   Download and sort takes: 82.645455ms
+2019-12-30 15:57:24.904   CNC 0   INF   Processing takes 142.329595ms
+2019-12-30 15:57:24.904   CNC 0   INF   Sleeping for 9.857111033s
+2019-12-30 15:57:34.764   CNC 0   INF   Workplace still active
+2019-12-30 15:57:34.833   CNC 0   INF   Download and sort takes: 68.642031ms
+2019-12-30 15:57:34.905   CNC 0   INF   Processing takes 140.235314ms
+2019-12-30 15:57:34.905   CNC 0   INF   Sleeping for 9.859491181s
+2019-12-30 15:57:44.765   CNC 0   INF   Workplace still active
+2019-12-30 15:57:44.807   CNC 0   INF   Download and sort takes: 41.578072ms
+2019-12-30 15:57:44.848   CNC 0   INF   Processing takes 83.009996ms
+2019-12-30 15:57:44.848   CNC 0   INF   Sleeping for 9.916829393s
+2019-12-30 15:57:54.770   CNC 0   INF   Workplace still active
+2019-12-30 15:57:54.868   CNC 0   INF   Download and sort takes: 97.750493ms
+2019-12-30 15:57:54.907   CNC 0   INF   Processing takes 137.548415ms
+2019-12-30 15:57:54.908   CNC 0   INF   Sleeping for 9.862267303s
+2019-12-30 15:58:04.772   CNC 0   INF   Workplace still active
+2019-12-30 15:58:04.822   CNC 0   INF   Download and sort takes: 50.011223ms
+2019-12-30 15:58:04.906   CNC 0   INF   Processing takes 133.383789ms
+2019-12-30 15:58:04.906   CNC 0   INF   Sleeping for 9.866481374s
+2019-12-30 15:58:14.774   CNC 0   INF   Workplace still active
+2019-12-30 15:58:14.876   CNC 0   INF   Download and sort takes: 101.401277ms
+2019-12-30 15:58:14.936   CNC 0   INF   Processing takes 161.301769ms
+2019-12-30 15:58:14.936   CNC 0   INF   Sleeping for 9.838556818s
+2019-12-30 15:58:24.775   CNC 0   INF   Workplace still active
+2019-12-30 15:58:24.873   CNC 0   INF   Download and sort takes: 98.441985ms
+2019-12-30 15:58:24.938   CNC 0   INF   Processing takes 160.199318ms
+2019-12-30 15:58:24.939   CNC 0   INF   Sleeping for 9.836537205s
+2019-12-30 15:58:34.779   CNC 0   INF   Workplace still active
+2019-12-30 15:58:34.873   CNC 0   INF   Download and sort takes: 93.738332ms
+2019-12-30 15:58:34.924   CNC 0   INF   Processing takes 144.936435ms
+2019-12-30 15:58:34.924   CNC 0   INF   Sleeping for 9.854887625s
+2019-12-30 15:58:44.780   CNC 0   INF   Workplace still active
+2019-12-30 15:58:44.860   CNC 0   INF   Download and sort takes: 79.16821ms
+2019-12-30 15:58:44.887   CNC 0   INF   Processing takes 106.957218ms
+2019-12-30 15:58:44.888   CNC 0   INF   Sleeping for 9.892902249s
+2019-12-30 15:58:54.781   CNC 0   INF   Workplace still active
+2019-12-30 15:58:54.850   CNC 0   INF   Download and sort takes: 68.744217ms
+2019-12-30 15:58:54.914   CNC 0   INF   Processing takes 132.841001ms
+2019-12-30 15:58:54.914   CNC 0   INF   Sleeping for 9.866949504s
+2019-12-30 15:59:04.783   CNC 0   INF   Workplace still active
+2019-12-30 15:59:04.876   CNC 0   INF   Download and sort takes: 92.354964ms
+2019-12-30 15:59:04.925   CNC 0   INF   Processing takes 140.922779ms
+2019-12-30 15:59:04.925   CNC 0   INF   Sleeping for 9.858898005s

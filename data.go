@@ -14,6 +14,6 @@ type IntermediateDataType int
 
 const (
 	production IntermediateDataType = iota
-	offline
+	poweroff
 	special
 )

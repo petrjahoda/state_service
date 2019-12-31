@@ -28,7 +28,7 @@ type Workplace struct {
 	ActualWorkplaceModeId  uint
 	ProductionPortValue    int
 	ProductionPortDateTime time.Time
-	OfflinePortDateTime    time.Time
+	PoweroffPortDateTime   time.Time
 	WorkplaceModes         []WorkplaceMode
 	WorkplacePorts         []WorkplacePort
 	Devices                []Device
@@ -61,7 +61,7 @@ type WorkplaceMode struct {
 	gorm.Model
 	Name             string `gorm:"unique"`
 	DownTimeInterval int
-	OfflineInterval  int
+	PowerOffInterval int
 	Note             string
 }
 
@@ -304,9 +304,9 @@ func CheckTables() {
 		downtime := State{Name: "Downtime", Color: "#E6AD3C"}
 		db.NewRecord(downtime)
 		db.Create(&downtime)
-		offline := State{Name: "Offline", Color: "#DE6B59"}
-		db.NewRecord(offline)
-		db.Create(&offline)
+		poweroff := State{Name: "Poweroff", Color: "#DE6B59"}
+		db.NewRecord(poweroff)
+		db.Create(&poweroff)
 	} else {
 		db.AutoMigrate(&State{})
 	}
@@ -324,7 +324,7 @@ func CheckTables() {
 	if !db.HasTable(&WorkplaceMode{}) {
 		LogInfo("MAIN", "Workplacemode table not exists, creating")
 		db.CreateTable(&WorkplaceMode{})
-		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300, OfflineInterval: 300}
+		mode := WorkplaceMode{Name: "Production", DownTimeInterval: 300, PowerOffInterval: 300}
 		db.NewRecord(mode)
 		db.Create(&mode)
 	} else {

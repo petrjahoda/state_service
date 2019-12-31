@@ -25,17 +25,17 @@ func (workplace Workplace) AddData() []IntermediateData {
 	defer db.Close()
 	var workplaceState WorkplaceState
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
-	offlineRecords := workplace.DownloadOfflineRecords(db, workplaceState)
+	poweroffRecords := workplace.DownloadPoweroffRecords(db, workplaceState)
 	productionRecords := workplace.DownloadProductionRecords(db, workplaceState)
-	intermediateData := workplace.CreateIntermediateData(offlineRecords, productionRecords)
+	intermediateData := workplace.CreateIntermediateData(poweroffRecords, productionRecords)
 	return intermediateData
 }
 
-func (workplace Workplace) CreateIntermediateData(offlineRecords []DeviceAnalogRecord, productionRecords []DeviceDigitalRecord) []IntermediateData {
+func (workplace Workplace) CreateIntermediateData(poweroffRecords []DeviceAnalogRecord, productionRecords []DeviceDigitalRecord) []IntermediateData {
 	var intermediateData []IntermediateData
-	for _, offlineRecord := range offlineRecords {
-		rawData := strconv.FormatFloat(float64(offlineRecord.Data), 'g', 15, 64)
-		data := IntermediateData{DateTime: offlineRecord.DateTime, RawData: rawData, Type: offline}
+	for _, poweroffRecord := range poweroffRecords {
+		rawData := strconv.FormatFloat(float64(poweroffRecord.Data), 'g', 15, 64)
+		data := IntermediateData{DateTime: poweroffRecord.DateTime, RawData: rawData, Type: poweroff}
 		intermediateData = append(intermediateData, data)
 	}
 	for _, productionRecord := range productionRecords {
@@ -59,14 +59,14 @@ func (workplace Workplace) DownloadProductionRecords(db *gorm.DB, workplaceState
 	return productionRecords
 }
 
-func (workplace Workplace) DownloadOfflineRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceAnalogRecord {
-	var offline State
-	db.Where("name=?", "Offline").Find(&offline)
-	var offlinePort WorkplacePort
-	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", offline.ID).First(&offlinePort)
-	var offlineRecords []DeviceAnalogRecord
-	db.Where("device_port_id=?", offlinePort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&offlineRecords)
-	return offlineRecords
+func (workplace Workplace) DownloadPoweroffRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceAnalogRecord {
+	var poweroff State
+	db.Where("name=?", "Poweroff").Find(&poweroff)
+	var poweroffPort WorkplacePort
+	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", poweroff.ID).First(&poweroffPort)
+	var poweroffRecords []DeviceAnalogRecord
+	db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
+	return poweroffRecords
 }
 
 func ProcessData(workplace *Workplace, data []IntermediateData) {
@@ -79,35 +79,35 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	defer db.Close()
 	var actualWorkplaceMode WorkplaceMode
 	db.Where("id=?", workplace.ActualWorkplaceModeId).Find(&actualWorkplaceMode)
-	offlineInterval := actualWorkplaceMode.OfflineInterval
+	poweroffInterval := actualWorkplaceMode.PowerOffInterval
 	downtimeInterval := actualWorkplaceMode.DownTimeInterval
+	var actualState State
+	db.Where("id=?", workplace.ActualStateId).Find(&actualState)
 	for _, actualData := range data {
-		if actualData.Type == offline {
-			workplace.OfflinePortDateTime = actualData.DateTime
+		if actualData.Type == poweroff {
+			workplace.PoweroffPortDateTime = actualData.DateTime
 		} else if actualData.Type == production {
 			workplace.ProductionPortDateTime = actualData.DateTime
 		}
 		LogInfo(workplace.Name, "Data: "+actualData.DateTime.UTC().String())
-		var actualState State
-		db.Where("id=?", workplace.ActualStateId).Find(&actualState)
 		LogInfo(workplace.Name, "Actual workplace state: "+actualState.Name)
 		switch actualState.Name {
-		case "Offline":
+		case "Poweroff":
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
 					break
 				}
-				if actualData.Type == offline {
+				if actualData.Type == poweroff {
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
 					break
 				}
 			}
 		case "Production":
 			{
-				workplaceOfflineDifference := int(actualData.DateTime.Sub(workplace.OfflinePortDateTime).Seconds())
-				if workplaceOfflineDifference > offlineInterval {
-					UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
+				if workplacePoweroffDifference > poweroffInterval {
+					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 					if actualData.Type == production && actualData.RawData == "1" {
 						UpdateState(db, &workplace, actualData.DateTime, "Production")
 						break
@@ -123,9 +123,9 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 			}
 		case "Downtime":
 			{
-				workplaceOfflineDifference := int(actualData.DateTime.Sub(workplace.OfflinePortDateTime).Seconds())
-				if workplaceOfflineDifference > offlineInterval {
-					UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
+				if workplacePoweroffDifference > poweroffInterval {
+					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 					if actualData.Type == production && actualData.RawData == "1" {
 						UpdateState(db, &workplace, actualData.DateTime, "Production")
 						break
@@ -145,18 +145,16 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
 					break
 				}
-				if actualData.Type == offline {
+				if actualData.Type == poweroff {
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
 					break
 				}
 			}
 		}
 	}
-	workplaceOfflineDifference := int(time.Now().UTC().Sub(workplace.OfflinePortDateTime).Seconds())
-	var actualState State
-	db.Where("id=?", workplace.ActualStateId).Find(&actualState)
-	if workplaceOfflineDifference > offlineInterval && actualState.Name != "Offline" {
-		UpdateState(db, &workplace, workplace.OfflinePortDateTime, "Offline")
+	workplacePoweroffDifference := int(time.Now().UTC().Sub(workplace.PoweroffPortDateTime).Seconds())
+	if workplacePoweroffDifference > poweroffInterval && actualState.Name != "Poweroff" {
+		UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 	}
 }
 

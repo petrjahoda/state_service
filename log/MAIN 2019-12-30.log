@@ -1007,3 +1007,239 @@
 2019-12-30 14:10:57.737   MAIN   INF   Active workplaces: 20, running workplaces: 20
 2019-12-30 14:10:57.737   MAIN   INF   Sleeping for 9.545572026s
 2019-12-30 14:11:07.288   MAIN   INF   Program running
+2019-12-30 15:46:14.063   MAIN   INF   Program version 2019.4.3.30 started
+2019-12-30 15:46:14.064   MAIN   INF   Program running
+2019-12-30 15:46:14.556   MAIN   INF   WorkplaceState table not exists, creating
+2019-12-30 15:46:14.580   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2019-12-30 15:46:14.580   MAIN   INF   Sleeping for 9.483718875s
+2019-12-30 15:46:24.066   MAIN   INF   Program running
+2019-12-30 15:46:24.604   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:46:24.604   MAIN   INF   Sleeping for 9.461501129s
+2019-12-30 15:46:34.067   MAIN   INF   Program running
+2019-12-30 15:46:35.551   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:46:35.551   MAIN   INF   Sleeping for 8.515829432s
+2019-12-30 15:46:44.072   MAIN   INF   Program running
+2019-12-30 15:46:45.315   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:46:45.316   MAIN   INF   Sleeping for 8.756703831s
+2019-12-30 15:46:54.074   MAIN   INF   Program running
+2019-12-30 15:46:55.193   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:46:55.193   MAIN   INF   Sleeping for 8.880915798s
+2019-12-30 15:47:04.075   MAIN   INF   Program running
+2019-12-30 15:47:04.881   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:04.882   MAIN   INF   Sleeping for 9.19307329s
+2019-12-30 15:47:14.075   MAIN   INF   Program running
+2019-12-30 15:47:14.685   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:14.685   MAIN   INF   Sleeping for 9.390027411s
+2019-12-30 15:47:24.076   MAIN   INF   Program running
+2019-12-30 15:47:24.554   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:24.554   MAIN   INF   Sleeping for 9.521291714s
+2019-12-30 15:47:34.079   MAIN   INF   Program running
+2019-12-30 15:47:34.574   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:34.574   MAIN   INF   Sleeping for 9.505510829s
+2019-12-30 15:47:44.084   MAIN   INF   Program running
+2019-12-30 15:47:44.592   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:44.593   MAIN   INF   Sleeping for 9.491417616s
+2019-12-30 15:47:54.089   MAIN   INF   Program running
+2019-12-30 15:47:54.841   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:47:54.841   MAIN   INF   Sleeping for 9.248294093s
+2019-12-30 15:48:04.093   MAIN   INF   Program running
+2019-12-30 15:48:04.585   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:04.585   MAIN   INF   Sleeping for 9.507445936s
+2019-12-30 15:48:14.096   MAIN   INF   Program running
+2019-12-30 15:48:14.609   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:14.609   MAIN   INF   Sleeping for 9.487042624s
+2019-12-30 15:48:24.098   MAIN   INF   Program running
+2019-12-30 15:48:24.567   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:24.567   MAIN   INF   Sleeping for 9.531393777s
+2019-12-30 15:48:34.102   MAIN   INF   Program running
+2019-12-30 15:48:34.577   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:34.577   MAIN   INF   Sleeping for 9.525029205s
+2019-12-30 15:48:44.105   MAIN   INF   Program running
+2019-12-30 15:48:44.580   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:44.580   MAIN   INF   Sleeping for 9.524439223s
+2019-12-30 15:48:54.108   MAIN   INF   Program running
+2019-12-30 15:48:54.567   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:48:54.567   MAIN   INF   Sleeping for 9.540124765s
+2019-12-30 15:49:04.110   MAIN   INF   Program running
+2019-12-30 15:49:04.828   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:04.828   MAIN   INF   Sleeping for 9.28134169s
+2019-12-30 15:49:14.113   MAIN   INF   Program running
+2019-12-30 15:49:14.597   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:14.597   MAIN   INF   Sleeping for 9.515379064s
+2019-12-30 15:49:24.114   MAIN   INF   Program running
+2019-12-30 15:49:24.596   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:24.596   MAIN   INF   Sleeping for 9.518369653s
+2019-12-30 15:49:34.115   MAIN   INF   Program running
+2019-12-30 15:49:34.576   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:34.576   MAIN   INF   Sleeping for 9.538733199s
+2019-12-30 15:49:44.120   MAIN   INF   Program running
+2019-12-30 15:49:44.573   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:44.573   MAIN   INF   Sleeping for 9.546583407s
+2019-12-30 15:49:54.121   MAIN   INF   Program running
+2019-12-30 15:49:54.595   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:49:54.595   MAIN   INF   Sleeping for 9.525512317s
+2019-12-30 15:50:04.126   MAIN   INF   Program running
+2019-12-30 15:50:04.579   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:04.579   MAIN   INF   Sleeping for 9.546247877s
+2019-12-30 15:50:14.131   MAIN   INF   Program running
+2019-12-30 15:50:14.598   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:14.598   MAIN   INF   Sleeping for 9.533025993s
+2019-12-30 15:50:24.134   MAIN   INF   Program running
+2019-12-30 15:50:24.599   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:24.599   MAIN   INF   Sleeping for 9.535091628s
+2019-12-30 15:50:34.138   MAIN   INF   Program running
+2019-12-30 15:50:34.591   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:34.591   MAIN   INF   Sleeping for 9.546422348s
+2019-12-30 15:50:44.140   MAIN   INF   Program running
+2019-12-30 15:50:44.600   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:44.600   MAIN   INF   Sleeping for 9.539822336s
+2019-12-30 15:50:54.140   MAIN   INF   Program running
+2019-12-30 15:50:54.593   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:50:54.593   MAIN   INF   Sleeping for 9.546345945s
+2019-12-30 15:51:04.144   MAIN   INF   Program running
+2019-12-30 15:51:04.585   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:04.585   MAIN   INF   Sleeping for 9.558670999s
+2019-12-30 15:51:14.148   MAIN   INF   Program running
+2019-12-30 15:51:14.616   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:14.616   MAIN   INF   Sleeping for 9.531986726s
+2019-12-30 15:51:24.151   MAIN   INF   Program running
+2019-12-30 15:51:24.605   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:24.605   MAIN   INF   Sleeping for 9.545131375s
+2019-12-30 15:51:34.151   MAIN   INF   Program running
+2019-12-30 15:51:34.628   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:34.628   MAIN   INF   Sleeping for 9.523169252s
+2019-12-30 15:51:44.153   MAIN   INF   Program running
+2019-12-30 15:51:44.595   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:44.595   MAIN   INF   Sleeping for 9.557341405s
+2019-12-30 15:51:54.153   MAIN   INF   Program running
+2019-12-30 15:51:54.613   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:51:54.613   MAIN   INF   Sleeping for 9.539846074s
+2019-12-30 15:52:04.155   MAIN   INF   Program running
+2019-12-30 15:52:04.613   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:04.613   MAIN   INF   Sleeping for 9.541240055s
+2019-12-30 15:52:14.158   MAIN   INF   Program running
+2019-12-30 15:52:14.612   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:14.612   MAIN   INF   Sleeping for 9.545712841s
+2019-12-30 15:52:24.161   MAIN   INF   Program running
+2019-12-30 15:52:24.618   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:24.619   MAIN   INF   Sleeping for 9.5421781s
+2019-12-30 15:52:34.162   MAIN   INF   Program running
+2019-12-30 15:52:34.637   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:34.637   MAIN   INF   Sleeping for 9.524889114s
+2019-12-30 15:52:44.163   MAIN   INF   Program running
+2019-12-30 15:52:44.625   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:44.625   MAIN   INF   Sleeping for 9.537084156s
+2019-12-30 15:52:54.167   MAIN   INF   Program running
+2019-12-30 15:52:54.619   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:52:54.619   MAIN   INF   Sleeping for 9.547904464s
+2019-12-30 15:53:04.169   MAIN   INF   Program running
+2019-12-30 15:53:04.624   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:04.624   MAIN   INF   Sleeping for 9.544812853s
+2019-12-30 15:53:14.172   MAIN   INF   Program running
+2019-12-30 15:53:14.614   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:14.614   MAIN   INF   Sleeping for 9.558081595s
+2019-12-30 15:53:24.174   MAIN   INF   Program running
+2019-12-30 15:53:24.630   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:24.630   MAIN   INF   Sleeping for 9.543473494s
+2019-12-30 15:53:34.176   MAIN   INF   Program running
+2019-12-30 15:53:34.650   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:34.650   MAIN   INF   Sleeping for 9.525963719s
+2019-12-30 15:53:44.177   MAIN   INF   Program running
+2019-12-30 15:53:44.633   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:44.634   MAIN   INF   Sleeping for 9.543045236s
+2019-12-30 15:53:54.178   MAIN   INF   Program running
+2019-12-30 15:53:54.635   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:53:54.636   MAIN   INF   Sleeping for 9.542607208s
+2019-12-30 15:54:04.180   MAIN   INF   Program running
+2019-12-30 15:54:04.656   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:54:04.656   MAIN   INF   Sleeping for 9.523076135s
+2019-12-30 15:54:14.183   MAIN   INF   Program running
+2019-12-30 15:54:14.635   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:54:14.635   MAIN   INF   Sleeping for 9.547469446s
+2019-12-30 15:54:24.184   MAIN   INF   Program running
+2019-12-30 15:54:24.640   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:54:24.640   MAIN   INF   Sleeping for 9.544221511s
+2019-12-30 15:54:34.189   MAIN   INF   Program running
+2019-12-30 15:54:34.657   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:54:34.657   MAIN   INF   Sleeping for 9.532345292s
+2019-12-30 15:54:44.193   MAIN   INF   Program running
+2019-12-30 15:54:44.707   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:54:44.707   MAIN   INF   Sleeping for 9.486213312s
+2019-12-30 15:54:54.194   MAIN   INF   Program running
+2019-12-30 15:54:54.722   MAIN   INF   Active workplaces: 20, running workplaces: 10
+2019-12-30 15:54:54.722   MAIN   INF   Sleeping for 9.471245887s
+2019-12-30 15:55:04.197   MAIN   INF   Program running
+2019-12-30 15:55:04.660   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:04.660   MAIN   INF   Sleeping for 9.536906062s
+2019-12-30 15:55:14.200   MAIN   INF   Program running
+2019-12-30 15:55:14.673   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:14.673   MAIN   INF   Sleeping for 9.526474694s
+2019-12-30 15:55:24.206   MAIN   INF   Program running
+2019-12-30 15:55:24.669   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:24.669   MAIN   INF   Sleeping for 9.537504693s
+2019-12-30 15:55:34.210   MAIN   INF   Program running
+2019-12-30 15:55:34.678   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:34.678   MAIN   INF   Sleeping for 9.531470384s
+2019-12-30 15:55:44.215   MAIN   INF   Program running
+2019-12-30 15:55:44.692   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:44.692   MAIN   INF   Sleeping for 9.52318407s
+2019-12-30 15:55:54.216   MAIN   INF   Program running
+2019-12-30 15:55:54.681   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:55:54.682   MAIN   INF   Sleeping for 9.534168214s
+2019-12-30 15:56:04.217   MAIN   INF   Program running
+2019-12-30 15:56:04.711   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:04.711   MAIN   INF   Sleeping for 9.505839238s
+2019-12-30 15:56:14.222   MAIN   INF   Program running
+2019-12-30 15:56:14.680   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:14.680   MAIN   INF   Sleeping for 9.54223602s
+2019-12-30 15:56:24.224   MAIN   INF   Program running
+2019-12-30 15:56:24.688   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:24.688   MAIN   INF   Sleeping for 9.535686607s
+2019-12-30 15:56:34.228   MAIN   INF   Program running
+2019-12-30 15:56:34.694   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:34.694   MAIN   INF   Sleeping for 9.534168868s
+2019-12-30 15:56:44.230   MAIN   INF   Program running
+2019-12-30 15:56:44.684   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:44.684   MAIN   INF   Sleeping for 9.54603382s
+2019-12-30 15:56:54.231   MAIN   INF   Program running
+2019-12-30 15:56:54.718   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:56:54.718   MAIN   INF   Sleeping for 9.512329029s
+2019-12-30 15:57:04.234   MAIN   INF   Program running
+2019-12-30 15:57:04.691   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:04.691   MAIN   INF   Sleeping for 9.542770929s
+2019-12-30 15:57:14.238   MAIN   INF   Program running
+2019-12-30 15:57:14.695   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:14.695   MAIN   INF   Sleeping for 9.542911525s
+2019-12-30 15:57:24.240   MAIN   INF   Program running
+2019-12-30 15:57:24.720   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:24.720   MAIN   INF   Sleeping for 9.51996199s
+2019-12-30 15:57:34.245   MAIN   INF   Program running
+2019-12-30 15:57:34.695   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:34.695   MAIN   INF   Sleeping for 9.54952843s
+2019-12-30 15:57:44.246   MAIN   INF   Program running
+2019-12-30 15:57:44.761   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:44.761   MAIN   INF   Sleeping for 9.485105724s
+2019-12-30 15:57:54.247   MAIN   INF   Program running
+2019-12-30 15:57:54.689   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:57:54.689   MAIN   INF   Sleeping for 9.558091415s
+2019-12-30 15:58:04.249   MAIN   INF   Program running
+2019-12-30 15:58:04.698   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:04.698   MAIN   INF   Sleeping for 9.550978353s
+2019-12-30 15:58:14.254   MAIN   INF   Program running
+2019-12-30 15:58:14.728   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:14.728   MAIN   INF   Sleeping for 9.526488584s
+2019-12-30 15:58:24.259   MAIN   INF   Program running
+2019-12-30 15:58:24.727   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:24.727   MAIN   INF   Sleeping for 9.531389753s
+2019-12-30 15:58:34.261   MAIN   INF   Program running
+2019-12-30 15:58:34.979   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:34.979   MAIN   INF   Sleeping for 9.282130568s
+2019-12-30 15:58:44.264   MAIN   INF   Program running
+2019-12-30 15:58:44.737   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:44.737   MAIN   INF   Sleeping for 9.526441874s
+2019-12-30 15:58:54.264   MAIN   INF   Program running
+2019-12-30 15:58:54.769   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:58:54.769   MAIN   INF   Sleeping for 9.4951657s
+2019-12-30 15:59:04.265   MAIN   INF   Program running
+2019-12-30 15:59:04.736   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2019-12-30 15:59:04.736   MAIN   INF   Sleeping for 9.528575961s
