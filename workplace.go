@@ -139,7 +139,6 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 					if workplace.ProductionPortValue == 0 && workplaceDowntimeDifference > downtimeInterval {
 						UpdateState(db, &workplace, workplace.ProductionPortDateTime, "Downtime")
 						actualState.Name = "Downtime"
-
 						break
 					}
 				}

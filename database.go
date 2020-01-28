@@ -52,7 +52,7 @@ type WorkplaceState struct {
 	WorkplaceId   uint
 	StateId       uint
 	DateTimeStart time.Time
-	DateTimeEnd   time.Time
+	DateTimeEnd   time.Time `gorm:"default:'null'"`
 	Interval      float32
 	Note          string
 }
