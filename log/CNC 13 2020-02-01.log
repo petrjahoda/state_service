@@ -8,3 +8,5 @@
 2020-02-01 07:41:46.139   CNC 13   INF   Sleeping for 9.417626894s
 2020-02-01 07:42:24.379   CNC 13   INF   Workplace started running
 2020-02-01 07:42:24.878   CNC 13   INF   Download and sort of length 808 takes: 498.043617ms
+2020-02-01 18:40:40.708   CNC 13   INF   Workplace started running
+2020-02-01 18:40:41.053   CNC 13   INF   Download and sort of length 0 takes: 345.15919ms

@@ -10,3 +10,7 @@
 2020-02-01 07:42:24.739   CNC 18   INF   Download and sort of length 0 takes: 358.80552ms
 2020-02-01 07:42:25.015   CNC 18   INF   Processing takes 635.193937ms
 2020-02-01 07:42:25.015   CNC 18   INF   Sleeping for 9.364690066s
+2020-02-01 18:40:40.707   CNC 18   INF   Workplace started running
+2020-02-01 18:40:40.804   CNC 18   INF   Download and sort of length 0 takes: 96.166014ms
+2020-02-01 18:40:41.095   CNC 18   INF   Processing takes 386.825366ms
+2020-02-01 18:40:41.095   CNC 18   INF   Sleeping for 9.613002672s

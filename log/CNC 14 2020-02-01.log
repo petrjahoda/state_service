@@ -8,3 +8,7 @@
 2020-02-01 07:41:45.981   CNC 14   INF   Sleeping for 9.57578957s
 2020-02-01 07:42:24.380   CNC 14   INF   Workplace started running
 2020-02-01 07:42:24.867   CNC 14   INF   Download and sort of length 29 takes: 486.469027ms
+2020-02-01 18:40:40.708   CNC 14   INF   Workplace started running
+2020-02-01 18:40:40.804   CNC 14   INF   Download and sort of length 0 takes: 95.419865ms
+2020-02-01 18:40:41.065   CNC 14   INF   Processing takes 356.046743ms
+2020-02-01 18:40:41.065   CNC 14   INF   Sleeping for 9.643839752s

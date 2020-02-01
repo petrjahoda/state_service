@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/jinzhu/gorm"
+	"github.com/petrjahoda/zapsi_database"
 	"strconv"
 	"sync"
 	"time"
@@ -13,8 +14,8 @@ const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
 var (
-	activeWorkplaces  []Workplace
-	runningWorkplaces []Workplace
+	activeWorkplaces  []zapsi_database.Workplace
+	runningWorkplaces []zapsi_database.Workplace
 	workplaceSync     sync.Mutex
 )
 
@@ -48,8 +49,11 @@ func main() {
 func CompleteDatabaseCheck() {
 	firstRunCheckComplete := false
 	for firstRunCheckComplete == false {
-		databaseOk := CheckDatabase()
-		tablesOk := CheckTables()
+		databaseOk := zapsi_database.CheckDatabase(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
+		tablesOk, err := zapsi_database.CheckTables(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
+		if err != nil {
+			LogInfo("MAIN", "Problem creating tables: "+err.Error())
+		}
 		if databaseOk && tablesOk {
 			WriteProgramVersionIntoSettings()
 			firstRunCheckComplete = true
@@ -57,7 +61,7 @@ func CompleteDatabaseCheck() {
 	}
 }
 
-func CheckWorkplace(workplace Workplace) bool {
+func CheckWorkplace(workplace zapsi_database.Workplace) bool {
 	for _, runningWorkplace := range runningWorkplaces {
 		if runningWorkplace.Name == workplace.Name {
 			return true
@@ -66,7 +70,7 @@ func CheckWorkplace(workplace Workplace) bool {
 	return false
 }
 
-func RunWorkplace(workplace Workplace) {
+func RunWorkplace(workplace zapsi_database.Workplace) {
 	LogInfo(workplace.Name, "Workplace started running")
 	workplaceSync.Lock()
 	runningWorkplaces = append(runningWorkplaces, workplace)
@@ -74,11 +78,11 @@ func RunWorkplace(workplace Workplace) {
 	workplaceIsActive := true
 	for workplaceIsActive {
 		start := time.Now()
-		intermediateData := workplace.AddData()
+		intermediateData := AddData(workplace)
 		LogInfo(workplace.Name, "Download and sort of length "+strconv.Itoa(len(intermediateData))+" takes: "+time.Since(start).String())
 		ProcessData(&workplace, intermediateData)
 		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
-		workplace.Sleep(start)
+		Sleep(workplace, start)
 		workplaceIsActive = CheckActive(workplace)
 	}
 	RemoveWorkplaceFromRunningWorkplaces(workplace)
@@ -86,7 +90,15 @@ func RunWorkplace(workplace Workplace) {
 
 }
 
-func CheckActive(workplace Workplace) bool {
+func Sleep(workplace zapsi_database.Workplace, start time.Time) {
+	if time.Since(start) < (downloadInSeconds * time.Second) {
+		sleepTime := downloadInSeconds*time.Second - time.Since(start)
+		LogInfo(workplace.Name, "Sleeping for "+sleepTime.String())
+		time.Sleep(sleepTime)
+	}
+}
+
+func CheckActive(workplace zapsi_database.Workplace) bool {
 	for _, activeWorkplace := range activeWorkplaces {
 		if activeWorkplace.Name == workplace.Name {
 			LogInfo(workplace.Name, "Workplace still active")
@@ -97,7 +109,7 @@ func CheckActive(workplace Workplace) bool {
 	return false
 }
 
-func RemoveWorkplaceFromRunningWorkplaces(workplace Workplace) {
+func RemoveWorkplaceFromRunningWorkplaces(workplace zapsi_database.Workplace) {
 	for idx, runningWorkplace := range runningWorkplaces {
 		if workplace.Name == runningWorkplace.Name {
 			workplaceSync.Lock()
@@ -108,7 +120,7 @@ func RemoveWorkplaceFromRunningWorkplaces(workplace Workplace) {
 }
 
 func UpdateActiveWorkplaces(reference string) {
-	connectionString, dialect := CheckDatabaseType()
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
@@ -120,14 +132,14 @@ func UpdateActiveWorkplaces(reference string) {
 }
 
 func WriteProgramVersionIntoSettings() {
-	connectionString, dialect := CheckDatabaseType()
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
 		return
 	}
 	defer db.Close()
-	var settings Setting
+	var settings zapsi_database.Setting
 	db.Where("key=?", programName).Find(&settings)
 	settings.Key = programName
 	settings.Value = version

@@ -10,3 +10,5 @@
 2020-02-01 07:42:24.597   CNC 12   INF   Download and sort of length 0 takes: 217.94361ms
 2020-02-01 07:42:24.927   CNC 12   INF   Processing takes 547.93559ms
 2020-02-01 07:42:24.927   CNC 12   INF   Sleeping for 9.451922184s
+2020-02-01 18:40:40.707   CNC 12   INF   Workplace started running
+2020-02-01 18:40:40.993   CNC 12   INF   Download and sort of length 0 takes: 284.999565ms

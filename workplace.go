@@ -2,36 +2,29 @@ package main
 
 import (
 	"github.com/jinzhu/gorm"
+	"github.com/petrjahoda/zapsi_database"
 	"sort"
 	"strconv"
 	"time"
 )
 
-func (workplace Workplace) Sleep(start time.Time) {
-	if time.Since(start) < (downloadInSeconds * time.Second) {
-		sleepTime := downloadInSeconds*time.Second - time.Since(start)
-		LogInfo(workplace.Name, "Sleeping for "+sleepTime.String())
-		time.Sleep(sleepTime)
-	}
-}
-
-func (workplace Workplace) AddData() []IntermediateData {
-	connectionString, dialect := CheckDatabaseType()
+func AddData(workplace zapsi_database.Workplace) []IntermediateData {
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
 		return nil
 	}
 	defer db.Close()
-	var workplaceState WorkplaceState
+	var workplaceState zapsi_database.WorkplaceState
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
-	poweroffRecords := workplace.DownloadPoweroffRecords(db, workplaceState)
-	productionRecords := workplace.DownloadProductionRecords(db, workplaceState)
-	intermediateData := workplace.CreateIntermediateData(poweroffRecords, productionRecords)
+	poweroffRecords := DownloadPoweroffRecords(workplace.ID, db, workplaceState)
+	productionRecords := DownloadProductionRecords(workplace.ID, db, workplaceState)
+	intermediateData := CreateIntermediateData(poweroffRecords, productionRecords)
 	return intermediateData
 }
 
-func (workplace Workplace) CreateIntermediateData(poweroffRecords []DeviceAnalogRecord, productionRecords []DeviceDigitalRecord) []IntermediateData {
+func CreateIntermediateData(poweroffRecords []zapsi_database.DeviceAnalogRecord, productionRecords []zapsi_database.DeviceDigitalRecord) []IntermediateData {
 	var intermediateData []IntermediateData
 	for _, poweroffRecord := range poweroffRecords {
 		rawData := strconv.FormatFloat(float64(poweroffRecord.Data), 'g', 15, 64)
@@ -49,53 +42,54 @@ func (workplace Workplace) CreateIntermediateData(poweroffRecords []DeviceAnalog
 	return intermediateData
 }
 
-func (workplace Workplace) DownloadProductionRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceDigitalRecord {
-	var production State
+func DownloadProductionRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.WorkplaceState) []zapsi_database.DeviceDigitalRecord {
+	var production zapsi_database.State
 	db.Where("name=?", "Production").Find(&production)
-	var productionPort WorkplacePort
-	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", production.ID).First(&productionPort)
-	var productionRecords []DeviceDigitalRecord
+	var productionPort zapsi_database.WorkplacePort
+	db.Where("workplace_id=?", workplaceId).Where("state_id=?", production.ID).First(&productionPort)
+	var productionRecords []zapsi_database.DeviceDigitalRecord
 	db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
 	return productionRecords
 }
 
-func (workplace Workplace) DownloadPoweroffRecords(db *gorm.DB, workplaceState WorkplaceState) []DeviceAnalogRecord {
-	var poweroff State
+func DownloadPoweroffRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.WorkplaceState) []zapsi_database.DeviceAnalogRecord {
+	var poweroff zapsi_database.State
 	db.Where("name=?", "Poweroff").Find(&poweroff)
-	var poweroffPort WorkplacePort
-	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", poweroff.ID).First(&poweroffPort)
-	var poweroffRecords []DeviceAnalogRecord
+	var poweroffPort zapsi_database.WorkplacePort
+	db.Where("workplace_id=?", workplaceId).Where("state_id=?", poweroff.ID).First(&poweroffPort)
+	var poweroffRecords []zapsi_database.DeviceAnalogRecord
 	db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
 	return poweroffRecords
 }
 
-func (workplace Workplace) GetLatestWorkplaceStateId(db *gorm.DB) int {
-	var workplaceState WorkplaceState
-	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
+//
+func GetLatestWorkplaceStateId(workplaceId uint, db *gorm.DB) int {
+	var workplaceState zapsi_database.WorkplaceState
+	db.Where("workplace_id=?", workplaceId).Last(&workplaceState)
 	return int(workplaceState.StateId)
 }
 
-func (workplace Workplace) GetActualState(latestworkplaceStateId int, db *gorm.DB) State {
-	var actualState State
+func GetActualState(latestworkplaceStateId int, db *gorm.DB) zapsi_database.State {
+	var actualState zapsi_database.State
 	db.Where("id=?", latestworkplaceStateId).Find(&actualState)
 	return actualState
 }
 
-func ProcessData(workplace *Workplace, data []IntermediateData) {
-	connectionString, dialect := CheckDatabaseType()
+func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
 		return
 	}
 	defer db.Close()
-	var actualWorkplaceMode WorkplaceMode
+	var actualWorkplaceMode zapsi_database.WorkplaceMode
 	db.Where("id=?", workplace.ActualWorkplaceModeId).Find(&actualWorkplaceMode)
 	poweroffInterval := actualWorkplaceMode.PoweroffInterval
 	downtimeInterval := actualWorkplaceMode.DowntimeInterval
-	var actualState State
-	latestworkplaceStateId := workplace.GetLatestWorkplaceStateId(db)
-	actualState = workplace.GetActualState(latestworkplaceStateId, db)
+	var actualState zapsi_database.State
+	latestworkplaceStateId := GetLatestWorkplaceStateId(workplace.ID, db)
+	actualState = GetActualState(latestworkplaceStateId, db)
 	for _, actualData := range data {
 		if actualData.Type == poweroff {
 			workplace.PoweroffPortDateTime = actualData.DateTime
@@ -194,14 +188,14 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 	}
 }
 
-func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, stateName string) {
+func UpdateState(db *gorm.DB, workplace **zapsi_database.Workplace, stateChangeTime time.Time, stateName string) {
 	LogInfo((*workplace).Name, "Changing state ==> "+stateName+" at "+stateChangeTime.String())
-	var state State
+	var state zapsi_database.State
 	db.Where("name=?", stateName).Last(&state)
 	(*workplace).ActualStateDateTime = stateChangeTime
 	(*workplace).ActualStateId = state.ID
 	db.Save(&workplace)
-	var lastWorkplaceState WorkplaceState
+	var lastWorkplaceState zapsi_database.WorkplaceState
 	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
 	if lastWorkplaceState.Id != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
@@ -209,6 +203,6 @@ func UpdateState(db *gorm.DB, workplace **Workplace, stateChangeTime time.Time, 
 		lastWorkplaceState.Interval = float32(interval.Seconds())
 		db.Save(&lastWorkplaceState)
 	}
-	newWorkplaceState := WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
+	newWorkplaceState := zapsi_database.WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
 }
