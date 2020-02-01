@@ -347,6 +347,7 @@ func CheckTables() {
 		db.CreateTable(&WorkplacePort{})
 		db.Model(&WorkplacePort{}).AddForeignKey("workplace_id", "workplaces(id)", "RESTRICT", "RESTRICT")
 		db.Model(&WorkplacePort{}).AddForeignKey("state_id", "states(id)", "RESTRICT", "RESTRICT")
+		db.Model(&WorkplacePort{}).AddForeignKey("device_port_id", "device_ports(id)", "RESTRICT", "RESTRICT")
 	} else {
 		db.AutoMigrate(&WorkplacePort{})
 	}

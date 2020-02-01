@@ -8,6 +8,7 @@ import (
 )
 
 const version = "2020.1.2.1"
+const programName = "Zapsi Service"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -19,7 +20,7 @@ var (
 
 func main() {
 	LogDirectoryFileCheck("MAIN")
-	LogInfo("MAIN", "Program version "+version+" started")
+	LogInfo("MAIN", programName+" version "+version+" started")
 	CreateConfigIfNotExists()
 	LoadSettingsFromConfigFile()
 	LogDebug("MAIN", "Using ["+DatabaseType+"] on "+DatabaseIpAddress+":"+DatabasePort+" with database "+DatabaseName)
@@ -29,6 +30,7 @@ func main() {
 		CheckDatabase()
 		CheckTables()
 		UpdateActiveWorkplaces("MAIN")
+		WriteProgramVersionIntoSettings()
 		DeleteOldLogFiles()
 		LogInfo("MAIN", "Active workplaces: "+strconv.Itoa(len(activeWorkplaces))+", running workplaces: "+strconv.Itoa(len(runningWorkplaces)))
 		for _, activeWorkplace := range activeWorkplaces {
@@ -105,4 +107,20 @@ func UpdateActiveWorkplaces(reference string) {
 	}
 	defer db.Close()
 	db.Find(&activeWorkplaces)
+}
+
+func WriteProgramVersionIntoSettings() {
+	connectionString, dialect := CheckDatabaseType()
+	db, err := gorm.Open(dialect, connectionString)
+	if err != nil {
+		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		return
+	}
+	defer db.Close()
+	var settings Setting
+	db.Where("key=?", programName).Find(&settings)
+	settings.Key = programName
+	settings.Value = version
+	db.Save(&settings)
+	LogDebug("MAIN", "Updated version in database for "+programName)
 }
