@@ -194,3 +194,164 @@
 2020-02-01 23:01:27.673   MAIN   INF   Program running
 2020-02-01 23:01:27.680   MAIN   INF   Active workplaces: 1, running workplaces: 0
 2020-02-01 23:01:27.680   MAIN   INF   Sleeping for 9.992843269s
+2020-02-01 23:05:25.618   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:05:27.448   MAIN   INF   Program running
+2020-02-01 23:05:27.456   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:05:27.456   MAIN   INF   Sleeping for 9.992642546s
+2020-02-01 23:05:40.690   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:05:46.618   MAIN   INF   Program running
+2020-02-01 23:05:46.627   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:05:46.627   MAIN   INF   Sleeping for 9.990493846s
+2020-02-01 23:05:56.623   MAIN   INF   Program running
+2020-02-01 23:05:56.649   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:05:56.650   MAIN   INF   Sleeping for 9.973524792s
+2020-02-01 23:06:06.627   MAIN   INF   Program running
+2020-02-01 23:06:06.683   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:06:06.683   MAIN   INF   Sleeping for 9.943468127s
+2020-02-01 23:06:16.629   MAIN   INF   Program running
+2020-02-01 23:06:16.722   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:06:16.722   MAIN   INF   Sleeping for 9.907600892s
+2020-02-01 23:07:46.360   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:07:48.019   MAIN   INF   Program running
+2020-02-01 23:07:48.027   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:07:48.027   MAIN   INF   Sleeping for 9.991635084s
+2020-02-01 23:09:12.773   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:09:14.543   MAIN   INF   Program running
+2020-02-01 23:09:14.551   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:09:14.551   MAIN   INF   Sleeping for 9.992269692s
+2020-02-01 23:10:31.274   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:10:33.475   MAIN   INF   Program running
+2020-02-01 23:10:33.484   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:10:33.484   MAIN   INF   Sleeping for 9.991596259s
+2020-02-01 23:11:14.902   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:11:16.864   MAIN   INF   Program running
+2020-02-01 23:11:16.871   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:11:16.872   MAIN   INF   Sleeping for 9.992587364s
+2020-02-01 23:12:46.017   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:12:47.702   MAIN   INF   Program running
+2020-02-01 23:12:47.710   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:12:47.710   MAIN   INF   Sleeping for 9.992214926s
+2020-02-01 23:12:57.703   MAIN   INF   Program running
+2020-02-01 23:12:57.726   MAIN   INF   Active workplaces: 20, running workplaces: 4
+2020-02-01 23:12:57.726   MAIN   INF   Sleeping for 9.976591881s
+2020-02-01 23:13:07.708   MAIN   INF   Program running
+2020-02-01 23:13:50.356   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:13:52.773   MAIN   INF   Program running
+2020-02-01 23:13:52.781   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:13:52.782   MAIN   INF   Sleeping for 9.99203533s
+2020-02-01 23:14:02.775   MAIN   INF   Program running
+2020-02-01 23:14:02.800   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:02.800   MAIN   INF   Sleeping for 9.974886889s
+2020-02-01 23:14:12.781   MAIN   INF   Program running
+2020-02-01 23:14:12.800   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:12.800   MAIN   INF   Sleeping for 9.980892821s
+2020-02-01 23:14:22.784   MAIN   INF   Program running
+2020-02-01 23:14:22.811   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:22.811   MAIN   INF   Sleeping for 9.972118124s
+2020-02-01 23:14:32.784   MAIN   INF   Program running
+2020-02-01 23:14:32.814   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:32.814   MAIN   INF   Sleeping for 9.970352778s
+2020-02-01 23:14:42.786   MAIN   INF   Program running
+2020-02-01 23:14:42.823   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:42.823   MAIN   INF   Sleeping for 9.962892964s
+2020-02-01 23:14:52.789   MAIN   INF   Program running
+2020-02-01 23:14:52.935   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:14:52.935   MAIN   INF   Sleeping for 9.853876298s
+2020-02-01 23:15:02.794   MAIN   INF   Program running
+2020-02-01 23:15:02.918   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:15:02.918   MAIN   INF   Sleeping for 9.875603581s
+2020-02-01 23:15:12.795   MAIN   INF   Program running
+2020-02-01 23:15:12.819   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:15:12.819   MAIN   INF   Sleeping for 9.975105406s
+2020-02-01 23:15:22.795   MAIN   INF   Program running
+2020-02-01 23:15:22.826   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:15:22.826   MAIN   INF   Sleeping for 9.96824327s
+2020-02-01 23:15:32.797   MAIN   INF   Program running
+2020-02-01 23:15:32.826   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:15:32.826   MAIN   INF   Sleeping for 9.970439408s
+2020-02-01 23:15:42.797   MAIN   INF   Program running
+2020-02-01 23:15:42.810   MAIN   INF   Active workplaces: 20, running workplaces: 1
+2020-02-01 23:15:42.811   MAIN   INF   Sleeping for 9.986756642s
+2020-02-01 23:15:52.801   MAIN   INF   Program running
+2020-02-01 23:17:28.165   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 23:17:29.822   MAIN   INF   Program running
+2020-02-01 23:17:29.829   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-01 23:17:29.830   MAIN   INF   Sleeping for 9.992339292s
+2020-02-01 23:17:39.824   MAIN   INF   Program running
+2020-02-01 23:17:39.851   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:17:39.851   MAIN   INF   Sleeping for 9.973201559s
+2020-02-01 23:17:49.826   MAIN   INF   Program running
+2020-02-01 23:17:49.860   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:17:49.861   MAIN   INF   Sleeping for 9.965231724s
+2020-02-01 23:17:59.829   MAIN   INF   Program running
+2020-02-01 23:17:59.855   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:17:59.855   MAIN   INF   Sleeping for 9.973583648s
+2020-02-01 23:18:09.830   MAIN   INF   Program running
+2020-02-01 23:18:09.860   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:09.860   MAIN   INF   Sleeping for 9.970324339s
+2020-02-01 23:18:19.831   MAIN   INF   Program running
+2020-02-01 23:18:19.859   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:19.859   MAIN   INF   Sleeping for 9.97187592s
+2020-02-01 23:18:29.836   MAIN   INF   Program running
+2020-02-01 23:18:29.937   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:29.938   MAIN   INF   Sleeping for 9.89828965s
+2020-02-01 23:18:39.839   MAIN   INF   Program running
+2020-02-01 23:18:39.865   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:39.865   MAIN   INF   Sleeping for 9.973742529s
+2020-02-01 23:18:49.842   MAIN   INF   Program running
+2020-02-01 23:18:49.966   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:49.966   MAIN   INF   Sleeping for 9.876655719s
+2020-02-01 23:18:59.843   MAIN   INF   Program running
+2020-02-01 23:18:59.886   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:18:59.886   MAIN   INF   Sleeping for 9.957027337s
+2020-02-01 23:19:09.845   MAIN   INF   Program running
+2020-02-01 23:19:09.958   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:19:09.958   MAIN   INF   Sleeping for 9.886254136s
+2020-02-01 23:19:19.846   MAIN   INF   Program running
+2020-02-01 23:19:19.960   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:19:19.960   MAIN   INF   Sleeping for 9.885182078s
+2020-02-01 23:19:29.846   MAIN   INF   Program running
+2020-02-01 23:19:29.937   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:19:29.938   MAIN   INF   Sleeping for 9.908120716s
+2020-02-01 23:19:39.846   MAIN   INF   Program running
+2020-02-01 23:19:39.981   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:19:39.981   MAIN   INF   Sleeping for 9.865043044s
+2020-02-01 23:19:49.851   MAIN   INF   Program running
+2020-02-01 23:19:49.948   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:19:49.948   MAIN   INF   Sleeping for 9.902780231s
+2020-02-01 23:19:59.855   MAIN   INF   Program running
+2020-02-01 23:20:00.058   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:00.058   MAIN   INF   Sleeping for 9.796244411s
+2020-02-01 23:20:09.857   MAIN   INF   Program running
+2020-02-01 23:20:09.916   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:09.916   MAIN   INF   Sleeping for 9.939941727s
+2020-02-01 23:20:19.861   MAIN   INF   Program running
+2020-02-01 23:20:19.906   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:19.906   MAIN   INF   Sleeping for 9.953897066s
+2020-02-01 23:20:29.862   MAIN   INF   Program running
+2020-02-01 23:20:29.956   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:29.956   MAIN   INF   Sleeping for 9.906037545s
+2020-02-01 23:20:39.867   MAIN   INF   Program running
+2020-02-01 23:20:39.915   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:39.915   MAIN   INF   Sleeping for 9.952395322s
+2020-02-01 23:20:49.870   MAIN   INF   Program running
+2020-02-01 23:20:49.956   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:49.956   MAIN   INF   Sleeping for 9.912916604s
+2020-02-01 23:20:59.870   MAIN   INF   Program running
+2020-02-01 23:20:59.953   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:20:59.953   MAIN   INF   Sleeping for 9.916491796s
+2020-02-01 23:21:09.873   MAIN   INF   Program running
+2020-02-01 23:21:10.044   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:21:10.044   MAIN   INF   Sleeping for 9.829002977s
+2020-02-01 23:21:19.878   MAIN   INF   Program running
+2020-02-01 23:21:19.980   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:21:19.980   MAIN   INF   Sleeping for 9.897438371s
+2020-02-01 23:21:29.884   MAIN   INF   Program running
+2020-02-01 23:21:29.908   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:21:29.908   MAIN   INF   Sleeping for 9.974721764s
+2020-02-01 23:21:39.886   MAIN   INF   Program running
+2020-02-01 23:21:39.944   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:21:39.944   MAIN   INF   Sleeping for 9.941492301s
+2020-02-01 23:21:49.891   MAIN   INF   Program running
+2020-02-01 23:21:50.054   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-01 23:21:50.054   MAIN   INF   Sleeping for 9.835883319s

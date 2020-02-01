@@ -110,13 +110,13 @@ func CheckActive(workplace zapsi_database.Workplace) bool {
 }
 
 func RemoveWorkplaceFromRunningWorkplaces(workplace zapsi_database.Workplace) {
+	workplaceSync.Lock()
 	for idx, runningWorkplace := range runningWorkplaces {
 		if workplace.Name == runningWorkplace.Name {
-			workplaceSync.Lock()
 			runningWorkplaces = append(runningWorkplaces[0:idx], runningWorkplaces[idx+1:]...)
-			workplaceSync.Unlock()
 		}
 	}
+	workplaceSync.Unlock()
 }
 
 func UpdateActiveWorkplaces(reference string) {
