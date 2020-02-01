@@ -1,0 +1,23 @@
+2020-02-01 21:27:41.590   Zapsi   INF   Workplace started running
+2020-02-01 21:27:41.620   Zapsi   INF   Download and sort of length 0 takes: 29.210378ms
+2020-02-01 21:27:41.635   Zapsi   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 21:27:41.657   Zapsi   INF   Processing takes 66.706542ms
+2020-02-01 21:27:41.657   Zapsi   INF   Sleeping for 9.933144187s
+2020-02-01 21:30:18.092   Zapsi   INF   Workplace started running
+2020-02-01 21:30:18.112   Zapsi   INF   Download and sort of length 0 takes: 19.716341ms
+2020-02-01 21:30:18.124   Zapsi   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 21:30:18.136   Zapsi   INF   Processing takes 43.485183ms
+2020-02-01 21:30:18.136   Zapsi   INF   Sleeping for 9.956420284s
+2020-02-01 21:30:54.442   Zapsi   INF   Workplace started running
+2020-02-01 21:30:54.459   Zapsi   INF   Download and sort of length 0 takes: 16.995483ms
+2020-02-01 21:30:54.470   Zapsi   INF   Processing takes 27.905818ms
+2020-02-01 21:30:54.470   Zapsi   INF   Sleeping for 9.971981013s
+2020-02-01 21:31:04.442   Zapsi   INF   Workplace started running
+2020-02-01 21:31:04.457   Zapsi   INF   Download and sort of length 0 takes: 14.732741ms
+2020-02-01 21:31:04.471   Zapsi   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 21:31:04.484   Zapsi   INF   Processing takes 42.308459ms
+2020-02-01 21:31:04.484   Zapsi   INF   Sleeping for 9.957571785s
+2020-02-01 21:31:14.443   Zapsi   INF   Workplace still active
+2020-02-01 21:31:14.473   Zapsi   INF   Download and sort of length 0 takes: 29.661971ms
+2020-02-01 21:31:14.488   Zapsi   INF   Processing takes 44.215168ms
+2020-02-01 21:31:14.488   Zapsi   INF   Sleeping for 9.95562368s

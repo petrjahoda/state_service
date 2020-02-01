@@ -12,3 +12,23 @@
 2020-02-01 07:42:24.887   CNC 3   INF   Sleeping for 9.493270997s
 2020-02-01 18:40:40.708   CNC 3   INF   Workplace started running
 2020-02-01 18:40:40.970   CNC 3   INF   Download and sort of length 0 takes: 261.399089ms
+2020-02-01 19:21:13.436   CNC 3   INF   Workplace started running
+2020-02-01 19:21:13.550   CNC 3   INF   Download and sort of length 0 takes: 113.211665ms
+2020-02-01 19:21:13.731   CNC 3   INF   Processing takes 294.68834ms
+2020-02-01 19:21:13.731   CNC 3   INF   Sleeping for 9.705130057s
+2020-02-01 19:21:23.441   CNC 3   INF   Workplace still active
+2020-02-01 19:21:23.704   CNC 3   INF   Download and sort of length 0 takes: 262.548247ms
+2020-02-01 19:21:23.858   CNC 3   INF   Processing takes 416.510236ms
+2020-02-01 19:21:23.858   CNC 3   INF   Sleeping for 9.583326096s
+2020-02-01 19:21:33.444   CNC 3   INF   Workplace still active
+2020-02-01 19:21:33.717   CNC 3   INF   Download and sort of length 0 takes: 272.994357ms
+2020-02-01 19:21:33.856   CNC 3   INF   Processing takes 411.634435ms
+2020-02-01 19:21:33.856   CNC 3   INF   Sleeping for 9.588211138s
+2020-02-01 19:21:43.448   CNC 3   INF   Workplace still active
+2020-02-01 19:21:43.686   CNC 3   INF   Download and sort of length 0 takes: 237.222316ms
+2020-02-01 19:21:43.917   CNC 3   INF   Processing takes 469.03172ms
+2020-02-01 19:21:43.918   CNC 3   INF   Sleeping for 9.530768391s
+2020-02-01 19:21:53.449   CNC 3   INF   Workplace still active
+2020-02-01 19:21:53.689   CNC 3   INF   Download and sort of length 0 takes: 239.488628ms
+2020-02-01 19:21:53.894   CNC 3   INF   Processing takes 444.572017ms
+2020-02-01 19:21:53.894   CNC 3   INF   Sleeping for 9.555263875s
