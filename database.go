@@ -139,7 +139,7 @@ type DeviceSerialRecord struct {
 	Interval     float32
 }
 
-func CheckDatabase() {
+func CheckDatabase() bool {
 	var connectionString string
 	var defaultString string
 	var dialect string
@@ -157,27 +157,29 @@ func CheckDatabase() {
 		LogWarning("MAIN", "Database zapsi4 does not exist")
 		db, err = gorm.Open(dialect, defaultString)
 		if err != nil {
-			LogError("MAIN", "Problem opening postgres database: "+err.Error())
-			return
+			LogError("MAIN", "Problem opening database: "+err.Error())
+			return false
 		}
 		db = db.Exec("CREATE DATABASE zapsi4;")
 		if db.Error != nil {
 			LogError("MAIN", "Cannot create database zapsi4")
 		}
 		LogInfo("MAIN", "Database zapsi4 created")
+		return true
 
 	}
 	defer db.Close()
 	LogDebug("MAIN", "Database zapsi4 exists")
+	return true
 }
 
-func CheckTables() {
+func CheckTables() bool {
 	connectionString, dialect := CheckDatabaseType()
 	db, err := gorm.Open(dialect, connectionString)
 
 	if err != nil {
 		LogError("MAIN", "Problem opening "+dialect+" database: "+err.Error())
-		return
+		return false
 	}
 	defer db.Close()
 	if !db.HasTable(&DeviceType{}) {
@@ -361,7 +363,7 @@ func CheckTables() {
 	} else {
 		db.AutoMigrate(&WorkplaceState{})
 	}
-
+	return true
 }
 
 func CheckDatabaseType() (string, string) {

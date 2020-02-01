@@ -24,13 +24,11 @@ func main() {
 	CreateConfigIfNotExists()
 	LoadSettingsFromConfigFile()
 	LogDebug("MAIN", "Using ["+DatabaseType+"] on "+DatabaseIpAddress+":"+DatabasePort+" with database "+DatabaseName)
+	CompleteDatabaseCheck()
 	for {
 		start := time.Now()
 		LogInfo("MAIN", "Program running")
-		CheckDatabase()
-		CheckTables()
 		UpdateActiveWorkplaces("MAIN")
-		WriteProgramVersionIntoSettings()
 		DeleteOldLogFiles()
 		LogInfo("MAIN", "Active workplaces: "+strconv.Itoa(len(activeWorkplaces))+", running workplaces: "+strconv.Itoa(len(runningWorkplaces)))
 		for _, activeWorkplace := range activeWorkplaces {
@@ -43,6 +41,18 @@ func main() {
 			sleepTime := downloadInSeconds*time.Second - time.Since(start)
 			LogInfo("MAIN", "Sleeping for "+sleepTime.String())
 			time.Sleep(sleepTime)
+		}
+	}
+}
+
+func CompleteDatabaseCheck() {
+	firstRunCheckComplete := false
+	for firstRunCheckComplete == false {
+		databaseOk := CheckDatabase()
+		tablesOk := CheckTables()
+		if databaseOk && tablesOk {
+			WriteProgramVersionIntoSettings()
+			firstRunCheckComplete = true
 		}
 	}
 }
@@ -121,6 +131,6 @@ func WriteProgramVersionIntoSettings() {
 	db.Where("key=?", programName).Find(&settings)
 	settings.Key = programName
 	settings.Value = version
-	db.Debug().Save(&settings)
+	db.Save(&settings)
 	LogDebug("MAIN", "Updated version in database for "+programName)
 }
