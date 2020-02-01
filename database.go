@@ -188,18 +188,9 @@ func CheckTables() bool {
 		zapsi := DeviceType{Name: "Zapsi"}
 		db.NewRecord(zapsi)
 		db.Create(&zapsi)
-		zapsiTouchOriginal := DeviceType{Name: "Zapsi Touch Original"}
-		db.NewRecord(zapsiTouchOriginal)
-		db.Create(&zapsiTouchOriginal)
-		zapsiTouchVirtual := DeviceType{Name: "Zapsi Touch Virtual"}
-		db.NewRecord(zapsiTouchVirtual)
-		db.Create(&zapsiTouchVirtual)
-		zapsiTouchRpiOne := DeviceType{Name: "Zapsi Touch Rpi 1"}
-		db.NewRecord(zapsiTouchRpiOne)
-		db.Create(&zapsiTouchRpiOne)
-		zapsiTouchRpiTwo := DeviceType{Name: "Zapsi Touch Rpi 2"}
-		db.NewRecord(zapsiTouchRpiTwo)
-		db.Create(&zapsiTouchRpiTwo)
+		zapsiTouch := DeviceType{Name: "Zapsi Touch"}
+		db.NewRecord(zapsiTouch)
+		db.Create(&zapsiTouch)
 		siemens := DeviceType{Name: "Siemens"}
 		db.NewRecord(siemens)
 		db.Create(&siemens)
