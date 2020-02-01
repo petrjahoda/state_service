@@ -41,3 +41,60 @@
 2020-02-01 21:42:00.036   CNC 16   INF   Download and sort of length 19 takes: 255.639565ms
 2020-02-01 21:42:00.378   CNC 16   INF   Processing takes 597.419567ms
 2020-02-01 21:42:00.378   CNC 16   INF   Sleeping for 9.402415216s
+2020-02-01 22:36:18.099   CNC 16   INF   Workplace started running
+2020-02-01 22:36:18.357   CNC 16   INF   Download and sort of length 24 takes: 258.186582ms
+2020-02-01 22:36:18.707   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:35:03.550193 +0100 CET
+2020-02-01 22:36:18.949   CNC 16   INF   Changing state ==> Downtime at 2020-02-01 22:35:04.550193 +0100 CET
+2020-02-01 22:36:19.188   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:35:13.543231 +0100 CET
+2020-02-01 22:36:19.337   CNC 16   INF   Changing state ==> Downtime at 2020-02-01 22:35:14.543231 +0100 CET
+2020-02-01 22:36:19.454   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:35:23.606159 +0100 CET
+2020-02-01 22:36:19.564   CNC 16   INF   Changing state ==> Downtime at 2020-02-01 22:36:04.588475 +0100 CET
+2020-02-01 22:36:19.652   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:36:13.605859 +0100 CET
+2020-02-01 22:36:19.775   CNC 16   INF   Changing state ==> Poweroff at 2020-02-01 22:36:14.605859 +0100 CET
+2020-02-01 22:36:19.910   CNC 16   INF   Processing takes 1.811153398s
+2020-02-01 22:36:19.911   CNC 16   INF   Sleeping for 8.188709953s
+2020-02-01 22:36:28.102   CNC 16   INF   Workplace not active
+2020-02-01 22:36:28.102   CNC 16   INF   Workplace not active, stopped running
+2020-02-01 22:36:28.104   CNC 16   INF   Workplace started running
+2020-02-01 22:36:28.364   CNC 16   INF   Download and sort of length 3 takes: 259.772734ms
+2020-02-01 22:36:28.497   CNC 16   INF   Changing state ==> Downtime at 2020-02-01 22:36:23.576735 +0100 CET
+2020-02-01 22:36:28.592   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:36:23.576735 +0100 CET
+2020-02-01 22:36:28.644   CNC 16   INF   Changing state ==> Poweroff at 2020-02-01 22:36:24.576735 +0100 CET
+2020-02-01 22:36:28.675   CNC 16   INF   Processing takes 570.759551ms
+2020-02-01 22:36:28.675   CNC 16   INF   Sleeping for 9.429117868s
+2020-02-01 22:36:38.105   CNC 16   INF   Workplace not active
+2020-02-01 22:36:38.105   CNC 16   INF   Workplace not active, stopped running
+2020-02-01 22:36:38.109   CNC 16   INF   Workplace started running
+2020-02-01 22:36:38.318   CNC 16   INF   Download and sort of length 0 takes: 208.136217ms
+2020-02-01 22:36:38.499   CNC 16   INF   Processing takes 388.5331ms
+2020-02-01 22:36:38.499   CNC 16   INF   Sleeping for 9.611319571s
+2020-02-01 22:36:48.114   CNC 16   INF   Workplace still active
+2020-02-01 22:36:48.517   CNC 16   INF   Download and sort of length 0 takes: 403.569096ms
+2020-02-01 22:36:48.706   CNC 16   INF   Processing takes 591.766957ms
+2020-02-01 22:36:48.706   CNC 16   INF   Sleeping for 9.407625246s
+2020-02-01 22:36:58.116   CNC 16   INF   Workplace still active
+2020-02-01 22:36:58.589   CNC 16   INF   Download and sort of length 0 takes: 473.217828ms
+2020-02-01 22:36:58.720   CNC 16   INF   Processing takes 604.367143ms
+2020-02-01 22:36:58.721   CNC 16   INF   Sleeping for 9.395151825s
+2020-02-01 22:37:08.122   CNC 16   INF   Workplace still active
+2020-02-01 22:37:08.624   CNC 16   INF   Download and sort of length 0 takes: 502.101666ms
+2020-02-01 22:37:08.871   CNC 16   INF   Processing takes 748.69615ms
+2020-02-01 22:37:08.871   CNC 16   INF   Sleeping for 9.251156896s
+2020-02-01 22:37:21.519   CNC 16   INF   Workplace started running
+2020-02-01 22:37:21.873   CNC 16   INF   Download and sort of length 27 takes: 353.455565ms
+2020-02-01 22:37:22.287   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:35:03.550193 +0100 CET
+2020-02-01 22:37:22.521   CNC 16   INF   Changing state ==> Downtime at 2020-02-01 22:35:04.550193 +0100 CET
+2020-02-01 22:37:22.661   CNC 16   INF   Changing state ==> Production at 2020-02-01 22:35:13.543231 +0100 CET
+2020-02-01 22:38:13.309   CNC 16   INF   Workplace started running
+2020-02-01 22:38:13.581   CNC 16   INF   Download and sort of length 0 takes: 272.228345ms
+2020-02-01 22:38:13.951   CNC 16   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:38:14.077   CNC 16   INF   Processing takes 767.900487ms
+2020-02-01 22:38:14.077   CNC 16   INF   Sleeping for 9.231612336s
+2020-02-01 22:38:23.313   CNC 16   INF   Workplace still active
+2020-02-01 22:38:23.642   CNC 16   INF   Download and sort of length 0 takes: 328.163688ms
+2020-02-01 22:38:23.869   CNC 16   INF   Processing takes 555.372066ms
+2020-02-01 22:38:23.869   CNC 16   INF   Sleeping for 9.444429799s
+2020-02-01 22:38:33.314   CNC 16   INF   Workplace still active
+2020-02-01 22:38:33.503   CNC 16   INF   Download and sort of length 0 takes: 188.881205ms
+2020-02-01 22:38:33.765   CNC 16   INF   Processing takes 450.131314ms
+2020-02-01 22:38:33.765   CNC 16   INF   Sleeping for 9.549484081s

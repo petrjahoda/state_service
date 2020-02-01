@@ -100,6 +100,7 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 		}
 		switch actualState.Name {
 		case "Poweroff":
+			println("poweroff")
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
@@ -114,9 +115,9 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 				}
 			}
 		case "Production":
+			println("production")
 			{
-
-				workplacePoweroffDifference := uint(actualData.DateTime.Sub(workplace.PoweroffPortDateTime.Time).Seconds())
+				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PoweroffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime.Time, "Poweroff")
 					actualState.Name = "Poweroff"
@@ -131,7 +132,9 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 					actualState.Name = "Downtime"
 
 				} else {
-					workplaceDowntimeDifference := uint(actualData.DateTime.Sub(workplace.ProductionPortDateTime.Time).Seconds())
+					workplaceDowntimeDifference := actualData.DateTime.Sub(workplace.ProductionPortDateTime.Time)
+					println(workplaceDowntimeDifference.Seconds())
+					println(downtimeInterval.Seconds())
 					if workplace.ProductionPortValue.Int32 == 0 && workplaceDowntimeDifference > downtimeInterval {
 						UpdateState(db, &workplace, workplace.ProductionPortDateTime.Time, "Downtime")
 						actualState.Name = "Downtime"
@@ -140,8 +143,9 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 				}
 			}
 		case "Downtime":
+			println("downtime")
 			{
-				workplacePoweroffDifference := uint(actualData.DateTime.Sub(workplace.PoweroffPortDateTime.Time).Seconds())
+				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PoweroffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime.Time, "Poweroff")
 					actualState.Name = "Poweroff"
@@ -166,22 +170,21 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 			}
 		default:
 			{
+				println("default")
 				if actualData.Type == production && actualData.RawData == "1" {
 					UpdateState(db, &workplace, actualData.DateTime, "Production")
 					actualState.Name = "Production"
-
 					break
 				}
 				if actualData.Type == poweroff {
 					UpdateState(db, &workplace, actualData.DateTime, "Downtime")
 					actualState.Name = "Downtime"
-
 					break
 				}
 			}
 		}
 	}
-	workplacePoweroffDifference := uint(time.Now().UTC().Sub(workplace.PoweroffPortDateTime.Time).Seconds())
+	workplacePoweroffDifference := time.Now().UTC().Sub(workplace.PoweroffPortDateTime.Time)
 	if workplacePoweroffDifference > poweroffInterval && actualState.Name != "Poweroff" {
 		UpdateState(db, &workplace, workplace.PoweroffPortDateTime.Time, "Poweroff")
 		actualState.Name = "Poweroff"
@@ -204,7 +207,7 @@ func UpdateState(db *gorm.DB, workplace **zapsi_database.Workplace, stateChangeT
 	if lastWorkplaceState.Id != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
 		lastWorkplaceState.DateTimeEnd = sql.NullTime{Time: stateChangeTime}
-		lastWorkplaceState.Interval = uint(interval.Seconds())
+		lastWorkplaceState.Interval = interval
 		db.Save(&lastWorkplaceState)
 	}
 	newWorkplaceState := zapsi_database.WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}

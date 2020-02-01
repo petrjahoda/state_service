@@ -41,3 +41,381 @@
 2020-02-01 21:42:00.045   CNC 0   INF   Download and sort of length 19 takes: 264.41959ms
 2020-02-01 21:42:00.324   CNC 0   INF   Processing takes 543.352126ms
 2020-02-01 21:42:00.324   CNC 0   INF   Sleeping for 9.456479862s
+2020-02-01 22:36:18.098   CNC 0   INF   Workplace started running
+2020-02-01 22:36:18.335   CNC 0   INF   Download and sort of length 24 takes: 236.116266ms
+2020-02-01 22:36:18.692   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:03.551529 +0100 CET
+2020-02-01 22:36:18.955   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:35:04.551529 +0100 CET
+2020-02-01 22:36:19.099   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:13.530633 +0100 CET
+2020-02-01 22:36:19.310   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:35:14.530633 +0100 CET
+2020-02-01 22:36:19.447   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:23.599708 +0100 CET
+2020-02-01 22:36:19.587   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:36:04.59644 +0100 CET
+2020-02-01 22:36:19.732   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:36:13.607469 +0100 CET
+2020-02-01 22:36:19.874   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:36:14.607469 +0100 CET
+2020-02-01 22:36:19.985   CNC 0   INF   Processing takes 1.885829109s
+2020-02-01 22:36:19.985   CNC 0   INF   Sleeping for 8.114004096s
+2020-02-01 22:36:28.102   CNC 0   INF   Workplace still active
+2020-02-01 22:36:28.275   CNC 0   INF   Download and sort of length 3 takes: 173.282653ms
+2020-02-01 22:36:28.513   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:36:23.56564 +0100 CET
+2020-02-01 22:36:28.682   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:36:23.56564 +0100 CET
+2020-02-01 22:36:28.733   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:36:24.56564 +0100 CET
+2020-02-01 22:36:28.808   CNC 0   INF   Processing takes 706.634006ms
+2020-02-01 22:36:28.809   CNC 0   INF   Sleeping for 9.293228434s
+2020-02-01 22:36:38.105   CNC 0   INF   Workplace not active
+2020-02-01 22:36:38.105   CNC 0   INF   Workplace not active, stopped running
+2020-02-01 22:36:38.109   CNC 0   INF   Workplace started running
+2020-02-01 22:36:38.316   CNC 0   INF   Download and sort of length 1 takes: 205.786774ms
+2020-02-01 22:36:38.527   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:36:33.525026 +0100 CET
+2020-02-01 22:36:38.654   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:36:33.525026 +0100 CET
+2020-02-01 22:36:38.695   CNC 0   INF   Processing takes 585.133767ms
+2020-02-01 22:36:38.695   CNC 0   INF   Sleeping for 9.414713577s
+2020-02-01 22:36:48.113   CNC 0   INF   Workplace still active
+2020-02-01 22:36:48.393   CNC 0   INF   Download and sort of length 0 takes: 279.703296ms
+2020-02-01 22:36:48.515   CNC 0   INF   Processing takes 401.583698ms
+2020-02-01 22:36:48.515   CNC 0   INF   Sleeping for 9.598249369s
+2020-02-01 22:36:58.116   CNC 0   INF   Workplace still active
+2020-02-01 22:36:58.362   CNC 0   INF   Download and sort of length 0 takes: 246.117964ms
+2020-02-01 22:36:58.586   CNC 0   INF   Processing takes 470.214281ms
+2020-02-01 22:36:58.586   CNC 0   INF   Sleeping for 9.529652466s
+2020-02-01 22:37:08.124   CNC 0   INF   Workplace still active
+2020-02-01 22:37:08.661   CNC 0   INF   Download and sort of length 0 takes: 537.024784ms
+2020-02-01 22:37:08.915   CNC 0   INF   Processing takes 791.12784ms
+2020-02-01 22:37:08.915   CNC 0   INF   Sleeping for 9.208392794s
+2020-02-01 22:37:21.519   CNC 0   INF   Workplace started running
+2020-02-01 22:37:21.728   CNC 0   INF   Download and sort of length 28 takes: 208.872325ms
+2020-02-01 22:37:21.895   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:03.551529 +0100 CET
+2020-02-01 22:37:22.032   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:35:14.530633 +0100 CET
+2020-02-01 22:37:22.157   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:23.599708 +0100 CET
+2020-02-01 22:37:22.277   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:35:44.549182 +0100 CET
+2020-02-01 22:37:22.544   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:35:53.591833 +0100 CET
+2020-02-01 22:38:13.308   CNC 0   INF   Workplace started running
+2020-02-01 22:38:13.481   CNC 0   INF   Download and sort of length 0 takes: 172.375398ms
+2020-02-01 22:38:13.697   CNC 0   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:38:13.854   CNC 0   INF   Processing takes 545.858047ms
+2020-02-01 22:38:13.855   CNC 0   INF   Sleeping for 9.453969702s
+2020-02-01 22:38:23.313   CNC 0   INF   Workplace still active
+2020-02-01 22:38:23.634   CNC 0   INF   Download and sort of length 0 takes: 320.855317ms
+2020-02-01 22:38:23.919   CNC 0   INF   Processing takes 605.845574ms
+2020-02-01 22:38:23.920   CNC 0   INF   Sleeping for 9.393976519s
+2020-02-01 22:38:33.314   CNC 0   INF   Workplace still active
+2020-02-01 22:38:33.508   CNC 0   INF   Download and sort of length 1 takes: 193.290328ms
+2020-02-01 22:38:33.723   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:38:26.395783 +0100 CET
+2020-02-01 22:38:33.929   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:38:26.395783 +0100 CET
+2020-02-01 22:38:34.078   CNC 0   INF   Processing takes 763.859109ms
+2020-02-01 22:38:34.078   CNC 0   INF   Sleeping for 9.235962082s
+2020-02-01 22:41:30.302   CNC 0   INF   Workplace started running
+2020-02-01 22:41:30.322   CNC 0   INF   Download and sort of length 0 takes: 19.710029ms
+2020-02-01 22:41:30.335   CNC 0   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:41:30.347   CNC 0   INF   Processing takes 44.874215ms
+2020-02-01 22:41:30.347   CNC 0   INF   Sleeping for 9.955031474s
+2020-02-01 22:41:40.303   CNC 0   INF   Workplace still active
+2020-02-01 22:41:40.332   CNC 0   INF   Download and sort of length 0 takes: 28.897132ms
+2020-02-01 22:41:40.346   CNC 0   INF   Processing takes 42.920674ms
+2020-02-01 22:41:40.346   CNC 0   INF   Sleeping for 9.956926438s
+2020-02-01 22:41:50.303   CNC 0   INF   Workplace still active
+2020-02-01 22:41:50.335   CNC 0   INF   Download and sort of length 3 takes: 31.943839ms
+2020-02-01 22:41:50.352   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:41:50.374   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:41:50.401   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:41:42.350996 +0100 CET
+2020-02-01 22:41:50.420   CNC 0   INF   Processing takes 116.518212ms
+2020-02-01 22:41:50.420   CNC 0   INF   Sleeping for 9.883356415s
+2020-02-01 22:44:17.731   CNC 0   INF   Workplace started running
+2020-02-01 22:44:17.751   CNC 0   INF   Download and sort of length 48 takes: 20.44076ms
+2020-02-01 22:44:17.764   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:44:17.778   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:44:17.796   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:42.350996 +0100 CET
+2020-02-01 22:44:17.818   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:51.35857 +0100 CET
+2020-02-01 22:44:17.836   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:12.359559 +0100 CET
+2020-02-01 22:44:17.854   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:21.359322 +0100 CET
+2020-02-01 22:44:17.875   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:44:17.904   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:44:17.938   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:42.385515 +0100 CET
+2020-02-01 22:44:17.968   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:51.366403 +0100 CET
+2020-02-01 22:44:18.003   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:02.389604 +0100 CET
+2020-02-01 22:44:18.030   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:11.373241 +0100 CET
+2020-02-01 22:44:18.064   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:44:18.084   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:44:18.122   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:32.378567 +0100 CET
+2020-02-01 22:44:18.154   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:41.397837 +0100 CET
+2020-02-01 22:44:18.179   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:44:18.213   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:44:18.233   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:52.380011 +0100 CET
+2020-02-01 22:44:18.264   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:01.379116 +0100 CET
+2020-02-01 22:44:18.301   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:44:12.385406 +0100 CET
+2020-02-01 22:44:18.323   CNC 0   INF   Processing takes 592.308642ms
+2020-02-01 22:44:18.323   CNC 0   INF   Sleeping for 9.407498725s
+2020-02-01 22:45:45.882   CNC 0   INF   Workplace started running
+2020-02-01 22:45:45.901   CNC 0   INF   Download and sort of length 27 takes: 18.787959ms
+2020-02-01 22:45:45.914   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:21.384761 +0100 CET
+2020-02-01 22:45:45.930   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:45:45.947   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:45:45.966   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:32.391167 +0100 CET
+2020-02-01 22:45:45.982   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:41.41243 +0100 CET
+2020-02-01 22:45:45.997   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:52.39398 +0100 CET
+2020-02-01 22:45:46.011   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:01.398703 +0100 CET
+2020-02-01 22:45:46.028   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:02.398703 +0100 CET
+2020-02-01 22:45:46.052   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:11.403386 +0100 CET
+2020-02-01 22:45:46.080   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:45:46.112   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:45:46.142   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:32.405316 +0100 CET
+2020-02-01 22:45:46.177   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:41.404105 +0100 CET
+2020-02-01 22:45:46.204   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:45:46.233   CNC 0   INF   Processing takes 350.240938ms
+2020-02-01 22:45:46.233   CNC 0   INF   Sleeping for 9.649629942s
+2020-02-01 22:47:23.527   CNC 0   INF   Workplace started running
+2020-02-01 22:47:23.548   CNC 0   INF   Download and sort of length 30 takes: 20.505064ms
+2020-02-01 22:47:23.560   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:47:23.577   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:02.410445 +0100 CET
+2020-02-01 22:47:23.594   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:11.416457 +0100 CET
+2020-02-01 22:47:23.616   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:12.416457 +0100 CET
+2020-02-01 22:47:23.632   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:21.42015 +0100 CET
+2020-02-01 22:47:23.647   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:52.41999 +0100 CET
+2020-02-01 22:47:23.667   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:01.426271 +0100 CET
+2020-02-01 22:47:23.697   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:12.434257 +0100 CET
+2020-02-01 22:47:23.729   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:21.437488 +0100 CET
+2020-02-01 22:47:23.761   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:47:22.437488 +0100 CET
+2020-02-01 22:47:23.795   CNC 0   INF   Processing takes 267.212714ms
+2020-02-01 22:47:23.795   CNC 0   INF   Sleeping for 9.732491503s
+2020-02-01 22:48:15.868   CNC 0   INF   Workplace started running
+2020-02-01 22:48:15.889   CNC 0   INF   Download and sort of length 15 takes: 20.572068ms
+2020-02-01 22:48:15.903   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:31.433228 +0100 CET
+2020-02-01 22:48:15.922   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:32.433228 +0100 CET
+2020-02-01 22:48:15.940   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:41.466375 +0100 CET
+2020-02-01 22:48:15.961   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:42.466375 +0100 CET
+2020-02-01 22:48:15.977   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:51.447815 +0100 CET
+2020-02-01 22:48:15.994   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:02.44285 +0100 CET
+2020-02-01 22:48:16.016   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:11.461007 +0100 CET
+2020-02-01 22:48:16.045   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:48:12.461007 +0100 CET
+2020-02-01 22:48:16.074   CNC 0   INF   Processing takes 205.085466ms
+2020-02-01 22:48:16.074   CNC 0   INF   Sleeping for 9.794617783s
+2020-02-01 22:49:01.054   CNC 0   INF   Workplace started running
+2020-02-01 22:49:01.079   CNC 0   INF   Download and sort of length 12 takes: 25.580946ms
+2020-02-01 22:49:01.098   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:21.452304 +0100 CET
+2020-02-01 22:49:01.125   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:21.452304 +0100 CET
+2020-02-01 22:49:01.145   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:22.452304 +0100 CET
+2020-02-01 22:49:01.164   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:31.452869 +0100 CET
+2020-02-01 22:49:01.190   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:32.452869 +0100 CET
+2020-02-01 22:49:01.210   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:41.452727 +0100 CET
+2020-02-01 22:49:01.234   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:42.452727 +0100 CET
+2020-02-01 22:49:01.253   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:51.455859 +0100 CET
+2020-02-01 22:49:01.284   CNC 0   INF   Changing state ==> Poweroff at 2020-02-01 22:48:52.455859 +0100 CET
+2020-02-01 22:49:01.323   CNC 0   INF   Processing takes 268.748658ms
+2020-02-01 22:49:01.323   CNC 0   INF   Sleeping for 9.73101685s
+2020-02-01 22:50:56.940   CNC 0   INF   Workplace started running
+2020-02-01 22:50:56.961   CNC 0   INF   Download and sort of length 168 takes: 21.156513ms
+2020-02-01 22:50:56.974   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:50:56.989   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:50:57.011   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:42.350996 +0100 CET
+2020-02-01 22:50:57.030   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:51.35857 +0100 CET
+2020-02-01 22:50:57.048   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:52.35857 +0100 CET
+2020-02-01 22:50:57.078   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:01.355161 +0100 CET
+2020-02-01 22:50:57.100   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:02.355161 +0100 CET
+2020-02-01 22:50:57.123   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:11.359559 +0100 CET
+2020-02-01 22:50:57.148   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:50:57.175   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:50:57.205   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:50:57.242   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:50:57.275   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:42.385515 +0100 CET
+2020-02-01 22:50:57.304   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:51.366403 +0100 CET
+2020-02-01 22:50:57.340   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:02.389604 +0100 CET
+2020-02-01 22:50:57.365   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:11.373241 +0100 CET
+2020-02-01 22:50:57.401   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:50:57.426   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:50:57.463   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:50:57.487   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:50:57.525   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:32.378567 +0100 CET
+2020-02-01 22:50:57.549   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:41.397837 +0100 CET
+2020-02-01 22:52:36.249   CNC 0   INF   Workplace started running
+2020-02-01 22:52:36.274   CNC 0   INF   Download and sort of length 192 takes: 24.5855ms
+2020-02-01 22:52:36.289   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:52:36.307   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:52:36.326   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:52:36.343   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:52:36.361   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:52:36.384   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:52:36.406   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:52:36.432   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:52:36.453   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:52:36.483   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:52:36.513   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:52:36.545   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:52:36.575   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:52:36.611   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:52:36.631   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:52:36.669   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:52:36.688   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:52:36.715   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:52:36.744   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:52:36.781   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:52:36.801   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:54:17.414   CNC 0   INF   Workplace started running
+2020-02-01 22:54:17.435   CNC 0   INF   Download and sort of length 192 takes: 20.658785ms
+2020-02-01 22:54:17.448   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:54:17.461   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:54:17.478   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:54:17.500   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:54:17.517   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:54:17.533   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:54:17.549   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:54:17.568   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:54:17.591   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:54:17.609   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:54:17.637   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:54:17.668   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:54:17.699   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:54:17.737   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:54:17.759   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:54:17.789   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:54:17.823   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:54:17.841   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:54:17.867   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:54:17.901   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:54:17.932   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:54:17.964   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:54:18.004   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:52.408741 +0100 CET
+2020-02-01 22:55:33.912   CNC 0   INF   Workplace started running
+2020-02-01 22:55:33.933   CNC 0   INF   Download and sort of length 192 takes: 20.000094ms
+2020-02-01 22:55:33.945   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:55:33.961   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:55:33.978   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:55:33.997   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:55:34.013   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:55:34.029   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:55:34.045   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:55:34.067   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:55:34.092   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:55:34.126   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:55:34.157   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:55:34.187   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:55:34.220   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:55:34.251   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:55:34.286   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:55:34.313   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:55:34.350   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:55:34.376   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:55:34.411   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:55:34.437   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:55:34.472   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:55:34.494   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:55:34.533   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:52.408741 +0100 CET
+2020-02-01 22:55:34.568   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:01.410445 +0100 CET
+2020-02-01 22:55:34.601   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:02.410445 +0100 CET
+2020-02-01 22:55:34.624   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:11.416457 +0100 CET
+2020-02-01 22:55:34.653   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:22.42015 +0100 CET
+2020-02-01 22:55:34.679   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:31.442372 +0100 CET
+2020-02-01 22:55:34.717   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:52.41999 +0100 CET
+2020-02-01 22:55:34.743   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:01.426271 +0100 CET
+2020-02-01 22:55:34.781   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:02.426271 +0100 CET
+2020-02-01 22:55:34.807   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:11.434257 +0100 CET
+2020-02-01 22:56:11.898   CNC 0   INF   Workplace started running
+2020-02-01 22:56:11.919   CNC 0   INF   Download and sort of length 192 takes: 20.40195ms
+2020-02-01 22:56:11.931   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:56:11.942   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:56:11.961   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:56:11.976   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:56:11.990   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:56:12.005   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:56:12.027   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:56:12.054   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:56:12.084   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:56:12.116   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:56:12.148   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:56:12.184   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:56:12.205   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:56:12.238   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:56:12.271   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:56:12.291   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:56:12.327   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:56:12.347   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:56:12.372   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:56:12.409   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:56:12.429   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:56:12.462   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:56:12.492   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:52.408741 +0100 CET
+2020-02-01 22:56:12.512   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:01.410445 +0100 CET
+2020-02-01 22:56:12.543   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:02.410445 +0100 CET
+2020-02-01 22:56:12.572   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:11.416457 +0100 CET
+2020-02-01 22:57:15.198   CNC 0   INF   Workplace started running
+2020-02-01 22:57:15.218   CNC 0   INF   Download and sort of length 192 takes: 19.774106ms
+2020-02-01 22:57:15.232   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:57:15.245   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:57:15.263   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:57:15.284   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:57:15.300   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:57:15.317   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:57:15.339   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:57:15.366   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:57:15.395   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:57:15.430   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:57:15.466   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:57:15.502   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:57:15.526   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:57:15.580   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:57:15.607   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:57:15.625   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:57:15.648   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:57:15.664   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:57:15.686   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:57:15.710   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:57:15.729   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:57:15.753   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:57:15.785   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:52.408741 +0100 CET
+2020-02-01 22:57:15.816   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:01.410445 +0100 CET
+2020-02-01 22:57:15.843   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:02.410445 +0100 CET
+2020-02-01 22:59:55.572   CNC 0   INF   Workplace started running
+2020-02-01 22:59:55.594   CNC 0   INF   Download and sort of length 192 takes: 21.796918ms
+2020-02-01 22:59:55.608   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:59:55.620   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:41:41.350996 +0100 CET
+2020-02-01 22:59:55.636   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:22.359322 +0100 CET
+2020-02-01 22:59:55.657   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:31.365071 +0100 CET
+2020-02-01 22:59:55.673   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:32.365071 +0100 CET
+2020-02-01 22:59:55.689   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:42:41.385515 +0100 CET
+2020-02-01 22:59:55.706   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:42:52.366403 +0100 CET
+2020-02-01 22:59:55.733   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:01.389604 +0100 CET
+2020-02-01 22:59:55.767   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:12.373241 +0100 CET
+2020-02-01 22:59:55.801   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:21.382726 +0100 CET
+2020-02-01 22:59:55.834   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:22.382726 +0100 CET
+2020-02-01 22:59:55.874   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:31.378567 +0100 CET
+2020-02-01 22:59:55.899   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:43:42.397837 +0100 CET
+2020-02-01 22:59:55.928   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:43:51.380011 +0100 CET
+2020-02-01 22:59:55.951   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:02.379116 +0100 CET
+2020-02-01 22:59:55.981   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:11.385406 +0100 CET
+2020-02-01 22:59:56.011   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:44:22.384761 +0100 CET
+2020-02-01 22:59:56.029   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:44:31.391167 +0100 CET
+2020-02-01 22:59:56.054   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:12.403386 +0100 CET
+2020-02-01 22:59:56.070   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:21.407795 +0100 CET
+2020-02-01 22:59:56.093   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:42.404105 +0100 CET
+2020-02-01 22:59:56.107   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:45:51.408741 +0100 CET
+2020-02-01 22:59:56.128   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:45:52.408741 +0100 CET
+2020-02-01 22:59:56.155   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:01.410445 +0100 CET
+2020-02-01 22:59:56.172   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:02.410445 +0100 CET
+2020-02-01 22:59:56.194   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:11.416457 +0100 CET
+2020-02-01 22:59:56.222   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:22.42015 +0100 CET
+2020-02-01 22:59:56.244   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:46:31.442372 +0100 CET
+2020-02-01 22:59:56.270   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:46:52.41999 +0100 CET
+2020-02-01 23:01:27.680   CNC 0   INF   Workplace started running
+2020-02-01 23:01:27.701   CNC 0   INF   Download and sort of length 96 takes: 19.89586ms
+2020-02-01 23:01:27.713   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:01.426271 +0100 CET
+2020-02-01 23:01:27.728   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:02.426271 +0100 CET
+2020-02-01 23:01:27.744   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:11.434257 +0100 CET
+2020-02-01 23:01:27.763   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:12.434257 +0100 CET
+2020-02-01 23:01:27.783   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:21.437488 +0100 CET
+2020-02-01 23:01:27.798   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:32.433228 +0100 CET
+2020-02-01 23:01:27.813   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:41.466375 +0100 CET
+2020-02-01 23:01:27.832   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:42.466375 +0100 CET
+2020-02-01 23:01:27.855   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:47:51.447815 +0100 CET
+2020-02-01 23:01:27.885   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:47:52.447815 +0100 CET
+2020-02-01 23:01:27.911   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:01.44285 +0100 CET
+2020-02-01 23:01:27.941   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:02.44285 +0100 CET
+2020-02-01 23:01:27.973   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:11.461007 +0100 CET
+2020-02-01 23:01:28.003   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:48:12.461007 +0100 CET
+2020-02-01 23:01:28.041   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:48:21.452304 +0100 CET
+2020-02-01 23:01:28.071   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:49:52.479127 +0100 CET
+2020-02-01 23:01:28.105   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:50:01.474653 +0100 CET
+2020-02-01 23:01:28.129   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:50:02.474653 +0100 CET
+2020-02-01 23:01:28.161   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:50:11.479793 +0100 CET
+2020-02-01 23:01:28.193   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:50:12.479793 +0100 CET
+2020-02-01 23:01:28.212   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:50:21.47697 +0100 CET
+2020-02-01 23:01:28.244   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:50:22.47697 +0100 CET
+2020-02-01 23:01:28.277   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:50:31.486118 +0100 CET
+2020-02-01 23:01:28.300   CNC 0   INF   Changing state ==> Downtime at 2020-02-01 22:50:32.486118 +0100 CET
+2020-02-01 23:01:28.336   CNC 0   INF   Changing state ==> Production at 2020-02-01 22:50:41.488316 +0100 CET

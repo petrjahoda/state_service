@@ -41,3 +41,54 @@
 2020-02-01 21:42:00.047   CNC 5   INF   Download and sort of length 0 takes: 263.680448ms
 2020-02-01 21:42:00.336   CNC 5   INF   Processing takes 552.54878ms
 2020-02-01 21:42:00.336   CNC 5   INF   Sleeping for 9.447343486s
+2020-02-01 22:36:18.098   CNC 5   INF   Workplace started running
+2020-02-01 22:36:18.259   CNC 5   INF   Download and sort of length 8 takes: 159.678166ms
+2020-02-01 22:36:18.510   CNC 5   INF   Changing state ==> Downtime at 2020-02-01 22:35:03.532798 +0100 CET
+2020-02-01 22:36:18.794   CNC 5   INF   Changing state ==> Poweroff at 2020-02-01 22:36:13.56836 +0100 CET
+2020-02-01 22:36:19.056   CNC 5   INF   Processing takes 956.833488ms
+2020-02-01 22:36:19.056   CNC 5   INF   Sleeping for 9.042719046s
+2020-02-01 22:36:28.102   CNC 5   INF   Workplace not active
+2020-02-01 22:36:28.103   CNC 5   INF   Workplace not active, stopped running
+2020-02-01 22:36:28.104   CNC 5   INF   Workplace started running
+2020-02-01 22:36:28.284   CNC 5   INF   Download and sort of length 1 takes: 180.133947ms
+2020-02-01 22:36:28.457   CNC 5   INF   Changing state ==> Downtime at 2020-02-01 22:36:23.574512 +0100 CET
+2020-02-01 22:36:28.561   CNC 5   INF   Changing state ==> Poweroff at 2020-02-01 22:36:23.574512 +0100 CET
+2020-02-01 22:36:28.620   CNC 5   INF   Processing takes 515.884339ms
+2020-02-01 22:36:28.620   CNC 5   INF   Sleeping for 9.484011417s
+2020-02-01 22:36:38.106   CNC 5   INF   Workplace not active
+2020-02-01 22:36:38.106   CNC 5   INF   Workplace not active, stopped running
+2020-02-01 22:36:38.109   CNC 5   INF   Workplace started running
+2020-02-01 22:36:38.273   CNC 5   INF   Download and sort of length 0 takes: 163.722182ms
+2020-02-01 22:36:38.526   CNC 5   INF   Processing takes 416.296253ms
+2020-02-01 22:36:38.526   CNC 5   INF   Sleeping for 9.583550777s
+2020-02-01 22:36:48.113   CNC 5   INF   Workplace still active
+2020-02-01 22:36:48.292   CNC 5   INF   Download and sort of length 0 takes: 178.654486ms
+2020-02-01 22:36:48.642   CNC 5   INF   Processing takes 528.194181ms
+2020-02-01 22:36:48.642   CNC 5   INF   Sleeping for 9.471622813s
+2020-02-01 22:36:58.115   CNC 5   INF   Workplace still active
+2020-02-01 22:36:58.315   CNC 5   INF   Download and sort of length 0 takes: 199.986123ms
+2020-02-01 22:36:58.463   CNC 5   INF   Processing takes 347.017757ms
+2020-02-01 22:36:58.463   CNC 5   INF   Sleeping for 9.652715826s
+2020-02-01 22:37:08.122   CNC 5   INF   Workplace still active
+2020-02-01 22:37:08.343   CNC 5   INF   Download and sort of length 0 takes: 221.024546ms
+2020-02-01 22:37:08.810   CNC 5   INF   Processing takes 687.663963ms
+2020-02-01 22:37:08.810   CNC 5   INF   Sleeping for 9.312224014s
+2020-02-01 22:37:21.519   CNC 5   INF   Workplace started running
+2020-02-01 22:37:21.881   CNC 5   INF   Download and sort of length 9 takes: 361.098361ms
+2020-02-01 22:37:22.307   CNC 5   INF   Changing state ==> Downtime at 2020-02-01 22:35:03.532798 +0100 CET
+2020-02-01 22:37:22.465   CNC 5   INF   Changing state ==> Poweroff at 2020-02-01 22:36:23.574512 +0100 CET
+2020-02-01 22:37:22.659   CNC 5   INF   Processing takes 1.139570978s
+2020-02-01 22:37:22.659   CNC 5   INF   Sleeping for 8.860275593s
+2020-02-01 22:38:13.308   CNC 5   INF   Workplace started running
+2020-02-01 22:38:13.528   CNC 5   INF   Download and sort of length 0 takes: 219.920741ms
+2020-02-01 22:38:13.715   CNC 5   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:38:13.890   CNC 5   INF   Processing takes 581.249001ms
+2020-02-01 22:38:13.890   CNC 5   INF   Sleeping for 9.418631383s
+2020-02-01 22:38:23.309   CNC 5   INF   Workplace still active
+2020-02-01 22:38:23.467   CNC 5   INF   Download and sort of length 0 takes: 157.86986ms
+2020-02-01 22:38:23.758   CNC 5   INF   Processing takes 448.598276ms
+2020-02-01 22:38:23.758   CNC 5   INF   Sleeping for 9.550678934s
+2020-02-01 22:38:33.313   CNC 5   INF   Workplace still active
+2020-02-01 22:38:33.574   CNC 5   INF   Download and sort of length 0 takes: 261.063703ms
+2020-02-01 22:38:33.823   CNC 5   INF   Processing takes 510.176363ms
+2020-02-01 22:38:33.823   CNC 5   INF   Sleeping for 9.48965196s

@@ -51,6 +51,10 @@ github.com/petrjahoda/zapsi_database v0.0.0-20200201195250-e353faa139e2 h1:z4qHc
 github.com/petrjahoda/zapsi_database v0.0.0-20200201195250-e353faa139e2/go.mod h1:/e0J7nET8CEjtz82FG2vel3jSu1feLPsIqXwpJwc/Hw=
 github.com/petrjahoda/zapsi_database v0.0.0-20200201202013-7c12f9b0b46a h1:QVcdVzjtmiKzoN1BYCLJDAF2CeQgEvJEs33HZ7qhoDw=
 github.com/petrjahoda/zapsi_database v0.0.0-20200201202013-7c12f9b0b46a/go.mod h1:/e0J7nET8CEjtz82FG2vel3jSu1feLPsIqXwpJwc/Hw=
+github.com/petrjahoda/zapsi_database v0.0.0-20200201213406-7ab806e3b329 h1:xEZw1P1DhRwxW4MjHkulhsxsiLIUQNfC7KrhxGjItUo=
+github.com/petrjahoda/zapsi_database v0.0.0-20200201213406-7ab806e3b329/go.mod h1:/e0J7nET8CEjtz82FG2vel3jSu1feLPsIqXwpJwc/Hw=
+github.com/petrjahoda/zapsi_database v0.0.0-20200201220235-1de3b83a3b60 h1:Nco7esOXqkx4Jt543ZrLfwOhcqIFWMdse75af7kwsp4=
+github.com/petrjahoda/zapsi_database v0.0.0-20200201220235-1de3b83a3b60/go.mod h1:/e0J7nET8CEjtz82FG2vel3jSu1feLPsIqXwpJwc/Hw=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c h1:Vj5n4GlwjmQteupaxJ9+0FNOmBrHfq7vN4btdGoDZgI=
 golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=

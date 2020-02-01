@@ -41,3 +41,57 @@
 2020-02-01 21:42:00.084   CNC 7   INF   Download and sort of length 6 takes: 300.625085ms
 2020-02-01 21:42:00.308   CNC 7   INF   Processing takes 523.940242ms
 2020-02-01 21:42:00.308   CNC 7   INF   Sleeping for 9.475550301s
+2020-02-01 22:36:18.098   CNC 7   INF   Workplace started running
+2020-02-01 22:36:18.278   CNC 7   INF   Download and sort of length 8 takes: 178.382695ms
+2020-02-01 22:36:18.573   CNC 7   INF   Changing state ==> Downtime at 2020-02-01 22:35:03.631092 +0100 CET
+2020-02-01 22:36:18.829   CNC 7   INF   Changing state ==> Poweroff at 2020-02-01 22:36:13.55346 +0100 CET
+2020-02-01 22:36:19.120   CNC 7   INF   Processing takes 1.019745932s
+2020-02-01 22:36:19.120   CNC 7   INF   Sleeping for 8.980060641s
+2020-02-01 22:36:28.100   CNC 7   INF   Workplace not active
+2020-02-01 22:36:28.100   CNC 7   INF   Workplace not active, stopped running
+2020-02-01 22:36:28.104   CNC 7   INF   Workplace started running
+2020-02-01 22:36:28.383   CNC 7   INF   Download and sort of length 1 takes: 279.404864ms
+2020-02-01 22:36:28.660   CNC 7   INF   Changing state ==> Downtime at 2020-02-01 22:36:23.628243 +0100 CET
+2020-02-01 22:36:28.788   CNC 7   INF   Changing state ==> Poweroff at 2020-02-01 22:36:23.628243 +0100 CET
+2020-02-01 22:36:28.841   CNC 7   INF   Processing takes 737.33072ms
+2020-02-01 22:36:28.841   CNC 7   INF   Sleeping for 9.262533597s
+2020-02-01 22:36:38.105   CNC 7   INF   Workplace not active
+2020-02-01 22:36:38.106   CNC 7   INF   Workplace not active, stopped running
+2020-02-01 22:36:38.109   CNC 7   INF   Workplace started running
+2020-02-01 22:36:38.339   CNC 7   INF   Download and sort of length 0 takes: 229.935398ms
+2020-02-01 22:36:38.564   CNC 7   INF   Processing takes 454.671452ms
+2020-02-01 22:36:38.564   CNC 7   INF   Sleeping for 9.545201903s
+2020-02-01 22:36:48.113   CNC 7   INF   Workplace still active
+2020-02-01 22:36:48.482   CNC 7   INF   Download and sort of length 0 takes: 368.442639ms
+2020-02-01 22:36:48.813   CNC 7   INF   Processing takes 699.401ms
+2020-02-01 22:36:48.813   CNC 7   INF   Sleeping for 9.299778717s
+2020-02-01 22:36:58.116   CNC 7   INF   Workplace still active
+2020-02-01 22:36:58.312   CNC 7   INF   Download and sort of length 0 takes: 195.622598ms
+2020-02-01 22:36:58.465   CNC 7   INF   Processing takes 348.7416ms
+2020-02-01 22:36:58.466   CNC 7   INF   Sleeping for 9.650376966s
+2020-02-01 22:37:08.124   CNC 7   INF   Workplace still active
+2020-02-01 22:37:08.506   CNC 7   INF   Download and sort of length 0 takes: 382.473964ms
+2020-02-01 22:37:08.809   CNC 7   INF   Processing takes 685.464149ms
+2020-02-01 22:37:08.809   CNC 7   INF   Sleeping for 9.314346036s
+2020-02-01 22:37:21.519   CNC 7   INF   Workplace started running
+2020-02-01 22:37:21.757   CNC 7   INF   Download and sort of length 9 takes: 237.619641ms
+2020-02-01 22:37:22.145   CNC 7   INF   Changing state ==> Downtime at 2020-02-01 22:35:03.631092 +0100 CET
+2020-02-01 22:37:22.461   CNC 7   INF   Changing state ==> Poweroff at 2020-02-01 22:36:23.628243 +0100 CET
+2020-02-01 22:37:22.663   CNC 7   INF   Processing takes 1.143193674s
+2020-02-01 22:37:22.663   CNC 7   INF   Sleeping for 8.856687149s
+2020-02-01 22:38:13.309   CNC 7   INF   Workplace started running
+2020-02-01 22:38:13.523   CNC 7   INF   Download and sort of length 0 takes: 214.515922ms
+2020-02-01 22:38:13.728   CNC 7   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:38:13.904   CNC 7   INF   Processing takes 594.917755ms
+2020-02-01 22:38:13.905   CNC 7   INF   Sleeping for 9.40432104s
+2020-02-01 22:38:23.309   CNC 7   INF   Workplace still active
+2020-02-01 22:38:23.587   CNC 7   INF   Download and sort of length 0 takes: 277.178142ms
+2020-02-01 22:38:23.929   CNC 7   INF   Processing takes 619.253369ms
+2020-02-01 22:38:23.929   CNC 7   INF   Sleeping for 9.380491388s
+2020-02-01 22:38:33.313   CNC 7   INF   Workplace still active
+2020-02-01 22:38:33.518   CNC 7   INF   Download and sort of length 3 takes: 204.732499ms
+2020-02-01 22:38:33.689   CNC 7   INF   Changing state ==> Downtime at 2020-02-01 22:38:26.412943 +0100 CET
+2020-02-01 22:38:33.874   CNC 7   INF   Changing state ==> Production at 2020-02-01 22:38:26.412943 +0100 CET
+2020-02-01 22:38:34.040   CNC 7   INF   Changing state ==> Poweroff at 2020-02-01 22:38:27.412943 +0100 CET
+2020-02-01 22:38:34.167   CNC 7   INF   Processing takes 854.444522ms
+2020-02-01 22:38:34.168   CNC 7   INF   Sleeping for 9.145392076s

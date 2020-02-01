@@ -41,3 +41,53 @@
 2020-02-01 21:42:00.133   CNC 11   INF   Download and sort of length 19 takes: 351.827441ms
 2020-02-01 21:42:00.381   CNC 11   INF   Processing takes 599.610709ms
 2020-02-01 21:42:00.381   CNC 11   INF   Sleeping for 9.39999595s
+2020-02-01 22:36:18.098   CNC 11   INF   Workplace started running
+2020-02-01 22:36:18.298   CNC 11   INF   Download and sort of length 0 takes: 198.166837ms
+2020-02-01 22:36:18.617   CNC 11   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:36:18.868   CNC 11   INF   Processing takes 767.759238ms
+2020-02-01 22:36:18.868   CNC 11   INF   Sleeping for 9.232023782s
+2020-02-01 22:36:28.102   CNC 11   INF   Workplace not active
+2020-02-01 22:36:28.102   CNC 11   INF   Workplace not active, stopped running
+2020-02-01 22:36:28.104   CNC 11   INF   Workplace started running
+2020-02-01 22:36:28.395   CNC 11   INF   Download and sort of length 0 takes: 291.125315ms
+2020-02-01 22:36:28.523   CNC 11   INF   Processing takes 419.526601ms
+2020-02-01 22:36:28.523   CNC 11   INF   Sleeping for 9.580331224s
+2020-02-01 22:36:38.105   CNC 11   INF   Workplace not active
+2020-02-01 22:36:38.105   CNC 11   INF   Workplace not active, stopped running
+2020-02-01 22:36:38.109   CNC 11   INF   Workplace started running
+2020-02-01 22:36:38.260   CNC 11   INF   Download and sort of length 0 takes: 151.354335ms
+2020-02-01 22:36:38.559   CNC 11   INF   Processing takes 449.519779ms
+2020-02-01 22:36:38.559   CNC 11   INF   Sleeping for 9.550295872s
+2020-02-01 22:36:48.113   CNC 11   INF   Workplace still active
+2020-02-01 22:36:48.533   CNC 11   INF   Download and sort of length 0 takes: 418.711671ms
+2020-02-01 22:36:48.826   CNC 11   INF   Processing takes 712.278685ms
+2020-02-01 22:36:48.826   CNC 11   INF   Sleeping for 9.287538323s
+2020-02-01 22:36:58.116   CNC 11   INF   Workplace still active
+2020-02-01 22:36:58.558   CNC 11   INF   Download and sort of length 0 takes: 441.60033ms
+2020-02-01 22:36:58.725   CNC 11   INF   Processing takes 609.397308ms
+2020-02-01 22:36:58.726   CNC 11   INF   Sleeping for 9.390498183s
+2020-02-01 22:37:08.122   CNC 11   INF   Workplace still active
+2020-02-01 22:37:08.547   CNC 11   INF   Download and sort of length 0 takes: 424.071172ms
+2020-02-01 22:37:08.868   CNC 11   INF   Processing takes 745.688406ms
+2020-02-01 22:37:08.868   CNC 11   INF   Sleeping for 9.254133168s
+2020-02-01 22:37:21.519   CNC 11   INF   Workplace started running
+2020-02-01 22:37:21.716   CNC 11   INF   Download and sort of length 0 takes: 196.55345ms
+2020-02-01 22:37:21.897   CNC 11   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:37:22.067   CNC 11   INF   Processing takes 546.965008ms
+2020-02-01 22:37:22.067   CNC 11   INF   Sleeping for 9.452394054s
+2020-02-01 22:38:13.309   CNC 11   INF   Workplace started running
+2020-02-01 22:38:13.507   CNC 11   INF   Download and sort of length 0 takes: 197.914902ms
+2020-02-01 22:38:13.753   CNC 11   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-01 22:38:13.922   CNC 11   INF   Processing takes 612.832583ms
+2020-02-01 22:38:13.922   CNC 11   INF   Sleeping for 9.387020185s
+2020-02-01 22:38:23.314   CNC 11   INF   Workplace still active
+2020-02-01 22:38:23.650   CNC 11   INF   Download and sort of length 0 takes: 336.408302ms
+2020-02-01 22:38:23.930   CNC 11   INF   Processing takes 616.042024ms
+2020-02-01 22:38:23.930   CNC 11   INF   Sleeping for 9.383818876s
+2020-02-01 22:38:33.314   CNC 11   INF   Workplace still active
+2020-02-01 22:38:33.523   CNC 11   INF   Download and sort of length 3 takes: 208.727296ms
+2020-02-01 22:38:33.732   CNC 11   INF   Changing state ==> Downtime at 2020-02-01 22:38:26.437557 +0100 CET
+2020-02-01 22:38:33.930   CNC 11   INF   Changing state ==> Production at 2020-02-01 22:38:26.437557 +0100 CET
+2020-02-01 22:38:34.141   CNC 11   INF   Changing state ==> Poweroff at 2020-02-01 22:38:27.437557 +0100 CET
+2020-02-01 22:38:34.320   CNC 11   INF   Processing takes 1.006070627s
+2020-02-01 22:38:34.321   CNC 11   INF   Sleeping for 8.993755689s
