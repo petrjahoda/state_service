@@ -60,8 +60,8 @@ type WorkplaceState struct {
 type WorkplaceMode struct {
 	gorm.Model
 	Name             string `gorm:"unique"`
-	DowntimeInterval int
-	PoweroffInterval int
+	DowntimeInterval uint
+	PoweroffInterval uint
 	Note             string
 }
 

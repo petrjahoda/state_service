@@ -120,7 +120,7 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 			}
 		case "Production":
 			{
-				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
+				workplacePoweroffDifference := uint(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 					actualState.Name = "Poweroff"
@@ -135,7 +135,7 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 					actualState.Name = "Downtime"
 
 				} else {
-					workplaceDowntimeDifference := int(actualData.DateTime.Sub(workplace.ProductionPortDateTime).Seconds())
+					workplaceDowntimeDifference := uint(actualData.DateTime.Sub(workplace.ProductionPortDateTime).Seconds())
 					if workplace.ProductionPortValue == 0 && workplaceDowntimeDifference > downtimeInterval {
 						UpdateState(db, &workplace, workplace.ProductionPortDateTime, "Downtime")
 						actualState.Name = "Downtime"
@@ -145,7 +145,7 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 			}
 		case "Downtime":
 			{
-				workplacePoweroffDifference := int(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
+				workplacePoweroffDifference := uint(actualData.DateTime.Sub(workplace.PoweroffPortDateTime).Seconds())
 				if workplacePoweroffDifference > poweroffInterval {
 					UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 					actualState.Name = "Poweroff"
@@ -186,7 +186,7 @@ func ProcessData(workplace *Workplace, data []IntermediateData) {
 			}
 		}
 	}
-	workplacePoweroffDifference := int(time.Now().UTC().Sub(workplace.PoweroffPortDateTime).Seconds())
+	workplacePoweroffDifference := uint(time.Now().UTC().Sub(workplace.PoweroffPortDateTime).Seconds())
 	if workplacePoweroffDifference > poweroffInterval && actualState.Name != "Poweroff" {
 		UpdateState(db, &workplace, workplace.PoweroffPortDateTime, "Poweroff")
 		actualState.Name = "Poweroff"
