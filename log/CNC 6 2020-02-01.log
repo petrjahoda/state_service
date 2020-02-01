@@ -2,3 +2,9 @@
 2020-02-01 07:33:41.463   CNC 6   INF   Download and sort of length 1567 takes: 126.453575ms
 2020-02-01 07:33:41.780   CNC 6   INF   Processing takes 443.698119ms
 2020-02-01 07:33:41.780   CNC 6   INF   Sleeping for 9.556121639s
+2020-02-01 07:41:45.557   CNC 6   INF   Workplace started running
+2020-02-01 07:41:45.993   CNC 6   INF   Download and sort of length 1660 takes: 435.338638ms
+2020-02-01 07:41:46.138   CNC 6   INF   Processing takes 580.918317ms
+2020-02-01 07:41:46.138   CNC 6   INF   Sleeping for 9.418899604s
+2020-02-01 07:42:24.380   CNC 6   INF   Workplace started running
+2020-02-01 07:42:25.006   CNC 6   INF   Download and sort of length 1663 takes: 625.967239ms

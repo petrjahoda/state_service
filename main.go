@@ -8,7 +8,7 @@ import (
 )
 
 const version = "2020.1.2.1"
-const programName = "Zapsi Service"
+const programName = "State Service"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -121,6 +121,6 @@ func WriteProgramVersionIntoSettings() {
 	db.Where("key=?", programName).Find(&settings)
 	settings.Key = programName
 	settings.Value = version
-	db.Save(&settings)
+	db.Debug().Save(&settings)
 	LogDebug("MAIN", "Updated version in database for "+programName)
 }

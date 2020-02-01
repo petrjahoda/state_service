@@ -2,3 +2,9 @@
 2020-02-01 07:33:41.655   CNC 4   INF   Download and sort of length 277 takes: 317.378186ms
 2020-02-01 07:33:41.867   CNC 4   INF   Processing takes 530.036782ms
 2020-02-01 07:33:41.867   CNC 4   INF   Sleeping for 9.469786973s
+2020-02-01 07:41:45.557   CNC 4   INF   Workplace started running
+2020-02-01 07:41:45.910   CNC 4   INF   Download and sort of length 326 takes: 353.256938ms
+2020-02-01 07:41:46.104   CNC 4   INF   Processing takes 547.318705ms
+2020-02-01 07:41:46.105   CNC 4   INF   Sleeping for 9.452188156s
+2020-02-01 07:42:24.380   CNC 4   INF   Workplace started running
+2020-02-01 07:42:24.854   CNC 4   INF   Download and sort of length 329 takes: 473.65591ms

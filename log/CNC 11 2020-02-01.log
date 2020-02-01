@@ -2,3 +2,11 @@
 2020-02-01 07:33:41.652   CNC 11   INF   Download and sort of length 382 takes: 314.584361ms
 2020-02-01 07:33:41.838   CNC 11   INF   Processing takes 500.943135ms
 2020-02-01 07:33:41.838   CNC 11   INF   Sleeping for 9.498869832s
+2020-02-01 07:41:45.557   CNC 11   INF   Workplace started running
+2020-02-01 07:41:45.764   CNC 11   INF   Download and sort of length 529 takes: 206.864033ms
+2020-02-01 07:41:46.014   CNC 11   INF   Processing takes 456.79158ms
+2020-02-01 07:41:46.014   CNC 11   INF   Sleeping for 9.542443652s
+2020-02-01 07:42:24.380   CNC 11   INF   Workplace started running
+2020-02-01 07:42:24.524   CNC 11   INF   Download and sort of length 538 takes: 144.671304ms
+2020-02-01 07:42:24.964   CNC 11   INF   Processing takes 584.442413ms
+2020-02-01 07:42:24.964   CNC 11   INF   Sleeping for 9.415383016s
