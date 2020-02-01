@@ -21,3 +21,11 @@
 2020-02-01 21:31:14.473   Zapsi   INF   Download and sort of length 0 takes: 29.661971ms
 2020-02-01 21:31:14.488   Zapsi   INF   Processing takes 44.215168ms
 2020-02-01 21:31:14.488   Zapsi   INF   Sleeping for 9.95562368s
+2020-02-01 21:41:49.777   Zapsi   INF   Workplace started running
+2020-02-01 21:41:50.098   Zapsi   INF   Download and sort of length 0 takes: 319.437395ms
+2020-02-01 21:41:50.432   Zapsi   INF   Processing takes 653.94455ms
+2020-02-01 21:41:50.432   Zapsi   INF   Sleeping for 9.34593964s
+2020-02-01 21:41:59.783   Zapsi   INF   Workplace still active
+2020-02-01 21:42:00.168   Zapsi   INF   Download and sort of length 0 takes: 384.684953ms
+2020-02-01 21:42:00.391   Zapsi   INF   Processing takes 606.896291ms
+2020-02-01 21:42:00.391   Zapsi   INF   Sleeping for 9.392848302s

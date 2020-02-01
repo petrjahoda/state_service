@@ -32,3 +32,12 @@
 2020-02-01 19:21:53.745   CNC 7   INF   Download and sort of length 0 takes: 295.789505ms
 2020-02-01 19:21:53.900   CNC 7   INF   Processing takes 451.493494ms
 2020-02-01 19:21:53.901   CNC 7   INF   Sleeping for 9.548341584s
+2020-02-01 21:41:49.778   CNC 7   INF   Workplace started running
+2020-02-01 21:41:49.984   CNC 7   INF   Download and sort of length 6 takes: 205.547488ms
+2020-02-01 21:41:50.248   CNC 7   INF   Changing state ==> Downtime at 2020-02-01 21:40:57.862665 +0100 CET
+2020-02-01 21:41:50.433   CNC 7   INF   Processing takes 654.870413ms
+2020-02-01 21:41:50.433   CNC 7   INF   Sleeping for 9.345033142s
+2020-02-01 21:41:59.783   CNC 7   INF   Workplace still active
+2020-02-01 21:42:00.084   CNC 7   INF   Download and sort of length 6 takes: 300.625085ms
+2020-02-01 21:42:00.308   CNC 7   INF   Processing takes 523.940242ms
+2020-02-01 21:42:00.308   CNC 7   INF   Sleeping for 9.475550301s

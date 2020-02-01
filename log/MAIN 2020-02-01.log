@@ -92,3 +92,10 @@
 2020-02-01 21:31:14.440   MAIN   INF   Program running
 2020-02-01 21:31:14.456   MAIN   INF   Active workplaces: 1, running workplaces: 1
 2020-02-01 21:31:14.456   MAIN   INF   Sleeping for 9.983066127s
+2020-02-01 21:41:47.783   MAIN   INF   State Service version 2020.1.2.1 started
+2020-02-01 21:41:49.769   MAIN   INF   Program running
+2020-02-01 21:41:49.777   MAIN   INF   Active workplaces: 21, running workplaces: 0
+2020-02-01 21:41:49.777   MAIN   INF   Sleeping for 9.991759087s
+2020-02-01 21:41:59.770   MAIN   INF   Program running
+2020-02-01 21:41:59.831   MAIN   INF   Active workplaces: 21, running workplaces: 21
+2020-02-01 21:41:59.831   MAIN   INF   Sleeping for 9.937933789s
