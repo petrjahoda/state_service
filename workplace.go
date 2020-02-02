@@ -86,8 +86,8 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 	defer db.Close()
 	var actualWorkplaceMode zapsi_database.WorkplaceMode
 	db.Where("id=?", workplace.ActualWorkplaceModeId).Find(&actualWorkplaceMode)
-	poweroffInterval := actualWorkplaceMode.PoweroffInterval
-	downtimeInterval := actualWorkplaceMode.DowntimeInterval
+	poweroffInterval := actualWorkplaceMode.PoweroffDuration
+	downtimeInterval := actualWorkplaceMode.DowntimeDuration
 	var actualState zapsi_database.State
 	latestworkplaceStateId := GetLatestWorkplaceStateId(workplace.ID, db)
 	actualState = GetActualState(latestworkplaceStateId, db)
@@ -198,10 +198,10 @@ func UpdateState(db *gorm.DB, workplace **zapsi_database.Workplace, stateChangeT
 	db.Save(&workplace)
 	var lastWorkplaceState zapsi_database.WorkplaceState
 	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
-	if lastWorkplaceState.Id != 0 {
+	if lastWorkplaceState.ID != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
 		lastWorkplaceState.DateTimeEnd = sql.NullTime{Time: stateChangeTime, Valid: true}
-		lastWorkplaceState.Interval = interval
+		lastWorkplaceState.Duration = interval
 		db.Save(&lastWorkplaceState)
 	}
 	newWorkplaceState := zapsi_database.WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
