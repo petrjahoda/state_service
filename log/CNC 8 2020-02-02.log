@@ -124,3 +124,109 @@
 2020-02-02 08:08:22.917   CNC 8   INF   Sleeping for 9.959360669s
 2020-02-02 08:08:32.881   CNC 8   INF   Workplace not active
 2020-02-02 08:08:32.881   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:12:06.324   CNC 8   INF   Workplace started running
+2020-02-02 08:12:06.584   CNC 8   INF   Download and sort of length 0 takes: 259.514911ms
+2020-02-02 08:12:06.862   CNC 8   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-02 08:12:07.219   CNC 8   INF   Processing takes 894.383404ms
+2020-02-02 08:12:07.219   CNC 8   INF   Sleeping for 9.105394215s
+2020-02-02 08:12:16.327   CNC 8   INF   Workplace still active
+2020-02-02 08:12:16.795   CNC 8   INF   Download and sort of length 1 takes: 467.662643ms
+2020-02-02 08:12:17.423   CNC 8   INF   Changing state ==> Downtime at 2020-02-02 08:12:09.532286 +0100 CET
+2020-02-02 08:12:17.655   CNC 8   INF   Processing takes 1.327832947s
+2020-02-02 08:12:17.655   CNC 8   INF   Sleeping for 8.671963185s
+2020-02-02 08:12:26.330   CNC 8   INF   Workplace not active
+2020-02-02 08:12:26.331   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:12:26.332   CNC 8   INF   Workplace started running
+2020-02-02 08:12:26.791   CNC 8   INF   Download and sort of length 1 takes: 458.749124ms
+2020-02-02 08:12:26.965   CNC 8   INF   Processing takes 632.771055ms
+2020-02-02 08:12:26.965   CNC 8   INF   Sleeping for 9.367008045s
+2020-02-02 08:12:36.336   CNC 8   INF   Workplace still active
+2020-02-02 08:12:36.694   CNC 8   INF   Download and sort of length 2 takes: 358.5889ms
+2020-02-02 08:12:36.842   CNC 8   INF   Processing takes 506.490067ms
+2020-02-02 08:12:36.842   CNC 8   INF   Sleeping for 9.493339358s
+2020-02-02 08:12:46.336   CNC 8   INF   Workplace still active
+2020-02-02 08:12:46.520   CNC 8   INF   Download and sort of length 3 takes: 183.845839ms
+2020-02-02 08:12:46.780   CNC 8   INF   Processing takes 443.460419ms
+2020-02-02 08:12:46.780   CNC 8   INF   Sleeping for 9.556433381s
+2020-02-02 08:12:56.337   CNC 8   INF   Workplace not active
+2020-02-02 08:12:56.337   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:12:56.339   CNC 8   INF   Workplace started running
+2020-02-02 08:12:56.497   CNC 8   INF   Download and sort of length 4 takes: 158.357326ms
+2020-02-02 08:12:56.681   CNC 8   INF   Processing takes 342.066924ms
+2020-02-02 08:12:56.682   CNC 8   INF   Sleeping for 9.657422716s
+2020-02-02 08:13:06.341   CNC 8   INF   Workplace not active
+2020-02-02 08:13:06.346   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:13:06.347   CNC 8   INF   Workplace started running
+2020-02-02 08:13:06.905   CNC 8   INF   Download and sort of length 5 takes: 558.417998ms
+2020-02-02 08:13:07.137   CNC 8   INF   Processing takes 789.956147ms
+2020-02-02 08:13:07.137   CNC 8   INF   Sleeping for 9.209458724s
+2020-02-02 08:13:18.986   CNC 8   INF   Workplace started running
+2020-02-02 08:13:19.145   CNC 8   INF   Download and sort of length 6 takes: 158.315437ms
+2020-02-02 08:13:19.483   CNC 8   INF   Processing takes 496.246809ms
+2020-02-02 08:13:19.484   CNC 8   INF   Sleeping for 9.502589606s
+2020-02-02 08:13:55.981   CNC 8   INF   Workplace started running
+2020-02-02 08:13:56.282   CNC 8   INF   Download and sort of length 10 takes: 301.397331ms
+2020-02-02 08:13:56.546   CNC 8   INF   Processing takes 565.562523ms
+2020-02-02 08:13:56.547   CNC 8   INF   Sleeping for 9.43428845s
+2020-02-02 08:14:05.982   CNC 8   INF   Workplace still active
+2020-02-02 08:14:06.238   CNC 8   INF   Download and sort of length 11 takes: 255.787484ms
+2020-02-02 08:14:06.389   CNC 8   INF   Processing takes 407.231411ms
+2020-02-02 08:14:06.389   CNC 8   INF   Sleeping for 9.592665606s
+2020-02-02 08:14:15.985   CNC 8   INF   Workplace not active
+2020-02-02 08:14:15.985   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:14:15.986   CNC 8   INF   Workplace started running
+2020-02-02 08:14:16.171   CNC 8   INF   Download and sort of length 12 takes: 183.859241ms
+2020-02-02 08:14:16.305   CNC 8   INF   Processing takes 318.356447ms
+2020-02-02 08:14:16.305   CNC 8   INF   Sleeping for 9.681553557s
+2020-02-02 08:14:25.987   CNC 8   INF   Workplace still active
+2020-02-02 08:14:26.167   CNC 8   INF   Download and sort of length 13 takes: 179.47117ms
+2020-02-02 08:14:26.288   CNC 8   INF   Processing takes 300.456394ms
+2020-02-02 08:14:26.288   CNC 8   INF   Sleeping for 9.69946169s
+2020-02-02 08:14:35.992   CNC 8   INF   Workplace still active
+2020-02-02 08:14:36.370   CNC 8   INF   Download and sort of length 14 takes: 377.95077ms
+2020-02-02 08:14:36.520   CNC 8   INF   Processing takes 527.713288ms
+2020-02-02 08:14:36.520   CNC 8   INF   Sleeping for 9.472156681s
+2020-02-02 08:14:45.996   CNC 8   INF   Workplace still active
+2020-02-02 08:14:46.280   CNC 8   INF   Download and sort of length 14 takes: 283.586274ms
+2020-02-02 08:14:46.564   CNC 8   INF   Processing takes 567.180075ms
+2020-02-02 08:14:46.564   CNC 8   INF   Sleeping for 9.432720123s
+2020-02-02 08:14:55.999   CNC 8   INF   Workplace still active
+2020-02-02 08:14:56.216   CNC 8   INF   Download and sort of length 14 takes: 216.082672ms
+2020-02-02 08:14:56.292   CNC 8   INF   Processing takes 292.233384ms
+2020-02-02 08:14:56.292   CNC 8   INF   Sleeping for 9.707565683s
+2020-02-02 08:15:06.003   CNC 8   INF   Workplace still active
+2020-02-02 08:15:06.254   CNC 8   INF   Download and sort of length 14 takes: 251.251542ms
+2020-02-02 08:15:06.404   CNC 8   INF   Processing takes 400.803614ms
+2020-02-02 08:15:06.404   CNC 8   INF   Sleeping for 9.599063061s
+2020-02-02 08:15:16.006   CNC 8   INF   Workplace not active
+2020-02-02 08:15:16.007   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:15:16.014   CNC 8   INF   Workplace started running
+2020-02-02 08:15:16.468   CNC 8   INF   Download and sort of length 14 takes: 453.5313ms
+2020-02-02 08:15:16.775   CNC 8   INF   Processing takes 760.493338ms
+2020-02-02 08:15:16.775   CNC 8   INF   Sleeping for 9.239339591s
+2020-02-02 08:15:26.015   CNC 8   INF   Workplace still active
+2020-02-02 08:15:26.204   CNC 8   INF   Download and sort of length 14 takes: 188.593239ms
+2020-02-02 08:15:26.342   CNC 8   INF   Processing takes 327.059879ms
+2020-02-02 08:15:26.342   CNC 8   INF   Sleeping for 9.672841177s
+2020-02-02 08:15:36.015   CNC 8   INF   Workplace still active
+2020-02-02 08:15:36.355   CNC 8   INF   Download and sort of length 14 takes: 339.560416ms
+2020-02-02 08:15:36.620   CNC 8   INF   Processing takes 604.994905ms
+2020-02-02 08:15:36.620   CNC 8   INF   Sleeping for 9.394860774s
+2020-02-02 08:15:46.015   CNC 8   INF   Workplace still active
+2020-02-02 08:15:46.189   CNC 8   INF   Download and sort of length 14 takes: 172.91553ms
+2020-02-02 08:15:46.300   CNC 8   INF   Processing takes 284.537135ms
+2020-02-02 08:15:46.300   CNC 8   INF   Sleeping for 9.715359955s
+2020-02-02 08:15:56.016   CNC 8   INF   Workplace still active
+2020-02-02 08:15:56.203   CNC 8   INF   Download and sort of length 14 takes: 187.190262ms
+2020-02-02 08:15:56.315   CNC 8   INF   Processing takes 299.454524ms
+2020-02-02 08:15:56.315   CNC 8   INF   Sleeping for 9.700366593s
+2020-02-02 08:16:06.016   CNC 8   INF   Workplace not active
+2020-02-02 08:16:06.016   CNC 8   INF   Workplace not active, stopped running
+2020-02-02 08:16:06.020   CNC 8   INF   Workplace started running
+2020-02-02 08:16:06.240   CNC 8   INF   Download and sort of length 14 takes: 219.578941ms
+2020-02-02 08:16:06.273   CNC 8   INF   Processing takes 252.304834ms
+2020-02-02 08:16:06.273   CNC 8   INF   Sleeping for 9.747567065s
+2020-02-02 08:16:16.021   CNC 8   INF   Workplace still active
+2020-02-02 08:16:16.350   CNC 8   INF   Download and sort of length 14 takes: 328.149454ms
+2020-02-02 08:16:16.430   CNC 8   INF   Processing takes 408.414824ms
+2020-02-02 08:16:16.430   CNC 8   INF   Sleeping for 9.591263592s

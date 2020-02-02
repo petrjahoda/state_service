@@ -140,7 +140,7 @@ func WriteProgramVersionIntoSettings() {
 	}
 	defer db.Close()
 	var settings zapsi_database.Setting
-	db.Where("key=?", programName).Find(&settings)
+	db.Where("name=?", programName).Find(&settings)
 	settings.Name = programName
 	settings.Value = version
 	db.Save(&settings)
