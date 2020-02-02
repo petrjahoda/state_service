@@ -229,3 +229,7 @@
 2020-02-02 08:16:16.143   CNC 0   INF   Download and sort of length 43 takes: 128.329028ms
 2020-02-02 08:16:16.224   CNC 0   INF   Processing takes 209.140775ms
 2020-02-02 08:16:16.224   CNC 0   INF   Sleeping for 9.790589935s
+2020-02-02 08:16:26.016   CNC 0   INF   Workplace still active
+2020-02-02 08:16:26.058   CNC 0   INF   Download and sort of length 43 takes: 41.376935ms
+2020-02-02 08:16:26.209   CNC 0   INF   Processing takes 191.808957ms
+2020-02-02 08:16:26.209   CNC 0   INF   Sleeping for 9.808081926s

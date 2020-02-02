@@ -226,3 +226,7 @@
 2020-02-02 08:16:16.122   CNC 2   INF   Download and sort of length 43 takes: 106.817491ms
 2020-02-02 08:16:16.355   CNC 2   INF   Processing takes 340.275901ms
 2020-02-02 08:16:16.355   CNC 2   INF   Sleeping for 9.659598678s
+2020-02-02 08:16:26.016   CNC 2   INF   Workplace still active
+2020-02-02 08:16:26.131   CNC 2   INF   Download and sort of length 43 takes: 114.258933ms
+2020-02-02 08:16:26.262   CNC 2   INF   Processing takes 245.062683ms
+2020-02-02 08:16:26.262   CNC 2   INF   Sleeping for 9.754847783s

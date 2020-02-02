@@ -233,3 +233,7 @@
 2020-02-02 08:16:16.253   CNC 17   INF   Download and sort of length 0 takes: 231.499948ms
 2020-02-02 08:16:16.450   CNC 17   INF   Processing takes 428.812195ms
 2020-02-02 08:16:16.450   CNC 17   INF   Sleeping for 9.571076894s
+2020-02-02 08:16:26.022   CNC 17   INF   Workplace still active
+2020-02-02 08:16:26.192   CNC 17   INF   Download and sort of length 0 takes: 169.657142ms
+2020-02-02 08:16:26.322   CNC 17   INF   Processing takes 299.963593ms
+2020-02-02 08:16:26.322   CNC 17   INF   Sleeping for 9.699884108s

@@ -226,3 +226,7 @@
 2020-02-02 08:16:16.206   CNC 13   INF   Download and sort of length 43 takes: 185.044157ms
 2020-02-02 08:16:16.431   CNC 13   INF   Processing takes 409.953686ms
 2020-02-02 08:16:16.432   CNC 13   INF   Sleeping for 9.589912091s
+2020-02-02 08:16:26.022   CNC 13   INF   Workplace still active
+2020-02-02 08:16:26.229   CNC 13   INF   Download and sort of length 43 takes: 206.993884ms
+2020-02-02 08:16:26.342   CNC 13   INF   Processing takes 319.800438ms
+2020-02-02 08:16:26.342   CNC 13   INF   Sleeping for 9.680111434s

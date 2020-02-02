@@ -228,3 +228,7 @@
 2020-02-02 08:16:16.183   CNC 15   INF   Download and sort of length 43 takes: 161.694765ms
 2020-02-02 08:16:16.360   CNC 15   INF   Processing takes 339.071565ms
 2020-02-02 08:16:16.361   CNC 15   INF   Sleeping for 9.660803202s
+2020-02-02 08:16:26.022   CNC 15   INF   Workplace still active
+2020-02-02 08:16:26.303   CNC 15   INF   Download and sort of length 43 takes: 280.690785ms
+2020-02-02 08:16:26.371   CNC 15   INF   Processing takes 349.107716ms
+2020-02-02 08:16:26.371   CNC 15   INF   Sleeping for 9.650794407s
