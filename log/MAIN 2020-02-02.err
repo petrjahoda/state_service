@@ -1,0 +1,5 @@
+2020-02-02 08:08:22.916   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:32.884   MAIN   ERR   Problem opening zapsi4 database: EOF
+2020-02-02 08:08:42.882   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:52.889   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:09:02.890   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused

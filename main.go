@@ -20,6 +20,7 @@ var (
 )
 
 func main() {
+	time.Sleep(10 * time.Second)
 	LogDirectoryFileCheck("MAIN")
 	LogInfo("MAIN", programName+" version "+version+" started")
 	CreateConfigIfNotExists()
