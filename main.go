@@ -27,7 +27,7 @@ func (p *program) Start(s service.Service) error {
 }
 
 func (p *program) run() {
-	time.Sleep(10 * time.Second)
+	time.Sleep(time.Second * 5)
 	LogDirectoryFileCheck("MAIN")
 	LogInfo("MAIN", programName+" version "+version+" started")
 	CreateConfigIfNotExists()
