@@ -17,7 +17,7 @@ func AddData(workplace zapsi_database.Workplace) []IntermediateData {
 		return nil
 	}
 	defer db.Close()
-	var workplaceState zapsi_database.WorkplaceState
+	var workplaceState zapsi_database.StateRecord
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
 	poweroffRecords := DownloadPoweroffRecords(workplace.ID, db, workplaceState)
 	productionRecords := DownloadProductionRecords(workplace.ID, db, workplaceState)
@@ -25,7 +25,7 @@ func AddData(workplace zapsi_database.Workplace) []IntermediateData {
 	return intermediateData
 }
 
-func CreateIntermediateData(poweroffRecords []zapsi_database.DeviceAnalogRecord, productionRecords []zapsi_database.DeviceDigitalRecord) []IntermediateData {
+func CreateIntermediateData(poweroffRecords []zapsi_database.DevicePortAnalogRecord, productionRecords []zapsi_database.DevicePortDigitalRecord) []IntermediateData {
 	var intermediateData []IntermediateData
 	for _, poweroffRecord := range poweroffRecords {
 		rawData := strconv.FormatFloat(float64(poweroffRecord.Data), 'g', 15, 64)
@@ -43,29 +43,29 @@ func CreateIntermediateData(poweroffRecords []zapsi_database.DeviceAnalogRecord,
 	return intermediateData
 }
 
-func DownloadProductionRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.WorkplaceState) []zapsi_database.DeviceDigitalRecord {
+func DownloadProductionRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.StateRecord) []zapsi_database.DevicePortDigitalRecord {
 	var production zapsi_database.State
 	db.Where("name=?", "Production").Find(&production)
 	var productionPort zapsi_database.WorkplacePort
 	db.Where("workplace_id=?", workplaceId).Where("state_id=?", production.ID).First(&productionPort)
-	var productionRecords []zapsi_database.DeviceDigitalRecord
+	var productionRecords []zapsi_database.DevicePortDigitalRecord
 	db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
 	return productionRecords
 }
 
-func DownloadPoweroffRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.WorkplaceState) []zapsi_database.DeviceAnalogRecord {
+func DownloadPoweroffRecords(workplaceId uint, db *gorm.DB, workplaceState zapsi_database.StateRecord) []zapsi_database.DevicePortAnalogRecord {
 	var poweroff zapsi_database.State
 	db.Where("name=?", "Poweroff").Find(&poweroff)
 	var poweroffPort zapsi_database.WorkplacePort
 	db.Where("workplace_id=?", workplaceId).Where("state_id=?", poweroff.ID).First(&poweroffPort)
-	var poweroffRecords []zapsi_database.DeviceAnalogRecord
+	var poweroffRecords []zapsi_database.DevicePortAnalogRecord
 	db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
 	return poweroffRecords
 }
 
 //
 func GetLatestWorkplaceStateId(workplaceId uint, db *gorm.DB) int {
-	var workplaceState zapsi_database.WorkplaceState
+	var workplaceState zapsi_database.StateRecord
 	db.Where("workplace_id=?", workplaceId).Last(&workplaceState)
 	return int(workplaceState.StateId)
 }
@@ -196,7 +196,7 @@ func UpdateState(db *gorm.DB, workplace **zapsi_database.Workplace, stateChangeT
 	(*workplace).ActualStateId = state.ID
 	(*workplace).ActualWorkplaceModeId = workplaceMode.ID
 	db.Save(&workplace)
-	var lastWorkplaceState zapsi_database.WorkplaceState
+	var lastWorkplaceState zapsi_database.StateRecord
 	db.Where("workplace_id=?", (*workplace).ID).Last(&lastWorkplaceState)
 	if lastWorkplaceState.ID != 0 {
 		interval := stateChangeTime.Sub(lastWorkplaceState.DateTimeStart)
@@ -204,6 +204,6 @@ func UpdateState(db *gorm.DB, workplace **zapsi_database.Workplace, stateChangeT
 		lastWorkplaceState.Duration = interval
 		db.Save(&lastWorkplaceState)
 	}
-	newWorkplaceState := zapsi_database.WorkplaceState{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
+	newWorkplaceState := zapsi_database.StateRecord{WorkplaceId: (*workplace).ID, StateId: state.ID, DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
 }
