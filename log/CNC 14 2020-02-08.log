@@ -1,0 +1,9 @@
+2020-02-08 09:00:58.131   CNC 14   INF   Workplace started running
+2020-02-08 09:00:58.313   CNC 14   INF   Download and sort of length 0 takes: 181.788903ms
+2020-02-08 09:00:58.531   CNC 14   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-08 09:00:58.717   CNC 14   INF   Processing takes 586.106093ms
+2020-02-08 09:00:58.717   CNC 14   INF   Sleeping for 9.413734429s
+2020-02-08 09:01:08.131   CNC 14   INF   Workplace still active
+2020-02-08 09:01:08.131   CNC 14   INF   Workplace not active, stopped running
+2020-02-08 09:01:08.139   CNC 14   INF   Workplace started running
+2020-02-08 09:01:08.139   CNC 14   INF   Workplace not active, stopped running

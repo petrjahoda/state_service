@@ -1,0 +1,10 @@
+2020-02-08 09:00:58.131   CNC 4   INF   Workplace started running
+2020-02-08 09:00:58.417   CNC 4   INF   Download and sort of length 9 takes: 285.235246ms
+2020-02-08 09:00:58.685   CNC 4   INF   Changing state ==> Downtime at 2020-02-08 09:00:35.111139 +0100 CET
+2020-02-08 09:00:58.863   CNC 4   INF   Changing state ==> Production at 2020-02-08 09:00:35.111139 +0100 CET
+2020-02-08 09:00:59.007   CNC 4   INF   Processing takes 875.470708ms
+2020-02-08 09:00:59.007   CNC 4   INF   Sleeping for 9.124350544s
+2020-02-08 09:01:08.131   CNC 4   INF   Workplace still active
+2020-02-08 09:01:08.132   CNC 4   INF   Workplace not active, stopped running
+2020-02-08 09:01:08.139   CNC 4   INF   Workplace started running
+2020-02-08 09:01:08.139   CNC 4   INF   Workplace not active, stopped running

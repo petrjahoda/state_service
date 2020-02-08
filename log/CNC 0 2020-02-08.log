@@ -1,0 +1,9 @@
+2020-02-08 09:00:58.130   CNC 0   INF   Workplace started running
+2020-02-08 09:00:58.263   CNC 0   INF   Download and sort of length 0 takes: 133.134822ms
+2020-02-08 09:00:58.482   CNC 0   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-08 09:00:58.679   CNC 0   INF   Processing takes 549.29112ms
+2020-02-08 09:00:58.679   CNC 0   INF   Sleeping for 9.450582857s
+2020-02-08 09:01:08.130   CNC 0   INF   Workplace still active
+2020-02-08 09:01:08.130   CNC 0   INF   Workplace not active, stopped running
+2020-02-08 09:01:08.139   CNC 0   INF   Workplace started running
+2020-02-08 09:01:08.139   CNC 0   INF   Workplace not active, stopped running

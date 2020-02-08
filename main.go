@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/jinzhu/gorm"
+	"github.com/kardianos/service"
 	"github.com/petrjahoda/zapsi_database"
 	"strconv"
 	"sync"
@@ -10,16 +11,22 @@ import (
 
 const version = "2020.1.2.8"
 const programName = "State Service"
+const programDesription = "Creates states for workplaces"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
-var (
-	activeWorkplaces  []zapsi_database.Workplace
-	runningWorkplaces []zapsi_database.Workplace
-	workplaceSync     sync.Mutex
-)
+var serviceRunning = false
 
-func main() {
+type program struct{}
+
+func (p *program) Start(s service.Service) error {
+	LogInfo("MAIN", "Starting "+programName+" on "+s.Platform())
+	go p.run()
+	serviceRunning = true
+	return nil
+}
+
+func (p *program) run() {
 	time.Sleep(10 * time.Second)
 	LogDirectoryFileCheck("MAIN")
 	LogInfo("MAIN", programName+" version "+version+" started")
@@ -44,6 +51,38 @@ func main() {
 			LogInfo("MAIN", "Sleeping for "+sleepTime.String())
 			time.Sleep(sleepTime)
 		}
+	}
+}
+func (p *program) Stop(s service.Service) error {
+	serviceRunning = false
+	for len(runningWorkplaces) != 0 {
+		LogInfo("MAIN", "Stopping, still running devices: "+strconv.Itoa(len(runningWorkplaces)))
+		time.Sleep(1 * time.Second)
+	}
+	LogInfo("MAIN", "Stopped on platform "+s.Platform())
+	return nil
+}
+
+var (
+	activeWorkplaces  []zapsi_database.Workplace
+	runningWorkplaces []zapsi_database.Workplace
+	workplaceSync     sync.Mutex
+)
+
+func main() {
+	serviceConfig := &service.Config{
+		Name:        programName,
+		DisplayName: programName,
+		Description: programDesription,
+	}
+	prg := &program{}
+	s, err := service.New(prg, serviceConfig)
+	if err != nil {
+		LogError("MAIN", err.Error())
+	}
+	err = s.Run()
+	if err != nil {
+		LogError("MAIN", "Problem starting "+serviceConfig.Name)
 	}
 }
 
@@ -77,7 +116,7 @@ func RunWorkplace(workplace zapsi_database.Workplace) {
 	runningWorkplaces = append(runningWorkplaces, workplace)
 	workplaceSync.Unlock()
 	workplaceIsActive := true
-	for workplaceIsActive {
+	for workplaceIsActive && serviceRunning {
 		start := time.Now()
 		intermediateData := AddData(workplace)
 		LogInfo(workplace.Name, "Download and sort of length "+strconv.Itoa(len(intermediateData))+" takes: "+time.Since(start).String())

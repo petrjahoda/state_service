@@ -1,0 +1,9 @@
+2020-02-08 09:00:58.129   CNC 5   INF   Workplace started running
+2020-02-08 09:00:58.213   CNC 5   INF   Download and sort of length 3 takes: 83.518243ms
+2020-02-08 09:00:58.373   CNC 5   INF   Changing state ==> Downtime at 2020-02-08 09:00:35.123476 +0100 CET
+2020-02-08 09:00:58.519   CNC 5   INF   Processing takes 389.34353ms
+2020-02-08 09:00:58.520   CNC 5   INF   Sleeping for 9.609963136s
+2020-02-08 09:01:08.130   CNC 5   INF   Workplace still active
+2020-02-08 09:01:08.130   CNC 5   INF   Workplace not active, stopped running
+2020-02-08 09:01:08.139   CNC 5   INF   Workplace started running
+2020-02-08 09:01:08.139   CNC 5   INF   Workplace not active, stopped running
