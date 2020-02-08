@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const version = "2020.1.2.2"
+const version = "2020.1.2.8"
 const programName = "State Service"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
