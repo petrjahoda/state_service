@@ -5,13 +5,19 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="a6deff3d-1c14-446c-9926-403131d777ad">
+    <data-source source="LOCAL" name="@localhost" uuid="ecdc733a-e6e4-4790-b985-a0902e52d23d">
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3307/</jdbc-url>
+      <jdbc-url>jdbc:mariadb://localhost:3307</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [2]" uuid="23b3ecb6-4a62-4f7f-aff6-b8b835ea0563">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
     </data-source>
   </component>
 </project>

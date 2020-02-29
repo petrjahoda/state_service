@@ -58,7 +58,7 @@ func DownloadProductionRecords(workplace zapsi_database.Workplace, db *gorm.DB, 
 	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", production.ID).First(&productionPort)
 	var productionRecords []zapsi_database.DevicePortDigitalRecord
 	db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
-	LogInfo(workplace.Name, "Production records downloaded, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Production records downloaded: "+strconv.Itoa(len(productionRecords))+" elapsed: "+time.Since(timer).String())
 	return productionRecords
 }
 
@@ -71,7 +71,7 @@ func DownloadPoweroffRecords(workplace zapsi_database.Workplace, db *gorm.DB, wo
 	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", poweroff.ID).First(&poweroffPort)
 	var poweroffRecords []zapsi_database.DevicePortAnalogRecord
 	db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
-	LogInfo(workplace.Name, "Poweroff records downloaded, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Poweroff records downloaded, count: "+strconv.Itoa(len(poweroffRecords))+", elapsed: "+time.Since(timer).String())
 	return poweroffRecords
 }
 
