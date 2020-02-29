@@ -60,6 +60,7 @@ func AppendDataToLog(logLevel string, reference string, data string) {
 	}
 	defer f.Close()
 	logData := time.Now().Format("2006-01-02 15:04:05.000   ") + reference + "   " + logLevel + "   " + data
+
 	if _, err := f.WriteString(logData + "\r\n"); err != nil {
 		fmt.Println(Red(time.Now().Format(dateTimeFormat) + " [" + reference + "] --ERR-- " + "Cannot write to file: " + err.Error()))
 	}
