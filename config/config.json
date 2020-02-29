@@ -1,8 +1,8 @@
 {
-  "DatabaseType": "postgres",
+  "DatabaseType": "mariadb",
   "IpAddress": "localhost",
-  "DatabaseName": "zapsi4",
-  "Port": "5432",
-  "Login": "postgres",
+  "DatabaseName": "zapsi3",
+  "Port": "3307",
+  "Login": "root",
   "Password": "Zps05....."
 }

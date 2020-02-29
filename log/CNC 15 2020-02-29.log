@@ -1,0 +1,426 @@
+2020-02-29 10:22:43.523   CNC 15   INF   Workplace started running
+2020-02-29 10:22:43.702   CNC 15   INF   Download and sort of length 0 takes: 178.663176ms
+2020-02-29 10:22:44.025   CNC 15   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-29 10:22:44.323   CNC 15   INF   Processing takes 799.602887ms
+2020-02-29 10:22:44.323   CNC 15   INF   Sleeping for 9.200272385s
+2020-02-29 10:22:53.524   CNC 15   INF   Workplace still active
+2020-02-29 10:22:53.524   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:22:53.529   CNC 15   INF   Workplace started running
+2020-02-29 10:22:53.529   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:23:04.082   CNC 15   INF   Workplace started running
+2020-02-29 10:23:04.365   CNC 15   INF   Download and sort of length 2 takes: 282.333124ms
+2020-02-29 10:23:04.441   CNC 15   INF   Changing state ==> Downtime at 2020-02-29 10:01:51 +0100 CET
+2020-02-29 10:23:04.672   CNC 15   INF   Changing state ==> Poweroff at 2020-02-29 10:02:01 +0100 CET
+2020-02-29 10:23:04.964   CNC 15   INF   Processing takes 881.293829ms
+2020-02-29 10:23:04.964   CNC 15   INF   Sleeping for 9.118590848s
+2020-02-29 10:23:14.083   CNC 15   INF   Workplace still active
+2020-02-29 10:23:14.083   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:23:14.087   CNC 15   INF   Workplace started running
+2020-02-29 10:23:14.087   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:23:21.930   CNC 15   INF   Workplace started running
+2020-02-29 10:23:22.219   CNC 15   INF   Download and sort of length 0 takes: 287.928212ms
+2020-02-29 10:23:22.740   CNC 15   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-29 10:23:22.913   CNC 15   INF   Processing takes 982.15247ms
+2020-02-29 10:23:22.913   CNC 15   INF   Sleeping for 9.017727134s
+2020-02-29 10:40:28.073   CNC 15   INF   Workplace started running
+2020-02-29 10:40:28.073   CNC 15   INF   Adding data
+2020-02-29 10:40:28.478   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:40:28.491   CNC 15   INF   Poweroff records downloaded, elapsed: 12.299414ms
+2020-02-29 10:40:28.491   CNC 15   INF   Downloading production records
+2020-02-29 10:40:28.525   CNC 15   INF   Production records downloaded, elapsed: 33.831684ms
+2020-02-29 10:40:28.525   CNC 15   INF   Creating intermediate data
+2020-02-29 10:40:28.525   CNC 15   INF   Intermediate data created, elapsed: 1.16µs
+2020-02-29 10:40:28.525   CNC 15   INF   Data added, elapsed: 451.991425ms
+2020-02-29 10:40:28.526   CNC 15   INF   Processing data
+2020-02-29 10:40:28.829   CNC 15   INF   Data processed, elapsed: 303.166569ms
+2020-02-29 10:40:28.829   CNC 15   INF   Sleeping for 9.244156543s
+2020-02-29 10:40:38.073   CNC 15   INF   Workplace still active
+2020-02-29 10:40:38.074   CNC 15   INF   Adding data
+2020-02-29 10:40:38.431   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:40:38.465   CNC 15   INF   Poweroff records downloaded, elapsed: 34.556236ms
+2020-02-29 10:40:38.466   CNC 15   INF   Downloading production records
+2020-02-29 10:40:38.478   CNC 15   INF   Production records downloaded, elapsed: 12.642455ms
+2020-02-29 10:40:38.478   CNC 15   INF   Creating intermediate data
+2020-02-29 10:40:38.479   CNC 15   INF   Intermediate data created, elapsed: 1.155µs
+2020-02-29 10:40:38.479   CNC 15   INF   Data added, elapsed: 404.939958ms
+2020-02-29 10:40:38.479   CNC 15   INF   Processing data
+2020-02-29 10:40:38.849   CNC 15   INF   Data processed, elapsed: 370.366925ms
+2020-02-29 10:40:38.849   CNC 15   INF   Sleeping for 9.224085381s
+2020-02-29 10:40:48.074   CNC 15   INF   Workplace still active
+2020-02-29 10:40:48.074   CNC 15   INF   Adding data
+2020-02-29 10:40:48.569   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:40:48.611   CNC 15   INF   Poweroff records downloaded, elapsed: 41.553128ms
+2020-02-29 10:40:48.611   CNC 15   INF   Downloading production records
+2020-02-29 10:40:48.651   CNC 15   INF   Production records downloaded, elapsed: 40.069312ms
+2020-02-29 10:40:48.652   CNC 15   INF   Creating intermediate data
+2020-02-29 10:40:48.652   CNC 15   INF   Intermediate data created, elapsed: 1.453µs
+2020-02-29 10:40:48.652   CNC 15   INF   Data added, elapsed: 577.426223ms
+2020-02-29 10:40:48.652   CNC 15   INF   Processing data
+2020-02-29 10:40:48.996   CNC 15   INF   Data processed, elapsed: 343.820318ms
+2020-02-29 10:40:48.996   CNC 15   INF   Sleeping for 9.078248852s
+2020-02-29 10:40:58.075   CNC 15   INF   Workplace still active
+2020-02-29 10:40:58.075   CNC 15   INF   Adding data
+2020-02-29 10:40:58.562   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:40:58.601   CNC 15   INF   Poweroff records downloaded, elapsed: 38.904128ms
+2020-02-29 10:40:58.601   CNC 15   INF   Downloading production records
+2020-02-29 10:40:58.648   CNC 15   INF   Production records downloaded, elapsed: 46.810561ms
+2020-02-29 10:40:58.648   CNC 15   INF   Creating intermediate data
+2020-02-29 10:40:58.648   CNC 15   INF   Intermediate data created, elapsed: 1.145µs
+2020-02-29 10:40:58.649   CNC 15   INF   Data added, elapsed: 573.033923ms
+2020-02-29 10:40:58.649   CNC 15   INF   Processing data
+2020-02-29 10:40:58.837   CNC 15   INF   Data processed, elapsed: 187.923923ms
+2020-02-29 10:40:58.837   CNC 15   INF   Sleeping for 9.238418883s
+2020-02-29 10:41:08.076   CNC 15   INF   Workplace still active
+2020-02-29 10:41:08.076   CNC 15   INF   Adding data
+2020-02-29 10:41:08.342   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:08.390   CNC 15   INF   Poweroff records downloaded, elapsed: 47.487132ms
+2020-02-29 10:41:08.390   CNC 15   INF   Downloading production records
+2020-02-29 10:41:08.474   CNC 15   INF   Production records downloaded, elapsed: 84.12987ms
+2020-02-29 10:41:08.475   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:08.475   CNC 15   INF   Intermediate data created, elapsed: 5.314µs
+2020-02-29 10:41:08.475   CNC 15   INF   Data added, elapsed: 398.83521ms
+2020-02-29 10:41:08.475   CNC 15   INF   Processing data
+2020-02-29 10:41:08.778   CNC 15   INF   Data processed, elapsed: 303.259325ms
+2020-02-29 10:41:08.779   CNC 15   INF   Sleeping for 9.296821303s
+2020-02-29 10:41:18.077   CNC 15   INF   Workplace not active
+2020-02-29 10:41:18.077   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:41:18.078   CNC 15   INF   Workplace started running
+2020-02-29 10:41:18.078   CNC 15   INF   Adding data
+2020-02-29 10:41:18.257   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:18.278   CNC 15   INF   Poweroff records downloaded, elapsed: 21.11979ms
+2020-02-29 10:41:18.278   CNC 15   INF   Downloading production records
+2020-02-29 10:41:18.307   CNC 15   INF   Production records downloaded, elapsed: 29.074306ms
+2020-02-29 10:41:18.308   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:18.309   CNC 15   INF   Intermediate data created, elapsed: 9.558µs
+2020-02-29 10:41:18.309   CNC 15   INF   Data added, elapsed: 230.274546ms
+2020-02-29 10:41:18.309   CNC 15   INF   Processing data
+2020-02-29 10:41:18.666   CNC 15   INF   Data processed, elapsed: 356.790598ms
+2020-02-29 10:41:18.666   CNC 15   INF   Sleeping for 9.411888941s
+2020-02-29 10:41:28.079   CNC 15   INF   Workplace still active
+2020-02-29 10:41:28.080   CNC 15   INF   Adding data
+2020-02-29 10:41:28.380   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:28.411   CNC 15   INF   Poweroff records downloaded, elapsed: 31.093293ms
+2020-02-29 10:41:28.411   CNC 15   INF   Downloading production records
+2020-02-29 10:41:28.460   CNC 15   INF   Production records downloaded, elapsed: 48.404415ms
+2020-02-29 10:41:28.460   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:28.461   CNC 15   INF   Intermediate data created, elapsed: 1.732µs
+2020-02-29 10:41:28.461   CNC 15   INF   Data added, elapsed: 380.905613ms
+2020-02-29 10:41:28.461   CNC 15   INF   Processing data
+2020-02-29 10:41:28.677   CNC 15   INF   Data processed, elapsed: 216.475099ms
+2020-02-29 10:41:28.678   CNC 15   INF   Sleeping for 9.40159919s
+2020-02-29 10:41:38.080   CNC 15   INF   Workplace still active
+2020-02-29 10:41:38.080   CNC 15   INF   Adding data
+2020-02-29 10:41:38.299   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:38.327   CNC 15   INF   Poweroff records downloaded, elapsed: 27.872378ms
+2020-02-29 10:41:38.327   CNC 15   INF   Downloading production records
+2020-02-29 10:41:38.337   CNC 15   INF   Production records downloaded, elapsed: 9.459633ms
+2020-02-29 10:41:38.337   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:38.337   CNC 15   INF   Intermediate data created, elapsed: 1.193µs
+2020-02-29 10:41:38.337   CNC 15   INF   Data added, elapsed: 257.271503ms
+2020-02-29 10:41:38.337   CNC 15   INF   Processing data
+2020-02-29 10:41:38.656   CNC 15   INF   Data processed, elapsed: 318.130795ms
+2020-02-29 10:41:38.656   CNC 15   INF   Sleeping for 9.423956482s
+2020-02-29 10:41:48.080   CNC 15   INF   Workplace still active
+2020-02-29 10:41:48.080   CNC 15   INF   Adding data
+2020-02-29 10:41:48.121   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:48.127   CNC 15   INF   Poweroff records downloaded, elapsed: 5.041268ms
+2020-02-29 10:41:48.127   CNC 15   INF   Downloading production records
+2020-02-29 10:41:48.133   CNC 15   INF   Production records downloaded, elapsed: 6.063734ms
+2020-02-29 10:41:48.133   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:48.133   CNC 15   INF   Intermediate data created, elapsed: 1µs
+2020-02-29 10:41:48.133   CNC 15   INF   Data added, elapsed: 52.858354ms
+2020-02-29 10:41:48.133   CNC 15   INF   Processing data
+2020-02-29 10:41:48.522   CNC 15   INF   Data processed, elapsed: 388.731829ms
+2020-02-29 10:41:48.523   CNC 15   INF   Sleeping for 9.557009218s
+2020-02-29 10:41:58.081   CNC 15   INF   Workplace still active
+2020-02-29 10:41:58.081   CNC 15   INF   Adding data
+2020-02-29 10:41:58.124   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:41:58.129   CNC 15   INF   Poweroff records downloaded, elapsed: 4.888425ms
+2020-02-29 10:41:58.129   CNC 15   INF   Downloading production records
+2020-02-29 10:41:58.135   CNC 15   INF   Production records downloaded, elapsed: 5.950072ms
+2020-02-29 10:41:58.136   CNC 15   INF   Creating intermediate data
+2020-02-29 10:41:58.136   CNC 15   INF   Intermediate data created, elapsed: 1.148µs
+2020-02-29 10:41:58.136   CNC 15   INF   Data added, elapsed: 54.677349ms
+2020-02-29 10:41:58.136   CNC 15   INF   Processing data
+2020-02-29 10:41:58.435   CNC 15   INF   Data processed, elapsed: 299.339335ms
+2020-02-29 10:41:58.436   CNC 15   INF   Sleeping for 9.645360472s
+2020-02-29 10:42:08.081   CNC 15   INF   Workplace still active
+2020-02-29 10:42:08.081   CNC 15   INF   Adding data
+2020-02-29 10:42:08.135   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:42:08.147   CNC 15   INF   Poweroff records downloaded, elapsed: 11.535641ms
+2020-02-29 10:42:08.148   CNC 15   INF   Downloading production records
+2020-02-29 10:42:08.170   CNC 15   INF   Production records downloaded, elapsed: 22.221357ms
+2020-02-29 10:42:08.170   CNC 15   INF   Creating intermediate data
+2020-02-29 10:42:08.170   CNC 15   INF   Intermediate data created, elapsed: 1.174µs
+2020-02-29 10:42:08.170   CNC 15   INF   Data added, elapsed: 88.713832ms
+2020-02-29 10:42:08.170   CNC 15   INF   Processing data
+2020-02-29 10:42:08.492   CNC 15   INF   Data processed, elapsed: 321.984983ms
+2020-02-29 10:42:08.493   CNC 15   INF   Sleeping for 9.588807657s
+2020-02-29 10:42:18.082   CNC 15   INF   Workplace still active
+2020-02-29 10:42:18.082   CNC 15   INF   Adding data
+2020-02-29 10:42:18.254   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:42:18.261   CNC 15   INF   Poweroff records downloaded, elapsed: 6.321692ms
+2020-02-29 10:42:18.261   CNC 15   INF   Downloading production records
+2020-02-29 10:42:18.266   CNC 15   INF   Production records downloaded, elapsed: 4.396511ms
+2020-02-29 10:42:18.266   CNC 15   INF   Creating intermediate data
+2020-02-29 10:42:18.266   CNC 15   INF   Intermediate data created, elapsed: 1.195µs
+2020-02-29 10:42:18.266   CNC 15   INF   Data added, elapsed: 183.947271ms
+2020-02-29 10:42:18.266   CNC 15   INF   Processing data
+2020-02-29 10:42:18.731   CNC 15   INF   Data processed, elapsed: 464.696168ms
+2020-02-29 10:42:18.731   CNC 15   INF   Sleeping for 9.350380525s
+2020-02-29 10:42:28.082   CNC 15   INF   Workplace still active
+2020-02-29 10:42:28.082   CNC 15   INF   Adding data
+2020-02-29 10:42:28.262   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:42:28.347   CNC 15   INF   Poweroff records downloaded, elapsed: 84.926944ms
+2020-02-29 10:42:28.347   CNC 15   INF   Downloading production records
+2020-02-29 10:42:28.435   CNC 15   INF   Production records downloaded, elapsed: 87.043216ms
+2020-02-29 10:42:28.435   CNC 15   INF   Creating intermediate data
+2020-02-29 10:42:28.435   CNC 15   INF   Intermediate data created, elapsed: 5.706µs
+2020-02-29 10:42:28.436   CNC 15   INF   Data added, elapsed: 353.332349ms
+2020-02-29 10:42:28.436   CNC 15   INF   Processing data
+2020-02-29 10:42:28.988   CNC 15   INF   Data processed, elapsed: 550.868927ms
+2020-02-29 10:42:28.989   CNC 15   INF   Sleeping for 9.093598212s
+2020-02-29 10:42:38.083   CNC 15   INF   Workplace still active
+2020-02-29 10:42:38.083   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:42:38.108   CNC 15   INF   Workplace started running
+2020-02-29 10:42:38.108   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:42:47.148   CNC 15   INF   Workplace started running
+2020-02-29 10:42:47.148   CNC 15   INF   Starting workplace loop
+2020-02-29 10:42:47.149   CNC 15   INF   Adding data
+2020-02-29 10:42:47.215   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:42:47.253   CNC 15   INF   Poweroff records downloaded, elapsed: 38.091402ms
+2020-02-29 10:42:47.253   CNC 15   INF   Downloading production records
+2020-02-29 10:42:47.330   CNC 15   INF   Production records downloaded, elapsed: 77.390025ms
+2020-02-29 10:42:47.331   CNC 15   INF   Creating intermediate data
+2020-02-29 10:42:47.331   CNC 15   INF   Intermediate data created, elapsed: 698ns
+2020-02-29 10:42:47.331   CNC 15   INF   Data added, elapsed: 181.175317ms
+2020-02-29 10:42:47.331   CNC 15   INF   Processing data
+2020-02-29 10:42:47.724   CNC 15   INF   Data processed, elapsed: 392.828381ms
+2020-02-29 10:42:47.724   CNC 15   INF   Sleeping for 9.424309345s
+2020-02-29 10:42:57.149   CNC 15   INF   Workplace still active
+2020-02-29 10:42:57.150   CNC 15   INF   Loop ended, elapsed: 10.000974548s
+2020-02-29 10:42:57.151   CNC 15   INF   Starting workplace loop
+2020-02-29 10:42:57.151   CNC 15   INF   Adding data
+2020-02-29 10:42:57.323   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:42:57.350   CNC 15   INF   Poweroff records downloaded, elapsed: 26.655327ms
+2020-02-29 10:42:57.350   CNC 15   INF   Downloading production records
+2020-02-29 10:42:57.399   CNC 15   INF   Production records downloaded, elapsed: 49.364428ms
+2020-02-29 10:42:57.400   CNC 15   INF   Creating intermediate data
+2020-02-29 10:42:57.400   CNC 15   INF   Intermediate data created, elapsed: 1.065µs
+2020-02-29 10:42:57.400   CNC 15   INF   Data added, elapsed: 248.42217ms
+2020-02-29 10:42:57.400   CNC 15   INF   Processing data
+2020-02-29 10:42:57.643   CNC 15   INF   Data processed, elapsed: 243.01217ms
+2020-02-29 10:42:57.643   CNC 15   INF   Sleeping for 9.507887131s
+2020-02-29 10:43:07.151   CNC 15   INF   Workplace still active
+2020-02-29 10:43:07.151   CNC 15   INF   Loop ended, elapsed: 10.000229466s
+2020-02-29 10:43:07.151   CNC 15   INF   Starting workplace loop
+2020-02-29 10:43:07.151   CNC 15   INF   Adding data
+2020-02-29 10:43:07.298   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:43:07.309   CNC 15   INF   Poweroff records downloaded, elapsed: 11.074158ms
+2020-02-29 10:43:07.309   CNC 15   INF   Downloading production records
+2020-02-29 10:43:07.315   CNC 15   INF   Production records downloaded, elapsed: 5.766474ms
+2020-02-29 10:43:07.315   CNC 15   INF   Creating intermediate data
+2020-02-29 10:43:07.315   CNC 15   INF   Intermediate data created, elapsed: 1.168µs
+2020-02-29 10:43:07.315   CNC 15   INF   Data added, elapsed: 163.814416ms
+2020-02-29 10:43:07.315   CNC 15   INF   Processing data
+2020-02-29 10:43:07.601   CNC 15   INF   Data processed, elapsed: 285.312532ms
+2020-02-29 10:43:07.602   CNC 15   INF   Sleeping for 9.549906904s
+2020-02-29 10:43:17.153   CNC 15   INF   Workplace still active
+2020-02-29 10:43:17.153   CNC 15   INF   Loop ended, elapsed: 10.001428727s
+2020-02-29 10:43:17.153   CNC 15   INF   Starting workplace loop
+2020-02-29 10:43:17.154   CNC 15   INF   Adding data
+2020-02-29 10:43:17.365   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:43:17.393   CNC 15   INF   Poweroff records downloaded, elapsed: 27.814048ms
+2020-02-29 10:43:17.393   CNC 15   INF   Downloading production records
+2020-02-29 10:43:17.434   CNC 15   INF   Production records downloaded, elapsed: 40.311263ms
+2020-02-29 10:43:17.434   CNC 15   INF   Creating intermediate data
+2020-02-29 10:43:17.434   CNC 15   INF   Intermediate data created, elapsed: 1.1µs
+2020-02-29 10:43:17.434   CNC 15   INF   Data added, elapsed: 280.126479ms
+2020-02-29 10:43:17.434   CNC 15   INF   Processing data
+2020-02-29 10:43:17.690   CNC 15   INF   Data processed, elapsed: 256.336443ms
+2020-02-29 10:43:17.691   CNC 15   INF   Sleeping for 9.463038801s
+2020-02-29 10:43:27.154   CNC 15   INF   Workplace still active
+2020-02-29 10:43:27.154   CNC 15   INF   Loop ended, elapsed: 10.00053426s
+2020-02-29 10:43:27.154   CNC 15   INF   Starting workplace loop
+2020-02-29 10:43:27.154   CNC 15   INF   Adding data
+2020-02-29 10:43:27.238   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:43:27.253   CNC 15   INF   Poweroff records downloaded, elapsed: 15.062464ms
+2020-02-29 10:43:27.253   CNC 15   INF   Downloading production records
+2020-02-29 10:43:27.279   CNC 15   INF   Production records downloaded, elapsed: 25.702882ms
+2020-02-29 10:43:27.279   CNC 15   INF   Creating intermediate data
+2020-02-29 10:43:27.279   CNC 15   INF   Intermediate data created, elapsed: 1.22µs
+2020-02-29 10:43:27.280   CNC 15   INF   Data added, elapsed: 125.023041ms
+2020-02-29 10:43:27.280   CNC 15   INF   Processing data
+2020-02-29 10:43:27.718   CNC 15   INF   Data processed, elapsed: 438.225066ms
+2020-02-29 10:43:27.718   CNC 15   INF   Sleeping for 9.436262803s
+2020-02-29 10:43:37.155   CNC 15   INF   Workplace still active
+2020-02-29 10:43:37.155   CNC 15   INF   Loop ended, elapsed: 10.00028134s
+2020-02-29 10:43:37.155   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:43:37.169   CNC 15   INF   Workplace started running
+2020-02-29 10:43:37.169   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:43:50.645   CNC 15   INF   Workplace started running
+2020-02-29 10:43:50.646   CNC 15   INF   Starting workplace loop
+2020-02-29 10:43:50.646   CNC 15   INF   Adding data
+2020-02-29 10:43:50.814   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:43:50.883   CNC 15   INF   Poweroff records downloaded, elapsed: 68.301943ms
+2020-02-29 10:43:50.883   CNC 15   INF   Downloading production records
+2020-02-29 10:43:50.908   CNC 15   INF   Production records downloaded, elapsed: 25.404848ms
+2020-02-29 10:43:50.909   CNC 15   INF   Creating intermediate data
+2020-02-29 10:43:50.909   CNC 15   INF   Intermediate data created, elapsed: 596ns
+2020-02-29 10:43:50.909   CNC 15   INF   Data added, elapsed: 262.273147ms
+2020-02-29 10:43:50.909   CNC 15   INF   Processing data
+2020-02-29 10:43:51.277   CNC 15   INF   Data processed, elapsed: 368.540839ms
+2020-02-29 10:43:51.278   CNC 15   INF   Loop ended, elapsed: 631.561072ms
+2020-02-29 10:43:51.278   CNC 15   INF   Sleeping for 9.368353224s
+2020-02-29 10:44:00.646   CNC 15   INF   Workplace still active
+2020-02-29 10:44:00.647   CNC 15   INF   Starting workplace loop
+2020-02-29 10:44:00.647   CNC 15   INF   Adding data
+2020-02-29 10:44:00.990   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:44:01.015   CNC 15   INF   Poweroff records downloaded, elapsed: 24.41172ms
+2020-02-29 10:44:01.015   CNC 15   INF   Downloading production records
+2020-02-29 10:44:01.028   CNC 15   INF   Production records downloaded, elapsed: 12.162969ms
+2020-02-29 10:44:01.028   CNC 15   INF   Creating intermediate data
+2020-02-29 10:44:01.028   CNC 15   INF   Intermediate data created, elapsed: 1.295µs
+2020-02-29 10:44:01.028   CNC 15   INF   Data added, elapsed: 380.785038ms
+2020-02-29 10:44:01.028   CNC 15   INF   Processing data
+2020-02-29 10:44:01.268   CNC 15   INF   Data processed, elapsed: 239.759786ms
+2020-02-29 10:44:01.268   CNC 15   INF   Loop ended, elapsed: 621.239855ms
+2020-02-29 10:44:01.268   CNC 15   INF   Sleeping for 9.378660168s
+2020-02-29 10:44:10.647   CNC 15   INF   Workplace still active
+2020-02-29 10:44:10.647   CNC 15   INF   Starting workplace loop
+2020-02-29 10:44:10.647   CNC 15   INF   Adding data
+2020-02-29 10:44:10.856   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:44:10.880   CNC 15   INF   Poweroff records downloaded, elapsed: 23.750813ms
+2020-02-29 10:44:10.880   CNC 15   INF   Downloading production records
+2020-02-29 10:44:10.896   CNC 15   INF   Production records downloaded, elapsed: 16.115778ms
+2020-02-29 10:44:10.897   CNC 15   INF   Creating intermediate data
+2020-02-29 10:44:10.897   CNC 15   INF   Intermediate data created, elapsed: 8.929µs
+2020-02-29 10:44:10.897   CNC 15   INF   Data added, elapsed: 249.559149ms
+2020-02-29 10:44:10.897   CNC 15   INF   Processing data
+2020-02-29 10:44:11.243   CNC 15   INF   Data processed, elapsed: 344.974208ms
+2020-02-29 10:44:11.244   CNC 15   INF   Loop ended, elapsed: 596.252824ms
+2020-02-29 10:44:11.244   CNC 15   INF   Sleeping for 9.40322063s
+2020-02-29 10:44:20.648   CNC 15   INF   Workplace still active
+2020-02-29 10:44:20.648   CNC 15   INF   Starting workplace loop
+2020-02-29 10:44:20.649   CNC 15   INF   Adding data
+2020-02-29 10:44:20.955   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:44:20.966   CNC 15   INF   Poweroff records downloaded, elapsed: 10.793802ms
+2020-02-29 10:44:20.967   CNC 15   INF   Downloading production records
+2020-02-29 10:44:20.978   CNC 15   INF   Production records downloaded, elapsed: 10.152723ms
+2020-02-29 10:44:20.978   CNC 15   INF   Creating intermediate data
+2020-02-29 10:44:20.978   CNC 15   INF   Intermediate data created, elapsed: 5.037µs
+2020-02-29 10:44:20.978   CNC 15   INF   Data added, elapsed: 329.53499ms
+2020-02-29 10:44:20.979   CNC 15   INF   Processing data
+2020-02-29 10:44:21.283   CNC 15   INF   Data processed, elapsed: 303.894085ms
+2020-02-29 10:44:21.283   CNC 15   INF   Loop ended, elapsed: 634.619972ms
+2020-02-29 10:44:21.283   CNC 15   INF   Sleeping for 9.365305158s
+2020-02-29 10:44:30.648   CNC 15   INF   Workplace still active
+2020-02-29 10:44:30.648   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:44:30.670   CNC 15   INF   Workplace started running
+2020-02-29 10:44:30.670   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:45:25.317   CNC 15   INF   Workplace started running
+2020-02-29 10:45:25.319   CNC 15   INF   Starting workplace loop
+2020-02-29 10:45:25.319   CNC 15   INF   Adding data
+2020-02-29 10:45:25.409   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:45:25.466   CNC 15   INF   Poweroff records downloaded, elapsed: 57.468231ms
+2020-02-29 10:45:25.467   CNC 15   INF   Downloading production records
+2020-02-29 10:45:25.563   CNC 15   INF   Production records downloaded, elapsed: 96.56251ms
+2020-02-29 10:45:25.563   CNC 15   INF   Creating intermediate data
+2020-02-29 10:45:25.563   CNC 15   INF   Intermediate data created, elapsed: 1.288µs
+2020-02-29 10:45:25.563   CNC 15   INF   Data added, elapsed: 244.701545ms
+2020-02-29 10:45:25.564   CNC 15   INF   Processing data
+2020-02-29 10:45:25.860   CNC 15   INF   Data processed, elapsed: 296.212306ms
+2020-02-29 10:45:25.861   CNC 15   INF   Loop ended, elapsed: 542.0651ms
+2020-02-29 10:45:25.861   CNC 15   INF   Sleeping for 9.457743338s
+2020-02-29 10:45:35.319   CNC 15   INF   Workplace still active
+2020-02-29 10:45:35.319   CNC 15   INF   Starting workplace loop
+2020-02-29 10:45:35.319   CNC 15   INF   Adding data
+2020-02-29 10:45:35.576   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:45:35.668   CNC 15   INF   Poweroff records downloaded, elapsed: 91.980106ms
+2020-02-29 10:45:35.668   CNC 15   INF   Downloading production records
+2020-02-29 10:45:35.846   CNC 15   INF   Production records downloaded, elapsed: 178.129352ms
+2020-02-29 10:45:35.846   CNC 15   INF   Creating intermediate data
+2020-02-29 10:45:35.846   CNC 15   INF   Intermediate data created, elapsed: 1.489µs
+2020-02-29 10:45:35.846   CNC 15   INF   Data added, elapsed: 527.077396ms
+2020-02-29 10:45:35.847   CNC 15   INF   Processing data
+2020-02-29 10:45:35.982   CNC 15   INF   Data processed, elapsed: 135.360522ms
+2020-02-29 10:45:35.982   CNC 15   INF   Loop ended, elapsed: 662.978948ms
+2020-02-29 10:45:35.982   CNC 15   INF   Sleeping for 9.336927751s
+2020-02-29 10:45:45.320   CNC 15   INF   Workplace still active
+2020-02-29 10:45:45.320   CNC 15   INF   Starting workplace loop
+2020-02-29 10:45:45.321   CNC 15   INF   Adding data
+2020-02-29 10:45:45.413   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:45:45.474   CNC 15   INF   Poweroff records downloaded, elapsed: 60.659664ms
+2020-02-29 10:45:45.474   CNC 15   INF   Downloading production records
+2020-02-29 10:45:45.559   CNC 15   INF   Production records downloaded, elapsed: 84.428921ms
+2020-02-29 10:45:45.559   CNC 15   INF   Creating intermediate data
+2020-02-29 10:45:45.559   CNC 15   INF   Intermediate data created, elapsed: 1.072µs
+2020-02-29 10:45:45.559   CNC 15   INF   Data added, elapsed: 238.589799ms
+2020-02-29 10:45:45.559   CNC 15   INF   Processing data
+2020-02-29 10:45:45.778   CNC 15   INF   Data processed, elapsed: 218.517736ms
+2020-02-29 10:45:45.778   CNC 15   INF   Loop ended, elapsed: 457.62862ms
+2020-02-29 10:45:45.778   CNC 15   INF   Sleeping for 9.542298406s
+2020-02-29 10:45:55.322   CNC 15   INF   Workplace still active
+2020-02-29 10:45:55.322   CNC 15   INF   Starting workplace loop
+2020-02-29 10:45:55.322   CNC 15   INF   Adding data
+2020-02-29 10:45:55.383   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:45:55.444   CNC 15   INF   Poweroff records downloaded, elapsed: 61.380647ms
+2020-02-29 10:45:55.445   CNC 15   INF   Downloading production records
+2020-02-29 10:45:55.511   CNC 15   INF   Production records downloaded, elapsed: 66.221411ms
+2020-02-29 10:45:55.511   CNC 15   INF   Creating intermediate data
+2020-02-29 10:45:55.511   CNC 15   INF   Intermediate data created, elapsed: 1.252µs
+2020-02-29 10:45:55.511   CNC 15   INF   Data added, elapsed: 189.02803ms
+2020-02-29 10:45:55.511   CNC 15   INF   Processing data
+2020-02-29 10:45:55.786   CNC 15   INF   Data processed, elapsed: 274.034539ms
+2020-02-29 10:45:55.786   CNC 15   INF   Loop ended, elapsed: 463.650312ms
+2020-02-29 10:45:55.786   CNC 15   INF   Sleeping for 9.536266156s
+2020-02-29 10:46:05.323   CNC 15   INF   Workplace still active
+2020-02-29 10:46:05.324   CNC 15   INF   Starting workplace loop
+2020-02-29 10:46:05.324   CNC 15   INF   Adding data
+2020-02-29 10:46:05.393   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:46:05.443   CNC 15   INF   Poweroff records downloaded, elapsed: 49.922842ms
+2020-02-29 10:46:05.443   CNC 15   INF   Downloading production records
+2020-02-29 10:46:05.474   CNC 15   INF   Production records downloaded, elapsed: 30.558426ms
+2020-02-29 10:46:05.474   CNC 15   INF   Creating intermediate data
+2020-02-29 10:46:05.474   CNC 15   INF   Intermediate data created, elapsed: 1.369µs
+2020-02-29 10:46:05.474   CNC 15   INF   Data added, elapsed: 149.653934ms
+2020-02-29 10:46:05.475   CNC 15   INF   Processing data
+2020-02-29 10:46:05.690   CNC 15   INF   Data processed, elapsed: 214.928625ms
+2020-02-29 10:46:05.690   CNC 15   INF   Loop ended, elapsed: 365.704213ms
+2020-02-29 10:46:05.690   CNC 15   INF   Sleeping for 9.634184583s
+2020-02-29 10:46:15.324   CNC 15   INF   Workplace still active
+2020-02-29 10:46:15.324   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:46:15.334   CNC 15   INF   Workplace started running
+2020-02-29 10:46:15.334   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:56:49.949   CNC 15   INF   Workplace started running
+2020-02-29 10:56:49.950   CNC 15   INF   Starting workplace loop
+2020-02-29 10:56:49.950   CNC 15   INF   Adding data
+2020-02-29 10:56:49.973   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:56:50.003   CNC 15   INF   Poweroff records downloaded, elapsed: 29.393262ms
+2020-02-29 10:56:50.003   CNC 15   INF   Downloading production records
+2020-02-29 10:56:50.035   CNC 15   INF   Production records downloaded, elapsed: 31.792023ms
+2020-02-29 10:56:50.035   CNC 15   INF   Creating intermediate data
+2020-02-29 10:56:50.035   CNC 15   INF   Intermediate data created, elapsed: 646ns
+2020-02-29 10:56:50.035   CNC 15   INF   Data added, elapsed: 84.748638ms
+2020-02-29 10:56:50.035   CNC 15   INF   Processing data
+2020-02-29 10:56:50.066   CNC 15   INF   Data processed, elapsed: 30.45322ms
+2020-02-29 10:56:50.066   CNC 15   INF   Loop ended, elapsed: 115.886633ms
+2020-02-29 10:56:50.066   CNC 15   INF   Sleeping for 9.883878433s
+2020-02-29 10:56:59.951   CNC 15   INF   Workplace still active
+2020-02-29 10:56:59.951   CNC 15   INF   Starting workplace loop
+2020-02-29 10:56:59.952   CNC 15   INF   Adding data
+2020-02-29 10:57:00.029   CNC 15   INF   Downloading poweroff records
+2020-02-29 10:57:00.097   CNC 15   INF   Poweroff records downloaded, elapsed: 67.75416ms
+2020-02-29 10:57:00.097   CNC 15   INF   Downloading production records
+2020-02-29 10:57:00.130   CNC 15   INF   Production records downloaded, elapsed: 33.090497ms
+2020-02-29 10:57:00.130   CNC 15   INF   Creating intermediate data
+2020-02-29 10:57:00.130   CNC 15   INF   Intermediate data created, elapsed: 1.42µs
+2020-02-29 10:57:00.131   CNC 15   INF   Data added, elapsed: 178.261506ms
+2020-02-29 10:57:00.131   CNC 15   INF   Processing data
+2020-02-29 10:57:00.230   CNC 15   INF   Data processed, elapsed: 98.791857ms
+2020-02-29 10:57:00.230   CNC 15   INF   Loop ended, elapsed: 278.028974ms
+2020-02-29 10:57:00.230   CNC 15   INF   Sleeping for 9.721850228s
+2020-02-29 10:57:09.952   CNC 15   INF   Workplace still active
+2020-02-29 10:57:09.952   CNC 15   INF   Workplace not active, stopped running
+2020-02-29 10:57:09.956   CNC 15   INF   Workplace started running
+2020-02-29 10:57:09.956   CNC 15   INF   Workplace not active, stopped running

@@ -16,8 +16,8 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="zapsi2@localhost" uuid="a6deff3d-1c14-446c-9926-403131d777ad">
-      <database-info product="MariaDB" version="10.4.8-MariaDB-1:10.4.8+maria~bionic" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8" exact-driver-version="2.4">
+    <data-source name="@localhost" uuid="a6deff3d-1c14-446c-9926-403131d777ad">
+      <database-info product="MariaDB" version="10.4.8-MariaDB-1:10.4.8+maria~bionic" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.8">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>

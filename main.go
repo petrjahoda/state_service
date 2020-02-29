@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const version = "2020.1.2.8"
+const version = "2020.1.2.29"
 const programName = "State Service"
 const programDesription = "Creates states for workplaces"
 const deleteLogsAfter = 240 * time.Hour
@@ -35,8 +35,8 @@ func (p *program) run() {
 	LogDebug("MAIN", "Using ["+DatabaseType+"] on "+DatabaseIpAddress+":"+DatabasePort+" with database "+DatabaseName)
 	WriteProgramVersionIntoSettings()
 	for {
-		start := time.Now()
 		LogInfo("MAIN", "Program running")
+		start := time.Now()
 		UpdateActiveWorkplaces("MAIN")
 		DeleteOldLogFiles()
 		LogInfo("MAIN", "Active workplaces: "+strconv.Itoa(len(activeWorkplaces))+", running workplaces: "+strconv.Itoa(len(runningWorkplaces)))
@@ -102,12 +102,12 @@ func RunWorkplace(workplace zapsi_database.Workplace) {
 	workplaceSync.Unlock()
 	workplaceIsActive := true
 	for workplaceIsActive && serviceRunning {
-		start := time.Now()
+		LogInfo(workplace.Name, "Starting workplace loop")
+		timer := time.Now()
 		intermediateData := AddData(workplace)
-		LogInfo(workplace.Name, "Download and sort of length "+strconv.Itoa(len(intermediateData))+" takes: "+time.Since(start).String())
 		ProcessData(&workplace, intermediateData)
-		LogInfo(workplace.Name, "Processing takes "+time.Since(start).String())
-		Sleep(workplace, start)
+		LogInfo(workplace.Name, "Loop ended, elapsed: "+time.Since(timer).String())
+		Sleep(workplace, timer)
 		workplaceIsActive = CheckActive(workplace)
 	}
 	RemoveWorkplaceFromRunningWorkplaces(workplace)
@@ -145,6 +145,8 @@ func RemoveWorkplaceFromRunningWorkplaces(workplace zapsi_database.Workplace) {
 }
 
 func UpdateActiveWorkplaces(reference string) {
+	LogInfo("MAIN", "Updating active workplaces")
+	timer := time.Now()
 	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
@@ -154,9 +156,12 @@ func UpdateActiveWorkplaces(reference string) {
 	}
 	defer db.Close()
 	db.Find(&activeWorkplaces)
+	LogInfo("MAIN", "Active workplaces updated, elapsed: "+time.Since(timer).String())
 }
 
 func WriteProgramVersionIntoSettings() {
+	LogInfo("MAIN", "Updating program version in database")
+	timer := time.Now()
 	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
@@ -169,5 +174,5 @@ func WriteProgramVersionIntoSettings() {
 	settings.Name = programName
 	settings.Value = version
 	db.Save(&settings)
-	LogDebug("MAIN", "Updated version in database for "+programName)
+	LogInfo("MAIN", "Program version updated, elapsed: "+time.Since(timer).String())
 }

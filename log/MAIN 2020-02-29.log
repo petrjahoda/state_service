@@ -1,0 +1,501 @@
+2020-02-29 10:22:21.872   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:22:26.873   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:22:26.886   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2020-02-29 10:22:26.886   MAIN   INF   Program running
+2020-02-29 10:22:26.892   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2020-02-29 10:22:26.892   MAIN   INF   Deleting old log file CNC 0 2020-02-01.log with age of 659h0m36.285016294s
+2020-02-29 10:22:26.894   MAIN   INF   Deleting old log file CNC 0 2020-02-02.err with age of 650h14m3.971097767s
+2020-02-29 10:22:26.895   MAIN   INF   Deleting old log file CNC 0 2020-02-02.log with age of 650h6m0.683544009s
+2020-02-29 10:22:26.896   MAIN   INF   Deleting old log file CNC 0 2020-02-08.log with age of 505h21m18.753359335s
+2020-02-29 10:22:26.897   MAIN   INF   Deleting old log file CNC 1 2020-02-01.log with age of 659h0m36.428360394s
+2020-02-29 10:22:26.897   MAIN   INF   Deleting old log file CNC 1 2020-02-02.log with age of 650h6m0.55121473s
+2020-02-29 10:22:26.897   MAIN   INF   Deleting old log file CNC 1 2020-02-08.log with age of 505h21m18.752953899s
+2020-02-29 10:22:26.898   MAIN   INF   Deleting old log file CNC 10 2020-02-01.log with age of 659h0m36.297959218s
+2020-02-29 10:22:26.898   MAIN   INF   Deleting old log file CNC 10 2020-02-02.err with age of 650h14m3.977013466s
+2020-02-29 10:22:26.898   MAIN   INF   Deleting old log file CNC 10 2020-02-02.log with age of 650h6m0.609852031s
+2020-02-29 10:22:26.898   MAIN   INF   Deleting old log file CNC 10 2020-02-08.log with age of 505h21m18.753227366s
+2020-02-29 10:22:26.898   MAIN   INF   Deleting old log file CNC 11 2020-02-01.log with age of 659h0m36.392128455s
+2020-02-29 10:22:26.899   MAIN   INF   Deleting old log file CNC 11 2020-02-02.log with age of 650h6m0.511385241s
+2020-02-29 10:22:26.899   MAIN   INF   Deleting old log file CNC 11 2020-02-08.log with age of 505h21m18.753020839s
+2020-02-29 10:22:26.899   MAIN   INF   Deleting old log file CNC 12 2020-02-01.log with age of 659h0m36.357165517s
+2020-02-29 10:22:26.900   MAIN   INF   Deleting old log file CNC 12 2020-02-02.err with age of 650h14m3.976095764s
+2020-02-29 10:22:26.900   MAIN   INF   Deleting old log file CNC 12 2020-02-02.log with age of 650h6m0.566427632s
+2020-02-29 10:22:26.900   MAIN   INF   Deleting old log file CNC 12 2020-02-08.log with age of 505h21m18.753153011s
+2020-02-29 10:22:26.900   MAIN   INF   Deleting old log file CNC 13 2020-02-01.log with age of 659h0m36.380924119s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 13 2020-02-02.log with age of 650h6m0.550167781s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 13 2020-02-08.log with age of 505h21m18.753168661s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 14 2020-02-01.log with age of 659h0m36.451579283s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 14 2020-02-02.log with age of 650h6m0.579054628s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 14 2020-02-08.log with age of 505h21m18.753072235s
+2020-02-29 10:22:26.901   MAIN   INF   Deleting old log file CNC 15 2020-02-01.log with age of 659h0m36.339007908s
+2020-02-29 10:22:26.902   MAIN   INF   Deleting old log file CNC 15 2020-02-02.err with age of 650h14m3.983085051s
+2020-02-29 10:22:26.902   MAIN   INF   Deleting old log file CNC 15 2020-02-02.log with age of 650h6m0.520668239s
+2020-02-29 10:22:26.902   MAIN   INF   Deleting old log file CNC 15 2020-02-08.log with age of 505h21m18.753149972s
+2020-02-29 10:22:26.902   MAIN   INF   Deleting old log file CNC 16 2020-02-01.log with age of 659h0m36.440515108s
+2020-02-29 10:22:26.902   MAIN   INF   Deleting old log file CNC 16 2020-02-02.log with age of 650h6m0.525596832s
+2020-02-29 10:22:26.903   MAIN   INF   Deleting old log file CNC 16 2020-02-08.log with age of 505h21m18.753198088s
+2020-02-29 10:22:26.903   MAIN   INF   Deleting old log file CNC 17 2020-02-01.log with age of 659h0m36.392093436s
+2020-02-29 10:22:26.903   MAIN   INF   Deleting old log file CNC 17 2020-02-02.err with age of 650h14m3.971537077s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 17 2020-02-02.log with age of 650h6m0.569903633s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 17 2020-02-08.log with age of 505h21m18.75310501s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 18 2020-02-01.log with age of 659h0m36.364058456s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 18 2020-02-02.err with age of 650h14m3.972135266s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 18 2020-02-02.log with age of 650h6m0.542594299s
+2020-02-29 10:22:26.904   MAIN   INF   Deleting old log file CNC 18 2020-02-08.log with age of 505h21m18.753109022s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 19 2020-02-01.log with age of 659h0m36.325378042s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 19 2020-02-02.err with age of 650h14m3.962993079s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 19 2020-02-02.log with age of 650h6m0.631321948s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 19 2020-02-08.log with age of 505h21m18.752933418s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 2 2020-02-01.log with age of 659h0m36.503794912s
+2020-02-29 10:22:26.905   MAIN   INF   Deleting old log file CNC 2 2020-02-02.log with age of 650h6m0.630287591s
+2020-02-29 10:22:26.906   MAIN   INF   Deleting old log file CNC 2 2020-02-08.log with age of 505h21m18.75313429s
+2020-02-29 10:22:26.906   MAIN   INF   Deleting old log file CNC 3 2020-02-01.log with age of 659h0m36.398221126s
+2020-02-29 10:22:26.906   MAIN   INF   Deleting old log file CNC 3 2020-02-02.err with age of 650h14m3.966639886s
+2020-02-29 10:22:26.906   MAIN   INF   Deleting old log file CNC 3 2020-02-02.log with age of 650h6m0.52381638s
+2020-02-29 10:22:26.906   MAIN   INF   Deleting old log file CNC 3 2020-02-08.log with age of 505h21m18.75311217s
+2020-02-29 10:22:26.907   MAIN   INF   Deleting old log file CNC 4 2020-02-01.log with age of 659h0m36.455082674s
+2020-02-29 10:22:26.907   MAIN   INF   Deleting old log file CNC 4 2020-02-02.log with age of 650h6m0.54926097s
+2020-02-29 10:22:26.907   MAIN   INF   Deleting old log file CNC 4 2020-02-08.log with age of 505h21m18.753316434s
+2020-02-29 10:22:26.907   MAIN   INF   Deleting old log file CNC 5 2020-02-01.log with age of 659h0m36.327343104s
+2020-02-29 10:22:26.907   MAIN   INF   Deleting old log file CNC 5 2020-02-02.err with age of 650h14m3.965143742s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 5 2020-02-02.log with age of 650h6m0.52048109s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 5 2020-02-08.log with age of 505h21m18.753011314s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 6 2020-02-01.log with age of 659h0m36.361086289s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 6 2020-02-02.err with age of 650h14m3.967512949s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 6 2020-02-02.log with age of 650h6m0.519424486s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 6 2020-02-08.log with age of 505h21m18.752933538s
+2020-02-29 10:22:26.908   MAIN   INF   Deleting old log file CNC 7 2020-02-01.log with age of 659h0m36.323062095s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 7 2020-02-02.err with age of 650h14m3.984084593s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 7 2020-02-02.log with age of 650h6m0.560855538s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 7 2020-02-08.log with age of 505h21m18.753155349s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 8 2020-02-01.log with age of 659h0m36.393617629s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 8 2020-02-02.err with age of 650h14m3.975154973s
+2020-02-29 10:22:26.909   MAIN   INF   Deleting old log file CNC 8 2020-02-02.log with age of 650h6m0.556736071s
+2020-02-29 10:22:26.910   MAIN   INF   Deleting old log file CNC 8 2020-02-08.log with age of 505h21m18.753371159s
+2020-02-29 10:22:26.910   MAIN   INF   Deleting old log file CNC 9 2020-02-01.log with age of 659h0m36.36407941s
+2020-02-29 10:22:26.910   MAIN   INF   Deleting old log file CNC 9 2020-02-02.err with age of 650h14m3.959840684s
+2020-02-29 10:22:26.910   MAIN   INF   Deleting old log file CNC 9 2020-02-02.log with age of 650h6m0.610311328s
+2020-02-29 10:22:26.911   MAIN   INF   Deleting old log file CNC 9 2020-02-08.log with age of 505h21m18.753255048s
+2020-02-29 10:22:26.911   MAIN   INF   Deleting old log file MAIN 2020-02-01.log with age of 659h0m36.837868379s
+2020-02-29 10:22:26.912   MAIN   INF   Deleting old log file MAIN 2020-02-02.err with age of 650h13m24.002010624s
+2020-02-29 10:22:26.912   MAIN   INF   Deleting old log file MAIN 2020-02-02.log with age of 650h6m0.845470234s
+2020-02-29 10:22:26.912   MAIN   INF   Deleting old log file MAIN 2020-02-08.log with age of 505h21m18.368054261s
+2020-02-29 10:22:26.912   MAIN   INF   Deleting old log file Test 2020-02-01.log with age of 661h6m8.63422566s
+2020-02-29 10:22:26.913   MAIN   INF   Deleting old log file Zapsi 2020-02-01.log with age of 660h40m26.501378834s
+2020-02-29 10:22:26.913   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:22:26.913   MAIN   INF   Sleeping for 9.972767144s
+2020-02-29 10:22:32.750   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:22:38.469   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:22:43.474   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:22:43.511   MAIN   INF   Program running
+2020-02-29 10:22:43.521   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:22:43.521   MAIN   INF   Sleeping for 9.99013839s
+2020-02-29 10:22:47.239   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:48.239   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:49.240   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:50.244   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:51.244   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:52.250   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:53.251   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:22:53.514   MAIN   INF   Program running
+2020-02-29 10:22:53.528   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:22:53.528   MAIN   INF   Sleeping for 9.985265478s
+2020-02-29 10:22:54.256   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:22:59.049   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:23:04.052   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:23:04.071   MAIN   INF   Program running
+2020-02-29 10:23:04.081   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:23:04.081   MAIN   INF   Sleeping for 9.990552483s
+2020-02-29 10:23:06.380   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:07.381   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:08.384   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:09.384   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:10.385   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:11.389   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:12.390   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:13.395   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:14.076   MAIN   INF   Program running
+2020-02-29 10:23:14.086   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:23:14.087   MAIN   INF   Sleeping for 9.989405349s
+2020-02-29 10:23:14.396   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:23:16.850   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:23:21.852   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:23:21.894   MAIN   INF   Program running
+2020-02-29 10:23:21.930   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:23:21.930   MAIN   INF   Sleeping for 9.964061205s
+2020-02-29 10:23:25.275   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:26.275   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:23:27.276   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:40:23.007   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:40:28.012   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:40:28.012   MAIN   INF   Updating program version in database
+2020-02-29 10:40:28.049   MAIN   INF   Program version updated, elapsed: 36.248923ms
+2020-02-29 10:40:28.049   MAIN   INF   Program running
+2020-02-29 10:40:28.049   MAIN   INF   Updating active workplaces
+2020-02-29 10:40:28.071   MAIN   INF   Active workplaces updated, elapsed: 21.916055ms
+2020-02-29 10:40:28.071   MAIN   INF   Deleting old log files
+2020-02-29 10:40:28.071   MAIN   INF   Old log files deleted, elapsed: 181.025µs
+2020-02-29 10:40:28.072   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:40:28.072   MAIN   INF   Sleeping for 9.977371019s
+2020-02-29 10:40:38.050   MAIN   INF   Program running
+2020-02-29 10:40:38.050   MAIN   INF   Updating active workplaces
+2020-02-29 10:40:38.070   MAIN   INF   Active workplaces updated, elapsed: 19.499491ms
+2020-02-29 10:40:38.070   MAIN   INF   Deleting old log files
+2020-02-29 10:40:38.071   MAIN   INF   Old log files deleted, elapsed: 203.117µs
+2020-02-29 10:40:38.071   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:40:38.071   MAIN   INF   Sleeping for 9.979299008s
+2020-02-29 10:40:48.054   MAIN   INF   Program running
+2020-02-29 10:40:48.054   MAIN   INF   Updating active workplaces
+2020-02-29 10:40:48.124   MAIN   INF   Active workplaces updated, elapsed: 69.00992ms
+2020-02-29 10:40:48.124   MAIN   INF   Deleting old log files
+2020-02-29 10:40:48.124   MAIN   INF   Old log files deleted, elapsed: 200.99µs
+2020-02-29 10:40:48.124   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:40:48.124   MAIN   INF   Sleeping for 9.929958628s
+2020-02-29 10:40:58.058   MAIN   INF   Program running
+2020-02-29 10:40:58.058   MAIN   INF   Updating active workplaces
+2020-02-29 10:40:58.164   MAIN   INF   Active workplaces updated, elapsed: 105.498641ms
+2020-02-29 10:40:58.164   MAIN   INF   Deleting old log files
+2020-02-29 10:40:58.164   MAIN   INF   Old log files deleted, elapsed: 202.928µs
+2020-02-29 10:40:58.164   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:40:58.165   MAIN   INF   Sleeping for 9.893457899s
+2020-02-29 10:41:08.060   MAIN   INF   Program running
+2020-02-29 10:41:08.060   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:08.114   MAIN   INF   Active workplaces updated, elapsed: 53.124497ms
+2020-02-29 10:41:08.114   MAIN   INF   Deleting old log files
+2020-02-29 10:41:08.114   MAIN   INF   Old log files deleted, elapsed: 230.082µs
+2020-02-29 10:41:08.114   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:41:08.114   MAIN   INF   Sleeping for 9.945580437s
+2020-02-29 10:41:18.060   MAIN   INF   Program running
+2020-02-29 10:41:18.061   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:18.077   MAIN   INF   Active workplaces updated, elapsed: 16.473728ms
+2020-02-29 10:41:18.078   MAIN   INF   Deleting old log files
+2020-02-29 10:41:18.078   MAIN   INF   Old log files deleted, elapsed: 193.149µs
+2020-02-29 10:41:18.078   MAIN   INF   Active workplaces: 20, running workplaces: 2
+2020-02-29 10:41:18.078   MAIN   INF   Sleeping for 9.982590722s
+2020-02-29 10:41:28.063   MAIN   INF   Program running
+2020-02-29 10:41:28.063   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:28.110   MAIN   INF   Active workplaces updated, elapsed: 45.753336ms
+2020-02-29 10:41:28.110   MAIN   INF   Deleting old log files
+2020-02-29 10:41:28.110   MAIN   INF   Old log files deleted, elapsed: 187.578µs
+2020-02-29 10:41:28.110   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:41:28.110   MAIN   INF   Sleeping for 9.95312875s
+2020-02-29 10:41:38.065   MAIN   INF   Program running
+2020-02-29 10:41:38.066   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:38.111   MAIN   INF   Active workplaces updated, elapsed: 45.08351ms
+2020-02-29 10:41:38.111   MAIN   INF   Deleting old log files
+2020-02-29 10:41:38.112   MAIN   INF   Old log files deleted, elapsed: 183.312µs
+2020-02-29 10:41:38.112   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:41:38.112   MAIN   INF   Sleeping for 9.953846964s
+2020-02-29 10:41:48.066   MAIN   INF   Program running
+2020-02-29 10:41:48.066   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:48.114   MAIN   INF   Active workplaces updated, elapsed: 47.940785ms
+2020-02-29 10:41:48.114   MAIN   INF   Deleting old log files
+2020-02-29 10:41:48.115   MAIN   INF   Old log files deleted, elapsed: 179.297µs
+2020-02-29 10:41:48.115   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:41:48.115   MAIN   INF   Sleeping for 9.951091608s
+2020-02-29 10:41:58.068   MAIN   INF   Program running
+2020-02-29 10:41:58.069   MAIN   INF   Updating active workplaces
+2020-02-29 10:41:58.106   MAIN   INF   Active workplaces updated, elapsed: 37.015048ms
+2020-02-29 10:41:58.106   MAIN   INF   Deleting old log files
+2020-02-29 10:41:58.107   MAIN   INF   Old log files deleted, elapsed: 248.028µs
+2020-02-29 10:41:58.107   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:41:58.107   MAIN   INF   Sleeping for 9.961690486s
+2020-02-29 10:42:08.069   MAIN   INF   Program running
+2020-02-29 10:42:08.069   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:08.120   MAIN   INF   Active workplaces updated, elapsed: 50.544876ms
+2020-02-29 10:42:08.120   MAIN   INF   Deleting old log files
+2020-02-29 10:42:08.120   MAIN   INF   Old log files deleted, elapsed: 174.474µs
+2020-02-29 10:42:08.121   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:42:08.121   MAIN   INF   Sleeping for 9.948478424s
+2020-02-29 10:42:18.073   MAIN   INF   Program running
+2020-02-29 10:42:18.073   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:18.137   MAIN   INF   Active workplaces updated, elapsed: 63.136421ms
+2020-02-29 10:42:18.137   MAIN   INF   Deleting old log files
+2020-02-29 10:42:18.137   MAIN   INF   Old log files deleted, elapsed: 189.117µs
+2020-02-29 10:42:18.137   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:42:18.137   MAIN   INF   Sleeping for 9.935775972s
+2020-02-29 10:42:28.077   MAIN   INF   Program running
+2020-02-29 10:42:28.077   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:28.159   MAIN   INF   Active workplaces updated, elapsed: 81.330162ms
+2020-02-29 10:42:28.159   MAIN   INF   Deleting old log files
+2020-02-29 10:42:28.159   MAIN   INF   Old log files deleted, elapsed: 190.33µs
+2020-02-29 10:42:28.159   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:42:28.160   MAIN   INF   Sleeping for 9.917231778s
+2020-02-29 10:42:31.702   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:32.702   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:33.707   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:34.709   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:35.710   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:36.711   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:37.713   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:42:38.083   MAIN   INF   Program running
+2020-02-29 10:42:38.083   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:38.106   MAIN   INF   Active workplaces updated, elapsed: 22.186111ms
+2020-02-29 10:42:38.106   MAIN   INF   Deleting old log files
+2020-02-29 10:42:38.107   MAIN   INF   Old log files deleted, elapsed: 741.001µs
+2020-02-29 10:42:38.107   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:42:38.107   MAIN   INF   Sleeping for 9.97600036s
+2020-02-29 10:42:38.714   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:42:42.078   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:42:47.081   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:42:47.082   MAIN   INF   Updating program version in database
+2020-02-29 10:42:47.125   MAIN   INF   Program version updated, elapsed: 42.868528ms
+2020-02-29 10:42:47.125   MAIN   INF   Program running
+2020-02-29 10:42:47.125   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:47.147   MAIN   INF   Active workplaces updated, elapsed: 21.828137ms
+2020-02-29 10:42:47.147   MAIN   INF   Deleting old log files
+2020-02-29 10:42:47.148   MAIN   INF   Old log files deleted, elapsed: 186.682µs
+2020-02-29 10:42:47.148   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:42:47.148   MAIN   INF   Sleeping for 9.977394164s
+2020-02-29 10:42:57.131   MAIN   INF   Program running
+2020-02-29 10:42:57.131   MAIN   INF   Updating active workplaces
+2020-02-29 10:42:57.174   MAIN   INF   Active workplaces updated, elapsed: 42.570124ms
+2020-02-29 10:42:57.174   MAIN   INF   Deleting old log files
+2020-02-29 10:42:57.175   MAIN   INF   Old log files deleted, elapsed: 197.016µs
+2020-02-29 10:42:57.175   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:42:57.175   MAIN   INF   Sleeping for 9.956097093s
+2020-02-29 10:43:07.134   MAIN   INF   Program running
+2020-02-29 10:43:07.134   MAIN   INF   Updating active workplaces
+2020-02-29 10:43:07.151   MAIN   INF   Active workplaces updated, elapsed: 16.576067ms
+2020-02-29 10:43:07.151   MAIN   INF   Deleting old log files
+2020-02-29 10:43:07.152   MAIN   INF   Old log files deleted, elapsed: 320.516µs
+2020-02-29 10:43:07.152   MAIN   INF   Active workplaces: 20, running workplaces: 17
+2020-02-29 10:43:07.152   MAIN   INF   Sleeping for 9.98220475s
+2020-02-29 10:43:17.137   MAIN   INF   Program running
+2020-02-29 10:43:17.137   MAIN   INF   Updating active workplaces
+2020-02-29 10:43:17.186   MAIN   INF   Active workplaces updated, elapsed: 49.206928ms
+2020-02-29 10:43:17.187   MAIN   INF   Deleting old log files
+2020-02-29 10:43:17.187   MAIN   INF   Old log files deleted, elapsed: 646.493µs
+2020-02-29 10:43:17.187   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:43:17.187   MAIN   INF   Sleeping for 9.949277891s
+2020-02-29 10:43:27.140   MAIN   INF   Program running
+2020-02-29 10:43:27.140   MAIN   INF   Updating active workplaces
+2020-02-29 10:43:27.202   MAIN   INF   Active workplaces updated, elapsed: 60.862611ms
+2020-02-29 10:43:27.202   MAIN   INF   Deleting old log files
+2020-02-29 10:43:27.202   MAIN   INF   Old log files deleted, elapsed: 227.362µs
+2020-02-29 10:43:27.202   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:43:27.202   MAIN   INF   Sleeping for 9.937870027s
+2020-02-29 10:43:31.178   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:32.180   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:33.181   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:34.185   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:35.190   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:36.195   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:43:37.143   MAIN   INF   Program running
+2020-02-29 10:43:37.143   MAIN   INF   Updating active workplaces
+2020-02-29 10:43:37.168   MAIN   INF   Active workplaces updated, elapsed: 24.56465ms
+2020-02-29 10:43:37.168   MAIN   INF   Deleting old log files
+2020-02-29 10:43:37.168   MAIN   INF   Old log files deleted, elapsed: 185.728µs
+2020-02-29 10:43:37.169   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:43:37.169   MAIN   INF   Sleeping for 9.974337821s
+2020-02-29 10:43:37.196   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:43:45.590   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:43:50.593   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:43:50.594   MAIN   INF   Updating program version in database
+2020-02-29 10:43:50.631   MAIN   INF   Program version updated, elapsed: 36.789022ms
+2020-02-29 10:43:50.631   MAIN   INF   Program running
+2020-02-29 10:43:50.631   MAIN   INF   Updating active workplaces
+2020-02-29 10:43:50.645   MAIN   INF   Active workplaces updated, elapsed: 13.356227ms
+2020-02-29 10:43:50.645   MAIN   INF   Deleting old log files
+2020-02-29 10:43:50.645   MAIN   INF   Old log files deleted, elapsed: 157.674µs
+2020-02-29 10:43:50.645   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:43:50.645   MAIN   INF   Sleeping for 9.986012921s
+2020-02-29 10:44:00.633   MAIN   INF   Program running
+2020-02-29 10:44:00.633   MAIN   INF   Updating active workplaces
+2020-02-29 10:44:00.666   MAIN   INF   Active workplaces updated, elapsed: 31.907891ms
+2020-02-29 10:44:00.666   MAIN   INF   Deleting old log files
+2020-02-29 10:44:00.666   MAIN   INF   Old log files deleted, elapsed: 200.242µs
+2020-02-29 10:44:00.666   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:44:00.666   MAIN   INF   Sleeping for 9.967060823s
+2020-02-29 10:44:10.636   MAIN   INF   Program running
+2020-02-29 10:44:10.636   MAIN   INF   Updating active workplaces
+2020-02-29 10:44:10.677   MAIN   INF   Active workplaces updated, elapsed: 41.129835ms
+2020-02-29 10:44:10.677   MAIN   INF   Deleting old log files
+2020-02-29 10:44:10.678   MAIN   INF   Old log files deleted, elapsed: 189.096µs
+2020-02-29 10:44:10.678   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:44:10.678   MAIN   INF   Sleeping for 9.957814668s
+2020-02-29 10:44:20.641   MAIN   INF   Program running
+2020-02-29 10:44:20.641   MAIN   INF   Updating active workplaces
+2020-02-29 10:44:20.690   MAIN   INF   Active workplaces updated, elapsed: 47.806179ms
+2020-02-29 10:44:20.690   MAIN   INF   Deleting old log files
+2020-02-29 10:44:20.691   MAIN   INF   Old log files deleted, elapsed: 276.266µs
+2020-02-29 10:44:20.691   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:44:20.691   MAIN   INF   Sleeping for 9.950290739s
+2020-02-29 10:44:26.875   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:44:27.877   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:44:28.878   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:44:29.882   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:44:30.646   MAIN   INF   Program running
+2020-02-29 10:44:30.646   MAIN   INF   Updating active workplaces
+2020-02-29 10:44:30.669   MAIN   INF   Active workplaces updated, elapsed: 22.158048ms
+2020-02-29 10:44:30.669   MAIN   INF   Deleting old log files
+2020-02-29 10:44:30.669   MAIN   INF   Old log files deleted, elapsed: 200.216µs
+2020-02-29 10:44:30.669   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:44:30.670   MAIN   INF   Sleeping for 9.9768093s
+2020-02-29 10:44:30.886   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:45:20.282   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:45:25.286   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:45:25.287   MAIN   INF   Updating program version in database
+2020-02-29 10:45:25.306   MAIN   INF   Program version updated, elapsed: 19.045371ms
+2020-02-29 10:45:25.306   MAIN   INF   Program running
+2020-02-29 10:45:25.306   MAIN   INF   Updating active workplaces
+2020-02-29 10:45:25.316   MAIN   INF   Active workplaces updated, elapsed: 8.663404ms
+2020-02-29 10:45:25.316   MAIN   INF   Deleting old log files
+2020-02-29 10:45:25.316   MAIN   INF   Old log files deleted, elapsed: 183.041µs
+2020-02-29 10:45:25.316   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:45:25.316   MAIN   INF   Sleeping for 9.990033879s
+2020-02-29 10:45:35.310   MAIN   INF   Program running
+2020-02-29 10:45:35.310   MAIN   INF   Updating active workplaces
+2020-02-29 10:45:35.337   MAIN   INF   Active workplaces updated, elapsed: 26.299381ms
+2020-02-29 10:45:35.337   MAIN   INF   Deleting old log files
+2020-02-29 10:45:35.338   MAIN   INF   Old log files deleted, elapsed: 205.661µs
+2020-02-29 10:45:35.338   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:45:35.338   MAIN   INF   Sleeping for 9.972579908s
+2020-02-29 10:45:45.313   MAIN   INF   Program running
+2020-02-29 10:45:45.313   MAIN   INF   Updating active workplaces
+2020-02-29 10:45:45.340   MAIN   INF   Active workplaces updated, elapsed: 26.512759ms
+2020-02-29 10:45:45.341   MAIN   INF   Deleting old log files
+2020-02-29 10:45:45.341   MAIN   INF   Old log files deleted, elapsed: 206.965µs
+2020-02-29 10:45:45.341   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:45:45.341   MAIN   INF   Sleeping for 9.972261928s
+2020-02-29 10:45:55.317   MAIN   INF   Program running
+2020-02-29 10:45:55.318   MAIN   INF   Updating active workplaces
+2020-02-29 10:45:55.517   MAIN   INF   Active workplaces updated, elapsed: 198.860307ms
+2020-02-29 10:45:55.517   MAIN   INF   Deleting old log files
+2020-02-29 10:45:55.518   MAIN   INF   Old log files deleted, elapsed: 192.822µs
+2020-02-29 10:45:55.518   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:45:55.518   MAIN   INF   Sleeping for 9.799587119s
+2020-02-29 10:46:05.322   MAIN   INF   Program running
+2020-02-29 10:46:05.323   MAIN   INF   Updating active workplaces
+2020-02-29 10:46:05.376   MAIN   INF   Active workplaces updated, elapsed: 52.187051ms
+2020-02-29 10:46:05.376   MAIN   INF   Deleting old log files
+2020-02-29 10:46:05.376   MAIN   INF   Old log files deleted, elapsed: 177.205µs
+2020-02-29 10:46:05.376   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:46:05.377   MAIN   INF   Sleeping for 9.946103212s
+2020-02-29 10:46:08.228   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:09.233   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:10.236   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:11.240   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:12.245   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:13.248   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:14.254   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:15.256   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:46:15.323   MAIN   INF   Program running
+2020-02-29 10:46:15.323   MAIN   INF   Updating active workplaces
+2020-02-29 10:46:15.334   MAIN   INF   Active workplaces updated, elapsed: 10.158647ms
+2020-02-29 10:46:15.334   MAIN   INF   Deleting old log files
+2020-02-29 10:46:15.334   MAIN   INF   Old log files deleted, elapsed: 185.073µs
+2020-02-29 10:46:15.334   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:46:15.334   MAIN   INF   Sleeping for 9.98888672s
+2020-02-29 10:46:16.260   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:46:20.162   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:46:25.163   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:46:25.163   MAIN   INF   Updating program version in database
+2020-02-29 10:46:25.243   MAIN   INF   Program version updated, elapsed: 77.328503ms
+2020-02-29 10:46:25.243   MAIN   INF   Program running
+2020-02-29 10:46:25.243   MAIN   INF   Updating active workplaces
+2020-02-29 10:46:25.277   MAIN   INF   Active workplaces updated, elapsed: 33.342608ms
+2020-02-29 10:46:25.277   MAIN   INF   Deleting old log files
+2020-02-29 10:46:25.277   MAIN   INF   Old log files deleted, elapsed: 189.076µs
+2020-02-29 10:46:25.277   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:46:25.277   MAIN   INF   Sleeping for 9.965876648s
+2020-02-29 10:46:35.245   MAIN   INF   Program running
+2020-02-29 10:46:35.245   MAIN   INF   Updating active workplaces
+2020-02-29 10:46:35.256   MAIN   INF   Active workplaces updated, elapsed: 10.520169ms
+2020-02-29 10:46:35.256   MAIN   INF   Deleting old log files
+2020-02-29 10:46:35.257   MAIN   INF   Old log files deleted, elapsed: 183.328µs
+2020-02-29 10:46:35.257   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:46:35.257   MAIN   INF   Sleeping for 9.988440304s
+2020-02-29 10:46:41.960   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:48:06.620   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:48:09.644   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:48:14.139   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:48:19.140   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:48:19.141   MAIN   INF   Updating program version in database
+2020-02-29 10:48:19.168   MAIN   INF   Program version updated, elapsed: 26.701901ms
+2020-02-29 10:48:19.168   MAIN   INF   Program running
+2020-02-29 10:48:19.168   MAIN   INF   Updating active workplaces
+2020-02-29 10:48:19.176   MAIN   INF   Active workplaces updated, elapsed: 7.202294ms
+2020-02-29 10:48:19.176   MAIN   INF   Deleting old log files
+2020-02-29 10:48:19.176   MAIN   INF   Old log files deleted, elapsed: 170.96µs
+2020-02-29 10:48:19.176   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:48:19.176   MAIN   INF   Sleeping for 9.992156625s
+2020-02-29 10:48:23.940   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:54:20.156   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:54:25.159   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:54:25.161   MAIN   INF   Updating program version in database
+2020-02-29 10:54:25.182   MAIN   INF   Program version updated, elapsed: 21.214833ms
+2020-02-29 10:54:25.182   MAIN   INF   Program running
+2020-02-29 10:54:25.182   MAIN   INF   Updating active workplaces
+2020-02-29 10:54:25.191   MAIN   INF   Active workplaces updated, elapsed: 8.408683ms
+2020-02-29 10:54:25.191   MAIN   INF   Deleting old log files
+2020-02-29 10:54:25.191   MAIN   INF   Old log files deleted, elapsed: 205.185µs
+2020-02-29 10:54:25.191   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:54:25.192   MAIN   INF   Sleeping for 9.990839324s
+2020-02-29 10:54:35.184   MAIN   INF   Program running
+2020-02-29 10:54:35.184   MAIN   INF   Updating active workplaces
+2020-02-29 10:54:35.195   MAIN   INF   Active workplaces updated, elapsed: 10.782295ms
+2020-02-29 10:54:35.196   MAIN   INF   Deleting old log files
+2020-02-29 10:54:35.196   MAIN   INF   Old log files deleted, elapsed: 203.981µs
+2020-02-29 10:54:35.196   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:54:35.196   MAIN   INF   Sleeping for 9.988172428s
+2020-02-29 10:54:41.968   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:55:38.314   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:55:43.317   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:55:43.318   MAIN   INF   Updating program version in database
+2020-02-29 10:55:43.337   MAIN   INF   Program version updated, elapsed: 19.668347ms
+2020-02-29 10:55:43.338   MAIN   INF   Program running
+2020-02-29 10:55:43.338   MAIN   INF   Updating active workplaces
+2020-02-29 10:55:43.346   MAIN   INF   Active workplaces updated, elapsed: 7.945915ms
+2020-02-29 10:55:43.346   MAIN   INF   Deleting old log files
+2020-02-29 10:55:43.346   MAIN   INF   Old log files deleted, elapsed: 185.137µs
+2020-02-29 10:55:43.346   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:55:43.346   MAIN   INF   Sleeping for 9.99131492s
+2020-02-29 10:55:50.998   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:55:53.166   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:55:58.170   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:55:58.170   MAIN   INF   Updating program version in database
+2020-02-29 10:55:58.190   MAIN   INF   Program version updated, elapsed: 19.777ms
+2020-02-29 10:55:58.190   MAIN   INF   Program running
+2020-02-29 10:55:58.190   MAIN   INF   Updating active workplaces
+2020-02-29 10:55:58.198   MAIN   INF   Active workplaces updated, elapsed: 7.037187ms
+2020-02-29 10:55:58.198   MAIN   INF   Deleting old log files
+2020-02-29 10:55:58.198   MAIN   INF   Old log files deleted, elapsed: 189.829µs
+2020-02-29 10:55:58.198   MAIN   INF   Active workplaces: 0, running workplaces: 0
+2020-02-29 10:55:58.198   MAIN   INF   Sleeping for 9.99222194s
+2020-02-29 10:56:01.989   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:56:44.919   MAIN   INF   Starting State Service on darwin-launchd
+2020-02-29 10:56:49.920   MAIN   INF   State Service version 2020.1.2.8 started
+2020-02-29 10:56:49.921   MAIN   INF   Updating program version in database
+2020-02-29 10:56:49.940   MAIN   INF   Program version updated, elapsed: 19.043753ms
+2020-02-29 10:56:49.940   MAIN   INF   Program running
+2020-02-29 10:56:49.940   MAIN   INF   Updating active workplaces
+2020-02-29 10:56:49.947   MAIN   INF   Active workplaces updated, elapsed: 6.825936ms
+2020-02-29 10:56:49.947   MAIN   INF   Deleting old log files
+2020-02-29 10:56:49.947   MAIN   INF   Old log files deleted, elapsed: 197.432µs
+2020-02-29 10:56:49.948   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:56:49.948   MAIN   INF   Sleeping for 9.992394995s
+2020-02-29 10:56:59.945   MAIN   INF   Program running
+2020-02-29 10:56:59.945   MAIN   INF   Updating active workplaces
+2020-02-29 10:56:59.963   MAIN   INF   Active workplaces updated, elapsed: 17.072246ms
+2020-02-29 10:56:59.963   MAIN   INF   Deleting old log files
+2020-02-29 10:56:59.963   MAIN   INF   Old log files deleted, elapsed: 190.497µs
+2020-02-29 10:56:59.963   MAIN   INF   Active workplaces: 20, running workplaces: 20
+2020-02-29 10:56:59.964   MAIN   INF   Sleeping for 9.981781137s
+2020-02-29 10:57:00.999   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:02.003   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:03.004   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:04.005   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:05.005   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:06.007   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:07.009   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:08.012   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:09.014   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:57:09.946   MAIN   INF   Program running
+2020-02-29 10:57:09.946   MAIN   INF   Updating active workplaces
+2020-02-29 10:57:09.955   MAIN   INF   Active workplaces updated, elapsed: 8.070659ms
+2020-02-29 10:57:09.955   MAIN   INF   Deleting old log files
+2020-02-29 10:57:09.955   MAIN   INF   Old log files deleted, elapsed: 176.916µs
+2020-02-29 10:57:09.955   MAIN   INF   Active workplaces: 20, running workplaces: 0
+2020-02-29 10:57:09.956   MAIN   INF   Sleeping for 9.990878289s
+2020-02-29 10:57:10.015   MAIN   INF   Stopped on platform darwin-launchd

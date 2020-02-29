@@ -1,9 +1,0 @@
-2020-02-08 09:00:58.131   CNC 17   INF   Workplace started running
-2020-02-08 09:00:58.292   CNC 17   INF   Download and sort of length 3 takes: 161.02728ms
-2020-02-08 09:00:58.475   CNC 17   INF   Changing state ==> Downtime at 2020-02-08 09:00:35.153016 +0100 CET
-2020-02-08 09:00:58.615   CNC 17   INF   Processing takes 483.339286ms
-2020-02-08 09:00:58.615   CNC 17   INF   Sleeping for 9.516515627s
-2020-02-08 09:01:08.132   CNC 17   INF   Workplace still active
-2020-02-08 09:01:08.132   CNC 17   INF   Workplace not active, stopped running
-2020-02-08 09:01:08.139   CNC 17   INF   Workplace started running
-2020-02-08 09:01:08.139   CNC 17   INF   Workplace not active, stopped running

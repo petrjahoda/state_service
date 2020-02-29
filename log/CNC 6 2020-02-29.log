@@ -1,0 +1,429 @@
+2020-02-29 10:22:43.522   CNC 6   INF   Workplace started running
+2020-02-29 10:22:43.827   CNC 6   INF   Download and sort of length 3 takes: 305.422395ms
+2020-02-29 10:22:44.077   CNC 6   INF   Changing state ==> Downtime at 2020-02-29 10:01:05.145588 +0100 CET
+2020-02-29 10:22:44.284   CNC 6   INF   Changing state ==> Poweroff at 2020-02-29 10:01:25.144084 +0100 CET
+2020-02-29 10:22:44.543   CNC 6   INF   Processing takes 1.021010763s
+2020-02-29 10:22:44.543   CNC 6   INF   Sleeping for 8.97884238s
+2020-02-29 10:22:53.522   CNC 6   INF   Workplace still active
+2020-02-29 10:22:53.522   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:22:53.529   CNC 6   INF   Workplace started running
+2020-02-29 10:22:53.529   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:23:04.082   CNC 6   INF   Workplace started running
+2020-02-29 10:23:04.441   CNC 6   INF   Download and sort of length 0 takes: 358.019643ms
+2020-02-29 10:23:04.477   CNC 6   INF   Changing state ==> Poweroff at 0001-01-01 00:00:00 +0000 UTC
+2020-02-29 10:23:04.633   CNC 6   INF   Processing takes 549.825794ms
+2020-02-29 10:23:04.633   CNC 6   INF   Sleeping for 9.450013986s
+2020-02-29 10:23:14.083   CNC 6   INF   Workplace still active
+2020-02-29 10:23:14.083   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:23:14.087   CNC 6   INF   Workplace started running
+2020-02-29 10:23:14.087   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:23:21.930   CNC 6   INF   Workplace started running
+2020-02-29 10:23:22.086   CNC 6   INF   Download and sort of length 2 takes: 154.970266ms
+2020-02-29 10:23:22.447   CNC 6   INF   Changing state ==> Downtime at 2020-02-29 10:10:03.468991 +0100 +0100
+2020-02-29 10:23:22.624   CNC 6   INF   Changing state ==> Poweroff at 2020-02-29 10:10:13.483556 +0100 +0100
+2020-02-29 10:23:22.830   CNC 6   INF   Processing takes 899.503924ms
+2020-02-29 10:23:22.830   CNC 6   INF   Sleeping for 9.100373576s
+2020-02-29 10:40:28.072   CNC 6   INF   Workplace started running
+2020-02-29 10:40:28.072   CNC 6   INF   Adding data
+2020-02-29 10:40:28.358   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:40:28.376   CNC 6   INF   Poweroff records downloaded, elapsed: 17.928044ms
+2020-02-29 10:40:28.376   CNC 6   INF   Downloading production records
+2020-02-29 10:40:28.399   CNC 6   INF   Production records downloaded, elapsed: 22.604912ms
+2020-02-29 10:40:28.399   CNC 6   INF   Creating intermediate data
+2020-02-29 10:40:28.399   CNC 6   INF   Intermediate data created, elapsed: 4.978µs
+2020-02-29 10:40:28.400   CNC 6   INF   Data added, elapsed: 327.424657ms
+2020-02-29 10:40:28.400   CNC 6   INF   Processing data
+2020-02-29 10:40:28.794   CNC 6   INF   Data processed, elapsed: 393.838153ms
+2020-02-29 10:40:28.794   CNC 6   INF   Sleeping for 9.278065457s
+2020-02-29 10:40:38.072   CNC 6   INF   Workplace still active
+2020-02-29 10:40:38.072   CNC 6   INF   Adding data
+2020-02-29 10:40:38.150   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:40:38.159   CNC 6   INF   Poweroff records downloaded, elapsed: 8.229881ms
+2020-02-29 10:40:38.159   CNC 6   INF   Downloading production records
+2020-02-29 10:40:38.168   CNC 6   INF   Production records downloaded, elapsed: 9.242047ms
+2020-02-29 10:40:38.168   CNC 6   INF   Creating intermediate data
+2020-02-29 10:40:38.168   CNC 6   INF   Intermediate data created, elapsed: 1.218µs
+2020-02-29 10:40:38.169   CNC 6   INF   Data added, elapsed: 96.025738ms
+2020-02-29 10:40:38.169   CNC 6   INF   Processing data
+2020-02-29 10:40:38.599   CNC 6   INF   Data processed, elapsed: 430.257103ms
+2020-02-29 10:40:38.599   CNC 6   INF   Sleeping for 9.473238581s
+2020-02-29 10:40:48.073   CNC 6   INF   Workplace still active
+2020-02-29 10:40:48.073   CNC 6   INF   Adding data
+2020-02-29 10:40:48.243   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:40:48.260   CNC 6   INF   Poweroff records downloaded, elapsed: 16.999413ms
+2020-02-29 10:40:48.260   CNC 6   INF   Downloading production records
+2020-02-29 10:40:48.291   CNC 6   INF   Production records downloaded, elapsed: 30.595186ms
+2020-02-29 10:40:48.291   CNC 6   INF   Creating intermediate data
+2020-02-29 10:40:48.291   CNC 6   INF   Intermediate data created, elapsed: 1.228µs
+2020-02-29 10:40:48.291   CNC 6   INF   Data added, elapsed: 218.561763ms
+2020-02-29 10:40:48.292   CNC 6   INF   Processing data
+2020-02-29 10:40:48.693   CNC 6   INF   Data processed, elapsed: 401.477211ms
+2020-02-29 10:40:48.693   CNC 6   INF   Sleeping for 9.379434887s
+2020-02-29 10:40:58.074   CNC 6   INF   Workplace still active
+2020-02-29 10:40:58.075   CNC 6   INF   Adding data
+2020-02-29 10:40:58.499   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:40:58.556   CNC 6   INF   Poweroff records downloaded, elapsed: 56.170014ms
+2020-02-29 10:40:58.556   CNC 6   INF   Downloading production records
+2020-02-29 10:40:58.590   CNC 6   INF   Production records downloaded, elapsed: 33.697004ms
+2020-02-29 10:40:58.590   CNC 6   INF   Creating intermediate data
+2020-02-29 10:40:58.590   CNC 6   INF   Intermediate data created, elapsed: 1.596µs
+2020-02-29 10:40:58.590   CNC 6   INF   Data added, elapsed: 514.823974ms
+2020-02-29 10:40:58.590   CNC 6   INF   Processing data
+2020-02-29 10:40:58.836   CNC 6   INF   Data processed, elapsed: 246.015166ms
+2020-02-29 10:40:58.836   CNC 6   INF   Sleeping for 9.237805832s
+2020-02-29 10:41:08.075   CNC 6   INF   Workplace still active
+2020-02-29 10:41:08.076   CNC 6   INF   Adding data
+2020-02-29 10:41:08.498   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:08.541   CNC 6   INF   Poweroff records downloaded, elapsed: 43.098414ms
+2020-02-29 10:41:08.542   CNC 6   INF   Downloading production records
+2020-02-29 10:41:08.564   CNC 6   INF   Production records downloaded, elapsed: 22.153443ms
+2020-02-29 10:41:08.564   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:08.564   CNC 6   INF   Intermediate data created, elapsed: 1.415µs
+2020-02-29 10:41:08.564   CNC 6   INF   Data added, elapsed: 488.417607ms
+2020-02-29 10:41:08.564   CNC 6   INF   Processing data
+2020-02-29 10:41:08.810   CNC 6   INF   Data processed, elapsed: 245.437655ms
+2020-02-29 10:41:08.810   CNC 6   INF   Sleeping for 9.265554932s
+2020-02-29 10:41:18.076   CNC 6   INF   Workplace not active
+2020-02-29 10:41:18.076   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:41:18.078   CNC 6   INF   Workplace started running
+2020-02-29 10:41:18.078   CNC 6   INF   Adding data
+2020-02-29 10:41:18.324   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:18.357   CNC 6   INF   Poweroff records downloaded, elapsed: 32.457755ms
+2020-02-29 10:41:18.357   CNC 6   INF   Downloading production records
+2020-02-29 10:41:18.386   CNC 6   INF   Production records downloaded, elapsed: 27.909201ms
+2020-02-29 10:41:18.386   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:18.386   CNC 6   INF   Intermediate data created, elapsed: 3.404µs
+2020-02-29 10:41:18.386   CNC 6   INF   Data added, elapsed: 307.581735ms
+2020-02-29 10:41:18.386   CNC 6   INF   Processing data
+2020-02-29 10:41:18.719   CNC 6   INF   Data processed, elapsed: 333.111015ms
+2020-02-29 10:41:18.720   CNC 6   INF   Sleeping for 9.35862528s
+2020-02-29 10:41:28.079   CNC 6   INF   Workplace still active
+2020-02-29 10:41:28.080   CNC 6   INF   Adding data
+2020-02-29 10:41:28.247   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:28.266   CNC 6   INF   Poweroff records downloaded, elapsed: 18.315683ms
+2020-02-29 10:41:28.266   CNC 6   INF   Downloading production records
+2020-02-29 10:41:28.282   CNC 6   INF   Production records downloaded, elapsed: 16.011258ms
+2020-02-29 10:41:28.283   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:28.283   CNC 6   INF   Intermediate data created, elapsed: 1.128µs
+2020-02-29 10:41:28.283   CNC 6   INF   Data added, elapsed: 203.05499ms
+2020-02-29 10:41:28.283   CNC 6   INF   Processing data
+2020-02-29 10:41:28.533   CNC 6   INF   Data processed, elapsed: 250.326183ms
+2020-02-29 10:41:28.534   CNC 6   INF   Sleeping for 9.54543024s
+2020-02-29 10:41:38.079   CNC 6   INF   Workplace still active
+2020-02-29 10:41:38.080   CNC 6   INF   Adding data
+2020-02-29 10:41:38.225   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:38.257   CNC 6   INF   Poweroff records downloaded, elapsed: 31.46418ms
+2020-02-29 10:41:38.257   CNC 6   INF   Downloading production records
+2020-02-29 10:41:38.301   CNC 6   INF   Production records downloaded, elapsed: 43.847921ms
+2020-02-29 10:41:38.301   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:38.301   CNC 6   INF   Intermediate data created, elapsed: 1.415µs
+2020-02-29 10:41:38.301   CNC 6   INF   Data added, elapsed: 221.265663ms
+2020-02-29 10:41:38.301   CNC 6   INF   Processing data
+2020-02-29 10:41:38.622   CNC 6   INF   Data processed, elapsed: 320.352035ms
+2020-02-29 10:41:38.622   CNC 6   INF   Sleeping for 9.457889456s
+2020-02-29 10:41:48.080   CNC 6   INF   Workplace still active
+2020-02-29 10:41:48.080   CNC 6   INF   Adding data
+2020-02-29 10:41:48.181   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:48.196   CNC 6   INF   Poweroff records downloaded, elapsed: 15.201266ms
+2020-02-29 10:41:48.196   CNC 6   INF   Downloading production records
+2020-02-29 10:41:48.214   CNC 6   INF   Production records downloaded, elapsed: 17.577917ms
+2020-02-29 10:41:48.214   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:48.214   CNC 6   INF   Intermediate data created, elapsed: 1.222µs
+2020-02-29 10:41:48.214   CNC 6   INF   Data added, elapsed: 133.835524ms
+2020-02-29 10:41:48.214   CNC 6   INF   Processing data
+2020-02-29 10:41:48.635   CNC 6   INF   Data processed, elapsed: 420.453738ms
+2020-02-29 10:41:48.636   CNC 6   INF   Sleeping for 9.444257642s
+2020-02-29 10:41:58.081   CNC 6   INF   Workplace still active
+2020-02-29 10:41:58.082   CNC 6   INF   Adding data
+2020-02-29 10:41:58.335   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:41:58.397   CNC 6   INF   Poweroff records downloaded, elapsed: 62.072598ms
+2020-02-29 10:41:58.397   CNC 6   INF   Downloading production records
+2020-02-29 10:41:58.451   CNC 6   INF   Production records downloaded, elapsed: 54.108096ms
+2020-02-29 10:41:58.451   CNC 6   INF   Creating intermediate data
+2020-02-29 10:41:58.452   CNC 6   INF   Intermediate data created, elapsed: 1.326µs
+2020-02-29 10:41:58.452   CNC 6   INF   Data added, elapsed: 369.993405ms
+2020-02-29 10:41:58.452   CNC 6   INF   Processing data
+2020-02-29 10:41:58.679   CNC 6   INF   Data processed, elapsed: 226.762907ms
+2020-02-29 10:41:58.679   CNC 6   INF   Sleeping for 9.402643988s
+2020-02-29 10:42:08.082   CNC 6   INF   Workplace still active
+2020-02-29 10:42:08.082   CNC 6   INF   Adding data
+2020-02-29 10:42:08.396   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:42:08.426   CNC 6   INF   Poweroff records downloaded, elapsed: 29.172192ms
+2020-02-29 10:42:08.426   CNC 6   INF   Downloading production records
+2020-02-29 10:42:08.449   CNC 6   INF   Production records downloaded, elapsed: 23.510403ms
+2020-02-29 10:42:08.450   CNC 6   INF   Creating intermediate data
+2020-02-29 10:42:08.450   CNC 6   INF   Intermediate data created, elapsed: 1.74µs
+2020-02-29 10:42:08.450   CNC 6   INF   Data added, elapsed: 367.828135ms
+2020-02-29 10:42:08.450   CNC 6   INF   Processing data
+2020-02-29 10:42:08.728   CNC 6   INF   Data processed, elapsed: 277.71674ms
+2020-02-29 10:42:08.729   CNC 6   INF   Sleeping for 9.352894147s
+2020-02-29 10:42:18.084   CNC 6   INF   Workplace still active
+2020-02-29 10:42:18.084   CNC 6   INF   Adding data
+2020-02-29 10:42:18.189   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:42:18.223   CNC 6   INF   Poweroff records downloaded, elapsed: 32.904717ms
+2020-02-29 10:42:18.223   CNC 6   INF   Downloading production records
+2020-02-29 10:42:18.238   CNC 6   INF   Production records downloaded, elapsed: 15.560783ms
+2020-02-29 10:42:18.238   CNC 6   INF   Creating intermediate data
+2020-02-29 10:42:18.239   CNC 6   INF   Intermediate data created, elapsed: 1.31µs
+2020-02-29 10:42:18.239   CNC 6   INF   Data added, elapsed: 154.955328ms
+2020-02-29 10:42:18.239   CNC 6   INF   Processing data
+2020-02-29 10:42:18.663   CNC 6   INF   Data processed, elapsed: 424.061481ms
+2020-02-29 10:42:18.663   CNC 6   INF   Sleeping for 9.420507179s
+2020-02-29 10:42:28.085   CNC 6   INF   Workplace still active
+2020-02-29 10:42:28.085   CNC 6   INF   Adding data
+2020-02-29 10:42:28.567   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:42:28.623   CNC 6   INF   Poweroff records downloaded, elapsed: 56.141032ms
+2020-02-29 10:42:28.623   CNC 6   INF   Downloading production records
+2020-02-29 10:42:28.648   CNC 6   INF   Production records downloaded, elapsed: 24.457171ms
+2020-02-29 10:42:28.648   CNC 6   INF   Creating intermediate data
+2020-02-29 10:42:28.648   CNC 6   INF   Intermediate data created, elapsed: 1.736µs
+2020-02-29 10:42:28.648   CNC 6   INF   Data added, elapsed: 562.557627ms
+2020-02-29 10:42:28.648   CNC 6   INF   Processing data
+2020-02-29 10:42:29.060   CNC 6   INF   Data processed, elapsed: 411.196911ms
+2020-02-29 10:42:29.060   CNC 6   INF   Sleeping for 9.024876142s
+2020-02-29 10:42:38.085   CNC 6   INF   Workplace still active
+2020-02-29 10:42:38.085   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:42:38.107   CNC 6   INF   Workplace started running
+2020-02-29 10:42:38.108   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:42:47.148   CNC 6   INF   Workplace started running
+2020-02-29 10:42:47.148   CNC 6   INF   Starting workplace loop
+2020-02-29 10:42:47.149   CNC 6   INF   Adding data
+2020-02-29 10:42:47.316   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:42:47.377   CNC 6   INF   Poweroff records downloaded, elapsed: 60.91819ms
+2020-02-29 10:42:47.377   CNC 6   INF   Downloading production records
+2020-02-29 10:42:47.437   CNC 6   INF   Production records downloaded, elapsed: 60.24532ms
+2020-02-29 10:42:47.437   CNC 6   INF   Creating intermediate data
+2020-02-29 10:42:47.438   CNC 6   INF   Intermediate data created, elapsed: 1.342µs
+2020-02-29 10:42:47.438   CNC 6   INF   Data added, elapsed: 288.966204ms
+2020-02-29 10:42:47.438   CNC 6   INF   Processing data
+2020-02-29 10:42:47.855   CNC 6   INF   Data processed, elapsed: 417.480754ms
+2020-02-29 10:42:47.856   CNC 6   INF   Sleeping for 9.29251245s
+2020-02-29 10:42:57.149   CNC 6   INF   Workplace still active
+2020-02-29 10:42:57.150   CNC 6   INF   Loop ended, elapsed: 10.000835812s
+2020-02-29 10:42:57.150   CNC 6   INF   Starting workplace loop
+2020-02-29 10:42:57.151   CNC 6   INF   Adding data
+2020-02-29 10:42:57.278   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:42:57.302   CNC 6   INF   Poweroff records downloaded, elapsed: 24.089736ms
+2020-02-29 10:42:57.303   CNC 6   INF   Downloading production records
+2020-02-29 10:42:57.328   CNC 6   INF   Production records downloaded, elapsed: 25.541548ms
+2020-02-29 10:42:57.328   CNC 6   INF   Creating intermediate data
+2020-02-29 10:42:57.328   CNC 6   INF   Intermediate data created, elapsed: 1.352µs
+2020-02-29 10:42:57.328   CNC 6   INF   Data added, elapsed: 177.640622ms
+2020-02-29 10:42:57.329   CNC 6   INF   Processing data
+2020-02-29 10:42:57.689   CNC 6   INF   Data processed, elapsed: 360.704708ms
+2020-02-29 10:42:57.689   CNC 6   INF   Sleeping for 9.461001518s
+2020-02-29 10:43:07.151   CNC 6   INF   Workplace not active
+2020-02-29 10:43:07.151   CNC 6   INF   Loop ended, elapsed: 10.000215866s
+2020-02-29 10:43:07.151   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:43:07.152   CNC 6   INF   Workplace started running
+2020-02-29 10:43:07.152   CNC 6   INF   Starting workplace loop
+2020-02-29 10:43:07.152   CNC 6   INF   Adding data
+2020-02-29 10:43:07.215   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:43:07.237   CNC 6   INF   Poweroff records downloaded, elapsed: 21.528179ms
+2020-02-29 10:43:07.237   CNC 6   INF   Downloading production records
+2020-02-29 10:43:07.253   CNC 6   INF   Production records downloaded, elapsed: 15.689384ms
+2020-02-29 10:43:07.253   CNC 6   INF   Creating intermediate data
+2020-02-29 10:43:07.253   CNC 6   INF   Intermediate data created, elapsed: 579ns
+2020-02-29 10:43:07.253   CNC 6   INF   Data added, elapsed: 100.911706ms
+2020-02-29 10:43:07.253   CNC 6   INF   Processing data
+2020-02-29 10:43:07.572   CNC 6   INF   Data processed, elapsed: 318.892113ms
+2020-02-29 10:43:07.573   CNC 6   INF   Sleeping for 9.57955336s
+2020-02-29 10:43:17.153   CNC 6   INF   Workplace still active
+2020-02-29 10:43:17.153   CNC 6   INF   Loop ended, elapsed: 10.000754215s
+2020-02-29 10:43:17.154   CNC 6   INF   Starting workplace loop
+2020-02-29 10:43:17.154   CNC 6   INF   Adding data
+2020-02-29 10:43:17.524   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:43:17.597   CNC 6   INF   Poweroff records downloaded, elapsed: 73.43651ms
+2020-02-29 10:43:17.597   CNC 6   INF   Downloading production records
+2020-02-29 10:43:17.661   CNC 6   INF   Production records downloaded, elapsed: 63.094577ms
+2020-02-29 10:43:17.661   CNC 6   INF   Creating intermediate data
+2020-02-29 10:43:17.661   CNC 6   INF   Intermediate data created, elapsed: 1.14µs
+2020-02-29 10:43:17.661   CNC 6   INF   Data added, elapsed: 507.140733ms
+2020-02-29 10:43:17.661   CNC 6   INF   Processing data
+2020-02-29 10:43:17.894   CNC 6   INF   Data processed, elapsed: 233.204822ms
+2020-02-29 10:43:17.895   CNC 6   INF   Sleeping for 9.2591456s
+2020-02-29 10:43:27.154   CNC 6   INF   Workplace still active
+2020-02-29 10:43:27.154   CNC 6   INF   Loop ended, elapsed: 10.00030029s
+2020-02-29 10:43:27.154   CNC 6   INF   Starting workplace loop
+2020-02-29 10:43:27.154   CNC 6   INF   Adding data
+2020-02-29 10:43:27.277   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:43:27.310   CNC 6   INF   Poweroff records downloaded, elapsed: 32.026102ms
+2020-02-29 10:43:27.310   CNC 6   INF   Downloading production records
+2020-02-29 10:43:27.333   CNC 6   INF   Production records downloaded, elapsed: 22.719264ms
+2020-02-29 10:43:27.333   CNC 6   INF   Creating intermediate data
+2020-02-29 10:43:27.333   CNC 6   INF   Intermediate data created, elapsed: 1.117µs
+2020-02-29 10:43:27.333   CNC 6   INF   Data added, elapsed: 178.406063ms
+2020-02-29 10:43:27.333   CNC 6   INF   Processing data
+2020-02-29 10:43:27.694   CNC 6   INF   Data processed, elapsed: 360.647736ms
+2020-02-29 10:43:27.694   CNC 6   INF   Sleeping for 9.460374035s
+2020-02-29 10:43:37.154   CNC 6   INF   Workplace still active
+2020-02-29 10:43:37.155   CNC 6   INF   Loop ended, elapsed: 10.000233911s
+2020-02-29 10:43:37.155   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:43:37.169   CNC 6   INF   Workplace started running
+2020-02-29 10:43:37.169   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:43:50.646   CNC 6   INF   Workplace started running
+2020-02-29 10:43:50.646   CNC 6   INF   Starting workplace loop
+2020-02-29 10:43:50.646   CNC 6   INF   Adding data
+2020-02-29 10:43:50.804   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:43:50.833   CNC 6   INF   Poweroff records downloaded, elapsed: 28.637059ms
+2020-02-29 10:43:50.833   CNC 6   INF   Downloading production records
+2020-02-29 10:43:50.844   CNC 6   INF   Production records downloaded, elapsed: 11.290223ms
+2020-02-29 10:43:50.845   CNC 6   INF   Creating intermediate data
+2020-02-29 10:43:50.845   CNC 6   INF   Intermediate data created, elapsed: 1.185µs
+2020-02-29 10:43:50.845   CNC 6   INF   Data added, elapsed: 198.582787ms
+2020-02-29 10:43:50.845   CNC 6   INF   Processing data
+2020-02-29 10:43:51.185   CNC 6   INF   Data processed, elapsed: 340.06506ms
+2020-02-29 10:43:51.185   CNC 6   INF   Loop ended, elapsed: 539.120912ms
+2020-02-29 10:43:51.185   CNC 6   INF   Sleeping for 9.460801044s
+2020-02-29 10:44:00.646   CNC 6   INF   Workplace still active
+2020-02-29 10:44:00.646   CNC 6   INF   Starting workplace loop
+2020-02-29 10:44:00.646   CNC 6   INF   Adding data
+2020-02-29 10:44:00.801   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:44:00.839   CNC 6   INF   Poweroff records downloaded, elapsed: 38.082543ms
+2020-02-29 10:44:00.839   CNC 6   INF   Downloading production records
+2020-02-29 10:44:00.884   CNC 6   INF   Production records downloaded, elapsed: 44.685031ms
+2020-02-29 10:44:00.884   CNC 6   INF   Creating intermediate data
+2020-02-29 10:44:00.884   CNC 6   INF   Intermediate data created, elapsed: 1.187µs
+2020-02-29 10:44:00.884   CNC 6   INF   Data added, elapsed: 237.665241ms
+2020-02-29 10:44:00.885   CNC 6   INF   Processing data
+2020-02-29 10:44:01.163   CNC 6   INF   Data processed, elapsed: 278.314939ms
+2020-02-29 10:44:01.163   CNC 6   INF   Loop ended, elapsed: 516.745695ms
+2020-02-29 10:44:01.163   CNC 6   INF   Sleeping for 9.483126439s
+2020-02-29 10:44:10.647   CNC 6   INF   Workplace still active
+2020-02-29 10:44:10.647   CNC 6   INF   Starting workplace loop
+2020-02-29 10:44:10.647   CNC 6   INF   Adding data
+2020-02-29 10:44:10.740   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:44:10.753   CNC 6   INF   Poweroff records downloaded, elapsed: 13.014111ms
+2020-02-29 10:44:10.754   CNC 6   INF   Downloading production records
+2020-02-29 10:44:10.771   CNC 6   INF   Production records downloaded, elapsed: 17.55278ms
+2020-02-29 10:44:10.771   CNC 6   INF   Creating intermediate data
+2020-02-29 10:44:10.772   CNC 6   INF   Intermediate data created, elapsed: 1.267µs
+2020-02-29 10:44:10.772   CNC 6   INF   Data added, elapsed: 124.513481ms
+2020-02-29 10:44:10.772   CNC 6   INF   Processing data
+2020-02-29 10:44:11.154   CNC 6   INF   Data processed, elapsed: 382.346885ms
+2020-02-29 10:44:11.155   CNC 6   INF   Loop ended, elapsed: 507.794273ms
+2020-02-29 10:44:11.155   CNC 6   INF   Sleeping for 9.492050848s
+2020-02-29 10:44:20.648   CNC 6   INF   Workplace still active
+2020-02-29 10:44:20.649   CNC 6   INF   Starting workplace loop
+2020-02-29 10:44:20.649   CNC 6   INF   Adding data
+2020-02-29 10:44:20.695   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:44:20.707   CNC 6   INF   Poweroff records downloaded, elapsed: 11.341983ms
+2020-02-29 10:44:20.707   CNC 6   INF   Downloading production records
+2020-02-29 10:44:20.718   CNC 6   INF   Production records downloaded, elapsed: 10.742904ms
+2020-02-29 10:44:20.718   CNC 6   INF   Creating intermediate data
+2020-02-29 10:44:20.718   CNC 6   INF   Intermediate data created, elapsed: 624ns
+2020-02-29 10:44:20.718   CNC 6   INF   Data added, elapsed: 69.104713ms
+2020-02-29 10:44:20.718   CNC 6   INF   Processing data
+2020-02-29 10:44:21.103   CNC 6   INF   Data processed, elapsed: 384.042758ms
+2020-02-29 10:44:21.103   CNC 6   INF   Loop ended, elapsed: 453.964026ms
+2020-02-29 10:44:21.103   CNC 6   INF   Sleeping for 9.545932728s
+2020-02-29 10:44:30.649   CNC 6   INF   Workplace still active
+2020-02-29 10:44:30.649   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:44:30.670   CNC 6   INF   Workplace started running
+2020-02-29 10:44:30.670   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:45:25.317   CNC 6   INF   Workplace started running
+2020-02-29 10:45:25.318   CNC 6   INF   Starting workplace loop
+2020-02-29 10:45:25.318   CNC 6   INF   Adding data
+2020-02-29 10:45:25.401   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:45:25.477   CNC 6   INF   Poweroff records downloaded, elapsed: 75.097099ms
+2020-02-29 10:45:25.477   CNC 6   INF   Downloading production records
+2020-02-29 10:45:25.580   CNC 6   INF   Production records downloaded, elapsed: 102.418089ms
+2020-02-29 10:45:25.580   CNC 6   INF   Creating intermediate data
+2020-02-29 10:45:25.580   CNC 6   INF   Intermediate data created, elapsed: 3.529µs
+2020-02-29 10:45:25.580   CNC 6   INF   Data added, elapsed: 261.79545ms
+2020-02-29 10:45:25.580   CNC 6   INF   Processing data
+2020-02-29 10:45:25.842   CNC 6   INF   Data processed, elapsed: 261.575108ms
+2020-02-29 10:45:25.842   CNC 6   INF   Loop ended, elapsed: 524.308821ms
+2020-02-29 10:45:25.842   CNC 6   INF   Sleeping for 9.475501065s
+2020-02-29 10:45:35.318   CNC 6   INF   Workplace still active
+2020-02-29 10:45:35.318   CNC 6   INF   Starting workplace loop
+2020-02-29 10:45:35.319   CNC 6   INF   Adding data
+2020-02-29 10:45:35.572   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:45:35.705   CNC 6   INF   Poweroff records downloaded, elapsed: 133.625537ms
+2020-02-29 10:45:35.705   CNC 6   INF   Downloading production records
+2020-02-29 10:45:35.789   CNC 6   INF   Production records downloaded, elapsed: 83.545442ms
+2020-02-29 10:45:35.789   CNC 6   INF   Creating intermediate data
+2020-02-29 10:45:35.789   CNC 6   INF   Intermediate data created, elapsed: 1.573µs
+2020-02-29 10:45:35.789   CNC 6   INF   Data added, elapsed: 470.707483ms
+2020-02-29 10:45:35.790   CNC 6   INF   Processing data
+2020-02-29 10:45:35.949   CNC 6   INF   Data processed, elapsed: 159.147145ms
+2020-02-29 10:45:35.949   CNC 6   INF   Loop ended, elapsed: 630.531332ms
+2020-02-29 10:45:35.949   CNC 6   INF   Sleeping for 9.369359053s
+2020-02-29 10:45:45.319   CNC 6   INF   Workplace still active
+2020-02-29 10:45:45.319   CNC 6   INF   Starting workplace loop
+2020-02-29 10:45:45.319   CNC 6   INF   Adding data
+2020-02-29 10:45:45.409   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:45:45.499   CNC 6   INF   Poweroff records downloaded, elapsed: 89.975257ms
+2020-02-29 10:45:45.499   CNC 6   INF   Downloading production records
+2020-02-29 10:45:45.596   CNC 6   INF   Production records downloaded, elapsed: 96.274108ms
+2020-02-29 10:45:45.596   CNC 6   INF   Creating intermediate data
+2020-02-29 10:45:45.596   CNC 6   INF   Intermediate data created, elapsed: 654ns
+2020-02-29 10:45:45.596   CNC 6   INF   Data added, elapsed: 276.63266ms
+2020-02-29 10:45:45.596   CNC 6   INF   Processing data
+2020-02-29 10:45:45.807   CNC 6   INF   Data processed, elapsed: 210.324692ms
+2020-02-29 10:45:45.807   CNC 6   INF   Loop ended, elapsed: 488.153982ms
+2020-02-29 10:45:45.807   CNC 6   INF   Sleeping for 9.511719371s
+2020-02-29 10:45:55.319   CNC 6   INF   Workplace still active
+2020-02-29 10:45:55.320   CNC 6   INF   Starting workplace loop
+2020-02-29 10:45:55.320   CNC 6   INF   Adding data
+2020-02-29 10:45:55.437   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:45:55.515   CNC 6   INF   Poweroff records downloaded, elapsed: 77.09753ms
+2020-02-29 10:45:55.515   CNC 6   INF   Downloading production records
+2020-02-29 10:45:55.586   CNC 6   INF   Production records downloaded, elapsed: 71.139798ms
+2020-02-29 10:45:55.586   CNC 6   INF   Creating intermediate data
+2020-02-29 10:45:55.586   CNC 6   INF   Intermediate data created, elapsed: 1.587µs
+2020-02-29 10:45:55.586   CNC 6   INF   Data added, elapsed: 266.526267ms
+2020-02-29 10:45:55.586   CNC 6   INF   Processing data
+2020-02-29 10:45:55.810   CNC 6   INF   Data processed, elapsed: 222.905253ms
+2020-02-29 10:45:55.810   CNC 6   INF   Loop ended, elapsed: 490.024553ms
+2020-02-29 10:45:55.810   CNC 6   INF   Sleeping for 9.509887869s
+2020-02-29 10:46:05.322   CNC 6   INF   Workplace still active
+2020-02-29 10:46:05.324   CNC 6   INF   Starting workplace loop
+2020-02-29 10:46:05.324   CNC 6   INF   Adding data
+2020-02-29 10:46:05.391   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:46:05.416   CNC 6   INF   Poweroff records downloaded, elapsed: 24.961813ms
+2020-02-29 10:46:05.417   CNC 6   INF   Downloading production records
+2020-02-29 10:46:05.441   CNC 6   INF   Production records downloaded, elapsed: 24.186194ms
+2020-02-29 10:46:05.441   CNC 6   INF   Creating intermediate data
+2020-02-29 10:46:05.442   CNC 6   INF   Intermediate data created, elapsed: 1.093µs
+2020-02-29 10:46:05.442   CNC 6   INF   Data added, elapsed: 116.792255ms
+2020-02-29 10:46:05.442   CNC 6   INF   Processing data
+2020-02-29 10:46:05.573   CNC 6   INF   Data processed, elapsed: 131.454575ms
+2020-02-29 10:46:05.574   CNC 6   INF   Loop ended, elapsed: 249.856352ms
+2020-02-29 10:46:05.575   CNC 6   INF   Sleeping for 9.749684915s
+2020-02-29 10:46:15.325   CNC 6   INF   Workplace still active
+2020-02-29 10:46:15.325   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:46:15.335   CNC 6   INF   Workplace started running
+2020-02-29 10:46:15.335   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:56:49.949   CNC 6   INF   Workplace started running
+2020-02-29 10:56:49.950   CNC 6   INF   Starting workplace loop
+2020-02-29 10:56:49.950   CNC 6   INF   Adding data
+2020-02-29 10:56:50.025   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:56:50.086   CNC 6   INF   Poweroff records downloaded, elapsed: 61.057746ms
+2020-02-29 10:56:50.086   CNC 6   INF   Downloading production records
+2020-02-29 10:56:50.182   CNC 6   INF   Production records downloaded, elapsed: 95.288494ms
+2020-02-29 10:56:50.183   CNC 6   INF   Creating intermediate data
+2020-02-29 10:56:50.183   CNC 6   INF   Intermediate data created, elapsed: 6.957µs
+2020-02-29 10:56:50.183   CNC 6   INF   Data added, elapsed: 233.002431ms
+2020-02-29 10:56:50.183   CNC 6   INF   Processing data
+2020-02-29 10:56:50.208   CNC 6   INF   Data processed, elapsed: 24.965086ms
+2020-02-29 10:56:50.209   CNC 6   INF   Loop ended, elapsed: 258.800874ms
+2020-02-29 10:56:50.209   CNC 6   INF   Sleeping for 9.741101677s
+2020-02-29 10:56:59.950   CNC 6   INF   Workplace still active
+2020-02-29 10:56:59.950   CNC 6   INF   Starting workplace loop
+2020-02-29 10:56:59.950   CNC 6   INF   Adding data
+2020-02-29 10:57:00.013   CNC 6   INF   Downloading poweroff records
+2020-02-29 10:57:00.101   CNC 6   INF   Poweroff records downloaded, elapsed: 87.298515ms
+2020-02-29 10:57:00.101   CNC 6   INF   Downloading production records
+2020-02-29 10:57:00.148   CNC 6   INF   Production records downloaded, elapsed: 47.030339ms
+2020-02-29 10:57:00.149   CNC 6   INF   Creating intermediate data
+2020-02-29 10:57:00.149   CNC 6   INF   Intermediate data created, elapsed: 6.117µs
+2020-02-29 10:57:00.149   CNC 6   INF   Data added, elapsed: 198.064873ms
+2020-02-29 10:57:00.149   CNC 6   INF   Processing data
+2020-02-29 10:57:00.263   CNC 6   INF   Data processed, elapsed: 113.767848ms
+2020-02-29 10:57:00.263   CNC 6   INF   Loop ended, elapsed: 312.591762ms
+2020-02-29 10:57:00.263   CNC 6   INF   Sleeping for 9.687274335s
+2020-02-29 10:57:09.951   CNC 6   INF   Workplace still active
+2020-02-29 10:57:09.951   CNC 6   INF   Workplace not active, stopped running
+2020-02-29 10:57:09.956   CNC 6   INF   Workplace started running
+2020-02-29 10:57:09.956   CNC 6   INF   Workplace not active, stopped running
