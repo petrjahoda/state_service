@@ -3,7 +3,7 @@ cd linux
 upx state_service_linux
 cd ..
 cd mac
-upx state_service_mac_darwin
+upx state_service_mac
 cd ..
 cd windows
 upx state_service_windows.exe
