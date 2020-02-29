@@ -19,13 +19,21 @@ func AddData(workplace zapsi_database.Workplace) []IntermediateData {
 		return nil
 	}
 	defer db.Close()
-	var workplaceState zapsi_database.StateRecord
-	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
+	workplaceState := DownloadLatestWorkplaceState(db, workplace)
 	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState)
 	productionRecords := DownloadProductionRecords(workplace, db, workplaceState)
 	intermediateData := CreateIntermediateData(workplace, poweroffRecords, productionRecords)
 	LogInfo(workplace.Name, "Data added, elapsed: "+time.Since(timer).String())
 	return intermediateData
+}
+
+func DownloadLatestWorkplaceState(db *gorm.DB, workplace zapsi_database.Workplace) zapsi_database.StateRecord {
+	LogInfo(workplace.Name, "Downloading latest workplace state")
+	timer := time.Now()
+	var workplaceState zapsi_database.StateRecord
+	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
+	LogInfo(workplace.Name, "Latest workplace state downloaded, elapsed: "+time.Since(timer).String())
+	return workplaceState
 }
 
 func CreateIntermediateData(workplace zapsi_database.Workplace, poweroffRecords []zapsi_database.DevicePortAnalogRecord, productionRecords []zapsi_database.DevicePortDigitalRecord) []IntermediateData {
