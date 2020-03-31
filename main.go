@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const version = "2020.1.2.29"
+const version = "2020.1.3.31"
 const programName = "State Service"
 const programDesription = "Creates states for workplaces"
 const deleteLogsAfter = 240 * time.Hour
