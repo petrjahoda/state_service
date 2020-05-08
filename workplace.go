@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func AddData(workplace zapsi_database.Workplace) []IntermediateData {
+func AddData(workplace zapsi_database.Workplace, analogDateTime time.Time, digitalDateTime time.Time) []IntermediateData {
 	LogInfo(workplace.Name, "Adding data")
 	timer := time.Now()
 	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
@@ -20,8 +20,8 @@ func AddData(workplace zapsi_database.Workplace) []IntermediateData {
 	}
 	defer db.Close()
 	workplaceState := DownloadLatestWorkplaceState(db, workplace)
-	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState)
-	productionRecords := DownloadProductionRecords(workplace, db, workplaceState)
+	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState, analogDateTime)
+	productionRecords := DownloadProductionRecords(workplace, db, workplaceState, digitalDateTime)
 	intermediateData := CreateIntermediateData(workplace, poweroffRecords, productionRecords)
 	LogInfo(workplace.Name, "Data added, elapsed: "+time.Since(timer).String())
 	return intermediateData
@@ -57,7 +57,7 @@ func CreateIntermediateData(workplace zapsi_database.Workplace, poweroffRecords 
 	return intermediateData
 }
 
-func DownloadProductionRecords(workplace zapsi_database.Workplace, db *gorm.DB, workplaceState zapsi_database.StateRecord) []zapsi_database.DevicePortDigitalRecord {
+func DownloadProductionRecords(workplace zapsi_database.Workplace, db *gorm.DB, workplaceState zapsi_database.StateRecord, digitalDateTime time.Time) []zapsi_database.DevicePortDigitalRecord {
 	LogInfo(workplace.Name, "Downloading production records")
 	timer := time.Now()
 	var production zapsi_database.State
@@ -65,12 +65,16 @@ func DownloadProductionRecords(workplace zapsi_database.Workplace, db *gorm.DB, 
 	var productionPort zapsi_database.WorkplacePort
 	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", production.ID).First(&productionPort)
 	var productionRecords []zapsi_database.DevicePortDigitalRecord
-	db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
+	if workplaceState.DateTimeStart.Before(digitalDateTime) {
+		db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", digitalDateTime).Find(&productionRecords)
+	} else {
+		db.Where("device_port_id=?", productionPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
+	}
 	LogInfo(workplace.Name, "Production records downloaded: "+strconv.Itoa(len(productionRecords))+" elapsed: "+time.Since(timer).String())
 	return productionRecords
 }
 
-func DownloadPoweroffRecords(workplace zapsi_database.Workplace, db *gorm.DB, workplaceState zapsi_database.StateRecord) []zapsi_database.DevicePortAnalogRecord {
+func DownloadPoweroffRecords(workplace zapsi_database.Workplace, db *gorm.DB, workplaceState zapsi_database.StateRecord, analogDateTime time.Time) []zapsi_database.DevicePortAnalogRecord {
 	LogInfo(workplace.Name, "Downloading poweroff records")
 	timer := time.Now()
 	var poweroff zapsi_database.State
@@ -78,7 +82,11 @@ func DownloadPoweroffRecords(workplace zapsi_database.Workplace, db *gorm.DB, wo
 	var poweroffPort zapsi_database.WorkplacePort
 	db.Where("workplace_id=?", workplace.ID).Where("state_id=?", poweroff.ID).First(&poweroffPort)
 	var poweroffRecords []zapsi_database.DevicePortAnalogRecord
-	db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
+	if workplaceState.DateTimeStart.Before(analogDateTime) {
+		db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", analogDateTime).Find(&poweroffRecords)
+	} else {
+		db.Where("device_port_id=?", poweroffPort.DevicePortId).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
+	}
 	LogInfo(workplace.Name, "Poweroff records downloaded, count: "+strconv.Itoa(len(poweroffRecords))+", elapsed: "+time.Since(timer).String())
 	return poweroffRecords
 }
@@ -96,14 +104,14 @@ func GetActualState(db *gorm.DB, latestworkplaceStateId int) zapsi_database.Stat
 	return actualState
 }
 
-func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
+func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData, analogDateTime time.Time, digitalDateTime time.Time) (time.Time, time.Time) {
 	LogInfo(workplace.Name, "Processing data")
 	timer := time.Now()
 	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
-		return
+		return analogDateTime, digitalDateTime
 	}
 	defer db.Close()
 	actualWorkplaceMode := GetActualWorkplaceMode(db, workplace)
@@ -114,9 +122,11 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 	for _, actualData := range data {
 		if actualData.Type == poweroff {
 			workplace.PoweroffPortDateTime = sql.NullTime{Time: actualData.DateTime, Valid: true}
+			analogDateTime = actualData.DateTime
 		} else if actualData.Type == production {
 			workplace.PoweroffPortDateTime = sql.NullTime{Time: actualData.DateTime, Valid: true}
 			workplace.ProductionPortDateTime = sql.NullTime{Time: actualData.DateTime, Valid: true}
+			digitalDateTime = actualData.DateTime
 		}
 		switch actualWorkplaceState.Name {
 		case "Poweroff":
@@ -200,6 +210,7 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData) {
 
 	}
 	LogInfo(workplace.Name, "Data processed, elapsed: "+time.Since(timer).String())
+	return analogDateTime, digitalDateTime
 }
 
 func GetActualWorkplaceMode(db *gorm.DB, workplace *zapsi_database.Workplace) zapsi_database.WorkplaceMode {

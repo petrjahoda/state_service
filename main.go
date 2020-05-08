@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const version = "2020.1.3.31"
+const version = "2020.2.2.8"
 const programName = "State Service"
 const programDesription = "Creates states for workplaces"
 const deleteLogsAfter = 240 * time.Hour
@@ -101,11 +101,15 @@ func RunWorkplace(workplace zapsi_database.Workplace) {
 	runningWorkplaces = append(runningWorkplaces, workplace)
 	workplaceSync.Unlock()
 	workplaceIsActive := true
+	var digitalDateTime time.Time
+	var analogDateTime time.Time
 	for workplaceIsActive && serviceRunning {
 		LogInfo(workplace.Name, "Starting workplace loop")
+		LogInfo(workplace.Name, "Analog datetime: "+analogDateTime.String())
+		LogInfo(workplace.Name, "Digital datetime: "+digitalDateTime.String())
 		timer := time.Now()
-		intermediateData := AddData(workplace)
-		ProcessData(&workplace, intermediateData)
+		intermediateData := AddData(workplace, analogDateTime, digitalDateTime)
+		analogDateTime, digitalDateTime = ProcessData(&workplace, intermediateData, analogDateTime, digitalDateTime)
 		LogInfo(workplace.Name, "Loop ended, elapsed: "+time.Since(timer).String())
 		Sleep(workplace, timer)
 		workplaceIsActive = CheckActive(workplace)
