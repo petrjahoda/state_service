@@ -18,6 +18,7 @@ func AddData(workplace zapsi_database.Workplace, analogDateTime time.Time, digit
 		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
 		return nil
 	}
+	db.LogMode(false)
 	defer db.Close()
 	workplaceState := DownloadLatestWorkplaceState(db, workplace)
 	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState, analogDateTime)
@@ -113,6 +114,7 @@ func ProcessData(workplace *zapsi_database.Workplace, data []IntermediateData, a
 		LogError(workplace.Name, "Problem opening "+DatabaseName+" database: "+err.Error())
 		return analogDateTime, digitalDateTime
 	}
+	db.LogMode(false)
 	defer db.Close()
 	actualWorkplaceMode := GetActualWorkplaceMode(db, workplace)
 	latestworkplaceStateId := GetLatestWorkplaceStateId(db, workplace)

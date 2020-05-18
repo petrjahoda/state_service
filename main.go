@@ -9,13 +9,14 @@ import (
 	"time"
 )
 
-const version = "2020.2.2.8"
+const version = "2020.2.2.18"
 const programName = "State Service"
 const programDesription = "Creates states for workplaces"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
 var serviceRunning = false
+var serviceDirectory string
 
 type program struct{}
 
@@ -68,6 +69,10 @@ var (
 	runningWorkplaces []zapsi_database.Workplace
 	workplaceSync     sync.Mutex
 )
+
+func init() {
+	serviceDirectory = GetDirectory()
+}
 
 func main() {
 	serviceConfig := &service.Config{
@@ -158,6 +163,7 @@ func UpdateActiveWorkplaces(reference string) {
 		activeWorkplaces = nil
 		return
 	}
+	db.LogMode(false)
 	defer db.Close()
 	db.Find(&activeWorkplaces)
 	LogInfo("MAIN", "Active workplaces updated, elapsed: "+time.Since(timer).String())
@@ -172,6 +178,7 @@ func WriteProgramVersionIntoSettings() {
 		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
 		return
 	}
+	db.LogMode(false)
 	defer db.Close()
 	var settings zapsi_database.Setting
 	db.Where("name=?", programName).Find(&settings)
