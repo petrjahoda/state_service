@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="postgres" uuid="ef77edcc-e2d3-4a90-b53f-6937fc9fe561">
-      <database-info product="PostgreSQL" version="12.2" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.2" exact-driver-version="42.2">
+      <database-info product="PostgreSQL" version="12.3" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="12.3" exact-driver-version="42.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
@@ -12,41 +12,6 @@
         <introspection-scope>
           <node kind="database" negative="1">
             <node kind="schema" negative="1" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="@localhost" uuid="ecdc733a-e6e4-4790-b985-a0902e52d23d">
-      <database-info product="MariaDB" version="10.4.12-MariaDB-1:10.4.12+maria~bionic" jdbc-version="4.2" driver-name="MariaDB Connector/J" driver-version="2.4.1" dbms="MARIADB" exact-version="10.4.12" exact-driver-version="2.4">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="@localhost [2]" uuid="23b3ecb6-4a62-4f7f-aff6-b8b835ea0563">
-      <database-info product="Microsoft SQL Server" version="15.00.4013" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 7.4 for SQL Server" driver-version="7.4.1.0" dbms="MSSQL" exact-version="15.0.4013" exact-driver-version="7.4">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>sa</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node negative="1">
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
-            </node>
-            <node kind="database" qname="zapsi3">
-              <node kind="schema" negative="1" />
-            </node>
           </node>
         </introspection-scope>
       </schema-mapping>
