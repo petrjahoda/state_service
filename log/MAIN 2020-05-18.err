@@ -1,2 +1,0 @@
-2020-05-18 09:08:15.300   MAIN   ERR   Problem opening zapsi3 database: Unable to open tcp connection with host 'localhost:1433': dial tcp [::1]:1433: connect: connection refused
-2020-05-18 09:08:15.301   MAIN   ERR   Problem opening zapsi3 database: Unable to open tcp connection with host 'localhost:1433': dial tcp [::1]:1433: connect: connection refused

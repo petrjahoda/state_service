@@ -1,8 +1,0 @@
-{
-  "DatabaseType": "mssql",
-  "IpAddress": "localhost",
-  "DatabaseName": "zapsi3",
-  "Port": "1433",
-  "Login": "sa",
-  "Password": "Zps05....."
-}

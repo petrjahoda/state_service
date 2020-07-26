@@ -2,17 +2,11 @@
 cd linux
 upx state_service_linux
 cd ..
-cd mac
-upx state_service_mac
-cd ..
-cd windows
-upx state_service_windows.exe
-cd ..
 
 docker rmi -f petrjahoda/state_service:latest
 docker build -t petrjahoda/state_service:latest .
 docker push petrjahoda/state_service:latest
 
-docker rmi -f petrjahoda/state_service:2020.2.2
-docker build -t petrjahoda/state_service:2020.2.2 .
-docker push petrjahoda/state_service:2020.2.2
+docker rmi -f petrjahoda/state_service:2020.3.1
+docker build -t petrjahoda/state_service:2020.3.1 .
+docker push petrjahoda/state_service:2020.3.1
