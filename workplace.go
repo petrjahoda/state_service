@@ -18,6 +18,8 @@ func AddData(workplace database.Workplace, analogDateTime time.Time, digitalDate
 		LogError(workplace.Name, "Problem opening database: "+err.Error())
 		return nil
 	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	workplaceState := DownloadLatestWorkplaceState(db, workplace)
 	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState, analogDateTime)
 	productionRecords := DownloadProductionRecords(workplace, db, workplaceState, digitalDateTime)
@@ -111,6 +113,8 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 		LogError(workplace.Name, "Problem opening database: "+err.Error())
 		return analogDateTime, digitalDateTime
 	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	actualWorkplaceMode := GetActualWorkplaceMode(db, workplace)
 	latestworkplaceStateId := GetLatestWorkplaceStateId(db, workplace)
 	actualWorkplaceState := GetActualState(db, latestworkplaceStateId)

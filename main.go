@@ -12,7 +12,7 @@ import (
 
 const version = "2020.3.1.30"
 const programName = "State Service"
-const programDesription = "Creates states for workplaces"
+const programDescription = "Creates states for workplaces"
 const downloadInSeconds = 10
 const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
 
@@ -68,7 +68,7 @@ func main() {
 	serviceConfig := &service.Config{
 		Name:        programName,
 		DisplayName: programName,
-		Description: programDesription,
+		Description: programDescription,
 	}
 	prg := &program{}
 	s, err := service.New(prg, serviceConfig)
@@ -152,6 +152,8 @@ func UpdateActiveWorkplaces(reference string) {
 		activeWorkplaces = nil
 		return
 	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	db.Find(&activeWorkplaces)
 	LogInfo("MAIN", "Active workplaces updated, elapsed: "+time.Since(timer).String())
 }
@@ -164,6 +166,8 @@ func WriteProgramVersionIntoSettings() {
 		LogError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	var settings database.Setting
 	db.Where("name=?", programName).Find(&settings)
 	settings.Name = programName
