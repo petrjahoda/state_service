@@ -2,6 +2,7 @@ package main
 
 import (
 	"database/sql"
+	"github.com/TwinProduction/go-color"
 	"github.com/petrjahoda/database"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -92,7 +93,6 @@ func DownloadPoweroffRecords(workplace database.Workplace, db *gorm.DB, workplac
 	return poweroffRecords
 }
 
-//
 func GetLatestWorkplaceStateId(db *gorm.DB, workplace *database.Workplace) int {
 	var workplaceState database.StateRecord
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
@@ -221,7 +221,15 @@ func GetActualWorkplaceMode(db *gorm.DB, workplace *database.Workplace) database
 }
 
 func InsertStateIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateChangeTime time.Time, stateName string) {
-	LogInfo((*workplace).Name, "Changing state ==> "+stateName+" at "+stateChangeTime.String())
+	var stateNameColored string
+	if stateName == "Poweroff" {
+		stateNameColored = color.Ize(color.Red, stateName)
+	} else if stateName == "Downtime" {
+		stateNameColored = color.Ize(color.Yellow, stateName)
+	} else {
+		stateNameColored = color.Ize(color.White, stateName)
+	}
+	LogInfo((*workplace).Name, "Changing state ==> "+stateNameColored+" at "+stateChangeTime.String())
 	var workplaceMode database.WorkplaceMode
 	db.Where("Name = ?", "Production").Find(&workplaceMode)
 	var state database.State

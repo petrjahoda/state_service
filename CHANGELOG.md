@@ -19,6 +19,9 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 ### Changed
 - updated to latest libraries
 
+### Added
+- added coloring to logging when changing states
+
 ## [2020.3.1.30] - 2020-07-30
 
 ### Fixed
