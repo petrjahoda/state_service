@@ -229,7 +229,7 @@ func InsertStateIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateC
 	} else {
 		stateNameColored = color.Ize(color.White, stateName)
 	}
-	LogInfo((*workplace).Name, "Changing state ==> "+stateNameColored+" at "+stateChangeTime.String())
+	LogInfo((*workplace).Name, "Changing state ==> "+stateNameColored)
 	var workplaceMode database.WorkplaceMode
 	db.Where("Name = ?", "Production").Find(&workplaceMode)
 	var state database.State
