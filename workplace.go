@@ -133,12 +133,12 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 		case "Poweroff":
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 					actualWorkplaceState.Name = "Production"
 					break
 				}
 				if actualData.Type == poweroff {
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 					break
 				}
@@ -147,20 +147,20 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 			{
 				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PowerOffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
-					SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+					CreateNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 					actualWorkplaceState.Name = "Poweroff"
 					if actualData.Type == production && actualData.RawData == "1" {
-						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 
 				} else {
 					workplaceDowntimeDifference := actualData.DateTime.Sub(workplace.ProductionPortDateTime.Time)
 					if workplace.ProductionPortValue.Int32 == 0 && workplaceDowntimeDifference > downtimeInterval {
-						SaveNewStateRecordIntoDatabase(db, &workplace, workplace.ProductionPortDateTime.Time, "Downtime")
+						CreateNewStateRecordIntoDatabase(db, &workplace, workplace.ProductionPortDateTime.Time, "Downtime")
 						actualWorkplaceState.Name = "Downtime"
 						break
 					}
@@ -170,20 +170,20 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 			{
 				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PowerOffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
-					SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+					CreateNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 					actualWorkplaceState.Name = "Poweroff"
 					if actualData.Type == production && actualData.RawData == "1" {
-						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 
 					break
 				} else {
 					if actualData.Type == production && actualData.RawData == "1" {
-						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
@@ -192,12 +192,12 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 		default:
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 					actualWorkplaceState.Name = "Production"
 					break
 				}
 				if actualData.Type == poweroff {
-					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					CreateNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 					break
 				}
@@ -206,7 +206,7 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 	}
 	workplacePoweroffDifference := time.Now().UTC().Sub(workplace.PowerOffPortDateTime.Time)
 	if workplacePoweroffDifference > poweroffInterval && actualWorkplaceState.Name != "Poweroff" {
-		SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+		CreateNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 		actualWorkplaceState.Name = "Poweroff"
 
 	}
@@ -220,8 +220,8 @@ func ReadActualWorkplaceMode(db *gorm.DB, workplace *database.Workplace) databas
 	return actualWorkplaceMode
 }
 
-func SaveNewStateRecordIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateChangeTime time.Time, stateName string) {
-	LogInfo((*workplace).Name, "Saving new state record")
+func CreateNewStateRecordIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateChangeTime time.Time, stateName string) {
+	LogInfo((*workplace).Name, "Creating new state record")
 	timer := time.Now()
 	var stateNameColored string
 	if stateName == "Poweroff" {
@@ -240,5 +240,5 @@ func SaveNewStateRecordIntoDatabase(db *gorm.DB, workplace **database.Workplace,
 	db.Save(&workplace)
 	newWorkplaceState := database.StateRecord{WorkplaceID: int((*workplace).ID), StateID: int(state.ID), DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
-	LogInfo((*workplace).Name, "New state record saved in "+time.Since(timer).String())
+	LogInfo((*workplace).Name, "New state record created in "+time.Since(timer).String())
 }
