@@ -11,8 +11,8 @@ import (
 	"time"
 )
 
-func AddData(workplace database.Workplace, analogDateTime time.Time, digitalDateTime time.Time) []IntermediateData {
-	LogInfo(workplace.Name, "Adding data")
+func ReadDataForProcessing(workplace database.Workplace, analogDateTime time.Time, digitalDateTime time.Time) []IntermediateData {
+	LogInfo(workplace.Name, "Reading data for processing")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
@@ -21,20 +21,20 @@ func AddData(workplace database.Workplace, analogDateTime time.Time, digitalDate
 	}
 	sqlDB, err := db.DB()
 	defer sqlDB.Close()
-	workplaceState := DownloadLatestWorkplaceState(db, workplace)
-	poweroffRecords := DownloadPoweroffRecords(workplace, db, workplaceState, analogDateTime)
-	productionRecords := DownloadProductionRecords(workplace, db, workplaceState, digitalDateTime)
+	workplaceState := ReadLatestWorkplaceState(db, workplace)
+	poweroffRecords := ReadPoweroffRecords(workplace, db, workplaceState, analogDateTime)
+	productionRecords := ReadProductionRecords(workplace, db, workplaceState, digitalDateTime)
 	intermediateData := CreateIntermediateData(workplace, poweroffRecords, productionRecords)
-	LogInfo(workplace.Name, "Data added, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Data for processing read in "+time.Since(timer).String())
 	return intermediateData
 }
 
-func DownloadLatestWorkplaceState(db *gorm.DB, workplace database.Workplace) database.StateRecord {
-	LogInfo(workplace.Name, "Downloading latest workplace state")
+func ReadLatestWorkplaceState(db *gorm.DB, workplace database.Workplace) database.StateRecord {
+	LogInfo(workplace.Name, "Reading latest workplace state")
 	timer := time.Now()
 	var workplaceState database.StateRecord
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
-	LogInfo(workplace.Name, "Latest workplace state downloaded, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Latest workplace state  read in "+time.Since(timer).String())
 	return workplaceState
 }
 
@@ -55,12 +55,12 @@ func CreateIntermediateData(workplace database.Workplace, poweroffRecords []data
 	sort.Slice(intermediateData, func(i, j int) bool {
 		return intermediateData[i].DateTime.Before(intermediateData[j].DateTime)
 	})
-	LogInfo(workplace.Name, "Intermediate data created, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Intermediate data created in "+time.Since(timer).String())
 	return intermediateData
 }
 
-func DownloadProductionRecords(workplace database.Workplace, db *gorm.DB, workplaceState database.StateRecord, digitalDateTime time.Time) []database.DevicePortDigitalRecord {
-	LogInfo(workplace.Name, "Downloading production records")
+func ReadProductionRecords(workplace database.Workplace, db *gorm.DB, workplaceState database.StateRecord, digitalDateTime time.Time) []database.DevicePortDigitalRecord {
+	LogInfo(workplace.Name, "Reading production records")
 	timer := time.Now()
 	var production database.State
 	db.Where("name=?", "Production").Find(&production)
@@ -72,12 +72,12 @@ func DownloadProductionRecords(workplace database.Workplace, db *gorm.DB, workpl
 	} else {
 		db.Where("device_port_id=?", productionPort.DevicePortID).Where("date_time > ?", workplaceState.DateTimeStart).Find(&productionRecords)
 	}
-	LogInfo(workplace.Name, "Production records downloaded: "+strconv.Itoa(len(productionRecords))+" elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Production records count: "+strconv.Itoa(len(productionRecords))+" read in "+time.Since(timer).String())
 	return productionRecords
 }
 
-func DownloadPoweroffRecords(workplace database.Workplace, db *gorm.DB, workplaceState database.StateRecord, analogDateTime time.Time) []database.DevicePortAnalogRecord {
-	LogInfo(workplace.Name, "Downloading poweroff records")
+func ReadPoweroffRecords(workplace database.Workplace, db *gorm.DB, workplaceState database.StateRecord, analogDateTime time.Time) []database.DevicePortAnalogRecord {
+	LogInfo(workplace.Name, "Reading poweroff records")
 	timer := time.Now()
 	var poweroff database.State
 	db.Where("name=?", "Poweroff").Find(&poweroff)
@@ -89,24 +89,24 @@ func DownloadPoweroffRecords(workplace database.Workplace, db *gorm.DB, workplac
 	} else {
 		db.Where("device_port_id=?", poweroffPort.DevicePortID).Where("date_time > ?", workplaceState.DateTimeStart).Find(&poweroffRecords)
 	}
-	LogInfo(workplace.Name, "Poweroff records downloaded, count: "+strconv.Itoa(len(poweroffRecords))+", elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Poweroff records count: "+strconv.Itoa(len(poweroffRecords))+", read in "+time.Since(timer).String())
 	return poweroffRecords
 }
 
-func GetLatestWorkplaceStateId(db *gorm.DB, workplace *database.Workplace) int {
+func ReadLatestWorkplaceStateId(db *gorm.DB, workplace *database.Workplace) int {
 	var workplaceState database.StateRecord
 	db.Where("workplace_id=?", workplace.ID).Last(&workplaceState)
 	return workplaceState.StateID
 }
 
-func GetActualState(db *gorm.DB, latestworkplaceStateId int) database.State {
+func ReadActualState(db *gorm.DB, latestworkplaceStateId int) database.State {
 	var actualState database.State
 	db.Where("id=?", latestworkplaceStateId).Find(&actualState)
 	return actualState
 }
 
 func ProcessData(workplace *database.Workplace, data []IntermediateData, analogDateTime time.Time, digitalDateTime time.Time) (time.Time, time.Time) {
-	LogInfo(workplace.Name, "Processing data")
+	LogInfo(workplace.Name, "Processing data started")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
@@ -115,9 +115,9 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 	}
 	sqlDB, err := db.DB()
 	defer sqlDB.Close()
-	actualWorkplaceMode := GetActualWorkplaceMode(db, workplace)
-	latestworkplaceStateId := GetLatestWorkplaceStateId(db, workplace)
-	actualWorkplaceState := GetActualState(db, latestworkplaceStateId)
+	actualWorkplaceMode := ReadActualWorkplaceMode(db, workplace)
+	latestworkplaceStateId := ReadLatestWorkplaceStateId(db, workplace)
+	actualWorkplaceState := ReadActualState(db, latestworkplaceStateId)
 	poweroffInterval := actualWorkplaceMode.PoweroffDuration
 	downtimeInterval := actualWorkplaceMode.DowntimeDuration
 	for _, actualData := range data {
@@ -133,12 +133,12 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 		case "Poweroff":
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 					actualWorkplaceState.Name = "Production"
 					break
 				}
 				if actualData.Type == poweroff {
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 					break
 				}
@@ -147,20 +147,20 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 			{
 				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PowerOffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
-					InsertStateIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+					SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 					actualWorkplaceState.Name = "Poweroff"
 					if actualData.Type == production && actualData.RawData == "1" {
-						InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 
 				} else {
 					workplaceDowntimeDifference := actualData.DateTime.Sub(workplace.ProductionPortDateTime.Time)
 					if workplace.ProductionPortValue.Int32 == 0 && workplaceDowntimeDifference > downtimeInterval {
-						InsertStateIntoDatabase(db, &workplace, workplace.ProductionPortDateTime.Time, "Downtime")
+						SaveNewStateRecordIntoDatabase(db, &workplace, workplace.ProductionPortDateTime.Time, "Downtime")
 						actualWorkplaceState.Name = "Downtime"
 						break
 					}
@@ -170,20 +170,20 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 			{
 				workplacePoweroffDifference := actualData.DateTime.Sub(workplace.PowerOffPortDateTime.Time)
 				if workplacePoweroffDifference > poweroffInterval {
-					InsertStateIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+					SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 					actualWorkplaceState.Name = "Poweroff"
 					if actualData.Type == production && actualData.RawData == "1" {
-						InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 
 					break
 				} else {
 					if actualData.Type == production && actualData.RawData == "1" {
-						InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+						SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 						actualWorkplaceState.Name = "Production"
 						break
 					}
@@ -192,12 +192,12 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 		default:
 			{
 				if actualData.Type == production && actualData.RawData == "1" {
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Production")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Production")
 					actualWorkplaceState.Name = "Production"
 					break
 				}
 				if actualData.Type == poweroff {
-					InsertStateIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
+					SaveNewStateRecordIntoDatabase(db, &workplace, actualData.DateTime, "Downtime")
 					actualWorkplaceState.Name = "Downtime"
 					break
 				}
@@ -206,21 +206,23 @@ func ProcessData(workplace *database.Workplace, data []IntermediateData, analogD
 	}
 	workplacePoweroffDifference := time.Now().UTC().Sub(workplace.PowerOffPortDateTime.Time)
 	if workplacePoweroffDifference > poweroffInterval && actualWorkplaceState.Name != "Poweroff" {
-		InsertStateIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
+		SaveNewStateRecordIntoDatabase(db, &workplace, workplace.PowerOffPortDateTime.Time, "Poweroff")
 		actualWorkplaceState.Name = "Poweroff"
 
 	}
-	LogInfo(workplace.Name, "Data processed, elapsed: "+time.Since(timer).String())
+	LogInfo(workplace.Name, "Processing data ended in "+time.Since(timer).String())
 	return analogDateTime, digitalDateTime
 }
 
-func GetActualWorkplaceMode(db *gorm.DB, workplace *database.Workplace) database.WorkplaceMode {
+func ReadActualWorkplaceMode(db *gorm.DB, workplace *database.Workplace) database.WorkplaceMode {
 	var actualWorkplaceMode database.WorkplaceMode
 	db.Where("id=?", workplace.WorkplaceModeID).Find(&actualWorkplaceMode)
 	return actualWorkplaceMode
 }
 
-func InsertStateIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateChangeTime time.Time, stateName string) {
+func SaveNewStateRecordIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateChangeTime time.Time, stateName string) {
+	LogInfo((*workplace).Name, "Saving new state record")
+	timer := time.Now()
 	var stateNameColored string
 	if stateName == "Poweroff" {
 		stateNameColored = color.Ize(color.Red, stateName)
@@ -229,7 +231,7 @@ func InsertStateIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateC
 	} else {
 		stateNameColored = color.Ize(color.White, stateName)
 	}
-	LogInfo((*workplace).Name, "Changing state ==> "+stateNameColored)
+	LogInfo((*workplace).Name, "Changing state to "+stateNameColored)
 	var workplaceMode database.WorkplaceMode
 	db.Where("Name = ?", "Production").Find(&workplaceMode)
 	var state database.State
@@ -238,4 +240,5 @@ func InsertStateIntoDatabase(db *gorm.DB, workplace **database.Workplace, stateC
 	db.Save(&workplace)
 	newWorkplaceState := database.StateRecord{WorkplaceID: int((*workplace).ID), StateID: int(state.ID), DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
+	LogInfo((*workplace).Name, "New state record saved in "+time.Since(timer).String())
 }
