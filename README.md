@@ -41,6 +41,11 @@ State_service has to be running.
         - this port should be of type device_port_type.name ```Digital```
     - assign true for port you want to calculates NOK pcs into ```counter_nok``` column
         - this port should be of type device_port_type.name ```Digital```
+        
+        
+## Developer Information
+Use software only as a [part of a system](https://github.com/petrjahoda/system) using Docker runtime.<br/>
+ Do not run under linux, windows or mac on its own.
     
 © 2020 Petr Jahoda
 
