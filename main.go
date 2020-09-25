@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const version = "2020.3.2.29"
+const version = "2020.3.3.25"
 const serviceName = "State Service"
 const serviceDescription = "Creates states for workplaces"
 const downloadInSeconds = 10
