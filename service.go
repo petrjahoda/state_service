@@ -30,7 +30,7 @@ func runWorkplace(workplace database.Workplace) {
 		logInfo(workplace.Name, "Analog datetime: "+analogDateTime.String())
 		logInfo(workplace.Name, "Digital datetime: "+digitalDateTime.String())
 		intermediateData := readDataForProcessing(workplace, analogDateTime, digitalDateTime)
-		analogDateTime, digitalDateTime = processData(workplace, intermediateData, analogDateTime, digitalDateTime)
+		analogDateTime, digitalDateTime = processData(&workplace, intermediateData, analogDateTime, digitalDateTime)
 		logInfo(workplace.Name, "Workplace main loop ended in "+time.Since(timer).String())
 		intermediateData = nil
 		sleep(workplace, timer)

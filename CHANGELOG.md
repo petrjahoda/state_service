@@ -18,7 +18,6 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 
 ### Changed
 - clearing slice of intermediate data to lower the memory consumption
-- pointers to workplace changed to standard copy
 
 ## [2020.3.3.25] - 2020-09-25
 
