@@ -32,8 +32,8 @@ func runWorkplace(workplace database.Workplace) {
 		intermediateData := readDataForProcessing(workplace, analogDateTime, digitalDateTime)
 		analogDateTime, digitalDateTime = processData(&workplace, intermediateData, analogDateTime, digitalDateTime)
 		logInfo(workplace.Name, "Workplace main loop ended in "+time.Since(timer).String())
-		intermediateData = nil
 		sleep(workplace, timer)
+		time.Sleep(10 * time.Second)
 		workplaceIsActive = checkActive(workplace)
 	}
 	removeWorkplaceFromRunningWorkplaces(workplace)
@@ -80,8 +80,8 @@ func readActiveWorkplaces(reference string) {
 		return
 	}
 	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	db.Find(&activeWorkplaces)
+	defer sqlDB.Close()
 	logInfo("MAIN", "Active workplaces read in "+time.Since(timer).String())
 }
 
