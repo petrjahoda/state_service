@@ -15,12 +15,12 @@ func readDataForProcessing(workplace database.Workplace, analogDateTime time.Tim
 	logInfo(workplace.Name, "Reading data for processing")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(workplace.Name, "Problem opening database: "+err.Error())
 		return nil
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	workplaceState := readLatestWorkplaceState(db, workplace)
 	poweroffRecords := readPoweroffRecords(workplace, db, workplaceState, analogDateTime)
 	productionRecords := readProductionRecords(workplace, db, workplaceState, digitalDateTime)
@@ -109,12 +109,12 @@ func processData(workplace *database.Workplace, data []IntermediateData, analogD
 	logInfo(workplace.Name, "Processing data started")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(workplace.Name, "Problem opening database: "+err.Error())
 		return analogDateTime, digitalDateTime
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	actualWorkplaceMode := readActualWorkplaceMode(db, workplace)
 	latestworkplaceStateId := readLatestWorkplaceStateId(db, workplace)
 	actualWorkplaceState := readActualState(db, latestworkplaceStateId)

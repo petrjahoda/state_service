@@ -74,14 +74,14 @@ func readActiveWorkplaces(reference string) {
 	logInfo("MAIN", "Reading active workplaces")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		activeWorkplaces = nil
 		return
 	}
-	sqlDB, err := db.DB()
 	db.Find(&activeWorkplaces)
-	defer sqlDB.Close()
 	logInfo("MAIN", "Active workplaces read in "+time.Since(timer).String())
 }
 
@@ -89,12 +89,12 @@ func updateProgramVersion() {
 	logInfo("MAIN", "Writing program version into settings")
 	timer := time.Now()
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var existingSettings database.Setting
 	db.Where("name=?", serviceName).Find(&existingSettings)
 	existingSettings.Name = serviceName
