@@ -1,17 +1,14 @@
 package main
 
 import (
-	"github.com/arl/statsviz"
 	"github.com/kardianos/service"
 	"github.com/petrjahoda/database"
-	"log"
-	"net/http"
 	"strconv"
 	"sync"
 	"time"
 )
 
-const version = "2020.4.1.26"
+const version = "2020.4.2.17"
 const serviceName = "State Service"
 const serviceDescription = "Creates states for workplaces"
 const downloadInSeconds = 10
@@ -64,10 +61,6 @@ func (p *program) Stop(service.Service) error {
 
 func (p *program) run() {
 	updateProgramVersion()
-	statsviz.RegisterDefault()
-	go func() {
-		log.Println(http.ListenAndServe("localhost:6060", nil))
-	}()
 	for {
 		logInfo("MAIN", serviceName+" ["+version+"] running")
 		start := time.Now()
