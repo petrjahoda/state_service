@@ -236,7 +236,13 @@ func createNewStateRecordIntoDatabase(db *gorm.DB, workplace **database.Workplac
 	db.Where("Name = ?", "Production").Find(&workplaceMode)
 	var state database.State
 	db.Where("name=?", stateName).Last(&state)
+
+	var actualWorkplace database.Workplace
+	db.Where("id = ?", (*workplace).ID).Find(&actualWorkplace)
 	(*workplace).WorkplaceModeID = int(workplaceMode.ID)
+	(*workplace).Code = actualWorkplace.Code
+	(*workplace).Name = actualWorkplace.Name
+	(*workplace).WorkplaceSectionID = actualWorkplace.WorkplaceSectionID
 	db.Save(&workplace)
 	newWorkplaceState := database.StateRecord{WorkplaceID: int((*workplace).ID), StateID: int(state.ID), DateTimeStart: stateChangeTime}
 	db.Save(&newWorkplaceState)
