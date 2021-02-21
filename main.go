@@ -8,11 +8,11 @@ import (
 	"time"
 )
 
-const version = "2021.1.1.20"
+const version = "2021.1.2.21"
 const serviceName = "State Service"
 const serviceDescription = "Creates states for workplaces"
 const downloadInSeconds = 10
-const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
+const config = "user=postgres password=pj79.. dbname=system host=database port=5432 sslmode=disable"
 
 var serviceRunning = false
 
