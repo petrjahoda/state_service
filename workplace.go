@@ -4,23 +4,15 @@ import (
 	"database/sql"
 	"github.com/TwinProduction/go-color"
 	"github.com/petrjahoda/database"
-	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"sort"
 	"strconv"
 	"time"
 )
 
-func readDataForProcessing(workplace database.Workplace, analogDateTime time.Time, digitalDateTime time.Time) []IntermediateData {
+func readDataForProcessing(workplace database.Workplace, db *gorm.DB, analogDateTime time.Time, digitalDateTime time.Time) []IntermediateData {
 	logInfo(workplace.Name, "Reading data for processing")
 	timer := time.Now()
-	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
-	sqlDB, _ := db.DB()
-	defer sqlDB.Close()
-	if err != nil {
-		logError(workplace.Name, "Problem opening database: "+err.Error())
-		return nil
-	}
 	workplaceState := readLatestWorkplaceState(db, workplace)
 	poweroffRecords := readPoweroffRecords(workplace, db, workplaceState, analogDateTime)
 	productionRecords := readProductionRecords(workplace, db, workplaceState, digitalDateTime)
@@ -105,16 +97,9 @@ func readActualState(db *gorm.DB, latestworkplaceStateId int) database.State {
 	return actualState
 }
 
-func processData(workplace *database.Workplace, data []IntermediateData, analogDateTime time.Time, digitalDateTime time.Time) (time.Time, time.Time) {
+func processData(workplace *database.Workplace, db *gorm.DB, data []IntermediateData, analogDateTime time.Time, digitalDateTime time.Time) (time.Time, time.Time) {
 	logInfo(workplace.Name, "Processing data started")
 	timer := time.Now()
-	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
-	sqlDB, _ := db.DB()
-	defer sqlDB.Close()
-	if err != nil {
-		logError(workplace.Name, "Problem opening database: "+err.Error())
-		return analogDateTime, digitalDateTime
-	}
 	actualWorkplaceMode := readActualWorkplaceMode(db, workplace)
 	latestworkplaceStateId := readLatestWorkplaceStateId(db, workplace)
 	actualWorkplaceState := readActualState(db, latestworkplaceStateId)

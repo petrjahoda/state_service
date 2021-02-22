@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-const version = "2021.1.2.21"
+const version = "2021.1.2.22"
 const serviceName = "State Service"
 const serviceDescription = "Creates states for workplaces"
 const downloadInSeconds = 10
@@ -19,7 +19,7 @@ var serviceRunning = false
 var (
 	activeWorkplaces  []database.Workplace
 	runningWorkplaces []database.Workplace
-	workplaceSync     sync.Mutex
+	workplaceSync     sync.RWMutex
 )
 
 type program struct{}

@@ -29,12 +29,21 @@ func runWorkplace(workplace database.Workplace) {
 		timer := time.Now()
 		logInfo(workplace.Name, "Analog datetime: "+analogDateTime.String())
 		logInfo(workplace.Name, "Digital datetime: "+digitalDateTime.String())
-		intermediateData := readDataForProcessing(workplace, analogDateTime, digitalDateTime)
-		analogDateTime, digitalDateTime = processData(&workplace, intermediateData, analogDateTime, digitalDateTime)
+		db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+		sqlDB, _ := db.DB()
+
+		if err != nil {
+			logError(workplace.Name, "Problem opening database: "+err.Error())
+			sleep(workplace, timer)
+			continue
+		}
+		intermediateData := readDataForProcessing(workplace, db, analogDateTime, digitalDateTime)
+		analogDateTime, digitalDateTime = processData(&workplace, db, intermediateData, analogDateTime, digitalDateTime)
 		logInfo(workplace.Name, "Workplace main loop ended in "+time.Since(timer).String())
 		sleep(workplace, timer)
 		time.Sleep(10 * time.Second)
 		workplaceIsActive = checkActive(workplace)
+		sqlDB.Close()
 	}
 	removeWorkplaceFromRunningWorkplaces(workplace)
 	logInfo(workplace.Name, "Workplace not active, stopped running")
